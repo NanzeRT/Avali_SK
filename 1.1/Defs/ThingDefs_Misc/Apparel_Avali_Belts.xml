@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="AvaliApparelBase">
+    <defName>Apparel_ShieldBeltAvali</defName>
+		<label>avali shield belt</label>
+    <description>A single-person energy shield device. It will attempt to stop any rapidly-moving projectile or energy attack that comes from a distance. It does nothing against melee attacks or shots from point-blank range. It also prevents firing past touch range. This one was made using Avali force field shielding technology. It’s capacity is 3 times bigger but it takes twice as long to recharge.</description>
+		<thingClass>Avali.ShieldBeltAvali</thingClass>
+    <techLevel>Ultra</techLevel>
+		<graphicData>
+      <texPath>Things/Avali/Apparel/ShieldBelt/ShieldBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>2</Mass>
+      <EnergyShieldRechargeRate>0.06</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>3.3</EnergyShieldEnergyMax>
+			<WorkToMake>26000</WorkToMake>
+    </statBases>
+		<costList>
+      <Plasteel>50</Plasteel>
+      <Uranium>8</Uranium>
+			<ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+			<researchPrerequisite>AvaliShieldBelt</researchPrerequisite>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>AvaliNanolathe</li>
+			</recipeUsers>
+		</recipeMaker>
+    <thingCategories>
+      <li>ApparelAvaliArmor</li>
+    </thingCategories>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+        <li>AvaliStalker</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliApparelBase">
+    <defName>Apparel_LifeSupportBeltAvali</defName>
+		<label>Avali life support belt</label>
+    <description>A single person life support device. It generates an invisible bubble that fully protects the user from environmental hazards. \n\nDo not protects from heat/cold. \nNot works well in hightly toxic enviroments.</description>
+		<thingClass>Apparel</thingClass>
+    <techLevel>Spacer</techLevel>
+		<graphicData>
+      <texPath>Things/Avali/Apparel/LifeSupportBelt/LifeSupportBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>2</Mass>
+			<WorkToMake>1000</WorkToMake>
+      <ArmorRating_Enviromental>0.5</ArmorRating_Enviromental>
+    </statBases>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>AvaliLifeSupportBelt</researchPrerequisite>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>AvaliNanolathe</li>
+        <li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+    <thingCategories>
+      <li>ApparelAvali</li>
+    </thingCategories>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <!-- <li>AvaliOutlander</li>
+        <li>AvaliSpacer</li> -->
+      </tags>
+      <defaultOutfitTags>
+        <li>AvaliStalker</li>
+				<li>AvaliAgent</li>
+				<li>AvaliColonist</li>
+				<li>AvaliAssassin</li>
+				<li>AvaliKeeper</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>

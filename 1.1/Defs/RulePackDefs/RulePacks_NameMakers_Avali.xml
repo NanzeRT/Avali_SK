@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RulePackDef>
+	<defName>NamerPersonAvali</defName>
+	<rulePack>
+		<rulesStrings>
+			<li>name->[AvaliFirstPreffix][AvaliFirstSuffix] [AvaliLastPreffix][AvaliLastSuffix]</li>
+			<li>name->[AvaliFirstPreffix][AvaliFirstSuffix] '[AvaliNick_Unisex]' [AvaliLastPreffix][AvaliLastSuffix]</li>
+		</rulesStrings>
+		<rulesRaw>
+			<li Class="Rule_File">
+				<keyword>AvaliFirstPreffix</keyword>
+				<path>Names/AvaliFirstPreffix</path>
+			</li>
+			<li Class="Rule_File">
+				<keyword>AvaliFirstSuffix</keyword>
+				<path>Names/AvaliFirstSuffix</path>
+			</li>
+			<li Class="Rule_File">
+				<keyword>AvaliLastPreffix</keyword>
+				<path>Names/AvaliLastPreffix</path>
+			</li>
+			<li Class="Rule_File">
+				<keyword>AvaliLastSuffix</keyword>
+				<path>Names/AvaliLastSuffix</path>
+			</li>
+			<li Class="Rule_File">
+				<keyword>AvaliNick_Unisex</keyword>
+				<path>Names/AvaliNick_Unisex</path>
+			</li>
+		</rulesRaw>
+	</rulePack>
+</RulePackDef>
+
+<RulePackDef>
+	<defName>NamerPersonAvaliNuko</defName>
+	<rulePack>
+		<rulesStrings>
+			<li>name->Nuko Sharptalon</li>
+		</rulesStrings>
+	</rulePack>
+</RulePackDef>
+
+</Defs>

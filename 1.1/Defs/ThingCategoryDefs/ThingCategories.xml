@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Foods -->
+    
+    <ThingCategoryDef>
+      <defName>AvaliFoodMeals</defName>
+      <label>avali meals</label>
+      <parent>Foods</parent>
+      <iconPath>UI/Icons/ThingCategories/AvaliFoodMeals</iconPath>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+    </ThingCategoryDef>
+    
+    <!--==================== Non-resource readout categories =====================-->
+    
+    <!-- Items -->
+    
+    <ThingCategoryDef>
+      <defName>Texts</defName>
+      <label>texts</label>
+      <parent>Items</parent>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+      <defName>NanitesAvali</defName>
+      <label>avali nanites</label>
+      <parent>Items</parent>
+    </ThingCategoryDef>
+    
+    <!-- Apparel -->
+    
+    <ThingCategoryDef>
+      <defName>ApparelAvali</defName>
+      <label>avali apparel</label>
+      <parent>Apparel</parent>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+      <defName>AvaliHeadgear</defName>
+      <label>headgear</label>
+      <parent>ApparelAvali</parent>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+      <defName>ApparelAvaliArmor</defName>
+      <label>avali armor</label>
+      <parent>ApparelAvali</parent>
+    </ThingCategoryDef>
+  
+      <ThingCategoryDef>
+        <defName>AvaliArmorHeadgear</defName>
+        <label>headgear</label>
+        <parent>ApparelAvaliArmor</parent>
+      </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>ApparelAvaliNoble</defName>
+      <label>noble apparel</label>
+      <parent>ApparelAvali</parent>
+    </ThingCategoryDef>
+    
+    <!-- Weapons -->
+    
+    <ThingCategoryDef>
+      <defName>WeaponsAvali</defName>
+      <label>avali weapons</label>
+      <parent>Weapons</parent>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+      <defName>WeaponsMeleeAvali</defName>
+      <label>melee weapons</label>
+      <parent>WeaponsAvali</parent>
+    </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+      <defName>WeaponsRangedAvali</defName>
+      <label>ranged weapons</label>
+      <parent>WeaponsAvali</parent>
+    </ThingCategoryDef>
+    
+    <!-- Implants -->
+    
+    <ThingCategoryDef>
+      <defName>AugmentsAvali</defName>
+      <label>avali augments</label>
+      <parent>Items</parent>
+    </ThingCategoryDef>
+    
+    <!-- BodyParts -->
+    
+    <ThingCategoryDef>
+      <defName>BodyPartsAvali</defName>
+      <label>avali</label>
+      <parent>BodyParts</parent>
+    </ThingCategoryDef>
+</Defs>

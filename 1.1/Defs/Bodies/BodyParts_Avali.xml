@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+  <!-- ==================================== Body part groups =====================================-->
+
+  <BodyPartGroupDef>
+    <defName>UpperHeadAvali</defName>
+    <label>upper head</label>
+    <listOrder>200</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>EarsAvali</defName>
+    <label>ears</label>
+    <listOrder>201</listOrder>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>TailAvali</defName>
+    <label>tail</label>
+    <listOrder>49</listOrder>
+  </BodyPartGroupDef>
+
+
+  <BodyPartGroupDef>
+    <defName>LeftHandTalons</defName>
+    <label>left hand talons</label>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>RightHandTalons</defName>
+    <label>right hand talons</label>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>LeftFeetTalons</defName>
+    <label>left feet talons</label>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>RightFeetTalons</defName>
+    <label>right feet talons</label>
+  </BodyPartGroupDef>
+
+
+  <BodyPartGroupDef>
+    <defName>LeftFeetAvali</defName>
+    <label>left feet</label>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>RightFeetAvali</defName>
+    <label>right feet</label>
+  </BodyPartGroupDef>
+
+  <!-- ==================================== Conceptual body parts for apparel =====================================-->
+
+  <BodyPartDef>
+    <defName>HeadAvaliConceptual</defName>
+    <label>head</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>SkullAvaliConceptual</defName>
+    <label>skull</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BrainAvaliConceptual</defName>
+    <label>brain</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+
+  <BodyPartDef>
+    <defName>LeftUpperEarAvaliConceptual</defName>
+    <label>left upper ear</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>LeftLowerEarAvaliConceptual</defName>
+    <label>left lower ear</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightUpperEarAvaliConceptual</defName>
+    <label>right upper ear</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightLowerEarAvaliConceptual</defName>
+    <label>right lower ear</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+
+  <BodyPartDef>
+    <defName>TailAvaliConceptual</defName>
+    <label>tail</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+
+  <BodyPartDef>
+    <defName>LeftFeetAvaliConceptual</defName>
+    <label>left feet</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightFeetAvaliConceptual</defName>
+    <label>right feet</label>
+    <conceptual>true</conceptual>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+  <!-- ==================================== Body parts =====================================-->
+
+  <BodyPartDef>
+    <defName>TailAvali</defName>
+    <label>tail</label>
+    <hitPoints>25</hitPoints>
+    <frostbiteVulnerability>8</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+	
+  <BodyPartDef>
+    <defName>EarAvali</defName>
+    <label>ear</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+
+</Defs>

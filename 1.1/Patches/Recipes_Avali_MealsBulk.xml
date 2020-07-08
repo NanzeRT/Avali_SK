@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <!-- Feed the Colonists -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/RecipeDef[defName = "Cook4MealSimple"]</xpath>
+        <success>Normal</success>
+      </li>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "AvaliStove"]/recipes</xpath>
+        <value>
+          <li>Cook4MealSimple</li>
+          <li>Cook4MealFine</li>
+          <li>Cook4MealLavish</li>
+          <li>Cook4MealSurvival</li>
+          <li>Make4Pemmican</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  
+  <!-- Simple Bulk Cooking -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/RecipeDef[defName = "CookMealSimpleBulk"]</xpath>
+        <success>Normal</success>
+      </li>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "AvaliStove"]/recipes</xpath>
+        <value>
+          <li>CookMealSimpleBulk</li>
+          <li>CookMealFineBulk</li>
+          <li>CookMealLavishBulk</li>
+          <li>CookMealSurvivalBulk</li>
+          <!-- <li>MakePemmicanBulk</li> -->
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  
+  <!-- Feed the Colonists and Simple Bulk Cooking -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/RecipeDef[defName = "Cook4MealSimple" or defName = "CookMealSimpleBulk"]</xpath>
+        <success>Normal</success>
+      </li>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "AvaliStove"]/recipes</xpath>
+        <value>
+          <li>Cook4MealSmallSimple</li>
+          <li>Cook4MealSmallFine</li>
+          <li>Cook4MealSmallLavish</li>
+          <li>Cook4MealSmallSurvival</li>
+          <li>Cook4AvaliSpicyJerky</li>
+          <li>Cook4AvaliPiruNoodle</li>
+          <li>Cook4AvaliKiriCurry</li>
+          <li>Cook4AvaliTaco</li>
+        </value>
+      </li>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "ElectricStove" or defName = "FueledStove"]/recipes</xpath>
+        <value>
+          <li>Cook4MealSmallSimple</li>
+          <li>Cook4MealSmallFine</li>
+          <li>Cook4MealSmallLavish</li>
+          <li>Cook4MealSmallSurvival</li>
+          <li>Cook4AvaliSpicyJerky</li>
+          <li>Cook4AvaliPiruNoodle</li>
+          <li>Cook4AvaliKiriCurry</li>
+          <li>Cook4AvaliTaco</li>
+        </value>
+      </li>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "Campfire"]/recipes</xpath>
+        <value>
+          <li>Cook4MealSmallSimple</li>
+          <li>Cook4AvaliSpicyJerky</li>
+          <li>Cook4AvaliPiruNoodle</li>
+          <li>Cook4AvaliKiriCurry</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

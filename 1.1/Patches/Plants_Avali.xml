@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/WorkGiverDef[giverClass = "ExpandablePlants.WorkGiver_GrowerSow"]</xpath>
+        <success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[@Name = "AvaliPlantBase"]/thingClass</xpath>
+				<value>
+					<thingClass>ExpandablePlants.Plant</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[@Name = "AvaliPlantBase"]</xpath>
+				<value>
+					<comps>
+						<li Class="ExpandablePlants.CompProperties_Plant">
+							<minLeaflessTemperature>-88</minLeaflessTemperature>
+							<maxLeaflessTemperature>-80</maxLeaflessTemperature>
+							<minGrowthTemperature>-78</minGrowthTemperature>
+							<minOptimalGrowthTemperature>-68</minOptimalGrowthTemperature>
+							<maxOptimalGrowthTemperature>-24</maxOptimalGrowthTemperature>
+							<maxGrowthTemperature>-10</maxGrowthTemperature>
+							<canDieOfHeat>true</canDieOfHeat>
+							<minDieOfHeatTemperature>-8</minDieOfHeatTemperature>
+							<maxDieOfHeatTemperature>0</maxDieOfHeatTemperature>
+              <restBegins>0</restBegins>
+              <restEnds>0</restEnds>
+						</li>
+					</comps>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

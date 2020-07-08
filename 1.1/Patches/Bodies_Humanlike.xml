@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyDef[defName = "Human"]/corePart/parts</xpath>
+    <value>
+      <li>
+        <def>HeadAvaliConceptual</def>
+        <coverage>0</coverage>
+        <height>Bottom</height>
+        <groups>
+          <li>UpperHeadAvali</li>
+        </groups>
+      </li>
+      <li>
+        <def>LeftUpperEarAvaliConceptual</def>
+        <coverage>0</coverage>
+        <height>Bottom</height>
+        <groups>
+          <li>EarsAvali</li>
+        </groups>
+      </li>
+      <li>
+        <def>LeftLowerEarAvaliConceptual</def>
+        <coverage>0</coverage>
+        <height>Bottom</height>
+        <groups>
+          <li>EarsAvali</li>
+        </groups>
+      </li>
+      <li>
+        <def>RightUpperEarAvaliConceptual</def>
+        <coverage>0</coverage>
+        <height>Bottom</height>
+        <groups>
+          <li>EarsAvali</li>
+        </groups>
+      </li>
+      <li>
+        <def>RightLowerEarAvaliConceptual</def>
+        <coverage>0</coverage>
+        <height>Bottom</height>
+        <groups>
+          <li>EarsAvali</li>
+        </groups>
+      </li>
+      
+      <li>
+        <def>TailAvaliConceptual</def>
+        <coverage>0</coverage>
+        <height>Bottom</height>
+        <groups>
+          <li>TailAvali</li>
+        </groups>
+      </li>
+      
+      <li>
+        <def>LeftFeetAvaliConceptual</def>
+        <coverage>0</coverage>
+        <height>Bottom</height>
+        <groups>
+          <li>LeftFeetAvali</li>
+        </groups>
+      </li>
+      <li>
+        <def>RightFeetAvaliConceptual</def>
+        <coverage>0</coverage>
+        <height>Bottom</height>
+        <groups>
+          <li>RightFeetAvali</li>
+        </groups>
+      </li>
+    </value>
+  </Operation>
+</Patch>

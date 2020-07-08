@@ -1,0 +1,20 @@
+if statement: if (x)
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/RecipeDef[defName = "Cook4MealSimple" or defName = "CookMealSimpleBulk"]</xpath>
+        <success>Normal</success>
+      </li>
+  </Operation>
+  
+  
+Inverted if statement: if (!x)
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/RecipeDef[defName = "Cook4MealSimple" or defName = "CookMealSimpleBulk"]</xpath>
+        <success>Invert</success>
+      </li>
+  </Operation>

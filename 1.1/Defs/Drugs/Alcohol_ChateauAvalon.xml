@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DrugBase">
+    <defName>ChateauAvalon</defName>
+    <label>chateau Avalon</label>
+    <description>Over 90% ammonia with trace impurities, including alcohols - the most popular alcohol drink among Avali. \nConsumption by non-Avali may cause chemical damage of different severity, blindness, brain damage, death.</description>
+    <graphicData>
+      <texPath>Things/Items/Drugs/ChateauAvalon</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-150</equippedAngleOffset>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MarketValue>10</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>0.5</Flammability>
+      <Nutrition>0.08</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Fluid, Processed, Liquor</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.17</joy>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>25</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="Avali.IngestionOutcomeDoer_GiveHediffRaceDependant">
+          <hediffDef>AmmoniaPoisoning</hediffDef>
+          <severity>0.12</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+          <raceDependencies>
+            <li>
+              <race>Avali</race>
+              <hediffDef>AlcoholHigh</hediffDef>
+              <severity>0.12</severity>
+              <toleranceChemical>Alcohol</toleranceChemical>
+            </li>
+          </raceDependencies>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholTolerance</hediffDef>
+          <severity>0.012</severity>
+				</li>
+      </outcomeDoers>
+    </ingestible>
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Ultra</techLevel>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.010</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>neck</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <RecipeDef>
+		<defName>BrewChateauAvalon</defName>
+		<label>brew chateau Avalon</label>
+		<description>Brew chateau Avalon from kiri fruits and nakati barks.</description>
+		<jobString>Brewing chateau Avalon.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>2500</workAmount>
+		<targetCountAdjustment>1</targetCountAdjustment>
+    <allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+        <filter>
+          <thingDefs>
+            <li>RawKiriFruits</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawNakatiBarks</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+		</ingredients>
+		<products>
+			<ChateauAvalon>5</ChateauAvalon>
+		</products>
+    <recipeUsers>
+      <li>DrugLab</li>
+			<li>AvaliStove</li>
+		</recipeUsers>
+	</RecipeDef>
+  
+  <HediffDef>
+    <defName>AmmoniaPoisoning</defName>
+    <hediffClass>Hediff_Alcohol</hediffClass>
+    <label>ammonia poisoning</label>
+    <description>Continued consumption may cause chemical damage of different severity, blindness, brain damage, death.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <isBad>true</isBad>
+    <lethalSeverity>1</lethalSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Effecter">
+        <stateEffecter>Drunk</stateEffecter>
+        <severityIndices>
+          <min>3</min>
+          <max>5</max>
+        </severityIndices>
+      </li>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.5</severityPerDay>
+      </li>
+    </comps>
+    <hediffGivers>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>ChemicalDamageModerate</hediff>
+        <minSeverity>0.25</minSeverity>
+        <baseMtbDays>1</baseMtbDays>
+        <partsToAffect>
+          <li>Brain</li>
+          <li>Stomach</li>
+        </partsToAffect>
+      </li>
+      <li Class="HediffGiver_RandomDrugEffect">
+				<hediff>ChemicalDamageSevere</hediff>
+        <minSeverity>0.5</minSeverity>
+				<baseMtbDays>1.5</baseMtbDays>
+				<partsToAffect>
+					<li>Brain</li>
+          <li>Stomach</li>
+				</partsToAffect>
+			</li>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Blindness</hediff>
+        <minSeverity>0.5</minSeverity>
+        <baseMtbDays>1.5</baseMtbDays>
+        <partsToAffect>
+          <li>Eye</li>
+        </partsToAffect>
+      </li>
+    </hediffGivers>
+    <stages>
+        <li>
+          <label>light</label>
+          <painFactor>0.8</painFactor>
+          <socialFightChanceFactor>2.5</socialFightChanceFactor>
+          <vomitMtbDays>0.25</vomitMtbDays>
+            <capMods>
+              <li>
+                <capacity>Consciousness</capacity>
+                <offset>-0.2</offset>
+              </li>
+              <li>
+                <capacity>Breathing</capacity>
+                <offset>-0.1</offset>
+              </li>
+            </capMods>
+        </li>
+        <li>
+          <minSeverity>0.25</minSeverity>
+          <label>minor</label>
+          <painFactor>0.8</painFactor>
+          <socialFightChanceFactor>2.5</socialFightChanceFactor>
+          <vomitMtbDays>0.2</vomitMtbDays>
+            <capMods>
+              <li>
+                <capacity>Consciousness</capacity>
+                <offset>-0.4</offset>
+              </li>
+              <li>
+                <capacity>Breathing</capacity>
+                <offset>-0.2</offset>
+              </li>
+            </capMods>
+        </li>
+        <li>
+          <minSeverity>0.5</minSeverity>
+          <label>major</label>
+          <lifeThreatening>true</lifeThreatening>
+          <painFactor>0.5</painFactor>
+          <socialFightChanceFactor>4.0</socialFightChanceFactor>
+          <vomitMtbDays>0.1</vomitMtbDays>
+            <capMods>
+              <li>
+                <capacity>Consciousness</capacity>
+                <offset>-0.6</offset>
+              </li>
+              <li>
+                <capacity>Breathing</capacity>
+                <offset>-0.4</offset>
+              </li>
+            </capMods>
+        </li>
+        <li>
+          <minSeverity>0.75</minSeverity>
+          <label>severe</label>
+          <lifeThreatening>true</lifeThreatening>
+          <painFactor>0.3</painFactor>
+          <socialFightChanceFactor>5.0</socialFightChanceFactor>
+          <vomitMtbDays>0.1</vomitMtbDays>
+          <painOffset>0.05</painOffset>
+            <capMods>
+              <li>
+                <capacity>Consciousness</capacity>
+                <offset>-0.8</offset>
+              </li>
+              <li>
+                <capacity>Breathing</capacity>
+                <offset>-0.6</offset>
+              </li>
+            </capMods>
+        </li>
+    </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>AvaliDrinkPoisoning</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AmmoniaPoisoning</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>alien drink</label>
+        <description>I feel like throwing up now.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>alien drink</label>
+        <description>It's becomes difficult to breathe and my stomach hurts.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+      <li>
+        <label>alien drink</label>
+        <description>My insides burn!</description>
+        <baseMoodEffect>-24</baseMoodEffect>
+      </li>
+      <li>
+        <label>alien drink</label>
+        <description>I'm dying!</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+</Defs>

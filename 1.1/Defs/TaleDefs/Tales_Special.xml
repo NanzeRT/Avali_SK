@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TaleDef Name="TranslatedText" Abstract="True">
+    <label>translated ancient text</label>
+    <taleClass>Tale_SinglePawnAndDef</taleClass>
+    <type>Volatile</type>
+    <baseInterest>5</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun->[pawn_nameShortDef] finishing translation of a [object_label] text</li>
+        <li>image->[pawn_nameFull] finished translation of a [object_label] text [circumstance_group]</li>
+        <li>image->[pawn_nameFull] corrects errors in [object_label] text [circumstance_group]</li>
+        <li>image->[pawn_nameFull] leafs through [object_label] text [circumstance_group]</li>
+        <li>image->[pawn_nameFull] writing their name on a [object_label] text [circumstance_group]</li>
+        <li>circumstance_phrase->with a gleam in [pawn_possessive] eye</li>
+        <li>circumstance_phrase->while wiping the sweat from [pawn_possessive] forehead</li>
+        <li>circumstance_phrase->while covered in grime</li>
+        <li>circumstance_phrase->while smiling proudly</li>
+        <li>circumstance_phrase->with a satisfied expression on [pawn_possessive] face</li>
+        <li>desc_sentence->[outlander]s marvel at the [object_label] text.</li>
+        <li>desc_sentence->[outlander]s gaze in awe.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+  
+  <TaleDef ParentName="TranslatedText">
+    <defName>TranslatedPrecursorText1</defName>
+  </TaleDef>
+  
+  <TaleDef ParentName="TranslatedText">
+    <defName>TranslatedPrecursorText2</defName>
+  </TaleDef>
+</Defs>

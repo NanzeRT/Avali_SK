@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BodyPartGroupDef>
+    <defName>DroneWeaponHolder</defName>
+    <label>weapon holder</label>
+    <listOrder>80</listOrder>
+  </BodyPartGroupDef>
+  
+  <!-- Chassis -->
+  
+  <BodyPartDef>
+    <defName>AvaliGuardDroneChassis</defName>
+    <label>chassis</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+  </BodyPartDef>
+
+  <!-- Head -->
+  
+  <BodyPartDef>
+    <defName>AvaliGuardDroneHead</defName>
+    <label>head</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+  </BodyPartDef>
+
+  <!-- Controller -->
+  
+  <BodyPartDef>
+    <defName>AvaliDroneController</defName>
+    <label>drone controller</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
+  </BodyPartDef>
+  
+  <!-- Sensors -->
+   
+  <BodyPartDef>
+    <defName>AvaliDroneSightSensor</defName>
+    <label>sight sensor</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AvaliDroneHearingSensor</defName>
+    <label>hearing sensor</label>
+    <hitPoints>5</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+  
+  <!-- Hoverblades -->
+  
+  <BodyPartDef>
+    <defName>AvaliGuardDroneLeftHoverblade</defName>
+    <label>left hoverblade</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>AvaliGuardDroneRightHoverblade</defName>
+    <label>right hoverblade</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  
+  <!-- Wings -->
+  
+  <BodyPartDef>
+    <defName>AvaliGuardDroneLeftWing</defName>
+    <label>left wing</label>
+    <hitPoints>12</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AvaliGuardDroneRightWing</defName>
+    <label>right wing</label>
+    <hitPoints>12</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>AvaliDroneWeaponHolder</defName>
+    <label>weapon holder</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <!-- <spawnThingOnRemoved>ScytherBlade</spawnThingOnRemoved> -->
+  </BodyPartDef>
+  
+</Defs>

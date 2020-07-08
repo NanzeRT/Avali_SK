@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName = "Batteries"]</xpath>
+		  <value>
+        <tags>
+          <li>AvaliStart</li>
+        </tags>
+	  </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName = "SolarPanels"]</xpath>
+		  <value>
+        <tags>
+          <li>AvaliStart</li>
+        </tags>
+	  </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName = "AirConditioning"]/tags</xpath>
+		  <value>
+        <li>AvaliStart</li>
+	  </value>
+  </Operation>
+</Patch>

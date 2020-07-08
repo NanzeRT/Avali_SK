@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>  
+
+  <!--
+	<RecipeDef>
+    <defName>MakeAvaliGuardDrone</defName>
+    <label>Make guard drone</label>
+    <description>Make a guard drone.</description>
+    <jobString>Making guard drone.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <workAmount>10000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AvaliGuardDrone>1</AvaliGuardDrone>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>AvaliGuardDrones</researchPrerequisite>
+  </RecipeDef>
+  -->
+  
+  <RecipeDef>
+		<defName>DeactivateAvaliDrone</defName>
+		<label>deactivate</label>
+		<description>Deactivate this drone.</description>
+    <jobString>Deactivating drone.</jobString>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>50</workAmount>
+		<hideBodyPartNames>true</hideBodyPartNames>
+    <appliedOnFixedBodyParts>
+      <li>AvaliDroneController</li>
+    </appliedOnFixedBodyParts>
+		<addsHediff>AvaliDroneDeactivate</addsHediff>
+    <!-- <effectWorking>Repair</effectWorking> -->
+    <isViolation>false</isViolation>
+		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <requireBed>true</requireBed>
+	</RecipeDef>
+  
+  <RecipeDef>
+    <defName>ActivateAvaliDrone</defName>
+    <label>activate</label>
+    <description>Activate this drone.</description>
+    <jobString>Activating drone.</jobString>
+    <removesHediff>AvaliDroneDeactivate</removesHediff>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <workAmount>50</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+		<appliedOnFixedBodyParts>
+      <li>AvaliDroneController</li>
+    </appliedOnFixedBodyParts>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <requireBed>true</requireBed>
+  </RecipeDef>
+</Defs> 

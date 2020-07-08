@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Small vanilla food. -->
+  
+  <!-- CookMealSmallSimple -->
+	<RecipeDef ParentName="CookMealBase" Name="CookMealSmallSimple">
+		<defName>CookMealSmallSimple</defName>
+		<label>cook small simple meal</label>
+		<description>Cook a straightforward meal from one ingredient, sized for something smaller than a human.</description>
+		<jobString>Cooking small simple meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.3</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealSmallSimple>1</MealSmallSimple>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>AvaliStove</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+      <li>Campfire</li>
+		</recipeUsers>
+	</RecipeDef>
+  
+  <!-- CookMealSmallFine -->
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookMealSmallFine</defName>
+		<label>cook small fine meal</label>
+		<description>Cook a somewhat complex meal from a combination of meat and plant ingredients, sized for something smaller than a human.</description>
+		<jobString>Cooking small fine meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+				</filter>
+				<count>0.15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.15</count>
+			</li>
+		</ingredients>
+		<products>
+      <MealSmallFine>1</MealSmallFine>
+    </products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>AvaliStove</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+  <!-- CookMealSmallLavish -->
+  <RecipeDef ParentName="CookMealBase">
+		<defName>CookMealSmallLavish</defName>
+		<label>cook small lavish meal</label>
+		<description>Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted. Sized for something smaller than a human.</description>
+		<jobString>Cooking small lavish meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+				</filter>
+				<count>0.3</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.3</count>
+			</li>
+		</ingredients>
+		<products>
+      <MealSmallLavish>1</MealSmallLavish>
+    </products>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+    <recipeUsers>
+			<li>AvaliStove</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+  </RecipeDef>
+  
+  <!-- CookMealSmallSurvival -->
+  <RecipeDef ParentName="CookMealBase">
+		<defName>CookMealSmallSurvival</defName>
+		<label>cook small packaged survival meal</label>
+		<description>Prepare a packaged survival meal from a combination of meat and plant ingredients, sized for something smaller than a human. Much of the ingredients are wasted in the preservation process.</description>
+		<jobString>Cooking small survival meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>0.20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.20</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealSmallSurvivalPack>1</MealSmallSurvivalPack>
+		</products>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+		<recipeUsers>
+			<li>AvaliStove</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+  
+	<!-- Avali-specific food. -->
+	
+  <!-- CookAvaliSpicyJerky -->
+	<RecipeDef ParentName="CookMealBase" Name="CookAvaliSpicyJerky">
+		<defName>CookAvaliSpicyJerky</defName>
+		<label>cook spicy jerky</label>
+		<description>Cooks a chunks of seasoned jerky, popular with hunters and explorers.</description>
+		<jobString>Cooking spicy jerky.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>0.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawNakatiBarks</li>
+					</thingDefs>
+				</filter>
+				<count>0.05</count> <!-- 0.05 = 1 -->
+			</li>
+		</ingredients>
+		<products>
+			<AvaliSpicyJerky>1</AvaliSpicyJerky>
+		</products>
+		<researchPrerequisite>AvaliPlants</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+    <recipeUsers>
+			<li>AvaliStove</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+      <li>Campfire</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+  <!-- CookAvaliPiruNoodle -->
+	<RecipeDef ParentName="CookMealBase" Name="CookAvaliPiruNoodle">
+		<defName>CookAvaliPiruNoodle</defName>
+		<label>cook piru noodle</label>
+		<description>Cooks a sweet noodles made from Piru frond flour, a staple of Avali students.</description>
+		<jobString>Cooking piru noodle.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawKiriFruits</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPiruFlour</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<AvaliPiruNoodle>1</AvaliPiruNoodle>
+		</products>
+		<researchPrerequisite>AvaliPlants</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+    <recipeUsers>
+			<li>AvaliStove</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+      <li>Campfire</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+  <!-- CookAvaliKiriCurry -->
+	<RecipeDef ParentName="CookMealBase" Name="CookAvaliKiriCurry">
+		<defName>CookAvaliKiriCurry</defName>
+		<label>cook kiri curry</label>
+		<description>Cooks a spicy meat noodles with a rich Kiri sauce.</description>
+		<jobString>Cooking kiri curry.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliPiruNoodle</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliSpicyJerky</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawKiriFruits</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<AvaliKiriCurry>1</AvaliKiriCurry>
+		</products>
+		<researchPrerequisite>AvaliPlants</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+    <recipeUsers>
+			<li>AvaliStove</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+      <li>Campfire</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+  <!-- CookAvaliTaco -->
+	<RecipeDef ParentName="CookMealBase" Name="CookAvaliTaco">
+		<defName>CookAvaliTaco</defName>
+		<label>cook Avalon-style taco</label>
+		<description>Cooks a super-hot Nakati-spiced taco; sometimes eaten on a dare by non-Avali.</description>
+		<jobString>Cooking Avalon-style taco.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliSpicyJerky</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPiruFlour</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<products>
+			<AvaliTaco>1</AvaliTaco>
+		</products>
+		<researchPrerequisite>AvaliPlants</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+    <recipeUsers>
+			<li>AvaliStove</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+  <!-- CookAvaliEggOmlette -->
+  <RecipeDef ParentName="CookMealBase"  Name="CookAvaliEggOmlette">
+    <defName>CookAvaliEggOmlette</defName>
+		<label>cook avali egg omlette</label>
+		<description>Cooks avali egg omlette. It's a very tasty for everyone exept Avali.</description>
+		<jobString>Cooking avali egg omlette.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>3600</workAmount>
+    <dontShowIfAnyIngredientMissing>True</dontShowIfAnyIngredientMissing>
+    <ingredients>
+			<li>
+        <filter>
+          <thingDefs>
+            <li>AvaliEgg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+		</ingredients>
+		<products>
+      <AvaliEggOmlette>10</AvaliEggOmlette>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <!--
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+    -->
+    <recipeUsers>
+			<li>AvaliStove</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+      <li>Campfire</li>
+		</recipeUsers>
+  </RecipeDef>
+</Defs>

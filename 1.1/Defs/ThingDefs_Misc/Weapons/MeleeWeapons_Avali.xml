@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ===== Bases ===== -->
+
+  <ThingDef Name="AvaliBaseMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Ultra</techLevel>
+    <smeltable>true</smeltable>
+    <weaponTags>
+      <li>Melee</li>
+    </weaponTags>
+    <thingCategories Inherit="False">
+      <li>WeaponsMeleeAvali</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>AvaliNanolathe</li>
+        <!-- <li>TableMachining</li> -->
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <researchPrerequisite>AvaliMelee</researchPrerequisite>
+    </recipeMaker>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>AvaliMeleeWeapon</li>
+    </tradeTags>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+  <ThingDef Name="AvaliBaseMeleeWeapon_Sharp" ParentName="AvaliBaseMeleeWeapon" Abstract="True">
+    <recipeMaker>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Silver</li>
+          <li>Gold</li>
+          <li>WoodLog</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="AvaliBaseMeleeWeapon_Blunt" ParentName="AvaliBaseMeleeWeapon" Abstract="True">
+    <recipeMaker>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Silver</li>
+          <li>Gold</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+  
+    <!-- ===== Avali Pila ===== -->
+  <ThingDef ParentName="AvaliBaseMeleeWeapon">
+    <defName>Avali_Pila</defName>
+    <label>avali 'Hail' pila</label>
+    <description>A refined hunting pilum. The shaft penetrates deeper thanks to micro-engines that ignite when thrown and accelerates the pilum in air.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Pila</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_BeatFire</soundInteract>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>70</costStuffCount>
+    <costList>
+      <Chemfuel>20</Chemfuel>
+      <AvaliAerogel>20</AvaliAerogel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>2</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.42</AccuracyLong>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>AvaliMeleeCivilian</li>
+      <li>AvaliMeleeMilitary</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Pilum_Thrown</defaultProjectile>
+        <warmupTime>4.0</warmupTime>
+        <range>30</range>
+        <soundCast>Interact_BeatFire</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>Avali_Pilum_Thrown</defName>
+    <label>avali 'Hail' pilum</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Pilum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ===== Avali Dagger ===== -->
+  <ThingDef ParentName="AvaliBaseMeleeWeapon_Sharp">
+    <defName>Avali_Dagger</defName>
+    <label>Avali dagger</label>
+    <description>Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Dagger</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <AvaliAerogel>10</AvaliAerogel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>0.25</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+        <li>
+          <label>handle</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>5</power>
+          <cooldownTime>1.5</cooldownTime>
+        </li>
+        <li>
+          <label>blade</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>15</power>
+          <cooldownTime>1</cooldownTime>
+        </li>
+        <li>
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>15</power>
+          <cooldownTime>1.5</cooldownTime>
+        </li>
+    </tools>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <weaponTags>
+      <li>AvaliMeleeCivilian</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ===== Avali Short Sword ===== -->
+  <ThingDef ParentName="AvaliBaseMeleeWeapon_Sharp">
+    <defName>Avali_Sword</defName>
+    <label>Avali 'Shard' shortsword</label>
+    <description>The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Shortsword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <AvaliAerogel>20</AvaliAerogel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+        <li>
+          <label>handle</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>5</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>18</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>20</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+    </tools>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <weaponTags>
+      <li>AvaliMeleeCivilian</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ===== Avali Long Sword ===== -->
+  <ThingDef ParentName="AvaliBaseMeleeWeapon_Sharp">
+    <defName>Avali_LongSword</defName>
+    <label>Avali 'Dire Shard' longsword</label>
+    <description>The 'Dire Shard' longsword is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Longsword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>120</costStuffCount>
+    <costList>
+      <AvaliAerogel>30</AvaliAerogel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+        <li>
+          <label>handle</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>5</power>
+          <cooldownTime>2.5</cooldownTime>
+        </li>
+        <li>
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>25</power>
+          <cooldownTime>3</cooldownTime>
+        </li>
+        <li>
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>35</power>
+          <cooldownTime>3</cooldownTime>
+        </li>
+    </tools>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <weaponTags>
+      <li>AvaliMeleeMilitary</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ===== Avali Spear ===== -->
+  <ThingDef ParentName="AvaliBaseMeleeWeapon_Sharp">
+    <defName>Avali_Spear</defName>
+    <label>Avali 'Icicle' spear</label>
+    <description>Avali 'Icicle' spear - a modern take on the ancient Avali spear design.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Spear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <AvaliAerogel>15</AvaliAerogel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+        <li>
+          <label>shaft</label>
+          <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+          </capacities>
+          <power>30</power>
+          <cooldownTime>3.5</cooldownTime>
+        </li>
+        <li>
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>45</power>
+          <cooldownTime>3.5</cooldownTime>
+        </li>
+      </tools>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <weaponTags>
+      <li>AvaliMeleeCivilian</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ===== Avali Hammer ===== -->
+    <ThingDef ParentName="AvaliBaseMeleeWeapon_Blunt">
+      <defName>Avali_Hammer</defName>
+      <label>Avali 'Glacier' hammer</label>
+      <description>The glacier-type 'skeleton key' is used for breaking down doors, or sometimes walls, with it's on board rocket motor and guidance fins.</description>
+      <graphicData>
+        <texPath>Things/Items/Weapons/Avali_Hammer</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <costStuffCount>75</costStuffCount>
+      <costList>
+        <AvaliAerogel>10</AvaliAerogel>
+        <ComponentIndustrial>3</ComponentIndustrial>
+        <ComponentSpacer>1</ComponentSpacer>
+      </costList>
+      <statBases>
+        <WorkToMake>10000</WorkToMake>
+        <Mass>1.5</Mass>
+      </statBases>
+      <equippedAngleOffset>-65</equippedAngleOffset>
+      <stuffCategories>
+        <li>Metallic</li>
+      </stuffCategories>
+      <tools>
+        <li>
+          <label>handle</label>
+          <capacities>
+            <li>Poke</li>
+          </capacities>
+          <power>5</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>head</label>
+          <labelUsedInLogging>false</labelUsedInLogging>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>30</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+      </tools>
+      <weaponTags>
+      <li>AvaliMeleeMilitary</li>
+    </weaponTags>
+	</ThingDef>
+</Defs>

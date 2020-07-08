@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Avali Continued [1.1]</name>
+	<author>Erisss, FacePlus, Ksisa</author>
+	<supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>Erisss.Ksisa.Avali</packageId>
+	<description>Adds to the game Avali race - race of small fluffy nomadic pack hunters with bad temper and a specific comfort temperature range. If you're more interested in the lore, check out the Avali wiki https://avali.fandom.com/wiki/The_Official_Avali_Wiki
+
+C# and XML code by Erisss
+Graphics by FacePlus
+Maintained by Ksisa
+Avali race by RyuujinZERO
+
+
+The mod is an edit to the Avali mod https://steamcommunity.com/sharedfiles/filedetails/?id=1314474881 
+</description>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadBefore>
+  </loadBefore>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>eagle0600.massCooking</li>
+    <li>eagle0600.expandablePlants</li>
+    <li>postrobcore.feedthecolonists</li>
+	</loadAfter>
+</ModMetaData>

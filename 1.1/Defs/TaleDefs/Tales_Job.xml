@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TaleDef>
+    <defName>Sang</defName>
+    <label>sang</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>1</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun->[pawn_nameShortDef] sings</li>
+        <li>tale_noun->[pawn_nameShortDef] quietly sings</li>
+        <li>image->[pawn_nameFull] gazing into the distance and [circumstance_group]</li>
+        <li>image->[pawn_nameFull] closing [pawn_possessive] eyes and [circumstance_group]</li>
+        <li>image->[pawn_nameFull] clasping [pawn_possessive] hands and [circumstance_group]</li>
+        <li>image->[pawn_nameFull] looking into the sky and [circumstance_group]</li>
+        <li>circumstance_phrase->sings</li>
+        <li>circumstance_phrase->quietly sings</li>
+        <li>circumstance_phrase->sings some beautiful song</li>
+        <li>circumstance_phrase->sings loudly</li>
+        <li>circumstance_phrase->sings a song</li>
+        <li>desc_sentence->[quantity_adjphrase] [outlander]s gaze upon [pawn_pronoun].</li>
+        <li>desc_sentence->[pawn_pronoun] is surrounded by [quantity_adjphrase] [animal]s.</li>
+        <li>desc_sentence->[quantity_adjphrase] [animal]s rest peacefully.</li>
+        <li>desc_sentence->[quantity_adjphrase] [enemy]s are awestruck by the scene.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+</Defs>

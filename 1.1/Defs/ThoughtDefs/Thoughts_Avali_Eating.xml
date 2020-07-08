@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+		<defName>AteAvaliEggRaw</defName>
+    <!-- <thoughtClass>Thought_AvaliEggCooked</thoughtClass>
+     <workerClass>ThoughtWorker_AvaliEggCooked</workerClass> -->
+		<durationDays>10</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>Ate avali egg</label>
+				<description>I ate one of those eggs. I know eating Avali eggs it's not good, but even raw it taste fantasic. Interesting how those small ammonia-based creatures can have so tasty eggs?</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AteAvaliEggOmlette</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>Ate avali egg omelette</label>
+				<description>I ate Avali egg omelette. This is one of the most delicious things what I eaten in whole my life!</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  
+  <ThoughtDef>
+		<defName>AvaliAteAvaliEggRaw</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+		<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Ate avali egg</label>
+				<description>I had to eat Avali egg. This is a nightmare.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AvaliAteAvaliEggOmlette</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+		<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Ate avali egg omelette</label>
+				<description>I had to eat omelette maked from Avali egg. It's horroble.</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  
+  <ThoughtDef>
+		<defName>AvaliAteWithoutTable</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>ate without table</label>
+				<description>It's ok, but eating on the table would be better.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  
+  <ThoughtDef>
+		<defName>AteAvaliFoodRaw</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>Ate raw alien food</label>
+				<description>What the heck is this?! I feel like throwing up now.</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  
+  <ThoughtDef>
+		<defName>AteAvaliFood</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>Ate alien food</label>
+				<description>Not so bad at all, but the portions could be bigger.</description>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AvaliAteAvaliFood</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>Ate own kind food</label>
+				<description>Mmmm... delicious.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  
+  <ThoughtDef>
+		<defName>AteAvaliFoodLavish</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>Ate alien food</label>
+				<description>Hmm... the taste is weird but nice. It's a pity that so little, I have not had enough.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AvaliAteAvaliFoodLavish</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>Ate favorite food</label>
+				<description>This is my favorite!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  
+  <ThoughtDef>
+		<defName>AvaliAteKibble</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>Ate kibble</label>
+				<description>I had to eat animal kibble. Horrible taste.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AvaliAteCorpse</defName>
+    <showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>Ate corpse</label>
+        <description>I had to eat a corpse without even butchering or cooking it, like an animal. I'm not an animal!</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AvaliAteInsectMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+    <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>Ate insect meat</label>
+        <description>I ate some gray, slimy insect meat. Maybe we should cook it first?</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  
+  
+  <ThoughtDef>
+		<defName>AteSentientSpecimenMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+		<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<nullifyingTraits>
+      <li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Ate sentient specimen meat</label>
+				<description>I ate the raw meat of sentient specimen. Perhaps we should cook it at least?</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+  <ThoughtDef>
+		<defName>AteSentientSpecimenMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+		<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<nullifyingTraits>
+      <li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Ate meal made from sentient specimen meat</label>
+				<description>I ate a meal made from the meat of another sentient specimen. It's wrong.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!--
+  <ThoughtDef>
+    <defName>AteSentientSpecimenMeatDirectCannibal</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Psychopath</li>
+			<li>Bloodlust</li>
+      <li>Cannibal</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>raw cannibalism</label>
+        <description>I ate the raw meat of another another sentient specimen. It was so... succulent.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+	<ThoughtDef>
+    <defName>AteSentientSpecimenMeatAsIngredientCannibal</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Psychopath</li>
+			<li>Bloodlust</li>
+      <li>Cannibal</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>cooked cannibalism</label>
+        <description>I ate a meal made from the meat of another sentient specimen. So pleasurable. If only I had some piru fronds and a nakati barks.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  -->
+  
+  <ThoughtDef>
+		<defName>AteAvaliMeatDirect</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+		<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>raw cannibalism</label>
+				<description>I ate the meat of another avali, raw, like an animal. This is a nightmare.</description>
+				<baseMoodEffect>-25</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AteAvaliMeatAsIngredient</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+		<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<nullifyingTraits>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>cooked cannibalism</label>
+				<description>I ate a meal made from the meat of another avali. This is horrible.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!--
+  <ThoughtDef>
+    <defName>AteAvaliMeatDirectCannibal</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Cannibal</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>raw cannibalism</label>
+        <description>I ate the meat of another avali, raw, like an animal. It was so... succulent.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AteAvaliMeatAsIngredientCannibal</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Cannibal</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>cooked cannibalism</label>
+        <description>I ate a meal made from the meat of another avali. So pleasurable. If only I had some piru fronds and a nakati barks.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  -->
+</Defs>

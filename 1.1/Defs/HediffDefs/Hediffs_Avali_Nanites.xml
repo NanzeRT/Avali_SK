@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Name="AvaliNanitesHediffBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <initialSeverity>0.001</initialSeverity>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+  
+  <HediffDef ParentName="AvaliNanitesHediffBase">
+    <defName>GuardianNanites</defName>
+    <label>guardian nanites</label>
+    <description>A colony of self-sufficient nanites which make the carrier body immune to pathogenic bacterias such as malaria, plague and flu.</description>
+    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+          <makeImmuneTo>
+						<li>Malaria</li>
+            <li>Plague</li>
+						<li>Flu</li>
+					</makeImmuneTo>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="AvaliNanitesHediffBase">
+    <defName>ImmunityNanites</defName>
+    <label>immunity boost nanites</label>
+    <description>A colony of self-sufficient nanites which strengthen carrier's immunity.</description>
+    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.4</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="AvaliNanitesHediffBase">
+    <defName>EnviromentalNanites</defName>
+    <label>enviromental protection nanites</label>
+    <description>A colony of self-sufficient nanites that covers carrier's skin reducing influence of aggressive environments.</description>
+    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>15% protection</label>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliLifeExtensionNanites -->
+  <HediffDef ParentName="AvaliNanitesHediffBase">
+    <defName>AvaliLifeExtensionNanites</defName>
+    <label>Avali life extension nanites</label>
+    <labelNoun>a Avali life extension nanites</labelNoun>
+    <description>Not implemented yet.</description>
+    <!-- <description>A colony of self-sufficient nanites that allows users to increase their lifespan on more than 1000 years (not a single case known to the Avali with this kind of nanites died of old age).</description> -->
+  </HediffDef>
+</Defs>

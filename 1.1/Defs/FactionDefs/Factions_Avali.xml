@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef>
+    <defName>AvaliIlluminate</defName>
+    <label>Avali Illuminate</label>
+    <description>Avali Illuminate represents the single largest and most powerful Avali faction encompassing almost half of the species population and spanning numerous systems. It is the faction that most represents the Avali from an outside perspective, a position cemented by its control over the Avali homeworld, Avalon.</description>
+    <pawnSingular>avali Illuminate</pawnSingular>
+    <pawnsPlural>avali Illuminates</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>AvaliBackstory</li>
+    </backstoryCategories>
+    <fixedName>Avali Illuminate</fixedName>
+    <hidden>true</hidden>
+    <rescueesCanJoin>true</rescueesCanJoin>
+    <autoFlee>true</autoFlee>
+    <!-- <geneticVariance>1</geneticVariance> -->
+    <hairTags>
+      <li>AvaliHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>AvaliNanoFibre</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <factionIconPath>World/WorldObjects/AvaliBaseIcon</factionIconPath>
+  </FactionDef>
+  
+  <FactionDef Name="AvaliIndependentBase"  Abstract="True">
+    <leaderTitle>faction leader</leaderTitle>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>AvaliBackstory</li>
+    </backstoryCategories>
+    <rescueesCanJoin>true</rescueesCanJoin>
+    <autoFlee>true</autoFlee>
+    <!-- <geneticVariance>0.8</geneticVariance> -->
+    <hairTags>
+      <li>AvaliHair</li>
+    </hairTags>
+    <pawnNameMaker>NamerPersonAvali</pawnNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <pawnsPlural>avali independents</pawnsPlural>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <allowedArrivalTemperatureRange>-80~25</allowedArrivalTemperatureRange>
+    <factionIconPath>World/WorldObjects/AvaliBaseIcon</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+  
+  <FactionDef ParentName="AvaliIndependentBase">
+    <defName>AvaliIndependent</defName>
+    <label>Independent Avali tribes</label>
+    <pawnSingular>avali</pawnSingular>
+    <pawnsPlural>avali</pawnsPlural>
+    <description>Beyond Avali Illuminate controlled space lie the independent worlds; colonies that rejected Illuminate administration, or were formed by Avali outside of it's jurisdiction. The independent worlds are not small; numerically there are as many Avali in the independent colonies as there are in the Illuminate itself, however they are split into many disparate factions and groups, ranging in size from independent tribes, unaffiliated with any political entity, to small multi-colony nations; not all of whom are on friendly terms with one another.</description>
+    <startingGoodwill>0~20</startingGoodwill>
+    <naturalColonyGoodwill>-50~50</naturalColonyGoodwill>
+    <goodwillDailyGain>0</goodwillDailyGain>
+    <goodwillDailyFall>0</goodwillDailyFall>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,25)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 175)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <caravanTraderKinds>
+      <li>Caravan_Avali_Standard</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Avali_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Avali_Standard</li>
+    </baseTraderKinds>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, standard mix -->
+        <kindDef>Combat</kindDef>
+        <options>
+          <AvaliColonist>5</AvaliColonist>
+          <AvaliKeeper>5</AvaliKeeper>
+          <AvaliScout>10</AvaliScout>
+          <AvaliHunter>10</AvaliHunter>
+          <AvaliSecurityGuard>10</AvaliSecurityGuard>
+          <AvaliStalker>5</AvaliStalker>
+          <AvaliSoldier>8</AvaliSoldier>
+          <AvaliCommando>2</AvaliCommando>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <AvaliColonist>10</AvaliColonist>
+          <AvaliKeeper>10</AvaliKeeper>
+          <AvaliHunter>10</AvaliHunter>
+          <AvaliScout>10</AvaliScout>
+          <AvaliSecurityGuard>10</AvaliSecurityGuard>
+          <AvaliStalker>4</AvaliStalker>
+          <AvaliSoldier>4</AvaliSoldier>
+          <AvaliCommando>2</AvaliCommando>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <AvaliTrader>1</AvaliTrader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+        </carriers>
+        <guards>
+          <AvaliColonist>3</AvaliColonist>
+          <AvaliHunter>10</AvaliHunter>
+          <AvaliKeeper>10</AvaliKeeper>
+          <AvaliScout>10</AvaliScout>
+          <AvaliSecurityGuard>10</AvaliSecurityGuard>
+          <AvaliStalker>10</AvaliStalker>
+          <AvaliSoldier>10</AvaliSoldier>
+          <AvaliCommando>5</AvaliCommando>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AvaliColonist>10</AvaliColonist>
+          <AvaliKeeper>10</AvaliKeeper>
+          <AvaliHunter>20</AvaliHunter>
+          <AvaliSecurityGuard>10</AvaliSecurityGuard>
+          <AvaliStalker>10</AvaliStalker>
+          <AvaliScout>10</AvaliScout>
+          <AvaliSoldier>10</AvaliSoldier>
+          <AvaliCommando>5</AvaliCommando>
+          <AvaliAssassin>2</AvaliAssassin>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>2</requiredCountAtGameStart>
+    <colorSpectrum>
+      <li>(255, 0, 0)</li>
+      <li>(0, 255, 0)</li>
+      <li>(0, 0, 255)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef ParentName="AvaliIndependentBase">
+    <leaderTitle>boss</leaderTitle>
+    <defName>AvaliRaiders</defName>
+    <label>Avali Raiders</label>
+    <pawnSingular>raider</pawnSingular>
+    <pawnsPlural>raiders</pawnsPlural>
+    <description>Murderers, con artists, pirates, thieves. Most of them were exiled from the Illuminate, though some are just avali who have fallen out with their more peaceful tribes and were looking for a group to be a part of. While fewer in numbers, their aggressiveness and experience in combat makes them more forbidable than peaceful avali factions. But like most people on the rim, they are just trying to survive and are open to having allies they can rely on.</description>
+    <startingGoodwill>-50~-20</startingGoodwill>
+    <naturalColonyGoodwill>-80~0</naturalColonyGoodwill>
+    <goodwillDailyGain>0.20</goodwillDailyGain>
+    <goodwillDailyFall>0.40</goodwillDailyFall>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,25)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 175)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <AvaliColonist>4</AvaliColonist>
+          <AvaliHunter>10</AvaliHunter>
+          <AvaliSecurityGuard>10</AvaliSecurityGuard>
+          <AvaliScout>10</AvaliScout>
+          <AvaliStalker>5</AvaliStalker>
+          <AvaliSoldier>10</AvaliSoldier>
+          <AvaliCommando>5</AvaliCommando>
+          <AvaliAssassin>5</AvaliAssassin>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <AvaliColonist>20</AvaliColonist>
+          <AvaliKeeper>10</AvaliKeeper>
+          <AvaliScout>10</AvaliScout>
+          <AvaliSecurityGuard>10</AvaliSecurityGuard>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <AvaliTrader>1</AvaliTrader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+        </carriers>
+        <guards>
+          <AvaliColonist>3</AvaliColonist>
+          <AvaliHunter>10</AvaliHunter>
+          <AvaliKeeper>10</AvaliKeeper>
+          <AvaliSecurityGuard>10</AvaliSecurityGuard>
+          <AvaliStalker>10</AvaliStalker>
+          <AvaliScout>10</AvaliScout>
+          <AvaliSoldier>10</AvaliSoldier>
+          <AvaliCommando>10</AvaliCommando>
+          <AvaliAssassin>2</AvaliAssassin>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AvaliColonist>10</AvaliColonist>
+          <AvaliKeeper>5</AvaliKeeper>
+          <AvaliHunter>10</AvaliHunter>
+          <AvaliSecurityGuard>10</AvaliSecurityGuard>
+          <AvaliStalker>10</AvaliStalker>
+          <AvaliScout>10</AvaliScout>
+          <AvaliSoldier>10</AvaliSoldier>
+          <AvaliCommando>7</AvaliCommando>
+          <AvaliAssassin>6</AvaliAssassin>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <colorSpectrum>
+      <li>(0.45, 0.05, 0.05)</li>
+      <li>(0.80, 0.25, 0.05)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <!--
+  <FactionDef>
+    <defName>AvaliTribal</defName>
+    <label>Avali tribe</label>
+    <description>....</description>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <startingGoodwill>10~40</startingGoodwill>
+    <pawnNameMaker>NamerPersonAvali</pawnNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>AvaliTribalBackstory</li>
+    </backstoryCategories>
+    <visitorTraderKinds>
+      <li>Visitor_Avali_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Avali_Standard</li>
+    </baseTraderKinds>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <options>
+          <AvaliNomad>60</AvaliNomad>
+          <AvaliHunterTribal>100</AvaliHunterTribal>
+          <AvaliBerserker>60</AvaliBerserker>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <AvaliTribalTrader>1</AvaliTribalTrader>
+        </traders>
+        <guards>
+          <AvaliNomad>60</AvaliNomad>
+          <AvaliHunter>100</AvaliHunter>
+          <AvaliBerserker>60</AvaliBerserker>
+        </guards>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+        </carriers>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <AvaliNomad>60</AvaliNomad>
+          <AvaliHunter>100</AvaliHunter>
+          <AvaliBerserker>60</AvaliBerserker>
+          <AvaliKeeper>250</AvaliKeeper>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+  -->
+  
+  <!-- 
+  <FactionDef>
+    <defName>AvaliNuko</defName>
+    <label>unque trader</label>
+    <pawnSingular>unque trader</pawnSingular>
+    <pawnsPlural>unque trader</pawnsPlural>
+    <fixedName>unque trader</fixedName>
+    <description>A lone hero accidentally stranded on this rimworld.</description>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 0.01)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <humanlikeFaction>true</humanlikeFaction>
+    <hidden>true</hidden>
+    <autoFlee>true</autoFlee>
+    <hairTags>
+      <li>AvaliHair</li>
+    </hairTags>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>AvaliNuko</li>
+    </backstoryCategories>
+    <naturalColonyGoodwill>-50~50</naturalColonyGoodwill>
+    <visitorTraderKinds>
+      <li>Visitor_Avali_Nuko</li>
+    </visitorTraderKinds>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <AvaliNuko>1</AvaliNuko>
+        </traders>
+      </li>
+    </pawnGroupMakers>
+    <factionIconPath>World/WorldObjects/AvaliBaseIcon</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <allowedArrivalTemperatureRange>-150~80</allowedArrivalTemperatureRange>
+  </FactionDef>
+  -->
+</Defs>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- ====================================== Core Bases =========================================== -->
+  
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[@Name = "ApparelBase"]/comps</xpath>
+		  <value>
+        <li>
+          <compClass>Avali.CompCanBePutOn</compClass>
+        </li>
+      </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[@Name = "ApparelMakeableBase"]/recipeMaker/recipeUsers</xpath>
+		  <value>
+        <li>AvaliNanoloom</li>
+      </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[@Name = "ArmorSmithableBase"]/recipeMaker/recipeUsers</xpath>
+		  <value>
+        <li>AvaliNanoloom</li>
+      </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[@Name = "ArmorMachineableBase"]/recipeMaker/recipeUsers</xpath>
+		  <value>
+        <li>AvaliNanolathe</li>
+      </value>
+  </Operation>
+  
+</Patch>

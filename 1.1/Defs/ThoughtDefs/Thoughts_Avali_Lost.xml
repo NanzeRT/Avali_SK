@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef ParentName="LostMemory">
+    <defName>MyPackmateLost</defName>
+    <stages>
+      <li>
+        <label>my packmate {0} lost</label>
+        <description>My packmate has gone lost. I hope he will get back to us someday.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="LostMemory">
+    <defName>MyCaretakerLost</defName>
+    <stages>
+      <li>
+        <label>my caretaker {0} lost</label>
+        <description>My caretaker has gone lost. I hope he will get back to us someday.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="LostMemory">
+    <defName>MyKitLost</defName>
+    <stages>
+      <li>
+        <label>my kit {0} lost</label>
+        <description>My kit has gone lost. I hope he will get back to us someday.</description>
+        <baseMoodEffect>-16</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="LostMemory">
+    <defName>MyStepchildLost</defName>
+    <stages>
+      <li>
+        <label>my stepchild {0} lost</label>
+        <description>My stepchild has gone lost. I hope he will get back to us someday.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

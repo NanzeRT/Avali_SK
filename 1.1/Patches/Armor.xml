@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[@Name = "ApparelArmorPowerBase"]/statBases</xpath>
+		  <value>
+        <ArmorRating_Enviromental>0.8</ArmorRating_Enviromental>
+	  </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[@Name = "ApparelArmorReconBase"]/statBases</xpath>
+		  <value>
+        <ArmorRating_Enviromental>0.8</ArmorRating_Enviromental>
+	  </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[@Name = "ApparelArmorHelmetPowerBase"]/statBases</xpath>
+		  <value>
+        <ArmorRating_Enviromental>0.4</ArmorRating_Enviromental>
+	  </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[@Name = "ApparelArmorHelmetReconBase"]/statBases</xpath>
+		  <value>
+        <ArmorRating_Enviromental>0.4</ArmorRating_Enviromental>
+	  </value>
+  </Operation>
+</Patch>

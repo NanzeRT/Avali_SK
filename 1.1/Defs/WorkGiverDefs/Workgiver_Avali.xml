@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--
+  <WorkGiverDef>
+    <defName>DoBillsAvaliRunningGenerator</defName>
+    <label>Generate energy</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <fixedBillGiverDefs>
+      <li>RunningGenerator</li>
+    </fixedBillGiverDefs>
+    <verb>generating energy</verb>
+    <gerund>generating energy at</gerund>
+    <requiredCapacities>
+      <li>Movement</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+-->
+  
+  <WorkGiverDef>
+    <defName>DoBillsAvaliNanoloom</defName>
+    <label>Weave fabric</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Tailoring</workType>
+    <priorityInType>130</priorityInType>
+    <fixedBillGiverDefs>
+      <li>AvaliNanoloom</li>
+    </fixedBillGiverDefs>
+    <verb>weave</verb>
+    <gerund>weaving at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoBillsAvaliNanolathe</defName>
+    <label>Print things</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>130</priorityInType>
+    <fixedBillGiverDefs>
+      <li>AvaliNanolathe</li>
+    </fixedBillGiverDefs>
+    <verb>print</verb>
+    <gerund>printing at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>

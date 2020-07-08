@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="AvaliAugmentBase" Abstract="True" ParentName="BodyPartBase">
+    <techLevel>Ultra</techLevel>
+    <thingCategories>
+      <li>AugmentsAvali</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Items/Health/AvaliAugment</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>AvaliAugments</researchPrerequisite>
+    </recipeMaker>
+    <tradeTags Inherit="False">
+      <li>AvaliAugment</li>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- PlasteelAvaliTalons -->
+  <ThingDef ParentName="BodyPartBase">
+    <defName>PlasteelAvaliTalons</defName>
+    <label>plasteel Avali talons</label>
+    <description>A relatively simple method of increasing the damage Avali talons can do.</description>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BodyPartsProsthetic</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(189,169,118)</color>
+    </graphicData>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+        <li>AvaliNanolathe</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <MarketValue>300</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <!-- AvaliBasicLifeSupport -->
+  <!-- <ThingDef ParentName="BodyPartBase">
+    <defName>AvaliBasicLifeSupport</defName>
+    <label>basic thermoregulation and life support system</label>
+    <description>Basic thermoregulation and life support system use respirable not breathable by Avali air and using complex chemical processes converts it to into breathable hydrogene and methane and sends it directly to the blood. If necessary this system intensively cools user body using body resources and and by-products of hydrogene and methane production. All spacefaring Avali augmented with this system.</description>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Things/Items/Health/HealthItemAvaliArtificial</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>AvaliAugments</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>30000</WorkToMake>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+  </ThingDef> -->
+  
+  <!-- AvaliSightAugment -->
+  <ThingDef ParentName="AvaliAugmentBase">
+    <defName>AvaliSightAugment</defName>
+    <label>Avali vision augment</label>
+    <description>An augment enhancing vision. Especially useful for auditory-reliant races like Avali. Zoom included.</description>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <!-- AvaliHearingAugment -->
+  <ThingDef ParentName="AvaliAugmentBase">
+    <defName>AvaliHearingAugment</defName>
+    <label>Avali auditory augment</label>
+    <description>Auditory augments is very popular among military, scientific and exploration packs.</description>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MarketValue>600</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <!-- AvaliCoolAugment -->
+  <ThingDef ParentName="AvaliAugmentBase">
+    <defName>AvaliCoolAugment</defName>
+    <label>Avali cooling augment</label>
+    <description>This augment allows users to survive in environments that are deadly hot to them.</description>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <!-- AvaliHeatAugment -->
+  <ThingDef ParentName="AvaliAugmentBase">
+    <defName>AvaliHeatAugment</defName>
+    <label>Avali heating augment</label>
+    <description>This augment allows users to survive in environments that too cold for them.</description>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <!-- AvaliEnviromentalAugment -->
+  <ThingDef ParentName="AvaliAugmentBase">
+    <defName>AvaliEnviromentalAugment</defName>
+    <label>Avali life support augment</label>
+    <description>This augment allows users to survive in environments which were previously deadly toxic to them.</description>
+    <costList>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MarketValue>1600</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+  <!-- AvaliPackLossAugment -->
+  <ThingDef ParentName="AvaliAugmentBase">
+    <defName>AvaliPackLossAugment</defName>
+    <label>Avali madness prevention augment</label>
+    <description>This augment prevents Avali from going mad from mental illness called Pack Loss.</description>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MarketValue>2000</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+</Defs>

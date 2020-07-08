@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--=============== AvaliTurretSmall ===============-->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>AvaliTurretSmall</defName>
+    <label>avali 'Cerberus' turret</label>
+    <description>Cerberus turret uses electromagnetic force to launch high-velocity projectiles accelerated along a pair of conductive rails. Frequently used as quick deployable long-range point defence both effective against infantry and vehicles. Not effective at short range. Because of the very high currents flowing through rails they must be refurbished after use. Automatically fires at nearby enemies. May explode and cause fire when damaged.\n\nRanged cooldown: 2.5 s \nDamage per shot: 75 \nRange: 90</description>
+    <thingClass>Avali.Building_TurretGunAvali</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Security/AvaliTurretSmall/AvaliTurretSmall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Security/AvaliTurretSmall/AvaliTurretSmall_Icon</uiIconPath>
+    <uiIconScale>1</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <size>(1,1)</size>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>10</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceToStartFire>0.25</chanceToStartFire>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until rails change</fuelLabel>
+        <fuelGizmoLabel>Rails durability</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>100</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>7</fuelMultiplier>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: Needs new rails</outOfFuelMessage>
+        <fuelIconPath>UI/Overlays/Rails</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>125</costStuffCount>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_AvaliTurretSmall</turretGunDef>
+      <!-- <turretBurstWarmupTime>1.0</turretBurstWarmupTime> -->
+      <turretBurstCooldownTime>2.5</turretBurstCooldownTime>
+      <turretTopDrawSize>2.0</turretTopDrawSize>
+      <turretTopOffset>(0, 0)</turretTopOffset>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>AvaliTurretSmall</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_AvaliTurretSmall</defName>
+    <label>'Cerberus' railgun</label>
+    <description>A turret "brain" and a pair of parallel rails with ammunition feed system. Precise at range, it's not good at tracking close targets.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/AvaliTurretSmall/AvaliTurretSmall_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.96</AccuracyMedium>
+      <AccuracyLong>0.98</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BulletAvaliSniper</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>89.9</range>
+        <soundCast>Shot_Avali_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  <!--=============== AvaliTurretMedium ===============-->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>AvaliTurretMedium</defName>
+    <label>avali 'Ripper' turret</label>
+    <description>A "big brother" of Hailstorm hybrid minigun - the Ripper turret will launch more projectiles with greater rate because it has constant power supply so it does not have to make pauses to charge the supercapacitors. Terrifyingly effective against unarmored targets, but it's rails must be refurbished after use beacuse of the very high currents flowing through them. Automatically fires at nearby enemies. May explode and cause fire when damaged.\n\nRanged cooldown: 0.04 s \nDamage per shot: 10 \nRange: 45</description>
+    <thingClass>Avali.Building_TurretGunAvali</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Security/AvaliTurretMedium/AvaliTurretMedium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Security/AvaliTurretMedium/AvaliTurretMedium_Icon</uiIconPath>
+    <uiIconScale>1</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>50</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceToStartFire>0.25</chanceToStartFire>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>300</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until rails change</fuelLabel>
+        <fuelGizmoLabel>Rails durability</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>1000</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>70</fuelMultiplier>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: Needs new rails</outOfFuelMessage>
+        <fuelIconPath>UI/Overlays/Rails</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>200</costStuffCount>
+    <costList>
+      <Plasteel>150</Plasteel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>44.9</specialDisplayRadius>
+    <building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_AvaliTurretMedium</turretGunDef>
+      <turretBurstCooldownTime>0.05</turretBurstCooldownTime>
+      <turretTopDrawSize>2.25</turretTopDrawSize>
+      <turretTopOffset>(0, 0)</turretTopOffset>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>AvaliTurretMedium</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_AvaliTurretMedium</defName>
+    <label>'Ripper' hybrid minigun</label>
+    <description>A turret "brain", a hybrid minigun-railgun and a ammunition feed system.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/AvaliTurretMedium/AvaliTurretMedium_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>0.08</RangedWeapon_Cooldown>
+      <Mass>50</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BulletAvaliMinigun</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <minRange>3.9</minRange>
+        <range>43.9</range>
+        <soundCast>Shot_Avali_Minigun</soundCast>
+		 	  <soundCastTail>GunTail_Medium</soundCastTail>
+		  	<muzzleFlashScale>7</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!--=============== AvaliTurretLarge ===============-->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>AvaliTurretLarge</defName>
+    <label>avali 'Thrasher' turret</label>
+    <description>Despite the main Thrasher purpose being fighting against armored vehicles and mechanoids it's still pretty effective against infantry. Automatically fires at nearby enemies. Requires new rockets to be loaded after use. May explode and cause fires when damaged.\n\nYou can manually set delay between each shot. \nDamage per shot: 50 \nRange: 50</description>
+    <thingClass>Avali.Building_TurretGunAvali</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Security/AvaliTurretLarge/AvaliTurretLarge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.6,0.6,1.8,1.8)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Security/AvaliTurretLarge/AvaliTurretLarge_Icon</uiIconPath>
+    <uiIconScale>1</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>true</rotatable>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>15000</WorkToBuild>
+      <Mass>100</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.98</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceToStartFire>0.25</chanceToStartFire>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>250</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Rockets left</fuelLabel>
+        <fuelGizmoLabel>Rockets count</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>AvaliRocket</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>20</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>1</fuelMultiplier>
+        <factorByDifficulty>false</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: No rockets left</outOfFuelMessage>
+        <fuelIconPath>UI/Overlays/Rocket</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>75</pathCost>
+    <fillPercent>0.75</fillPercent>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <hasTooltip>true</hasTooltip>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>300</costStuffCount>
+    <costList>
+      <AvaliRocket>20</AvaliRocket>
+      <Plasteel>200</Plasteel>
+      <ComponentIndustrial>20</ComponentIndustrial>
+      <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>49.9</specialDisplayRadius>
+    <building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_AvaliTurretLarge</turretGunDef>
+      <turretBurstCooldownTime>2.5</turretBurstCooldownTime>
+      <turretTopDrawSize>3</turretTopDrawSize>
+      <turretTopOffset>(0, 0)</turretTopOffset>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>AvaliTurretLarge</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_AvaliTurretLarge</defName>
+    <label>'Thrasher' doubled rocket launcher</label>
+    <graphicData>
+      <texPath>Things/Building/Security/AvaliTurretLarge/AvaliTurretLarge_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>A turret "brain", two rocket silos and loading system.</description>
+    <statBases>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Avali_Rocket</defaultProjectile>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>0</warmupTime>
+        <ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <minRange>9.9</minRange>
+        <range>49.9</range>
+        <soundCast>Shot_Avali_RocketLauncher</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>18</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>

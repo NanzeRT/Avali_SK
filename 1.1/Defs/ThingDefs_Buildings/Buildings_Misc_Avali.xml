@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- AvaliAerogelSkylight -->
+  <ThingDef ParentName="AvaliBuildingBase">
+    <defName>AvaliAerogelSkylight</defName>
+    <label>aerogel skylight</label>
+    <description>A skylight made out of aerogel. Orange and quick to build.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Misc/AvaliAerogelSkylight</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Flammability>0.2</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <compClass>Avali.CompSunGlower</compClass>
+        <overlightRadius>3</overlightRadius>
+        <glowRadius>2.5</glowRadius>
+        <glowColor>(0,0,0)</glowColor>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>Avali.PlaceWorker_UnderNotThickRoofOnly</li>
+    </placeWorkers>
+    <costList>
+      <AvaliAerogel>3</AvaliAerogel>
+    </costList>
+    <altitudeLayer>Weather</altitudeLayer>
+		<passability>Standable</passability>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <coversFloor>false</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <designationCategory>Misc</designationCategory>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <constructEffect>ConstructDirt</constructEffect>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <designationHotKey>Misc3</designationHotKey>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <researchPrerequisites>
+      <li>AvaliAerogel</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <!-- AvaliAerogelWindow -->
+  <ThingDef ParentName="AvaliBuildingBase">
+    <defName>AvaliAerogelWindow</defName>
+    <label>aerogel window</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <description>A window made out of aerogel. Orange and quick to build.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/AvaliAerogelWindow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Things/Building/Misc/AvaliAerogelWindow_MenuIcon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Flammability>0.2</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <costList>
+      <AvaliAerogel>3</AvaliAerogel>
+    </costList>
+    <!-- <placeWorkers>
+      <li>Avali.PlaceWorker_AvaliWindow</li>
+    </placeWorkers> -->
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>true</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <designationCategory>Misc</designationCategory>
+    <!-- <staticSunShadowHeight>1.0</staticSunShadowHeight> -->
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+      <canPlaceOverWall>true</canPlaceOverWall>
+    </building>
+    <constructEffect>ConstructDirt</constructEffect>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <designationHotKey>Misc3</designationHotKey>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <researchPrerequisites>
+      <li>AvaliAerogel</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Not fully implemented yet. Will be added in next minor update. -->
+  
+  <!-- ===== Bases ===== -->
+  
+  <ThingDef Name="UnqueMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Archotech</techLevel>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- ===== Precursor Rendblade ===== -->
+  
+  <ThingDef ParentName="UnqueMeleeWeapon">
+    <defName>MeleeWeapon_Precursor_LongSword</defName>
+    <label>precursor Rendblade</label>
+    <description>Impossibly sharp focused light forms the blade.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/Precursor_Sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>4000</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>PlasmaCut</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>PlasmaCut</li>
+        </capacities>
+        <power>50</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+			<li>PrecursorMelee</li>
+		</weaponTags>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

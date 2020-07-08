@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ===== Avali weapons ===== -->
+  
+  <!-- Shot_Avali_Pistol -->
+  <SoundDef>
+    <defName>Shot_Avali_Pistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/AvaliPistol_Shot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!-- Shot_Avali_SMG -->
+  <SoundDef>
+    <defName>Shot_Avali_SMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/AvaliPistol_Shot</clipPath>
+          </li>
+        </grains>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!-- Shot_Avali_Rifle -->
+  <SoundDef>
+    <defName>Shot_Avali_Rifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/AvaliRifle_Shot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.2941</min>        
+          <max>45.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.091765</min>        
+          <max>1</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!-- Shot_Avali_Shotgun -->
+  <SoundDef>
+    <defName>Shot_Avali_Shotgun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/AvaliShotgun_Shot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>94.70588</min>        
+          <max>94.70588</max>
+        </volumeRange>      
+        <distRange>
+          <min>39.11765</min>        
+          <max>70</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>    
+    </subSounds>
+  </SoundDef>
+  
+  <!-- Shot_Avali_SniperRifle -->
+  <SoundDef>
+    <defName>Shot_Avali_SniperRifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/AvaliSniper_Shot</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>77.05883</min>        
+          <max>77.05883</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!-- Shot_Avali_Minigun -->
+  <SoundDef>
+    <defName>Shot_Avali_Minigun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxVoices>8</maxVoices>  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/AvaliMinigun_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>33.52942</min>        
+          <max>33.52942</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!-- Shot_Avali_RocketLauncher -->
+  <SoundDef>
+    <defName>Shot_Avali_RocketLauncher</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/AvaliRocketLauncher_Shot</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>1.4</min>        
+          <max>1.6</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!-- ===== Special weapons ===== -->
+  
+  <!-- Shot_Precursor_Pistol -->
+  <SoundDef>
+    <defName>Shot_Precursor_Pistol</defName>
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/PrecursorGun_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!-- Shot_Precursor_SMG -->
+  <SoundDef>
+    <defName>Shot_Precursor_SMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/PrecursorSMG_shot</clipFolderPath>
+          </li>
+        </grains>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!-- Shot_Precursor_AssaultRifle -->
+  <SoundDef>
+    <defName>Shot_Precursor_AssaultRifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/PrecursorGun_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.2941</min>        
+          <max>45.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.091765</min>        
+          <max>1</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!-- Shot_Precursor_Annihilator -->
+  <SoundDef>
+    <defName>Shot_Precursor_Annihilator</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/PrecursorAnnihilator_Shot</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>1.4</min>        
+          <max>1.6</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

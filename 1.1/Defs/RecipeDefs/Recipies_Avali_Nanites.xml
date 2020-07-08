@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+<RecipeDef Name="SurgeryAvaliNanites" Abstract="True">
+  <!-- <effectWorking>Surgery</effectWorking>
+  <soundWorking>Recipe_Surgery</soundWorking> -->
+  <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+  <workSkill>Medicine</workSkill>
+  <workAmount>100</workAmount>
+  <targetsBodyPart>false</targetsBodyPart>
+  <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+  <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+	<recipeUsers>
+		<li>Avali</li>
+    <li>Human</li>
+	</recipeUsers>
+  <!--
+  <skillRequirements>
+		<Medicine>2</Medicine>
+  </skillRequirements>
+  -->
+</RecipeDef>
+
+<!-- InjectGuardianNanites -->
+<RecipeDef ParentName="SurgeryAvaliNanites">
+	<defName>InjectGuardianNanites</defName>
+	<label>inject guardian nanites</label>
+	<description>Inject Guardian nanites.</description>
+	<workerClass>Recipe_InstallImplant</workerClass>
+	<jobString>Injects Guardian nanites.</jobString>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>GuardianNanitesInjector</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>GuardianNanitesInjector</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+  <addsHediff>GuardianNanites</addsHediff>
+</RecipeDef>
+
+<!-- InjectImmunityNanites -->
+<RecipeDef ParentName="SurgeryAvaliNanites">
+	<defName>InjectImmunityNanites</defName>
+	<label>inject immunity nanites</label>
+	<description>Inject immunity nanites.</description>
+	<workerClass>Recipe_InstallImplant</workerClass>
+	<jobString>Injects immunity nanites.</jobString>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ImmunityNanitesInjector</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>ImmunityNanitesInjector</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+  <addsHediff>ImmunityNanites</addsHediff>
+</RecipeDef>
+</Defs> 

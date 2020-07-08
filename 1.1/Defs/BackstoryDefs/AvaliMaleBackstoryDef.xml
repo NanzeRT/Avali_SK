@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- ===== Hatched Pawns Stories ===== -->
+
+  <AlienRace.BackstoryDef>
+    <defName>AvaliMaleRimworldChild</defName>
+    <title>Rimworld kit</title>
+    <titleShort>Rimworld</titleShort>
+    <baseDescription>[PAWN_nameDef] was hatched in one of the colonies on this rimworld. All [PAWN_possessive] childhood [PAWN_pronoun] helped other colonists to survive on this hostile place.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <shuffleable>false</shuffleable>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <forcedHediffs>
+    </forcedHediffs>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>AvaliMaleRimworldAdult</defName>
+    <title>Rimworld colonist</title>
+    <titleShort>Rimworld</titleShort>
+    <baseDescription>After [PAWN_nameDef] grew up [PAWN_pronoun] became a full member of the colony.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <shuffleable>false</shuffleable>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- ===== Child Stories ===== -->
+   
+  <!-- AvaliMaleAvaliIlluminateChild -->
+  <ThingDef Name="AvaliMaleAvaliIlluminateChild" Abstract="True">
+    <title>Illuminate child</title>
+    <titleShort>Illuminate</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleAvaliIlluminateChild">
+    <defName>AvaliMaleAvaliIlluminateChild</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleWarTornSurvivor -->
+  <ThingDef Name="AvaliMaleWarTornSurvivor" Abstract="True">
+    <title>War-torn survivor</title>
+    <titleShort>War survivor</titleShort>
+    <baseDescription>[PAWN_nameDef] was hatched on a war-torn world where food was rare and other Avali had to fight for food. [PAWN_pronoun] never talks much and tries to avoid others in conversion because of the past life [PAWN_pronoun] tried to leave behind.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-10</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <!-- <workDisables>
+      <li>Caring</li>
+    </workDisables> -->
+    <forcedHediffs>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleWarTornSurvivor">
+    <defName>AvaliMaleWarTornSurvivor</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleGeneticallyEditedWarrior -->
+  <ThingDef Name="AvaliMaleGeneticallyEditedWarrior" Abstract="True">
+    <title>Genetically edited</title>
+    <titleShort>Genetically edited</titleShort>
+    <baseDescription>Before being hatched [PAWN_nameDef] was genetically edited to be a warrior. [PAWN_pronoun] was perfect for almost any combat scenario, being able to take on any foe at an early age. But [PAWN_pronoun] lacked social graces and [PAWN_possessive] education in many areas was brief.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>12</amount>
+        </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>ManualSkilled</li>
+      <li>Intellectual</li>
+      <li>Caring</li>
+    </workDisables>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleGeneticallyEditedWarrior">
+    <defName>AvaliMaleGeneticallyEditedWarrior</defName>
+  </AlienRace.BackstoryDef>
+   
+   <!-- AvaliMaleGeneticallyEditedSocial -->
+  <ThingDef Name="AvaliMaleGeneticallyEditedSocial" Abstract="True">
+    <title>Genetically edited</title>
+    <titleShort>Genetically edited</titleShort>
+    <baseDescription>Before being hatched [PAWN_nameDef] was genetically edited to be very social. [PAWN_pronoun] began speaking at a much younger age then most Avali hatchlings and at the age of four, [PAWN_pronoun] was quickly gaining the ability to persuade others and learn their likes and dislikes. With time it became obvious [PAWN_pronoun] refused to do harm to others and found [PAWN_possessive]self hating dumb and unskilled labour.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>12</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-8</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-6</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Violent</li>
+    </workDisables>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleGeneticallyEditedSocial">
+    <defName>AvaliMaleGeneticallyEditedSocial</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleLostEgg -->
+  <ThingDef Name="AvaliMaleLostEgg" Abstract="True">
+    <title>Lost egg</title>
+    <titleShort>Lost egg</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+      <li>AvaliMaleBackstoryT</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-10</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <!-- <workDisables>
+      <li>Caring</li>
+    </workDisables> -->
+    <forcedHediffs>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleLostEgg">
+    <defName>AvaliMaleLostEgg</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- Reject -->
+  <ThingDef Name="AvaliMaleRejected" Abstract="True">
+    <title>Abandoned egg</title>
+    <titleShort>Abandoned egg</titleShort>
+    <baseDescription>When [PAWN_nameDef] hatched, it wasn't clear where [PAWN_pronoun] was. Being lost and alone, it became obvious [PAWN_pronoun] was rejected or abandoned. Through pure luck however, [PAWN_pronoun] was able to survive the horrors of being alone, training [PAWN_possessive]self the skills of a natural predator.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+      <li>AvaliMaleBackstoryT</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-10</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <!-- <workDisables>
+      <li>Caring</li>
+    </workDisables> -->
+    <forcedHediffs>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleRejected">
+      <defName>AvaliMaleRejected</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- CoreChild -->
+  <ThingDef Name="AvaliMaleCoreChild" Abstract="True">
+      <title>Illuminate core child</title>
+      <titleShort>Core Child</titleShort>
+      <baseDescription>Placeholder</baseDescription>
+      <slot>Childhood</slot>
+      <bodyTypeGlobal>Thin</bodyTypeGlobal>
+      <maleCommonality>100</maleCommonality>
+      <femaleCommonality>100</femaleCommonality>
+      <spawnCategories>
+        <li>AvaliBackstory</li>
+      </spawnCategories>
+      <skillGains>
+        <li>
+          <defName>Social</defName>
+          <amount>4</amount>
+        </li>
+        <li>
+          <defName>Plants</defName>
+          <amount>2</amount>
+        </li>
+        <li>
+          <defName>Crafting</defName>
+          <amount>2</amount>
+        </li>
+      </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleCoreChild">
+    <defName>AvaliMaleCoreChild</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleSpaceNomad -->
+  <ThingDef Name="AvaliMaleSpaceNomad" Abstract="True">
+    <title>Space nomad</title>
+    <titleShort>Space nomad</titleShort>
+    <baseDescription>When [PAWN_nameDef] was hatched, [PAWN_pronoun] was part of a tribe of nomads in space. [PAWN_pronoun] quickly learned the ways of Avali crafts and soon started helping in construction and production of Avali gear and helped tend to the gardens of the ship.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleSpaceNomad">
+    <defName>AvaliMaleSpaceNomad</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleArtchild -->
+  <ThingDef Name="AvaliMaleArtchild" Abstract="True">
+    <title>Child artist</title>
+    <titleShort>Artist-Child</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleArtchild">
+    <defName>AvaliMaleArtchild</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleArchitect -->
+  <ThingDef Name="AvaliMaleArchitect" Abstract="True">
+    <title>Architect</title>
+    <titleShort>Architect</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleArchitect">
+    <defName>AvaliMaleArchitect</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleIndependentYouth -->
+  <ThingDef Name="AvaliMaleIndependentYouth" Abstract="True">
+    <title>Independent youth</title>
+    <titleShort>Independent</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+      <li>AvaliMaleBackstoryT</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleIndependentYouth">
+    <defName>AvaliMaleIndependentYouth</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleEngineerApprentice -->
+  <ThingDef Name="AvaliMaleEngineerApprentice" Abstract="True">
+    <title>Robotics apprentice</title>
+    <titleShort>apprentice</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-8</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-8</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleEngineerApprentice">
+    <defName>AvaliMaleEngineerApprentice</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleCadet -->
+  <ThingDef Name="AvaliMaleCadet" Abstract="True">
+    <title>Military cadet</title>
+    <titleShort>Cadet</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleCadet">
+    <defName>AvaliMaleCadet</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleAnimalLover -->
+  <ThingDef Name="AvaliMaleAnimalLover" Abstract="True">
+    <title>Animal lover</title>
+    <titleShort>Animal-lover</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+      <li>AvaliMaleBackstoryT</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleAnimalLover">
+    <defName>AvaliMaleAnimalLover</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleApprenticeNurse -->
+  <ThingDef Name="AvaliMaleApprenticeNurse" Abstract="True">
+    <title>Nursing apprentice</title>
+    <titleShort>Nurse</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleApprenticeNurse">
+    <defName>AvaliMaleApprenticeNurse</defName>
+  </AlienRace.BackstoryDef>
+   
+   
+   
+  <!-- ===== Adult Stories ===== -->
+   
+  <!-- AvaliMaleArmorer -->
+  <ThingDef Name="AvaliMaleArmorer" Abstract="True">
+    <title>Quartermaster</title>
+    <titleShort>Quartermaster</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleArmorer">
+      <defName>AvaliMaleArmorer</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleMilitia -->
+  <ThingDef Name="AvaliMaleMilitia" Abstract="True">
+    <title>Avali militia</title>
+    <titleShort>Militia</titleShort>
+    <baseDescription>[PAWN_nameDef] was enlisted to join the Avali militia which resulted in back breaking training and hardship from [PAWN_possessive] superiors. But the training paid off, which resulted in [PAWN_possessive] learning a few new tricks.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <spawnCategories>
+        <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleMilitia">
+    <defName>AvaliMaleMilitia</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleMilitiaCaptain -->
+  <ThingDef Name="AvaliMaleMilitiaCaptain" Abstract="True">
+    <title>Avali militia captain</title>
+    <titleShort>Militia captain</titleShort>
+    <baseDescription>[PAWN_nameDef] was promoted to captain for [PAWN_possessive] leadership after fighting in an Illuminate skirmish which resulted in a total victory thanks to [PAWN_possessive] quick thinking on the move.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleMilitiaCaptain">
+    <defName>AvaliMaleMilitiaCaptain</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleDoctor -->
+  <ThingDef Name="AvaliMaleDoctor" Abstract="True">
+    <title>Doctor</title>
+    <titleShort>Doctor</titleShort>
+    <baseDescription>[PAWN_nameDef] graduated with a doctorate degree in medical science and quickly became a well respected doctor in the hospital [PAWN_pronoun] used to work in.</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleDoctor">
+    <defName>AvaliMaleDoctor</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleSurvivor -->
+  <ThingDef Name="AvaliMaleSurvivor" Abstract="True">
+    <title>Shipwreck survivor</title>
+    <titleShort>Survivor</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-6</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleSurvivor">
+    <defName>AvaliMaleSurvivor</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleEggSnatcher -->
+  <ThingDef Name="AvaliMaleEggSnatcher" Abstract="True">
+    <title>Egg snatcher</title>
+    <titleShort>Snatcher</titleShort>
+    <baseDescription>[PAWN_nameDef] was once very poor until a stranger asked [PAWN_objective] if [PAWN_pronoun] could steal an Avali egg. Without a second thought [PAWN_nameDef] agreed and soon made a living from it, stealing dozens of Avali eggs from tribes around the system and soon becoming infamous for it.</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+      <li>AvaliMaleBackstoryT</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-6</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleEggSnatcher">
+    <defName>AvaliMaleEggSnatcher</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleChef -->
+  <ThingDef Name="AvaliMaleChef" Abstract="True">
+    <title>Chef</title>
+    <titleShort>Chef</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+      <li>AvaliMaleBackstoryT</li>
+    </spawnCategories>
+    <skillGains>
+        <li>
+          <defName>Cooking</defName>
+          <amount>9</amount>
+        </li>
+        <li>
+          <defName>Plants</defName>
+          <amount>9</amount>
+        </li>
+        <li>
+          <defName>Artistic</defName>
+          <amount>6</amount>
+        </li>
+        <!-- <li>
+          <defName>Mining</defName>
+          <amount>-4</amount>
+        </li>
+        <li>
+          <defName>Animals</defName>
+          <amount>-4</amount>
+        </li> -->
+        <li>
+          <defName>Construction</defName>
+          <amount>-8</amount>
+        </li>
+    </skillGains>
+    <workDisables>
+      <li>Mining</li>
+      <li>Animals</li>
+    </workDisables>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleChef">
+    <defName>AvaliMaleChef</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleEliteGuard -->
+  <!-- MAKE RARE -->
+  <ThingDef Name="AvaliMaleEliteGuard" Abstract="True">
+    <title>Elite llluminate guard</title>
+    <titleShort>Elite guard</titleShort>
+    <baseDescription>[PAWN_nameDef] is an elite soldier and was trained to be a hardened and cold blooded killer. [PAWN_pronoun] was is in charge of defending high ranking officials among the Illuminate and would kill anyone if they got too close without a second thought. [PAWN_pronoun] was however taught to never speak unless spoken to and stands as a cold blooded raptor around others. [PAWN_pronoun] also can't do skilled labor due to the fact [PAWN_pronoun] was trained in combat for most of [PAWN_possessive] life.</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>16</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>10</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>ManualSkilled</li>
+      <li>Artistic</li>
+      <li>Caring</li>
+      <li>Animals</li>
+    </workDisables>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleEliteGuard">
+    <defName>AvaliMaleEliteGuard</defName>
+  </AlienRace.BackstoryDef>
+
+  <!-- AvaliMaleFelon -->
+  <ThingDef Name="AvaliMaleFelon" Abstract="True">
+    <title>Former criminal</title>
+    <titleShort>Criminal</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+      <li>AvaliMaleBackstoryT</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-9</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-6</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleFelon">
+    <defName>AvaliMaleFelon</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleAssassin -->
+  <!-- MAKE RARE -->
+  <ThingDef Name="AvaliMaleAssassin" Abstract="True">
+    <title>Assassin</title>
+    <titleShort>Assassin</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>9</amount>
+      </li>
+      <!-- <li>
+        <defName>Cooking</defName>
+        <amount>-10</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-10</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-10</amount>
+      </li> -->
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+      <li>PlantWork</li>
+      <li>Cooking</li>
+    </workDisables>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleAssassin">
+    <defName>AvaliMaleAssassin</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleToymaker -->
+  <ThingDef Name="AvaliMaleToymaker" Abstract="True">
+    <title>Sculpturer</title>
+    <titleShort>Sculpturer</titleShort>
+    <baseDescription></baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+      <li>AvaliMaleBackstoryT</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-6</amount>
+      </li>
+    </skillGains>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleToymaker">
+    <defName>AvaliMaleToymaker</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleMiner -->
+  <ThingDef Name="AvaliMaleMiner" Abstract="True">
+    <title>Miner</title>
+    <titleShort>Miner</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <!-- <li>
+        <defName>Cooking</defName>
+        <amount>-10</amount>
+      </li> -->
+    </skillGains>
+    <workDisables>
+      <li>Cooking</li>
+    </workDisables>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleMiner">
+    <defName>AvaliMaleMiner</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleScientist -->
+  <ThingDef Name="AvaliMaleScientist" Abstract="True">
+    <title>Scientist</title>
+    <titleShort>Scientist</titleShort>
+    <baseDescription>Placeholder </baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>100</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+        <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>6</amount>
+      </li>
+      <!-- <li>
+        <defName>Mining</defName>
+        <amount>-10</amount>
+      </li> -->
+      <li>
+        <defName>Shooting</defName>
+        <amount>-5</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-5</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Mining</li>
+    </workDisables>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleScientist">
+    <defName>AvaliMaleScientist</defName>
+  </AlienRace.BackstoryDef>
+   
+  <!-- AvaliMaleStarbound -->
+  <ThingDef Name="AvaliMaleStarbound" Abstract="True">
+    <title>Space adventurer</title>
+    <titleShort>Space adventurer</titleShort>
+    <baseDescription>Placeholder</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>AvaliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+    </forcedHediffs>
+  </ThingDef>
+   
+  <AlienRace.BackstoryDef ParentName="AvaliMaleStarbound">
+    <defName>AvaliMaleStarbound</defName>
+  </AlienRace.BackstoryDef>
+
+</Defs>

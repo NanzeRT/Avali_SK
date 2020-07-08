@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--============================== Beds ==============================-->
+  
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>AvaliPillow</defName>
+    <label>pillow</label>
+    <description>Avali living spaces are soft and warm, you can just sleep on the floor curled up with your pack.</description>
+    <thingClass>Building_Bed</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Pillow/AvaliPillow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.8</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>200</WorkToBuild>
+      <Mass>0.25</Mass>
+      <BedRestEffectiveness>0.95</BedRestEffectiveness>
+      <Comfort>0.68</Comfort>
+      <ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <building>
+      <bed_showSleeperBody>True</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
+      <isSittable>true</isSittable>
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>Dresser</li>
+          <li>EndTable</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <fillPercent>0</fillPercent>
+    <pathCost>10</pathCost>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designationHotKey>Misc2</designationHotKey>
+    <passability>Standable</passability>
+    <canOverlapZones>True</canOverlapZones>
+    <!-- <researchPrerequisites>
+      <li>AvaliWeaving</li>
+    </researchPrerequisites> -->
+  </ThingDef>
+  
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>AvaliCushion</defName>
+    <label>cushion</label>
+    <description>Lie on them, sleep on them, pile them up, make a fort out of them... cushions, the building blocks of furniture!</description>
+    <thingClass>Building_Bed</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Cushion/AvaliCushion</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.5</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/Furniture/Cushion/AvaliCushion_MenuIcon</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+      <WorkToBuild>400</WorkToBuild>
+      <Mass>2</Mass>
+      <BedRestEffectiveness>1</BedRestEffectiveness>
+      <Comfort>0.75</Comfort>
+      <ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <building>
+      <bed_showSleeperBody>True</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
+      <isSittable>true</isSittable>
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>Dresser</li>
+          <li>EndTable</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <fillPercent>0.3</fillPercent>
+    <pathCost>30</pathCost>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designationHotKey>Misc2</designationHotKey>
+    <passability>PassThroughOnly</passability>
+    <canOverlapZones>True</canOverlapZones>
+    <!-- <researchPrerequisites>
+      <li>AvaliWeaving</li>
+    </researchPrerequisites> -->
+  </ThingDef>
+  
+  <!--
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>AvaliHammock</defName>
+    <label>hammock</label>
+    <description>Cheat the creepy-crawlies by sleeping suspended in the air.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Hammock/Hammock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+      <WorkToBuild>300</WorkToBuild>
+      <Mass>1</Mass>
+      <BedRestEffectiveness>1</BedRestEffectiveness>
+      <Comfort>0.68</Comfort>
+      <ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <placeWorkers>
+      <li>Avali.PlaceWorker_NearTallBuildingOnly</li>
+    </placeWorkers>
+    <building>
+      <bed_showSleeperBody>True</bed_showSleeperBody>
+      <bed_healPerDay>4</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
+      <isSittable>true</isSittable>
+    </building>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <altitudeLayer>Weather</altitudeLayer>
+		<passability>Standable</passability>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designationHotKey>Misc2</designationHotKey>
+  </ThingDef>
+  -->
+  
+  <!-- ======================== Chairs ======================= -->
+  
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>AvaliChair</defName>
+    <label>avali office chair</label>
+    <description>A standard chair, suitable for sitting at a desk.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Chair/AvaliChair</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+     <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+      <Comfort>0.85</Comfort>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <costList>
+      <Steel>45</Steel>
+    </costList>
+    <pathCost>30</pathCost>
+    <fillPercent>0.35</fillPercent>
+    <designationHotKey>Misc8</designationHotKey>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <isSittable>true</isSittable>
+    </building>
+    <researchPrerequisites>
+      <li>AvaliPrinting</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>AvaliArmchair</defName>
+    <label>Maglev armchair</label>
+    <description>Best not sit on it if you're carrying magnetic media.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Armchair/AvaliArmchair</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <!-- <drawSize>1.5</drawSize> -->
+      <drawSize>(2.5,2.5)</drawSize>
+      <shadowData>
+        <volume>(0.6, 0.6, 0.6)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>20000</WorkToBuild>
+      <Mass>14</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+      <Comfort>1.0</Comfort>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <pathCost>30</pathCost>
+    <fillPercent>0.40</fillPercent>
+    <designationHotKey>Misc8</designationHotKey>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <isSittable>true</isSittable>
+    </building>
+    <researchPrerequisites>
+      <li>AvaliPrinting</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <!-- ======================== Tables ======================= -->
+  
+  <ThingDef ParentName="FurnitureWithQualityBase" Name="AvaliTableBase" Abstract="True">
+    <description>A rather low but large table.</description>
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <canOverlapZones>false</canOverlapZones>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <surfaceType>Eat</surfaceType>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <researchPrerequisites>
+      <li>AvaliPrinting</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="AvaliTableBase" Name="AvaliTableGatherSpotBase" Abstract="True">
+    <comps>
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliTableBase">
+    <defName>AvaliTable1x1c</defName>
+    <label>avali round table (1x1)</label>
+    <description>A small aerogel table for 4 persons. Can be placed near bed to make it a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one table near the same bed has no effect.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Table/AvaliRoundTable</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.25,1)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.2</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <pathCost>60</pathCost>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costList>
+      <AvaliAerogel>10</AvaliAerogel>
+      <Steel>5</Steel>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>AvaliAerogel</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliTableGatherSpotBase">
+    <defName>AvaliTable2x2c</defName>
+    <label>avali round table (2x2)</label>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Table/AvaliRoundTable</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2.25,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.27,1.9,1.73)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <size>(2,2)</size>
+    <costList>
+      <AvaliAerogel>20</AvaliAerogel>
+      <Steel>10</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.2</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <rotatable>false</rotatable>
+    <researchPrerequisites>
+      <li>AvaliAerogel</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliTableGatherSpotBase">
+    <defName>AvaliTable3x3c</defName>
+    <label>avali round table (3x3)</label>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Table/AvaliRoundTable</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.5, 3)</drawSize>
+      <damageData>
+        <rect>(0.05,0.27,2.9,2.73)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <costList>
+      <AvaliAerogel>40</AvaliAerogel>
+      <Steel>20</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>175</MaxHitPoints>
+      <WorkToBuild>3300</WorkToBuild>
+      <Mass>22</Mass>
+      <Flammability>0.2</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <size>(3,3)</size>
+    <rotatable>false</rotatable>
+    <researchPrerequisites>
+      <li>AvaliAerogel</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliTableGatherSpotBase">
+    <defName>AvaliTable1x2c</defName>
+    <label>avali table (1x2)</label>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Table/AvaliTable2x4/AvaliTable2x4</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,2)</drawSize>
+      <damageData>
+        <rectN>(0,0.27,1,1.73)</rectN>
+        <rectS>(0,0.27,1,1.73)</rectS>
+        <rectE>(0.125,0.27,1.75,0.73)</rectE>
+        <rectW>(0.125,0.27,1.75,0.73)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Steel>28</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>750</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0.2</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <size>(1,2)</size>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <castEdgeShadows>true</castEdgeShadows>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliTableGatherSpotBase">
+    <defName>AvaliTable2x4c</defName>
+    <label>avali table (2x4)</label>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Table/AvaliTable2x4/AvaliTable2x4</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,4)</drawSize>
+      <damageData>
+        <rectN>(0,0.27,2,3.73)</rectN>
+        <rectS>(0,0.27,2,3.73)</rectS>
+        <rectE>(0.125,0.27,3.75,1.73)</rectE>
+        <rectW>(0.125,0.27,3.75,1.73)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Steel>95</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0.2</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <size>(2,4)</size>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <castEdgeShadows>true</castEdgeShadows>
+  </ThingDef>
+  
+  <!-- ======================== Carpets ======================= -->
+  
+  <ThingDef ParentName="FurnitureWithQualityBase" Name="AvaliCarpetBase" Abstract="True">
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <designationCategory>Floors</designationCategory>
+    <building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <!-- <researchPrerequisites>
+      <li>AvaliWeaving</li>
+    </researchPrerequisites> -->
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliCarpetBase">
+    <defName>AvaliCarpet1x1c</defName>
+    <label>avali carpet (1x1)</label>
+    <description>A small carpet. Usually placed at the entrance to the tent.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Carpet/AvaliCarpet1x1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+     <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>6</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <designationHotKey>Misc8</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliCarpetBase">
+    <defName>AvaliCarpet1x4c</defName>
+    <label>avali carpet (1x4)</label>
+    <description>A long carpet. Usually placed at the center of the tent.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Carpet/AvaliCarpet1x5</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+     <drawSize>(1,4)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>18</Beauty>
+    </statBases>
+    <size>(1,4)</size>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <designationHotKey>Misc8</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliCarpetBase">
+    <defName>AvaliCarpet4x2c</defName>
+    <label>avali carpet (4x2)</label>
+    <description>A big carpet. Usually placed at the center of the tent.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Carpet/AvaliCarpet4x2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+     <drawSize>(4,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>30</Beauty>
+    </statBases>
+    <size>(4,2)</size>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>140</costStuffCount>
+    <designationHotKey>Misc8</designationHotKey>
+  </ThingDef>
+  
+  <!-- ======================== Lighting ======================= -->
+  
+  <ThingDef Abstract="True" Name="AvaliLampBase" ParentName="FurnitureBase">
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>8</pathCost>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>170</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <researchPrerequisites>
+      <li>AvaliLighting</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="AvaliLampBase">
+    <defName>AvaliAerogelLight</defName>
+    <label>avali crystal garden</label>
+    <description>It's a little garden of carefully woven crystals in a bowl with LED backlight.</description>
+    <designationHotKey>Misc11</designationHotKey>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Light/AvaliCrystalLight</texPath>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costList>
+      <AvaliAerogel>10</AvaliAerogel>
+      <Steel>10</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>1</Mass>
+      <Beauty>2</Beauty>
+    </statBases>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtFurniture</nameMaker>
+        <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>10</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(200,150,0,0)</glowColor>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <researchPrerequisites>
+      <li>AvaliAerogel</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliLampBase">
+    <defName>AvaliStandingLight</defName>
+    <label>avali standing lamp</label>
+    <description>Standing Avali LED lamp. Cheap, light and efficient.</description>
+    <designationHotKey>Misc11</designationHotKey>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Light/AvaliStandingLight</texPath>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/Furniture/Light/AvaliStandingLight_MenuIcon</uiIconPath>
+    <costList>
+      <Steel>25</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliLampBase">
+    <defName>AvaliCellingLight</defName>
+    <label>avali celling lamp</label>
+    <description>An Avali celling LED lamp. Cheap, light and efficient.</description>
+    <designationHotKey>Misc11</designationHotKey>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Light/AvaliCellingLight</texPath>
+    </graphicData>
+    <altitudeLayer>Weather</altitudeLayer>
+		<passability>Standable</passability>
+    <costList>
+      <Steel>15</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>Avali.PlaceWorker_UnderRoofOnly</li>
+    </placeWorkers>
+    <building>
+			<isEdifice>false</isEdifice>
+		</building>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliLampBase">
+    <defName>AvaliFloorLight</defName>
+    <label>avali floor light panel</label>
+    <description>An Avali floor light panel.</description>
+    <designationHotKey>Misc11</designationHotKey>
+    <fillPercent>0</fillPercent>
+    <pathCost>0</pathCost>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Light/AvaliFloorLight</texPath>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+    <costList>
+      <Steel>20</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+    <building>
+			<isEdifice>false</isEdifice>
+		</building>
+  </ThingDef>
+</Defs>

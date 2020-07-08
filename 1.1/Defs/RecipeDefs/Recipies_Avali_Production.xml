@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!-- MakeAvaliGraphene -->
+  <RecipeDef>
+		<defName>MakeAvaliGraphene</defName>
+		<label>Weave graphene</label>
+		<description>Weave a graphene.</description>
+		<jobString>Weaving graphene.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AvaliGraphene>10</AvaliGraphene>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<!-- <researchPrerequisite>AvaliWeaving</researchPrerequisite> -->
+	</RecipeDef>
+  
+  <!-- MakeAvaliNanoFibre -->
+	<RecipeDef>
+		<defName>MakeAvaliNanoFibre</defName>
+		<label>Make nanofibre</label>
+		<description>Make a nanofibre.</description>
+		<jobString>Making nanofibre.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliGraphene</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AvaliGraphene</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AvaliNanoFibre>10</AvaliNanoFibre>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>AvaliWeaving</researchPrerequisite>
+	</RecipeDef>
+  
+  <!-- MakeAvaliAerogel -->
+  <RecipeDef>
+		<defName>MakeAvaliAerogel</defName>
+		<label>Print aerogel</label>
+		<description>Print a aerogel.</description>
+		<jobString>Printing aerogel.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliGraphene</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AvaliGraphene</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AvaliAerogel>10</AvaliAerogel>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>AvaliAerogel</researchPrerequisite>
+	</RecipeDef>
+  
+  <!-- MakePlasteel -->
+	<RecipeDef>
+		<defName>MakePlasteel</defName>
+		<label>Make plasteel</label>
+		<description>Make a plasteel.</description>
+		<jobString>Making plasteel.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliNanoFibre</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AvaliNanoFibre</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Plasteel>10</Plasteel>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>AvaliPlasteel</researchPrerequisite>
+	</RecipeDef>
+</Defs> 

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- Well, hello there~ -->
+
+<AlienRace.BackstoryDef>
+	<defName>NukoHero</defName>
+	<title>Young hero</title>
+	<titleShort>Young hero</titleShort>
+	<baseDescription>[PAWN_possessive] tribe was destroyed during a pirate raid. [PAWN_nameDef] and [PAWN_possessive] packmates were captured. [PAWN_pronoun] managed to break free and release the rest. Together they killed the small crew and captured the ship which transported them.</baseDescription>
+	<slot>Childhood</slot>
+  <bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>0</maleCommonality>
+	<femaleCommonality>100</femaleCommonality>
+	<spawnCategories>
+		<li>AvaliNukoBackstory</li>
+	</spawnCategories>
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>6</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>6</amount>
+		</li>
+	</skillGains>
+  <forcedTraits>
+    <li>
+      <defName>Abrasive</defName>
+    </li>
+    <li>
+      <defName>Bloodlust</defName>
+    </li>
+  </forcedTraits>
+  <forcedHediffs>
+    <li>AvaliBiology</li>
+  </forcedHediffs>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+	<defName>NukoProtector</defName>
+  <title>Grand protector</title>
+	<titleShort>Grand protector</titleShort>
+	<baseDescription>[PAWN_nameDef] was the first Avali protector. On [PAWN_possessive] graduation day unknown entity attacked Earth. [PAWN_nameDef] lost all their pack but was able to escape from the Earth before it was annihilated. After some time [PAWN_pronoun] tracked down the monster and killed it, thereby saving the galaxy and avenging [PAWN_possessive] pack.\nDuring the exploration of ancient precursor civilization ruins [PAWN_objective] found some sort of transdimensional transportation device, activated it and found himself on this rimworld.</baseDescription>
+	<slot>Adulthood</slot>
+  <bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<maleCommonality>0</maleCommonality>
+	<femaleCommonality>100</femaleCommonality>
+	<spawnCategories>
+		<li>AvaliNukoBackstory</li>
+	</spawnCategories>
+  <forcedTraits>
+    <li>
+      <defName>Psychopath</defName>
+    </li>
+  </forcedTraits>
+	<skillGains>
+		<li>
+			<defName>Shooting</defName>
+			<amount>10</amount>
+		</li>
+		<li>
+			<defName>Melee</defName>
+			<amount>10</amount>
+		</li>
+		<li>
+			<defName>Social</defName>
+			<amount>-10</amount>
+		</li>
+		<li>
+			<defName>Animals</defName>
+			<amount>0</amount>
+		</li>
+		<li>
+			<defName>Medicine</defName>
+			<amount>10</amount>
+		</li>
+		<li>
+			<defName>Cooking</defName>
+			<amount>10</amount>
+		</li>
+		<li>
+			<defName>Construction</defName>
+			<amount>10</amount>
+		</li>
+		<li>
+			<defName>Plants</defName>
+			<amount>8</amount>
+		</li>
+		<li>
+			<defName>Mining</defName>
+			<amount>10</amount>
+		</li>
+		<li>
+			<defName>Artistic</defName>
+			<amount>10</amount>
+		</li>
+		<li>
+			<defName>Crafting</defName>
+			<amount>10</amount>
+		</li>
+		<li>
+			<defName>Intellectual</defName>
+			<amount>10</amount>
+		</li>
+	</skillGains>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.PawnBioDef>
+    <defName>AvaliNuko</defName>
+    <childhoodDef>NukoHero</childhoodDef>
+    <adulthoodDef>NukoProtector</adulthoodDef>
+    <gender>Female</gender>
+    <name>
+      <first>Nuko</first>
+      <last>Sharptalon</last>
+      <nick>Nuko</nick>
+    </name>
+    <factionLeader>true</factionLeader>
+    <validRaces>
+      <li>Avali</li>
+    </validRaces>
+    <forcedHediffs>
+      <li>GuardianNanites</li>
+      <li>ImmunityNanites</li>
+      
+      <li>AvaliSightAugment</li>
+      <li>AvaliSightAugment</li>
+      <li>AvaliHearingAugment</li>
+      <li>AvaliHearingAugment</li>
+      <li>AvaliHearingAugment</li>
+      <li>AvaliHearingAugment</li>
+      <li>AvaliCoolAugment</li>
+      <li>AvaliHeatAugment</li>
+      <li>AvaliPackLossAugment</li>
+      
+      <li>PlasteelAvaliTalons</li>
+      <li>PlasteelAvaliTalons</li>
+      <li>PlasteelAvaliTalons</li>
+      <li>PlasteelAvaliTalons</li>
+      
+      <li>CyberneticAvaliHead</li>
+      <li>CyberneticAvaliBody</li>
+      <li>CyberneticAvaliLeg</li>
+      <li>CyberneticAvaliLeg</li>
+      <li>CyberneticAvaliArm</li>
+      <li>CyberneticAvaliArm</li>
+      <li>CyberneticAvaliTail</li>
+    </forcedHediffs>
+</AlienRace.PawnBioDef>
+</Defs>

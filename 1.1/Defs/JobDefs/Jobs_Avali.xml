@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>GotoForLovinAvali</defName>
+    <driverClass>Avali.JobDriver_GotoForLovinAvali</driverClass>
+    <reportString>moving.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  
+  <JobDef>
+    <defName>FindPartnerForLovinAvali</defName>
+    <driverClass>Avali.JobDriver_FindPartnerForLovinAvali</driverClass>
+    <reportString>waiting for [PAWN_possessive] turn.</reportString>
+    <!-- <joyGainRate>1</joyGainRate>
+     <joyKind>Social</joyKind> -->
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  
+  <JobDef>
+    <defName>WatchLovinAvali</defName>
+    <!-- <driverClass>Avali.JobDriver_WatchLovinAvali</driverClass> -->
+    <reportString>watching.</reportString>
+    <joyGainRate>0.5</joyGainRate>
+    <joyKind>Social</joyKind>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  
+  <JobDef>
+    <defName>LovinAvali</defName>
+    <driverClass>Avali.JobDriver_LovinAvali</driverClass>
+    <reportString>lovin'.</reportString>
+    <joyGainRate>1</joyGainRate>
+    <joyKind>Social</joyKind>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  
+  <JobDef>
+    <defName>LovinAvaliPartner</defName>
+    <driverClass>JobDriver_Wait</driverClass>
+    <reportString>lovin'.</reportString>
+    <joyGainRate>1</joyGainRate>
+    <joyKind>Social</joyKind>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  
+  <JobDef>
+    <defName>GotoLayAvaliEgg</defName>
+    <driverClass>Avali.JobDriver_GotoLayAvaliEgg</driverClass>
+    <reportString>moving to lay egg.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  
+  <JobDef>
+    <defName>LayAvaliEgg</defName>
+    <!-- <driverClass>Avali.JobDriver_LayAvaliEgg</driverClass> -->
+    <reportString>laying egg.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  
+  <JobDef>
+    <defName>CheckAvaliEgg</defName>
+    <driverClass>Avali.JobDriver_CheckAvaliEgg</driverClass>
+    <reportString>caring of egg.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>

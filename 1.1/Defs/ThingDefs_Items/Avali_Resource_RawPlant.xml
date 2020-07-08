@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Abstract="True" Name="AvaliOrganicProductBase" ParentName="ResourceBase">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+			<Mass>0.03</Mass>
+    </statBases>
+    <tickerType>Rare</tickerType>
+  </ThingDef>
+  
+  <ThingDef Abstract="True" Name="AvaliPlantFoodRawBase" ParentName="AvaliOrganicProductBase">
+    <ingestible>
+      <preferability>RawBad</preferability>
+			<tasteThought>AteAvaliFoodRaw</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliPlantFoodRawBase">
+    <defName>RawKiriFruits</defName>
+    <label>kiri fruits</label>
+    <description>The fruiting body of a subterranean slime mold... delicious, I guess?</description>
+    <graphicData>
+      <texPath>Things/Items/Resource/PlantFoodRaw/KiriFruits</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <!-- Plant matter (inedible by people) -->
+  
+  <ThingDef ParentName="AvaliOrganicProductBase" Name="AvaliRoughPlantBase" Abstract="True">
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliRoughPlantBase">
+    <defName>RawNakatiBarks</defName>
+    <label>nakati barks</label>
+    <description>The spicy bark of the Nakati plant. Usually ground up before use.</description>
+    <graphicData>
+      <texPath>Things/Items/Resource/PlantFoodRaw/NakatiBarks</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliRoughPlantBase">
+    <defName>RawPiruFlour</defName>
+    <label>piru flour</label>
+    <description>Piru frond, ground down into a versatile flour-like substance. Not exactly edible.</description>
+    <graphicData>
+      <texPath>Things/Items/Resource/PlantFoodRaw/PiruFlour</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+  </ThingDef>
+</Defs>

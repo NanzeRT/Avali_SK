@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TerrainDef Name="AvaliFloorBase" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <designationCategory>Floors</designationCategory>
+    <fertility>0</fertility>
+    <statBases>
+      <Beauty>1</Beauty>
+      <WorkToBuild>50</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <constructEffect>ConstructDirt</constructEffect>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </TerrainDef>
+
+  <!-- ================= Misc ================= -->
+  
+  <TerrainDef ParentName="AvaliFloorBase">
+    <defName>AvaliPlainPanel</defName>
+    <label>plain panel</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Plain paneling, because sometimes less is more.</description>
+    <texturePath>Terrain/Floors/AvaliPlainPanel</texturePath>
+    <costList>
+      <Steel>7</Steel>
+    </costList>
+    <statBases>
+      <WorkToBuild>700</WorkToBuild>
+    </statBases>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc3</designationHotKey>
+    <researchPrerequisites>
+      <li>AvaliPrinting</li>
+    </researchPrerequisites>
+  </TerrainDef>
+  
+  <!-- ================= Carpets ================= -->
+
+  <TerrainDef Name="AvaliCarpetFloorBase" ParentName="AvaliFloorBase" Abstract="True">
+    <burnedDef>BurnedCarpet</burnedDef>
+    <costList>
+      <AvaliNanoFibre>5</AvaliNanoFibre>
+    </costList>
+    <designatorDropdown>Floor_Carpet</designatorDropdown>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <researchPrerequisites>
+      <li>AvaliWeaving</li>
+    </researchPrerequisites>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="AvaliCarpetFloorBase">
+    <defName>AvaliTentFabric</defName>
+    <label>tent fabric</label>
+    <renderPrecedence>243</renderPrecedence>
+    <description>Avali tent fabric.</description>
+    <texturePath>Terrain/Floors/AvaliTentFabric</texturePath>
+    <designationHotKey>Misc4</designationHotKey>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="AvaliCarpetFloorBase">
+    <defName>AvaliTapestry</defName>
+    <label>avali tapestry</label>
+    <renderPrecedence>243</renderPrecedence>
+    <description>A soft, decorative tapestry.</description>
+    <texturePath>Terrain/Floors/AvaliTapestry</texturePath>
+    <costList>
+      <AvaliNanoFibre>7</AvaliNanoFibre>
+    </costList>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
+    <designationHotKey>Misc5</designationHotKey>
+  </TerrainDef>
+
+  <TerrainDef ParentName="AvaliCarpetFloorBase">
+    <defName>AvaliTrimHorizontal</defName>
+    <label>avali horizontal trim</label>
+    <renderPrecedence>243</renderPrecedence>
+    <description>A soft, decorative trim material.</description>
+    <texturePath>Terrain/Floors/AvaliTrimHorizontal</texturePath>
+    <designationHotKey>Misc6</designationHotKey>
+  </TerrainDef>
+
+  <TerrainDef ParentName="AvaliCarpetFloorBase">
+    <defName>AvaliTrimVertical</defName>
+    <label>avali vertical trim</label>
+    <renderPrecedence>243</renderPrecedence>
+    <description>A soft, decorative trim material.</description>
+    <texturePath>Terrain/Floors/AvaliTrimVertical</texturePath>
+    <designationHotKey>Misc7</designationHotKey>
+  </TerrainDef>
+</Defs>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef Name="AvaliNanitesBase" Abstract="True" ParentName="ResourceBase">
+	<techLevel>Ultra</techLevel>
+  <thingCategories>
+    <li>NanitesAvali</li>
+  </thingCategories>
+  <graphicData>
+    <texPath>Things/Items/Special/AvaliNaniteInjector</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>0.80</drawSize>
+  </graphicData>
+  <recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+    <recipeUsers>
+			<li>AvaliNanolathe</li>
+		</recipeUsers>
+		<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+		</skillRequirements>
+    <researchPrerequisite>AvaliNanites</researchPrerequisite>
+	</recipeMaker>
+  <tradeTags Inherit="False">
+    <li>AvaliNanites</li>
+    <li>Exotic</li>
+  </tradeTags>
+	<inspectorTabs>
+		<li>ITab_Art</li>
+	</inspectorTabs>
+</ThingDef>
+  
+  <!--=============== Guardian Nanites Injector ====================-->
+  <ThingDef ParentName="AvaliNanitesBase">
+    <defName>GuardianNanitesInjector</defName>
+    <label>guardian nanites injector</label>
+    <description>Injects in user body self-sufficient nanites which make the carrier body immune to pathogenic bacterias such as malaria, plague and flu. Note that after injection nanites can't be removed from the carrier body.</description>
+    <costList>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <!--=============== Immunity Nanites Injector ====================-->
+  <ThingDef ParentName="AvaliNanitesBase">
+    <defName>ImmunityNanitesInjector</defName>
+    <label>immunity nanites injector</label>
+    <description>Injects in user body self-sufficient nanites which strengthen carrier's immunity. Note that after injection nanites can't be removed from the carrier body.</description>
+    <costList>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+</Defs>

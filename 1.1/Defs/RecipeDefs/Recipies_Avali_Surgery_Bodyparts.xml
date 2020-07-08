@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>  
+<RecipeDef Name="SurgeryAvali" ParentName="SurgeryFlesh" Abstract="True">
+	<recipeUsers>
+		<li>Avali</li>
+	</recipeUsers>
+  <skillRequirements>
+		<Medicine>5</Medicine>
+  </skillRequirements>
+</RecipeDef>
+
+<RecipeDef Name="SurgeryAvaliSimple" Abstract="True">
+  <effectWorking>Surgery</effectWorking>
+  <soundWorking>Recipe_Surgery</soundWorking>
+  <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+  <workSkill>Medicine</workSkill>
+  <workSkillLearnFactor>16</workSkillLearnFactor>
+  <recipeUsers>
+		<li>Avali</li>
+	</recipeUsers>
+  <skillRequirements>
+		<Medicine>2</Medicine>
+  </skillRequirements>
+  <surgerySuccessChanceFactor>2</surgerySuccessChanceFactor>
+</RecipeDef>
+
+<!-- InstallAvaliTail -->
+<RecipeDef ParentName="SurgeryAvali">
+	<defName>InstallAvaliTail</defName>
+	<label>install tail</label>
+	<description>Replace missing or damaged tail.</description>
+	<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+	<jobString>Installing tail.</jobString>
+	<workAmount>1200</workAmount>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>TailAvali</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>TailAvali</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>TailAvali</li>
+	</appliedOnFixedBodyParts>
+</RecipeDef>
+
+<!-- InstallCyberneticAvaliTail -->
+<RecipeDef ParentName="SurgeryAvali">
+	<defName>InstallCyberneticAvaliTail</defName>
+	<label>install cybernetic tail</label>
+	<description>Installs cybernetic tail.</description>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>Installing cybernetic tail.</jobString>
+	<workAmount>1200</workAmount>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>CyberneticAvaliTail</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>CyberneticAvaliTail</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>TailAvali</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>CyberneticAvaliTail</addsHediff>
+</RecipeDef>
+
+<!-- InstallCyberneticAvaliBody -->
+<RecipeDef ParentName="SurgeryAvali">
+	<defName>InstallCyberneticAvaliBody</defName>
+	<label>Perform body replacement</label>
+	<description>Perform body replacement to cybernetic.</description>
+	<workerClass>Recipe_InstallImplant</workerClass>
+	<jobString>Performs body replacement.</jobString>
+	<workAmount>4800</workAmount>
+  <skillRequirements>
+		<Medicine>10</Medicine>
+  </skillRequirements>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>CyberneticAvaliBody</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>CyberneticAvaliBody</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>Torso</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>CyberneticAvaliBody</addsHediff>
+</RecipeDef>
+
+<!-- InstallCyberneticAvaliHead -->
+<RecipeDef ParentName="SurgeryAvali">
+	<defName>InstallCyberneticAvaliHead</defName>
+	<label>Perform head replacement</label>
+	<description>Perform head replacement to cybernetic.</description>
+	<workerClass>Recipe_InstallImplant</workerClass>
+	<jobString>Performs head replacement.</jobString>
+	<workAmount>2400</workAmount>
+  <skillRequirements>
+		<Medicine>10</Medicine>
+  </skillRequirements>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>CyberneticAvaliHead</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>CyberneticAvaliHead</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>Head</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>CyberneticAvaliHead</addsHediff>
+</RecipeDef>
+
+<!-- InstallCyberneticAvaliLeg -->
+<RecipeDef ParentName="SurgeryAvali">
+	<defName>InstallCyberneticAvaliLeg</defName>
+	<label>install cybernetic leg</label>
+	<description>Installs cybernetic leg.</description>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>Installing cybernetic leg.</jobString>
+	<workAmount>1200</workAmount>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>CyberneticAvaliLeg</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>CyberneticAvaliLeg</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>Leg</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>CyberneticAvaliLeg</addsHediff>
+</RecipeDef>
+
+<!-- InstallCyberneticAvaliArm -->
+<RecipeDef ParentName="SurgeryAvali">
+	<defName>InstallCyberneticAvaliArm</defName>
+	<label>install cybernetic arm</label>
+	<description>Installs cybernetic arm.</description>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>Installing cybernetic arm.</jobString>
+	<workAmount>1200</workAmount>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>CyberneticAvaliArm</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>CyberneticAvaliArm</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>Shoulder</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>CyberneticAvaliArm</addsHediff>
+</RecipeDef>
+
+<!-- InstallClothAvaliEar -->
+<RecipeDef ParentName="SurgeryAvaliSimple">
+	<defName>InstallClothAvaliEar</defName>
+	<label>install cloth ear</label>
+	<description>Installs cloth ear.</description>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>Installing cloth ear.</jobString>
+	<workAmount>1200</workAmount>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Cloth</li>
+				</thingDefs>
+			</filter>
+			<count>2</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>Cloth</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>EarAvali</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>ClothAvaliEar</addsHediff>
+</RecipeDef>
+
+<!-- InstallClothAvaliTail -->
+<RecipeDef ParentName="SurgeryAvaliSimple">
+	<defName>InstallClothAvaliTail</defName>
+	<label>install cloth tail</label>
+	<description>Installs cloth tail.</description>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>Installing cloth tail.</jobString>
+	<workAmount>1200</workAmount>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Cloth</li>
+				</thingDefs>
+			</filter>
+			<count>3</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>Cloth</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>TailAvali</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>ClothAvaliTail</addsHediff>
+</RecipeDef>
+</Defs> 

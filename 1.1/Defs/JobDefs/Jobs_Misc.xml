@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>TranslateText</defName>
+    <driverClass>Avali.JobDriver_TranslateText</driverClass>
+    <reportString>translating.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>ReadText</defName>
+    <driverClass>Avali.JobDriver_TranslateText</driverClass>
+    <reportString>reading.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>DecipherText</defName>
+    <driverClass>Avali.JobDriver_TranslateText</driverClass>
+    <reportString>deciphering.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>TakeDownedOrDeadPawn</defName>
+    <driverClass>JobDriver_TakeAndExitMap</driverClass>
+    <reportString>carrying TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+  </JobDef>
+  
+  <JobDef>
+    <defName>HackBindedThing</defName>
+    <driverClass>Avali.JobDriver_HackBindedThing</driverClass>
+    <reportString>hacking TargetA.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>PutOn</defName>
+    <driverClass>Avali.JobDriver_PutOn</driverClass>
+    <reportString>putting on TargetB TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  
+  <!-- <JobDef>
+    <defName>ReturnToHisPackmates</defName>
+    <driverClass>JobDriver_Flee</driverClass>
+    <reportString>leaving.</reportString>
+    <suspendable>false</suspendable>
+    <casualInterruptible>false</casualInterruptible>
+    <playerInterruptible>false</playerInterruptible>
+  </JobDef> -->
+</Defs>

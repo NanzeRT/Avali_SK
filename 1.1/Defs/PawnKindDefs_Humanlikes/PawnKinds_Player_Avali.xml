@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<PawnKindDef ParentName="AvaliPawnKindBase">
+	<defName>Avali</defName>
+	<label>colonist</label>
+	<defaultFactionType>AvaliPlayerColony</defaultFactionType>
+  <backstoryCategories>
+    <li>AvaliBackstory</li>
+  </backstoryCategories>
+	<isFighter>false</isFighter>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	<forceNormalGearQuality>true</forceNormalGearQuality>
+	<apparelTags>
+		<li>AvaliCivilian</li>
+    <li>AvaliSpacer</li>
+	</apparelTags>
+	<apparelMoney>500~1800</apparelMoney>
+</PawnKindDef>
+</Defs>

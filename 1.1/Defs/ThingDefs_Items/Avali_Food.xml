@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Avali eat 60% as much as humans. Their food portions should reflect this (default portions were larger than their stomachs). -->
+	
+	<ThingDef ParentName="MealBase" Name="MealSmallBase" Abstract="True">
+		<statBases>
+			<Mass>0.264</Mass>
+		</statBases>
+    <thingCategories Inherit="False">
+      <li>AvaliFoodMeals</li>
+    </thingCategories>
+		<stackLimit>15</stackLimit>
+	</ThingDef>
+	
+	<!-- Small vanilla food. -->
+	
+	<ThingDef ParentName="MealSmallBase">
+		<defName>MealSmallSimple</defName>
+		<label>small simple meal</label>
+		<description>A simple meal quickly cooked from one main ingredient. The portions are sized for something smaller than a human.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Simple</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<WorkToMake>180</WorkToMake>
+			<Nutrition>0.54</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+  <ThingDef ParentName="MealSmallBase">
+    <defName>MealSmallFine</defName>
+    <label>small fine meal</label>
+    <description>A complex dish assembled with care from a variety of ingredients. The portions are sized for something smaller than a human.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Fine</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>12</MarketValue>
+      <WorkToMake>270</WorkToMake>
+      <Nutrition>0.54</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="MealSmallBase">
+    <defName>MealSmallLavish</defName>
+    <label>small lavish meal</label>
+    <description>A masterpiece of the culinary arts, this meal nourishes the body, mind, and soul. The portions are sized for something smaller than a human.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Lavish</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>24</MarketValue>
+      <WorkToMake>480</WorkToMake>
+      <Nutrition>0.6</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+			<tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="MealBase">
+		<defName>MealSmallSurvivalPack</defName>
+		<label>small packaged survival meal</label>
+		<description>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling. The portions are sized for something smaller than a human.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/SurvivalPack</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>0.25</DeteriorationRate>
+			<MarketValue>16</MarketValue>
+			<Mass>0.2</Mass>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<stackLimit>15</stackLimit>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+  
+	<!-- Avali-specific food. -->
+	
+	<ThingDef ParentName="MealSmallBase">
+		<defName>AvaliPiruNoodle</defName>
+		<label>Piru noodle</label>
+		<description>Sweet noodles made from Piru frond flour, a staple of Avali students.</description>
+		<graphicData>
+			<texPath>Things/Items/Meals/PiruNoodle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.75</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>12</MarketValue>
+			<WorkToMake>270</WorkToMake>
+			<Nutrition>0.54</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteAvaliFood</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealSmallBase">
+		<defName>AvaliKiriCurry</defName>
+		<label>Kiri curry</label>
+		<description>Spicy meat noodles with a rich Kiri sauce.</description>
+		<graphicData>
+			<texPath>Things/Items/Meals/KiriCurry</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>27</MarketValue>
+			<WorkToMake>150</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealLavish</preferability>
+			<tasteThought>AteAvaliFoodLavish</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealSmallBase">
+		<defName>AvaliSpicyJerky</defName>
+		<label>Spicy jerky</label>
+		<description>Chunks of seasoned jerky, popular with hunters and explorers.</description>
+		<graphicData>
+			<texPath>Things/Items/Meals/SpicyJerky</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>14</MarketValue>
+			<WorkToMake>270</WorkToMake>
+			<Nutrition>0.54</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteAvaliFood</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealSmallBase">
+		<defName>AvaliTaco</defName>
+		<label>Avalon-style taco</label>
+		<description>Super-hot Nakati-spiced taco; sometimes eaten on a dare by non-Avali.</description>
+		<graphicData>
+			<texPath>Things/Items/Meals/AvaliTaco</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>27</MarketValue>
+			<WorkToMake>420</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealLavish</preferability>
+			<tasteThought>AteAvaliFoodLavish</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealSmallBase">
+		<defName>AvaliEggOmlette</defName>
+		<label>Avali egg omlette</label>
+		<description>Avali egg omlette. It’s very tasty for everyone exept Avali.</description>
+		<graphicData>
+			<texPath>Things/Items/Meals/AvaliEggOmlette</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+      <WorkToMake>360</WorkToMake>
+			<Nutrition>1.0</Nutrition>
+		</statBases>
+		<ingestible>
+			<!-- <preferability>MealLavish</preferability> -->
+			<preferability>RawBad</preferability>
+			<tasteThought>AteAvaliEggOmlette</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+</Defs>

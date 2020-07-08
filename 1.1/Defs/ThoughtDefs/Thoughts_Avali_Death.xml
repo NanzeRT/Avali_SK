@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef Name="DeathMemoryAvali" Abstract="True">
+    <durationDays>30.0</durationDays>
+    <stackLimit>9999</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<showBubble>true</showBubble>
+	</ThoughtDef>
+  
+  <!-- PackmateDied -->
+  <ThoughtDef ParentName="DeathMemoryAvali">
+    <defName>MyPackmateDied</defName>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>my packmate {0} died</label>
+        <description>One of my packmates die. I think I still hear their voice...</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- MyLoverDiedAvali -->
+  <ThoughtDef ParentName="DeathMemoryAvali">
+    <defName>MyLoverDiedAvali</defName>
+    <stages>
+      <li>
+        <label>my lover {0} died</label>
+        <description>My lover died. I am so alone.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- MyCaretakerDied -->
+  <ThoughtDef ParentName="DeathMemoryAvali">
+    <defName>MyCaretakerDied</defName>
+    <stages>
+      <li>
+        <label>my caretaker {0} died</label>
+        <description>My caretaker died. I feel looks like I lost the part of myself.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- MyCaretakerKitDied -->
+  <ThoughtDef ParentName="DeathMemoryAvali">
+    <defName>MyKitDied</defName>
+    <stages>
+      <li>
+        <label>my kit {0} died</label>
+        <description>The kit I cared now dead. I'm a horrible caretaker...</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- MyStepchildDied -->
+  <ThoughtDef ParentName="DeathMemoryAvali">
+    <defName>MyStepchildDied</defName>
+    <stages>
+      <li>
+        <label>my stepchild {0} died</label>
+        <description>The avali child I cared now dead. Why world is so cruel?</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- AvaliHatched -->
+  <ThoughtDef>
+    <defName>AvaliHatched</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>10000.0</durationDays>
+    <stackLimit>20</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>Hatched in colony</label>
+        <baseOpinionOffset>15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- KilledMyPackmate -->
+  <ThoughtDef>
+    <defName>KilledMyPackmate</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120.0</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>killed my packmate</label>
+        <baseOpinionOffset>-80</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- SoldMyPackmate -->
+  <ThoughtDef>
+    <defName>SoldMyPackmate</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>300</stackLimit>
+    <stages>
+      <li>
+        <label>packmate sold</label>
+        <labelSocial>sold my packmate</labelSocial>
+        <description>One of my packmates was sold to a trader like a piece of meat!</description>
+        <baseOpinionOffset>-10</baseOpinionOffset>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- KilledMyLoverAvali -->
+  <ThoughtDef>
+    <defName>KilledMyLoverAvali</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>killed my lover</label>
+        <baseOpinionOffset>-50</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- SoldMyLovedOneAvali -->
+  <ThoughtDef>
+    <defName>SoldMyLovedOneAvali</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>2</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>loved one sold</label>
+        <labelSocial>sold my loved one</labelSocial>
+        <description>Someone I love was sold to a trader like a piece of meat!</description>
+        <baseOpinionOffset>-10</baseOpinionOffset>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- KilledMyCaretaker -->
+  <ThoughtDef>
+    <defName>KilledMyCaretaker</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>killed my caretaker</label>
+        <baseOpinionOffset>-80</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- SoldMyCaretaker -->
+  <ThoughtDef>
+    <defName>SoldMyCaretaker</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>2</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>my caretaker sold</label>
+        <labelSocial>caretaker sold</labelSocial>
+        <description>My caretaker was sold to a trader like a piece of meat!</description>
+        <baseOpinionOffset>-10</baseOpinionOffset>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- KilledMyStepchild -->
+  <ThoughtDef>
+    <defName>KilledMyStepchild</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>killed my stepchild</label>
+        <baseOpinionOffset>-60</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- KilledMyKit -->
+  <ThoughtDef>
+    <defName>KilledMyKit</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>killed my kit</label>
+        <baseOpinionOffset>-80</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- SoldMyStepchild -->
+  <ThoughtDef>
+    <defName>SoldMyStepchild</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>2</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>my stepchild sold</label>
+        <labelSocial>stepchild sold</labelSocial>
+        <description>I loved my stepchild as my own child despite the racial differences but they was sold to a trader like a piece of meat!</description>
+        <baseOpinionOffset>-10</baseOpinionOffset>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- SoldMyKit -->
+  <ThoughtDef>
+    <defName>SoldMyKit</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>2</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>my kit sold</label>
+        <labelSocial>kit sold</labelSocial>
+        <description>My kit was sold to a trader like a piece of meat! You know, you a horrible person!</description>
+        <baseOpinionOffset>-10</baseOpinionOffset>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

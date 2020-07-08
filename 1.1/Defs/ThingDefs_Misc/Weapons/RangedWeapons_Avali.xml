@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ===== Bases ===== -->
+
+  <ThingDef Name="AvaliBaseWeaponRanged" Abstract="True" ParentName="BaseGunWithQuality">
+    <techLevel>Ultra</techLevel>
+    <tradeTags>
+      <li>AvaliRangedWeapon</li>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingCategories Inherit="False">
+      <li>WeaponsRangedAvali</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="AvaliBaseMakeableWeaponRanged" ParentName="AvaliBaseWeaponRanged" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>AvaliNanolathe</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- ===== Test Pistol not forget to remove ===== -->
+  
+  <!--
+    Hack time 1000 sec
+    Skill req:
+    Frostbite - 10 int
+    Coldsnap - 12 int
+    Blizzard - 14 int
+    Avalanche - 14 int
+    Firelance - 16 int
+    Hailstorm - 16 int
+    Firedart - 18 int
+  -->
+  
+  <!-- ===== Avali Pistol ===== -->
+  
+  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+    <defName>GunAvaliPistol</defName>
+    <label>avali 'Frostbite' pistol</label>
+    <description>The basic Avali military grade sidearm.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Pistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.5</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="Avali.CompProperties_WeaponAvali">
+        <useJob>HackBindedThing</useJob>
+        <useLabel>Hack {0}</useLabel>
+        <hackWorkSkill>Intellectual</hackWorkSkill>
+        <hackMinSkillLevel>10</hackMinSkillLevel> 
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>2500</workLeft>
+      </li>
+    </comps>
+    <costList>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Avali.Verb_ShootBinded</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BulletAvaliPistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>Shot_Avali_Pistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>AvaliGunSimple</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>BulletAvaliPistol</defName>
+    <label>avali pistol bullet</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Bullet_Avali</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ===== Avali SMG ===== -->
+
+  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+    <defName>GunAvaliSMG</defName>
+    <label>avali 'Coldsnap' SMG</label>
+    <description>A more compact version of the 'Blizzard', more commonly used in close quaters.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_SMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>16500</WorkToMake>
+      <Mass>0.8</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>45</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="Avali.CompProperties_WeaponAvali">
+        <useJob>HackBindedThing</useJob>
+        <useLabel>Hack {0}</useLabel>
+        <hackWorkSkill>Intellectual</hackWorkSkill>
+        <hackMinSkillLevel>12</hackMinSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>2500</workLeft>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Avali.Verb_ShootBinded</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BulletAvaliSMG</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>24.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>Shot_Avali_SMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>AvaliGunSimple</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>BulletAvaliSMG</defName>
+    <label>avali SMG bullet</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Bullet_Avali</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ===== Avali Assault Rifle ===== -->
+
+  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+    <defName>Gun_Avali_AssaultRifle</defName>
+    <label>avali 'Blizzard' rifle</label>
+    <description>The standard Avali infantry weapon.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Rifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>1.5</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="Avali.CompProperties_WeaponAvali">
+        <useJob>HackBindedThing</useJob>
+        <useLabel>Hack {0}</useLabel>
+        <hackWorkSkill>Intellectual</hackWorkSkill>
+        <hackMinSkillLevel>14</hackMinSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>5000</workLeft>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Avali.Verb_ShootBinded</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BulletAvaliRifle</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>35.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_Avali_Rifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>AvaliGun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>BulletAvaliRifle</defName>
+    <label>avali rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Bullet_Avali</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ===== Avali Shotgun ===== -->
+
+  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+    <defName>GunAvaliShotgun</defName>
+    <label>avali 'Avalanche' shotgun</label>
+    <description>An avali shotgun! Deadly in close quaters, but inaccurate at longer ranges.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>47000</WorkToMake>
+      <Mass>2</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>80</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="Avali.CompProperties_WeaponAvali">
+        <useJob>HackBindedThing</useJob>
+        <useLabel>Hack {0}</useLabel>
+        <hackWorkSkill>Intellectual</hackWorkSkill>
+        <hackMinSkillLevel>14</hackMinSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>5000</workLeft>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Avali.Verb_ShootBinded</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Avali_Shotgun</defaultProjectile>
+        <warmupTime>0.75</warmupTime>
+        <range>20</range>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>Shot_Avali_Shotgun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+   <weaponTags>
+      <li>AvaliGun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Avali_Shotgun</defName>
+    <label>avali shotgun bullet</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Bullet_Avali</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <stoppingPower>5</stoppingPower>
+      <armorPenetrationBase>0.21</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ===== Avali Sniper Rifle ===== -->
+
+  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+    <defName>GunAvaliSniper</defName>
+    <label>avali 'Firelance' anti-material rifle</label>
+    <description>An anti-material sniper rifle more frequently used for hunting armoured vehicles than wildlife.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Sniper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>68000</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>1.0</AccuracyMedium>
+      <AccuracyLong>1.0</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>125</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="Avali.CompProperties_WeaponAvali">
+        <useJob>HackBindedThing</useJob>
+        <useLabel>Hack {0}</useLabel>
+        <hackWorkSkill>Intellectual</hackWorkSkill>
+        <hackMinSkillLevel>16</hackMinSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>5000</workLeft>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Avali.Verb_ShootBinded</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BulletAvaliSniper</defaultProjectile>
+        <warmupTime>6.5</warmupTime>
+        <range>79.9</range>
+        <soundCast>Shot_Avali_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>AvaliGunSniper</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>BulletAvaliSniper</defName>
+    <label>avali sniper rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Bullet_Avali_Sniper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>55</damageAmountBase>
+      <stoppingPower>5</stoppingPower>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ===== Avali Minigun ===== -->
+
+  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+    <defName>GunAvaliMinigun</defName>
+    <label>avali 'Hailstorm' hybrid minigun</label>
+    <description>The primary Avali suppressive fire and support weapon.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Minigun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>90000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>175</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>AvaliMiniguns</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="Avali.CompProperties_WeaponAvali">
+        <useJob>HackBindedThing</useJob>
+        <useLabel>Hack {0}</useLabel>
+        <hackWorkSkill>Intellectual</hackWorkSkill>
+        <hackMinSkillLevel>16</hackMinSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>5000</workLeft>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Avali.Verb_ShootBinded</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BulletAvaliMinigun</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>35.9</range>
+        <burstShotCount>40</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_Avali_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>AvaliGunHeavy</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>BulletAvaliMinigun</defName>
+    <label>avali Minigun Bullet</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Bullet_Avali</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ===== Avali Rocket Launcher ===== -->
+
+  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+    <defName>Gun_Avali_Rocket_Launcher</defName>
+    <label>avali 'Firedart' rocket launcher</label>
+    <description>The primary Avali anti-vehicle weapon.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_rocket_launcher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>120000</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>15</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>200</Plasteel>
+      <AvaliRocket>20</AvaliRocket>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>AvaliRocketLaunchers</researchPrerequisite>
+    </recipeMaker>
+    <comps>
+      <li Class="Avali.CompProperties_WeaponAvali">
+        <useJob>HackBindedThing</useJob>
+        <useLabel>Hack {0}</useLabel>
+        <hackWorkSkill>Intellectual</hackWorkSkill>
+        <hackMinSkillLevel>18</hackMinSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>7500</workLeft>
+      </li>
+      <!-- <li Class="CompProperties_Refuelable">
+        <fuelLabel>Rockets left</fuelLabel>
+        <fuelGizmoLabel>Rockets count</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>AvaliRocket</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>3</fuelCapacity>
+        <initialFuelPercent>0</initialFuelPercent>
+        <autoRefuelPercent>0</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>1</fuelMultiplier>
+        <factorByDifficulty>false</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: No rockets left</outOfFuelMessage>
+        <fuelIconPath>UI/Overlays/Rocket</fuelIconPath>
+      </li> -->
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Avali.Verb_ShootBinded</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Avali_Rocket</defaultProjectile>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>5.0</warmupTime>
+        <ai_AvoidFriendlyFireRadius>7</ai_AvoidFriendlyFireRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <range>39.9</range>
+        <soundCast>Shot_Avali_RocketLauncher</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <!-- <consumeFuelPerShot>1</consumeFuelPerShot> -->
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>AvaliGunDestructive</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.33</MoveSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Avali_Rocket</defName>
+    <label>avali rocket</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Rocket_Avali</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <explosionRadius>4.9</explosionRadius>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================= Test and Drone weapons ================= -->
+
+  <ThingDef ParentName="AvaliBaseWeaponRanged">
+    <defName>Gun_Avali_Test</defName>
+    <label>avali testing pistol</label>
+    <description>For testing only.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Pistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <tradeability>None</tradeability>
+    <statBases>
+      <Mass>0.5</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="Avali.CompProperties_WeaponAvali">
+        <useJob>HackBindedThing</useJob>
+        <useLabel>Hack {0}</useLabel>
+        <hackWorkSkill>Intellectual</hackWorkSkill>
+        <hackMinSkillLevel>1</hackMinSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>10</workLeft>
+        <!-- <requredFacilities> returns linkedFacilities.Count = 0 even when have linked facilities. Need fix
+          <li>MultiAnalyzer</li>
+        </requredFacilities> -->
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Avali.Verb_ShootBinded</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BulletAvaliPistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>Shot_Avali_Pistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <menuHidden>True</menuHidden>
+  </ThingDef>
+  
+  <!-- <ThingDef ParentName="AvaliBaseWeaponRanged">
+    <defName>Gun_AvaliGuardDrone_Pistol</defName>
+    <label>avali guard drone weapon</label>
+    <description>The basic Avali military grade sidearm.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Avali_Pistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <weaponTags>
+      <li>AvaliGuardDroneGun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <statBases>
+      <Mass>0.5</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BulletAvaliPistol</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>25.9</range>
+        <soundCast>Shot_Avali_Pistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef> -->
+</Defs>

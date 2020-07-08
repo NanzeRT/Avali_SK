@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+		<RecipeDef>
+		<defName>MakeRailgun_Component</defName>
+		<label>Make Railgun component</label>
+		<description>Railgun components used as basis for craft Rail weapons. Produces 1.</description>
+		<jobString>Making Railgun Component.</jobString>
+		<workAmount>2100</workAmount> <!--    		-->
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<skillRequirements>
+			<Crafting>15</Crafting> <!--   		-->
+		</skillRequirements>
+		<ingredients> <!--    		-->
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HCMBar</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiosyntheticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Microchips</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter> <!--    		-->
+			<categories>
+				<li>USLDBar</li>
+				<li>HCMBar</li>
+			</categories>
+			<thingDefs>
+				<li>BiosyntheticMaterial</li>
+				<li>Microchips</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Railgun_Component>1</Railgun_Component>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>MechWeaponCraftingWorkTable</li> <!--    		-->
+		</recipeUsers>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>PrecisionRifling</researchPrerequisite> <!--     -->
+	</RecipeDef>
+</Defs>

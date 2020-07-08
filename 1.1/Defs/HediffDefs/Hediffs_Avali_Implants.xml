@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Name="AvaliAugmentHediffBase" Abstract="True">
+    <defaultLabelColor>(1, 0.52, 0.05)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <everCurableByItem>false</everCurableByItem>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <!-- AvaliSightAugment -->
+  <HediffDef ParentName="AvaliAugmentHediffBase">
+    <defName>AvaliSightAugment</defName>
+    <hediffClass>Hediff_Implant</hediffClass>
+    <label>Avali vision augment</label>
+    <labelNoun>a Avali vision augment</labelNoun>
+    <description>An augment enhancing vision. Especially useful for auditory-reliant races like Avali. Zoom included.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.45</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AvaliSightAugment</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- AvaliHearingAugment -->
+  <HediffDef ParentName="AvaliAugmentHediffBase">
+    <defName>AvaliHearingAugment</defName>
+    <hediffClass>Hediff_Implant</hediffClass>
+    <label>Avali auditory augment</label>
+    <labelNoun>a Avali auditory augment</labelNoun>
+    <description>Auditory augments is very popular among military, scientific and exploration packs.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AvaliHearingAugment</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- AvaliCoolAugment -->
+  <HediffDef ParentName="AvaliAugmentHediffBase">
+    <defName>AvaliCoolAugment</defName>
+    <label>Avali cooling augment</label>
+    <labelNoun>a Avali cooling augment</labelNoun>
+    <description>This augment allows users to survive in environments that are deadly hot to them.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMax>20</ComfyTemperatureMax>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AvaliCoolAugment</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- AvaliHeatAugment -->
+  <HediffDef ParentName="AvaliAugmentHediffBase">
+    <defName>AvaliHeatAugment</defName>
+    <label>Avali heating augment</label>
+    <labelNoun>a Avali heating augment</labelNoun>
+    <description>This augment allows users to survive in environments that too cold for them.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AvaliHeatAugment</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- AvaliEnviromentalAugment -->
+  <HediffDef ParentName="AvaliAugmentHediffBase">
+    <defName>AvaliEnviromentalAugment</defName>
+    <label>Avali life support augment</label>
+    <labelNoun>a Avali life support augment</labelNoun>
+    <description>This augment allows users to survive in environments which were previously deadly toxic to them.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Enviromental>0.5</ArmorRating_Enviromental>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AvaliEnviromentalAugment</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- AvaliPackLossAugment -->
+  <HediffDef ParentName="AvaliAugmentHediffBase">
+    <defName>AvaliPackLossAugment</defName>
+    <label>Avali madness prevention augment</label>
+    <labelNoun>a Avali madness prevention augment</labelNoun>
+    <description>This augment prevents Avali from going mad from mental illness called Pack Loss.</description>
+    <spawnThingOnRemoved>AvaliPackLossAugment</spawnThingOnRemoved>
+  </HediffDef>
+  
+  <!-- PlasteelAvaliTalons -->
+  <HediffDef ParentName="AvaliAugmentHediffBase">
+    <defName>PlasteelAvaliTalons</defName>
+    <hediffClass>Hediff_Implant</hediffClass>
+    <label>plasteel Avali talons</label>
+    <labelNoun>a plasteel Avali talons</labelNoun>
+    <description>A relatively simple method of increasing the damage Avali talons can do.</description>
+    <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>plasteel Avali talons</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>PlasteelAvaliTalons</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <!-- AvaliBasicLiveSupport -->
+  <HediffDef  ParentName="AvaliAugmentHediffBase">
+    <defName>AvaliBasicLiveSupport</defName>
+    <label>basic thermoregulation and life support system</label>
+    <description>All spacefaring Avali augmented with basic thermoregulation and life support system so they will not suffocate or boil alive immediately after landing on most planets. This system not designed to work in very harsh conditions without additional equipment or augments.</description>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMax>35</ComfyTemperatureMax>
+        </statOffsets>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+    <!-- <spawnThingOnRemoved>AvaliBasicLifeSupport</spawnThingOnRemoved> -->
+  </HediffDef>
+  
+  <!-- AvaliBasicLifeSupportDamaged -->
+  <HediffDef ParentName="AvaliAugmentHediffBase">
+    <defName>AvaliBasicLifeSupportDamaged</defName>
+    <label>basic thermoregulation and life support system</label>
+    <description>All spacefaring Avali augmented with basic thermoregulation and life support system so they will not suffocate or boil alive immediately after landing on most planets. This system not designed to work in very harsh conditions without additional equipment or augments. This system was damaged leading to significant reduction it work efficiency, causing constant overheating of user's body even in relatively soft conditions.</description>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMax>17</ComfyTemperatureMax>
+        </statOffsets>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

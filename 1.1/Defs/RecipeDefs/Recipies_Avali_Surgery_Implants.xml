@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <RecipeDef Name="SurgeryAvaliAugments" ParentName="SurgeryFlesh" Abstract="True">
+    <recipeUsers>
+      <li>Avali</li>
+      <li>Human</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Medicine>7</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+  <!-- InstallAvaliSightAugment -->
+  <RecipeDef ParentName="SurgeryAvaliAugments">
+    <defName>InstallAvaliSightAugment</defName>
+    <label>install Avali vision augment</label>
+    <description>Installs Avali vision augment.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installs vision augment.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AvaliSightAugment</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>AvaliSightAugment</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>AvaliSightAugment</addsHediff>
+  </RecipeDef>
+
+  <!-- InstallAvaliHearingAugment -->
+  <RecipeDef ParentName="SurgeryAvaliAugments">
+    <defName>InstallAvaliHearingAugment</defName>
+    <label>install Avali hearing augment</label>
+    <description>Installs Avali hearing augment.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installs hearing augment.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AvaliHearingAugment</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>AvaliHearingAugment</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>EarAvali</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>AvaliHearingAugment</addsHediff>
+  </RecipeDef>
+
+  <!-- InstallAvaliCoolAugment -->
+  <RecipeDef ParentName="SurgeryAvaliAugments">
+    <defName>InstallAvaliCoolAugment</defName>
+    <label>install Avali cooling augment</label>
+    <description>Installs Avali cooling augment.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installs Avali cooling augment.</jobString>
+    <workAmount>1200</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AvaliCoolAugment</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>AvaliCoolAugment</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>AvaliCoolAugment</addsHediff>
+  </RecipeDef>
+
+  <!-- InstallAvaliHeatAugment -->
+  <RecipeDef ParentName="SurgeryAvaliAugments">
+    <defName>InstallAvaliHeatAugment</defName>
+    <label>install Avali heating augment</label>
+    <description>Installs Avali heating augment.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installs Avali heating augment.</jobString>
+    <workAmount>1200</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AvaliHeatAugment</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>AvaliHeatAugment</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>AvaliHeatAugment</addsHediff>
+  </RecipeDef>
+  
+  <!-- InstallAvaliEnviromentalAugment -->
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>InstallAvaliEnviromentalAugment</defName>
+    <label>install Avali life support augment</label>
+    <description>Installs Avali life support augment.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installs Avali life support augment.</jobString>
+    <workAmount>1200</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AvaliEnviromentalAugment</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>AvaliEnviromentalAugment</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>AvaliEnviromentalAugment</addsHediff>
+    <recipeUsers>
+      <li>Avali</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Medicine>7</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+  
+  <!-- InstallAvaliEnviromentalAugment -->
+  <RecipeDef ParentName="SurgeryAvaliAugments">
+    <defName>InstallAvaliPackLossAugment</defName>
+    <label>install Avali madness prevention augment</label>
+    <description>Installs Avali madness prevention augment.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installs Avali madness prevention augment.</jobString>
+    <workAmount>1200</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AvaliPackLossAugment</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>AvaliPackLossAugment</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>AvaliPackLossAugment</addsHediff>
+  </RecipeDef>
+  
+  <!-- InstallPlasteelAvaliTalons -->
+  <RecipeDef ParentName="SurgeryAvali">
+    <defName>InstallPlasteelAvaliTalons</defName>
+    <label>install plasteel Avali talons</label>
+    <description>Replace Avali talons with plasteel talons.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing plasteel Avali talons.</jobString>
+    <workAmount>1200</workAmount>
+    <surgerySuccessChanceFactor>1.5</surgerySuccessChanceFactor>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PlasteelAvaliTalons</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>PlasteelAvaliTalons</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hand</li>
+      <li>Foot</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PlasteelAvaliTalons</addsHediff>
+  </RecipeDef>
+
+  <!-- RemovePlasteelAvaliTalons -->
+  <RecipeDef ParentName="SurgeryAvali">
+    <defName>RemovePlasteelAvaliTalons</defName>
+    <label>remove plasteel Avali talons</label>
+    <description>Remove plasteel Avali talons.</description>
+    <jobString>Removing plasteel Avali talons.</jobString>
+    <removesHediff>PlasteelAvaliTalons</removesHediff>
+    <successfullyRemovedHediffMessage>{0} has successfully removed from {1}.</successfullyRemovedHediffMessage>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <workAmount>1200</workAmount>
+    <surgerySuccessChanceFactor>1.5</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+      <li>Foot</li>
+		</appliedOnFixedBodyParts>
+  </RecipeDef>
+  
+  <!-- RemoveAvaliBasicLifeSupport -->
+  <!--
+  <RecipeDef ParentName="SurgeryAvali">
+    <defName>RemoveAvaliBasicLifeSupport</defName>
+    <label>remove basic thermoregulation and life support system</label>
+    <description>Remove basic thermoregulation and life support system.</description>
+    <jobString>Removing basic thermoregulation and life support system.</jobString>
+    <removesHediff>AvaliBasicLiveSupport</removesHediff>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <workAmount>2000</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <isViolation>true</isViolation>
+    <targetsBodyPart>false</targetsBodyPart>
+    <surgerySuccessChanceFactor>1.2</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  -->
+</Defs> 

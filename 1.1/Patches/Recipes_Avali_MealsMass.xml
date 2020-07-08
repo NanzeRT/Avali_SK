@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/RecipeDef[defName = "CookMealStackSimple"]</xpath>
+        <success>Normal</success>
+      </li>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "AvaliStove"]/recipes</xpath>
+        <value>
+          <li>CookMealStackSimple</li>
+          <li>CookMealStackFine</li>
+          <li>CookMealStackLavish</li>
+          <li>CookMealStackSurvival</li>
+          <li>CookMealStackSmallSimple</li>
+          <li>CookMealStackSmallFine</li>
+          <li>CookMealStackSmallLavish</li>
+          <li>CookMealStackSmallSurvival</li>
+          <li>CookStackAvaliSpicyJerky</li>
+          <li>CookStackAvaliPiruNoodle</li>
+          <li>CookStackAvaliKiriCurry</li>
+          <li>CookStackAvaliTaco</li>
+        </value>
+      </li>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "ElectricStove" or defName = "FueledStove"]/recipes</xpath>
+        <value>
+          <li>CookMealStackSmallSimple</li>
+          <li>CookMealStackSmallFine</li>
+          <li>CookMealStackSmallLavish</li>
+          <li>CookMealStackSmallSurvival</li>
+          <li>CookStackAvaliSpicyJerky</li>
+          <li>CookStackAvaliPiruNoodle</li>
+          <li>CookStackAvaliKiriCurry</li>
+          <li>CookStackAvaliTaco</li>
+        </value>
+      </li>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "Campfire"]/recipes</xpath>
+        <value>
+          <li>CookMealStackSmallSimple</li>
+          <li>CookStackAvaliSpicyJerky</li>
+          <li>CookStackAvaliPiruNoodle</li>
+          <li>CookStackAvaliKiriCurry</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

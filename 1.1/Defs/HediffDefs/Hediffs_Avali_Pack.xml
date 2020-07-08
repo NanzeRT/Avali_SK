@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef Name="AvaliPackBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
+    <initialSeverity>0.001</initialSeverity>
+    <everCurableByItem>false</everCurableByItem>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+  </HediffDef>
+  
+  <!-- AvaliPackExploration -->
+  <HediffDef ParentName="AvaliPackBase">
+    <defName>AvaliPackExploration</defName>
+    <label>exploration pack</label>
+    <description>Exploration pack.</description>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+          <minSeverity>1</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>0.2</MeleeHitChance>
+            <MeleeDodgeChance>0.2</MeleeDodgeChance>
+            <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.02</AimingDelayFactor>
+            
+            <NegotiationAbility>0.02</NegotiationAbility>
+            <TradePriceImprovement>0.02</TradePriceImprovement>
+            <SocialImpact>0.02</SocialImpact>
+            <TameAnimalChance>0.02</TameAnimalChance>
+            <TrainAnimalChance>0.02</TrainAnimalChance>
+            
+            <MedicalTendSpeed>0.02</MedicalTendSpeed>
+            <MedicalTendQuality>0.02</MedicalTendQuality>
+            <MedicalOperationSpeed>0.02</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.02</MedicalSurgerySuccessChance>
+            
+            <HuntingStealth>0.02</HuntingStealth>
+            <AnimalGatherSpeed>0.02</AnimalGatherSpeed>
+            <AnimalGatherYield>0.02</AnimalGatherYield>
+            
+            <PlantWorkSpeed>0.02</PlantWorkSpeed>
+            <PlantHarvestYield>0.02</PlantHarvestYield>
+            
+            <ButcheryFleshSpeed>0.02</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.02</ButcheryFleshEfficiency>
+            <CookSpeed>0.02</CookSpeed>
+            <DrugCookingSpeed>0.02</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>2</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>0.4</MeleeHitChance>
+            <MeleeDodgeChance>0.4</MeleeDodgeChance>
+            <ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.04</AimingDelayFactor>
+            
+            <NegotiationAbility>0.04</NegotiationAbility>
+            <TradePriceImprovement>0.04</TradePriceImprovement>
+            <SocialImpact>0.04</SocialImpact>
+            <TameAnimalChance>0.04</TameAnimalChance>
+            <TrainAnimalChance>0.04</TrainAnimalChance>
+            
+            <MedicalTendSpeed>0.04</MedicalTendSpeed>
+            <MedicalTendQuality>0.04</MedicalTendQuality>
+            <MedicalOperationSpeed>0.04</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.04</MedicalSurgerySuccessChance>
+            
+            <HuntingStealth>0.04</HuntingStealth>
+            <AnimalGatherSpeed>0.04</AnimalGatherSpeed>
+            <AnimalGatherYield>0.04</AnimalGatherYield>
+            <ButcheryFleshSpeed>0.04</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.04</ButcheryFleshEfficiency>
+            
+            <PlantWorkSpeed>0.04</PlantWorkSpeed>
+            <PlantHarvestYield>0.04</PlantHarvestYield>
+            <CookSpeed>0.04</CookSpeed>
+            <DrugCookingSpeed>0.04</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>3</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>0.6</MeleeHitChance>
+            <MeleeDodgeChance>0.6</MeleeDodgeChance>
+            <ShootingAccuracyPawn>0.6</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.06</AimingDelayFactor>
+            
+            <NegotiationAbility>0.06</NegotiationAbility>
+            <TradePriceImprovement>0.06</TradePriceImprovement>
+            <SocialImpact>0.06</SocialImpact>
+            <TameAnimalChance>0.06</TameAnimalChance>
+            <TrainAnimalChance>0.06</TrainAnimalChance>
+            
+            <MedicalTendSpeed>0.06</MedicalTendSpeed>
+            <MedicalTendQuality>0.06</MedicalTendQuality>
+            <MedicalOperationSpeed>0.06</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.06</MedicalSurgerySuccessChance>
+            
+            <HuntingStealth>0.06</HuntingStealth>
+            <AnimalGatherSpeed>0.06</AnimalGatherSpeed>
+            <AnimalGatherYield>0.06</AnimalGatherYield>
+            <ButcheryFleshSpeed>0.06</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.06</ButcheryFleshEfficiency>
+            
+            <PlantWorkSpeed>0.06</PlantWorkSpeed>
+            <PlantHarvestYield>0.06</PlantHarvestYield>
+            
+            <CookSpeed>0.06</CookSpeed>
+            <DrugCookingSpeed>0.06</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>4</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>0.8</MeleeHitChance>
+            <MeleeDodgeChance>0.8</MeleeDodgeChance>
+            <ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.08</AimingDelayFactor>
+            
+            <NegotiationAbility>0.08</NegotiationAbility>
+            <TradePriceImprovement>0.08</TradePriceImprovement>
+            <SocialImpact>0.08</SocialImpact>
+            <TameAnimalChance>0.08</TameAnimalChance>
+            <TrainAnimalChance>0.08</TrainAnimalChance>
+            
+            <MedicalTendSpeed>0.08</MedicalTendSpeed>
+            <MedicalTendQuality>0.08</MedicalTendQuality>
+            <MedicalOperationSpeed>0.08</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.08</MedicalSurgerySuccessChance>
+            
+            <HuntingStealth>0.08</HuntingStealth>
+            <AnimalGatherSpeed>0.08</AnimalGatherSpeed>
+            <AnimalGatherYield>0.08</AnimalGatherYield>
+            <ButcheryFleshSpeed>0.08</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.08</ButcheryFleshEfficiency>
+            
+            <PlantWorkSpeed>0.08</PlantWorkSpeed>
+            <PlantHarvestYield>0.08</PlantHarvestYield>
+            <CookSpeed>0.08</CookSpeed>
+            <DrugCookingSpeed>0.08</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>5</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>1</MeleeHitChance>
+            <MeleeDodgeChance>1</MeleeDodgeChance>
+            <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.10</AimingDelayFactor>
+            
+            <NegotiationAbility>0.10</NegotiationAbility>
+            <TradePriceImprovement>0.10</TradePriceImprovement>
+            <SocialImpact>0.10</SocialImpact>
+            <TameAnimalChance>0.10</TameAnimalChance>
+            <TrainAnimalChance>0.10</TrainAnimalChance>
+            
+            <MedicalTendSpeed>0.10</MedicalTendSpeed>
+            <MedicalTendQuality>0.10</MedicalTendQuality>
+            <MedicalOperationSpeed>0.10</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+            
+            <HuntingStealth>0.10</HuntingStealth>
+            <AnimalGatherSpeed>0.10</AnimalGatherSpeed>
+            <AnimalGatherYield>0.10</AnimalGatherYield>
+            <ButcheryFleshSpeed>0.10</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
+            
+            <PlantWorkSpeed>0.10</PlantWorkSpeed>
+            <PlantHarvestYield>0.10</PlantHarvestYield>
+            
+            <CookSpeed>0.10</CookSpeed>
+            <DrugCookingSpeed>0.10</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliPackMilitary -->
+  <HediffDef ParentName="AvaliPackBase">
+    <defName>AvaliPackMilitary</defName>
+    <label>military pack</label>
+    <description>Military pack.</description>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+          <minSeverity>1</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>0.5</MeleeHitChance>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+            <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.05</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.02</MedicalTendSpeed>
+            <MedicalTendQuality>0.02</MedicalTendQuality>
+            <MedicalOperationSpeed>0.02</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.02</MedicalSurgerySuccessChance>
+            
+            <ButcheryFleshSpeed>0.01</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.01</ButcheryFleshEfficiency>
+            <CookSpeed>0.01</CookSpeed>
+            <DrugCookingSpeed>0.01</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>2</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>1</MeleeHitChance>
+            <MeleeDodgeChance>1</MeleeDodgeChance>
+            <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.10</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.04</MedicalTendSpeed>
+            <MedicalTendQuality>0.04</MedicalTendQuality>
+            <MedicalOperationSpeed>0.04</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.04</MedicalSurgerySuccessChance>
+            
+            <ButcheryFleshSpeed>0.02</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.02</ButcheryFleshEfficiency>
+            <CookSpeed>0.02</CookSpeed>
+            <DrugCookingSpeed>0.02</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>3</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>1.5</MeleeHitChance>
+            <MeleeDodgeChance>1.5</MeleeDodgeChance>
+            <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.15</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.06</MedicalTendSpeed>
+            <MedicalTendQuality>0.06</MedicalTendQuality>
+            <MedicalOperationSpeed>0.06</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.06</MedicalSurgerySuccessChance>
+            
+            <ButcheryFleshSpeed>0.03</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.03</ButcheryFleshEfficiency>
+            <CookSpeed>0.03</CookSpeed>
+            <DrugCookingSpeed>0.03</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>4</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>2</MeleeHitChance>
+            <MeleeDodgeChance>2</MeleeDodgeChance>
+            <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.20</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.08</MedicalTendSpeed>
+            <MedicalTendQuality>0.08</MedicalTendQuality>
+            <MedicalOperationSpeed>0.08</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.08</MedicalSurgerySuccessChance>
+            
+            <ButcheryFleshSpeed>0.04</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.04</ButcheryFleshEfficiency>
+            <CookSpeed>0.04</CookSpeed>
+            <DrugCookingSpeed>0.04</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>5</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<MeleeHitChance>2.5</MeleeHitChance>
+            <MeleeDodgeChance>2.5</MeleeDodgeChance>
+            <ShootingAccuracyPawn>2.5</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.25</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.10</MedicalTendSpeed>
+            <MedicalTendQuality>0.10</MedicalTendQuality>
+            <MedicalOperationSpeed>0.10</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+            
+            
+            <ButcheryFleshSpeed>0.05</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
+            <CookSpeed>0.05</CookSpeed>
+            <DrugCookingSpeed>0.05</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliPackHunting -->
+  <HediffDef ParentName="AvaliPackBase">
+    <defName>AvaliPackHunting</defName>
+    <label>hunters pack</label>
+    <description>Hunters pack.</description>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+          <minSeverity>1</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <TameAnimalChance>0.05</TameAnimalChance>
+            <TrainAnimalChance>0.05</TrainAnimalChance>
+            <HuntingStealth>0.05</HuntingStealth>
+            <AnimalGatherSpeed>0.05</AnimalGatherSpeed>
+            <AnimalGatherYield>0.05</AnimalGatherYield>
+            <ButcheryFleshSpeed>0.05</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
+            
+						<MeleeHitChance>0.3</MeleeHitChance>
+            <MeleeDodgeChance>0.3</MeleeDodgeChance>
+            <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.03</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.02</MedicalTendSpeed>
+            <MedicalTendQuality>0.02</MedicalTendQuality>
+            <MedicalOperationSpeed>0.02</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.02</MedicalSurgerySuccessChance>
+            
+            <CookSpeed>0.02</CookSpeed>
+            <DrugCookingSpeed>0.02</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>2</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <TameAnimalChance>0.10</TameAnimalChance>
+            <TrainAnimalChance>0.10</TrainAnimalChance>
+            <HuntingStealth>0.10</HuntingStealth>
+            <AnimalGatherSpeed>0.10</AnimalGatherSpeed>
+            <AnimalGatherYield>0.10</AnimalGatherYield>
+            <ButcheryFleshSpeed>0.10</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
+            
+						<MeleeHitChance>0.06</MeleeHitChance>
+            <MeleeDodgeChance>0.06</MeleeDodgeChance>
+            <ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.06</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.04</MedicalTendSpeed>
+            <MedicalTendQuality>0.04</MedicalTendQuality>
+            <MedicalOperationSpeed>0.04</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.04</MedicalSurgerySuccessChance>
+            
+            <CookSpeed>0.04</CookSpeed>
+            <DrugCookingSpeed>0.04</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>3</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <TameAnimalChance>0.15</TameAnimalChance>
+            <TrainAnimalChance>0.15</TrainAnimalChance>
+            <HuntingStealth>0.15</HuntingStealth>
+            <AnimalGatherSpeed>0.15</AnimalGatherSpeed>
+            <AnimalGatherYield>0.15</AnimalGatherYield>
+            <ButcheryFleshSpeed>0.15</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.15</ButcheryFleshEfficiency>
+            
+						<MeleeHitChance>0.9</MeleeHitChance>
+            <MeleeDodgeChance>0.9</MeleeDodgeChance>
+            <ShootingAccuracyPawn>0.9</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.09</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.06</MedicalTendSpeed>
+            <MedicalTendQuality>0.06</MedicalTendQuality>
+            <MedicalOperationSpeed>0.06</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.06</MedicalSurgerySuccessChance>
+            
+            <CookSpeed>0.06</CookSpeed>
+            <DrugCookingSpeed>0.06</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>4</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <TameAnimalChance>0.20</TameAnimalChance>
+            <TrainAnimalChance>0.20</TrainAnimalChance>
+            <HuntingStealth>0.20</HuntingStealth>
+            <AnimalGatherSpeed>0.20</AnimalGatherSpeed>
+            <AnimalGatherYield>0.20</AnimalGatherYield>
+            <ButcheryFleshSpeed>0.20</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.20</ButcheryFleshEfficiency>
+            
+						<MeleeHitChance>1.2</MeleeHitChance>
+            <MeleeDodgeChance>1.2</MeleeDodgeChance>
+            <ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.12</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.08</MedicalTendSpeed>
+            <MedicalTendQuality>0.08</MedicalTendQuality>
+            <MedicalOperationSpeed>0.08</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.08</MedicalSurgerySuccessChance>
+            
+            <CookSpeed>0.08</CookSpeed>
+            <DrugCookingSpeed>0.08</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>5</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <TameAnimalChance>0.25</TameAnimalChance>
+            <TrainAnimalChance>0.25</TrainAnimalChance>
+            <HuntingStealth>0.25</HuntingStealth>
+            <AnimalGatherSpeed>0.25</AnimalGatherSpeed>
+            <AnimalGatherYield>0.25</AnimalGatherYield>
+            <ButcheryFleshSpeed>0.25</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.25</ButcheryFleshEfficiency>
+            
+						<MeleeHitChance>1.5</MeleeHitChance>
+            <MeleeDodgeChance>1.5</MeleeDodgeChance>
+            <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.15</AimingDelayFactor>
+            
+            <MedicalTendSpeed>0.10</MedicalTendSpeed>
+            <MedicalTendQuality>0.10</MedicalTendQuality>
+            <MedicalOperationSpeed>0.10</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+            
+            <CookSpeed>0.10</CookSpeed>
+            <DrugCookingSpeed>0.10</DrugCookingSpeed>
+					</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliPackScientific -->
+  <HediffDef ParentName="AvaliPackBase">
+    <defName>AvaliPackScientific</defName>
+    <label>scientific pack</label>
+    <description>Scientific pack.</description>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+          <minSeverity>1</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<ResearchSpeed>0.05</ResearchSpeed>
+            
+            <MedicalTendSpeed>0.05</MedicalTendSpeed>
+            <MedicalTendQuality>0.05</MedicalTendQuality>
+            <MedicalOperationSpeed>0.05</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
+            
+            <GeneralLaborSpeed>0.03</GeneralLaborSpeed>
+            <ConstructionSpeed>0.02</ConstructionSpeed>
+            <ConstructSuccessChance>0.02</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.02</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.02</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.02</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.02</ButcheryMechanoidEfficiency>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>2</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<ResearchSpeed>0.10</ResearchSpeed>
+            
+            <MedicalTendSpeed>0.10</MedicalTendSpeed>
+            <MedicalTendQuality>0.10</MedicalTendQuality>
+            <MedicalOperationSpeed>0.10</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+            
+            <GeneralLaborSpeed>0.06</GeneralLaborSpeed>
+            <ConstructionSpeed>0.04</ConstructionSpeed>
+            <ConstructSuccessChance>0.04</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.04</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.04</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.04</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.04</ButcheryMechanoidEfficiency>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>3</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<ResearchSpeed>0.15</ResearchSpeed>
+            
+            <MedicalTendSpeed>0.15</MedicalTendSpeed>
+            <MedicalTendQuality>0.15</MedicalTendQuality>
+            <MedicalOperationSpeed>0.15</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
+            
+            <GeneralLaborSpeed>0.09</GeneralLaborSpeed>
+            <ConstructionSpeed>0.06</ConstructionSpeed>
+            <ConstructSuccessChance>0.06</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.06</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.06</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.06</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.06</ButcheryMechanoidEfficiency>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>4</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<ResearchSpeed>0.20</ResearchSpeed>
+            
+            <MedicalTendSpeed>0.20</MedicalTendSpeed>
+            <MedicalTendQuality>0.20</MedicalTendQuality>
+            <MedicalOperationSpeed>0.20</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.20</MedicalSurgerySuccessChance>
+            
+            <GeneralLaborSpeed>0.12</GeneralLaborSpeed>
+            <ConstructionSpeed>0.08</ConstructionSpeed>
+            <ConstructSuccessChance>0.08</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.08</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.08</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.08</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.08</ButcheryMechanoidEfficiency>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>5</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<ResearchSpeed>0.25</ResearchSpeed>
+            
+            <MedicalTendSpeed>0.25</MedicalTendSpeed>
+            <MedicalTendQuality>0.25</MedicalTendQuality>
+            <MedicalOperationSpeed>0.25</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.25</MedicalSurgerySuccessChance>
+            
+            <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+            <ConstructionSpeed>0.10</ConstructionSpeed>
+            <ConstructSuccessChance>0.10</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.10</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.10</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.10</ButcheryMechanoidEfficiency>
+					</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliPackIndustrial -->
+  <HediffDef ParentName="AvaliPackBase">
+    <defName>AvaliPackIndustrial</defName>
+    <label>industrial pack</label>
+    <description>Industrial pack.</description>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+          <minSeverity>1</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+            <ConstructionSpeed>0.05</ConstructionSpeed>
+            <SmoothingSpeed>0.05</SmoothingSpeed>
+            <SmeltingSpeed>0.05</SmeltingSpeed>
+            <ConstructSuccessChance>0.05</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.05</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.05</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.05</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.05</ButcheryMechanoidEfficiency>
+            
+            <MiningSpeed>0.05</MiningSpeed>
+            <MiningYield>0.05</MiningYield>
+            
+            <PlantWorkSpeed>0.04</PlantWorkSpeed>
+            <PlantHarvestYield>0.04</PlantHarvestYield>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>2</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+						<ConstructionSpeed>0.10</ConstructionSpeed>
+            <SmoothingSpeed>0.10</SmoothingSpeed>
+            <SmeltingSpeed>0.10</SmeltingSpeed>
+            <ConstructSuccessChance>0.10</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.10</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.10</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.10</ButcheryMechanoidEfficiency>
+            
+            <MiningSpeed>0.10</MiningSpeed>
+            <MiningYield>0.10</MiningYield>
+            
+            <PlantWorkSpeed>0.08</PlantWorkSpeed>
+            <PlantHarvestYield>0.08</PlantHarvestYield>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>3</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+						<ConstructionSpeed>0.15</ConstructionSpeed>
+            <SmoothingSpeed>0.15</SmoothingSpeed>
+            <SmeltingSpeed>0.15</SmeltingSpeed>
+            <ConstructSuccessChance>0.15</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.15</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.15</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.15</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.15</ButcheryMechanoidEfficiency>
+            
+            <MiningSpeed>0.15</MiningSpeed>
+            <MiningYield>0.15</MiningYield>
+            
+            <PlantWorkSpeed>0.12</PlantWorkSpeed>
+            <PlantHarvestYield>0.12</PlantHarvestYield>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>4</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <GeneralLaborSpeed>0.20</GeneralLaborSpeed>
+						<ConstructionSpeed>0.20</ConstructionSpeed>
+            <SmoothingSpeed>0.20</SmoothingSpeed>
+            <SmeltingSpeed>0.20</SmeltingSpeed>
+            <ConstructSuccessChance>0.20</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.20</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.20</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.20</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.20</ButcheryMechanoidEfficiency>
+            
+            <MiningSpeed>0.20</MiningSpeed>
+            <MiningYield>0.20</MiningYield>
+            
+            <PlantWorkSpeed>0.16</PlantWorkSpeed>
+            <PlantHarvestYield>0.16</PlantHarvestYield>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>5</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <GeneralLaborSpeed>0.25</GeneralLaborSpeed>
+            <ConstructionSpeed>0.25</ConstructionSpeed>
+            <SmoothingSpeed>0.25</SmoothingSpeed>
+            <SmeltingSpeed>0.25</SmeltingSpeed>
+            <ConstructSuccessChance>0.25</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.25</FixBrokenDownBuildingSuccessChance>
+            <DrugSynthesisSpeed>0.25</DrugSynthesisSpeed>
+            <ButcheryMechanoidSpeed>0.25</ButcheryMechanoidSpeed>
+            <ButcheryMechanoidEfficiency>0.25</ButcheryMechanoidEfficiency>
+            
+            <MiningSpeed>0.25</MiningSpeed>
+            <MiningYield>0.25</MiningYield>
+            
+            <PlantWorkSpeed>0.20</PlantWorkSpeed>
+            <PlantHarvestYield>0.20</PlantHarvestYield>
+					</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliPackArtistical -->
+  <HediffDef ParentName="AvaliPackBase">
+    <defName>AvaliPackArtistical</defName>
+    <label>artistical pack</label>
+    <description>Artistical pack.</description>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+          <minSeverity>1</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+            
+            <CookSpeed>0.04</CookSpeed>
+            
+            <NegotiationAbility>0.04</NegotiationAbility>
+            <TradePriceImprovement>0.04</TradePriceImprovement>
+            <SocialImpact>0.04</SocialImpact>
+            <TameAnimalChance>0.04</TameAnimalChance>
+            <TrainAnimalChance>0.04</TrainAnimalChance>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>2</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+            
+            <CookSpeed>0.08</CookSpeed>
+            
+            <NegotiationAbility>0.08</NegotiationAbility>
+            <TradePriceImprovement>0.08</TradePriceImprovement>
+            <SocialImpact>0.08</SocialImpact>
+            <TameAnimalChance>0.08</TameAnimalChance>
+            <TrainAnimalChance>0.08</TrainAnimalChance>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>3</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+            
+            <CookSpeed>0.12</CookSpeed>
+            
+            <NegotiationAbility>0.12</NegotiationAbility>
+            <TradePriceImprovement>0.12</TradePriceImprovement>
+            <SocialImpact>0.12</SocialImpact>
+            <TameAnimalChance>0.12</TameAnimalChance>
+            <TrainAnimalChance>0.12</TrainAnimalChance>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>4</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+						<GeneralLaborSpeed>0.20</GeneralLaborSpeed>
+            
+            <CookSpeed>0.16</CookSpeed>
+            
+            <NegotiationAbility>0.16</NegotiationAbility>
+            <TradePriceImprovement>0.16</TradePriceImprovement>
+            <SocialImpact>0.16</SocialImpact>
+            <TameAnimalChance>0.16</TameAnimalChance>
+            <TrainAnimalChance>0.16</TrainAnimalChance>
+					</statOffsets>
+      </li>
+      <li>
+          <minSeverity>5</minSeverity>
+          <becomeVisible>false</becomeVisible>
+          <statOffsets>
+            <GeneralLaborSpeed>0.25</GeneralLaborSpeed>
+            
+            <CookSpeed>0.20</CookSpeed>
+            
+            <NegotiationAbility>0.20</NegotiationAbility>
+            <TradePriceImprovement>0.20</TradePriceImprovement>
+            <SocialImpact>0.20</SocialImpact>
+            <TameAnimalChance>0.20</TameAnimalChance>
+            <TrainAnimalChance>0.20</TrainAnimalChance>
+					</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="AvaliBodyPartArtificialBase" Abstract="True" ParentName="BodyPartBase">
+    <techLevel>Ultra</techLevel>
+    <thingCategories>
+      <li>BodyPartsAvali</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Items/Health/HealthItemAvaliArtificial</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>AvaliAugments</researchPrerequisite>
+    </recipeMaker>
+    <tradeTags Inherit="False">
+      <li>AvaliBodyPartArtificial</li>
+      <li>Exotic</li>
+    </tradeTags>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+  <!-- CyberneticAvaliTail -->
+  <ThingDef ParentName="AvaliBodyPartArtificialBase">
+    <defName>CyberneticAvaliTail</defName>
+    <label>cybernetic Avali tail</label>
+    <description>Not just a long metal rod, it has a plethora of stabilisation hardware and software, making an avali as agile and nimble as a cat.</description>
+    <costList>
+      <Plasteel>45</Plasteel>
+      <ComponentIndustrial>15</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <MarketValue>1500</MarketValue>
+      <Mass>7</Mass>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- CyberneticAvaliBody -->
+  <ThingDef ParentName="AvaliBodyPartArtificialBase">
+    <defName>CyberneticAvaliBody</defName>
+    <label>cybernetic Avali body</label>
+    <description>A technological marvel! Every organ is replaced with a mechanical counterpart which is three times smaller, leaving plenty of space for metabolism and vitality increasing hardware, this is as close an avali will ever get to being a terminator.</description>
+    <costList>
+      <Plasteel>300</Plasteel>
+      <ComponentIndustrial>30</ComponentIndustrial>
+      <ComponentSpacer>10</ComponentSpacer>
+      <Uranium>10</Uranium>
+    </costList>
+    <statBases>
+      <WorkToMake>300000</WorkToMake>
+      <MarketValue>8000</MarketValue>
+      <Mass>10</Mass>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>AvaliCyberneticsAdvanced</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- CyberneticAvaliHead -->
+  <ThingDef ParentName="AvaliBodyPartArtificialBase">
+    <defName>CyberneticAvaliHead</defName>
+    <label>cybernetic Avali head</label>
+    <description>A perverbial "Brain in a jar". Except this jar has a a whole suite of sensors, stabilisers, supercomputers is made out of plasteel and is fully self-sufficient.</description>
+    <costList>
+      <Plasteel>200</Plasteel>
+      <ComponentIndustrial>20</ComponentIndustrial>
+      <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>200000</WorkToMake>
+      <MarketValue>6000</MarketValue>
+      <Mass>7</Mass>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>AvaliCyberneticsAdvanced</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- CyberneticAvaliLeg -->
+  <ThingDef ParentName="AvaliBodyPartArtificialBase">
+    <defName>CyberneticAvaliLeg</defName>
+    <label>cybernetic Avali leg</label>
+    <description>Avali leg replica with sophisticated pneumatics and hydraulics, greatly increasing its recipient's agility. No more leg day!</description>
+    <costList>
+      <Plasteel>80</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <MarketValue>1500</MarketValue>
+      <Mass>7</Mass>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- CyberneticAvaliArm -->
+  <ThingDef ParentName="AvaliBodyPartArtificialBase">
+    <defName>CyberneticAvaliArm</defName>
+    <label>cybernetic Avali arm</label>
+    <description>Avali arm replica with gyroscopic stabilisation, advanced predictive algorythms and advanced hydraulics. It also looks freaking cool.</description>
+    <costList>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <MarketValue>1500</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>AvaliCybernetics</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Tail -->
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>TailAvali</defName>
+    <label>Avali tail</label>
+    <description>Organic avali tail.</description>
+      <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>7</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!-- ClothTail -->
+  <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>ClothAvaliTail</defName>
+    <label>cloth Avali tail</label>
+    <description>A simple replacement made out of cloth. At least it feels like there's something.</description>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!-- ClothEar -->
+  <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>ClothAvaliEar</defName>
+    <label>cloth Avali ear</label>
+    <description>A simple replacement made out of cloth. At least it feels like there's something.</description>
+    <statBases>
+      <MarketValue>30</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

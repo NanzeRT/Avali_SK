@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- The list of allowed apparel for Avali visitors, raids, ets. -->
+  
+  <ThingDef Name="AvaliApparelBase"  ParentName="ApparelBase" Abstract="True" />
+
+  <ThingDef Name="AvaliApparelMakeableBase" ParentName="AvaliApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>AvaliNanoloom</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelAvali</li>
+    </thingCategories>
+    <tradeTags>
+      <li>AvaliApparel</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef Name="AvaliArmorMakeableBase" ParentName="AvaliApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smelt</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>AvaliNanolathe</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelAvaliArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>AvaliArmor</li>
+      <li>HiTechArmor</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <!-- ====================================== Avali wrap =========================================== -->
+  <ThingDef ParentName="AvaliApparelMakeableBase">
+    <defName>Avali_Apparel_Wrap</defName>
+    <description>Never one to suffer indignity.</description>
+    <label>avali wrap</label>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Wrap/Wraps</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>500</WorkToMake>
+      <Mass>0.15</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Avali/Apparel/Wrap/Wrap</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+				<li>Middle</li>
+      </layers>
+      <tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <min>RGBA(0,0,0,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- ====================================== Avali sleeves =========================================== -->
+  <ThingDef ParentName="AvaliApparelMakeableBase">
+    <defName>Avali_Apparel_Sleeves</defName>
+    <label>avali sleeves</label>
+    <description>Long, elegant sleeves.</description>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Sleeves/Sleeves</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>800</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Avali/Apparel/Sleeves/Sleeves</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <min>RGBA(0,0,0,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- ====================================== Avali cloak =========================================== -->
+  <ThingDef ParentName="AvaliApparelMakeableBase">
+    <defName>Avali_Apparel_Cloak</defName>
+    <label>avali cloak</label>
+    <description>A cloak for those who call the tundra home.</description>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Cloak/Cloak</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Avali/Apparel/Cloak/Cloak</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AvaliClothes</researchPrerequisite>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <min>RGBA(0,0,0,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- ====================================== Avali belted cloak =========================================== -->
+  <ThingDef ParentName="AvaliApparelMakeableBase">
+    <defName>Avali_Apparel_BeltedCloak</defName>
+    <label>avali belted cloak</label>
+    <description>A cloak for the eternal nomad.</description>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/BeltedCloak/BeltedCloak</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Avali/Apparel/BeltedCloak/BeltedCloak</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AvaliClothes</researchPrerequisite>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <min>RGBA(0,0,0,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- ====================================== Avali shirt =========================================== -->
+  <ThingDef ParentName="AvaliApparelMakeableBase">
+    <defName>Avali_Apparel_Shirt</defName>
+    <description>For the restless wanderer.</description>
+    <label>avali shirt</label>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Shirt/Shirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+      <Mass>0.25</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Avali/Apparel/Shirt/Shirt</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AvaliClothes</researchPrerequisite>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <min>RGBA(0,0,0,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- ====================================== Avali trenchcoat =========================================== -->
+  <ThingDef ParentName="AvaliApparelMakeableBase">
+    <defName>Avali_Apparel_Trenchcoat</defName>
+    <description>Garb for the tundrastrider.</description>
+    <label>avali trenchcoat</label>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Trenchcoat/Trenchcoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2700</WorkToMake>
+      <Mass>0.3</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Avali/Apparel/Trenchcoat/Trenchcoat</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AvaliClothes</researchPrerequisite>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <min>RGBA(0,0,0,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- ====================================== Avali camo =========================================== -->
+  <ThingDef ParentName="AvaliApparelMakeableBase">
+    <defName>Avali_Apparel_Camo</defName>
+    <description>Standard Avali camo. \nNo one still understands why the camo has orange in the camo pattern.</description>
+    <label>avali camo</label>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Camo/Camo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2700</WorkToMake>
+      <Mass>0.3</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.04</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Avali/Apparel/Camo/Camo</wornGraphicPath>
+      <layers>
+				<li>Middle</li>
+      </layers>
+      <tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AvaliClothes</researchPrerequisite>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.4,0.4,0.4,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <min>RGBA(0,0,0,1)</min>
+          <max>RGBA(1,1,1,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- ====================================== Avali survival gear =========================================== -->
+  <ThingDef ParentName="AvaliArmorMakeableBase">
+    <defName>Avali_Apparel_SurvivalGear</defName>
+    <label>avali survival gear</label>
+    <description>The most basic life support and protection for the spacefaring Avali.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliSurvivalGear</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/SurvivalGear/SurvivalGear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>1</Mass>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.10</ArmorRating_Heat>
+      <ArmorRating_Enviromental>0.4</ArmorRating_Enviromental>
+      <Insulation_Cold>25</Insulation_Cold>
+      <Insulation_Heat>25</Insulation_Heat>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <!--
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    -->
+    <costList>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>LeftFeetAvali</li>
+        <li>RightFeetAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/SurvivalGear/SurvivalGear</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+        <li>AvaliCivilian</li>
+        <li>AvaliSpacer</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ====================================== Avali scout armor =========================================== -->
+  <ThingDef ParentName="AvaliArmorMakeableBase">
+    <defName>Avali_Apparel_ScoutArmor</defName>
+    <label>avali scout armor</label>
+    <description>Armor favoured by pathfinders. Doesn't give much protection, but increases mobility and environmental survivability.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliScoutArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/ScoutArmor/ScoutArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>3</Mass>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <ArmorRating_Enviromental>0.4</ArmorRating_Enviromental>
+      <Insulation_Cold>30</Insulation_Cold>
+      <Insulation_Heat>30</Insulation_Heat>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>80</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+        <li>LeftFeetAvali</li>
+        <li>RightFeetAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/ScoutArmor/ScoutArmor</wornGraphicPath>
+			<layers>
+        <li>OnSkin</li>
+			</layers>
+			<tags>
+        <li>AvaliSpacer</li>
+        <li>AvaliScout</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Avali exosuit =====================================-->
+	<ThingDef ParentName="AvaliArmorMakeableBase">
+    <defName>Avali_Apparel_Exosuit</defName>
+    <label>avali exosuit</label>
+    <description>A powered exosuit.\nThe backbone for Avali power suits.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliExosuit</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Exosuit/Exosuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <MaxHitPoints>340</MaxHitPoints>
+      <Mass>2</Mass>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryingCapacity>75</CarryingCapacity>
+      <MoveSpeed>0.5</MoveSpeed>
+      <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>50</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+        <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+        <li>LeftFeetAvali</li>
+        <li>RightFeetAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/Exosuit/Exosuit</wornGraphicPath>
+			<layers>
+        <li>Middle</li>
+			</layers>
+			<tags>
+        <li>AvaliExosuit</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Avali "Guardian" combat suit =====================================-->
+	<ThingDef ParentName="AvaliArmorMakeableBase">
+    <defName>Avali_Apparel_GuardianArmor</defName>
+    <label>avali "Guardian" combat suit</label>
+    <description>The biggest known design of Avali combat suit, weighting as much as a small car and being able to ram though the toughest of walls. \n\nCommonly used in frontlines assaults, plantary invasions, and heavy guard duty, other then that the suit is too impractical for anything else.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliGuardianArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/GuardianArmor/GuardianArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Mass>5</Mass>
+      <ArmorRating_Sharp>2.0</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.0</ArmorRating_Heat>
+      <ArmorRating_Enviromental>1</ArmorRating_Enviromental>
+      <Insulation_Cold>55</Insulation_Cold>
+      <Insulation_Heat>55</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryingCapacity>37.5</CarryingCapacity>
+      <MoveSpeed>-3</MoveSpeed>
+      <WorkSpeedGlobal>-0.40</WorkSpeedGlobal>
+      <AimingDelayFactor>-0.15</AimingDelayFactor>
+      <EquipDelay>15</EquipDelay>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>200</Plasteel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+        <li>TailAvali</li>
+        <li>LeftFeetAvali</li>
+        <li>RightFeetAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/GuardianArmor/GuardianArmor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+        <li>AvaliTank</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Elite avali "Guardian" combat suit =====================================-->
+  
+  
+	<!-- ==================================== Avali combat suit =====================================-->
+	<ThingDef ParentName="AvaliArmorMakeableBase" Name="Avali_Apparel_CombatArmor">
+    <defName>Avali_Apparel_CombatArmor</defName>
+    <label>avali combat suit</label>
+    <description>The standard for Avali Combat suit, the most armor you can put on an exosuit without affecting mobility.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliCombatArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/CombatArmor/CombatArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Mass>4</Mass>
+      <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.5</ArmorRating_Heat>
+      <ArmorRating_Enviromental>0.75</ArmorRating_Enviromental>
+      <Insulation_Cold>50</Insulation_Cold>
+      <Insulation_Heat>50</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryingCapacity>37.5</CarryingCapacity>
+      <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
+      <!--
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+      -->
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>150</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+        <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+        <li>TailAvali</li>
+        <li>LeftFeetAvali</li>
+        <li>RightFeetAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/CombatArmor/CombatArmor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+        <li>AvaliMilitary</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Elite avali combat suit =====================================-->
+	<ThingDef ParentName="Avali_Apparel_CombatArmor">
+    <defName>Avali_Apparel_CombatArmorElite</defName>
+    <label>elite avali combat suit</label>
+    <description>The standard for Avali combat suit, giving decent protection without giving up to much speed. \nThis one was painted to look comsic.</description>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/CombatArmor/CombatArmorElite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3550</MarketValue>
+    </statBases>
+    <generateCommonality>0.01</generateCommonality>
+  </ThingDef>
+  
+  <!-- ==================================== Avali Hellcat combat suit =====================================-->
+  <ThingDef ParentName="AvaliArmorMakeableBase" Name="Avali_Apparel_HellcatArmor">
+    <defName>Avali_Apparel_HellcatArmor</defName>
+    <label>avali "Hellcat" combat suit</label>
+    <description>The "Hellcat" armor suite. Using all the power of the exoskeleton for mobility and firing stability. Doesn't offer much protection.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliHellcatArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/HellcatArmor/HellcatArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>3</Mass>
+      <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <ArmorRating_Enviromental>0.5</ArmorRating_Enviromental>
+      <Insulation_Cold>40</Insulation_Cold>
+      <Insulation_Heat>40</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryingCapacity>37.5</CarryingCapacity>
+      <MoveSpeed>3.5</MoveSpeed>
+      <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+      <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+      <AimingDelayFactor>-0.2</AimingDelayFactor>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <generateCommonality>1</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+        <li>TailAvali</li>
+        <li>LeftFeetAvali</li>
+        <li>RightFeetAvali</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Avali/Apparel/HellcatArmor/HellcatArmor</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>AvaliAssassin</li>
+        <li>AvaliStalker</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Elite avali Hellcat combat suit =====================================-->
+  <ThingDef ParentName="Avali_Apparel_HellcatArmor">
+    <defName>Avali_Apparel_HellcatArmorElite</defName>
+    <label>elite avali "Hellcat" combat suit</label>
+    <description>The "Hellcat" is a complete upgrade form the previous design, with it containing more AI computing, flexablity, and higher precision. \nThe PR was kind to give it some color. \nThis version also has a freezer full of tactical tacos inside of a hidden compartment.</description>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/HellcatArmor/HellcatArmorElite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3528</MarketValue>
+    </statBases>
+    <generateCommonality>0.01</generateCommonality>
+  </ThingDef>
+</Defs>

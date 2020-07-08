@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- ======================== Running track ======================= -->
+  
+  <ThingDef ParentName="FurnitureBase">
+    <defName>AvaliRunningTrack</defName>
+    <label>running track</label>
+    <description>Not only keeps your colonists in shape, but also generates some amount of power in process. Can be used as a last resort power source.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Joy/RunningTrack/RunningTrack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <size>(1,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>10</pathCost>
+    <fillPercent>0.1</fillPercent>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <castEdgeShadows>false</castEdgeShadows>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Joy</designationCategory>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+    <comps>
+      <!-- <li Class="CompProperties_Forbiddable"/> -->
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="Avali.CompProperties_UseBuilding">
+        <workType>None</workType>
+        <useJob>UseRunningTrack</useJob>
+        <floatMenuText>UseRunningTrack</floatMenuText>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>Avali.CompRunningGenerator</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2000</WorkToBuild>
+      <Mass>50</Mass>
+      <JoyGainFactor>1</JoyGainFactor>
+    </statBases>
+    <researchPrerequisites>
+      <li>AvaliPrinting</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <!-- ======================== TV ======================= -->
+  
+  <ThingDef ParentName="FurnitureBase">
+    <defName>AvaliHoloTV</defName>
+    <label>Hologram television</label>
+    <description>This small and light thing emits a huge hologram with good picture quality and rich colors. Cool!</description>
+    <graphicData>
+      <texPath>Things/Building/Joy/TV/AvaliHoloTV</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/Joy/TV/AvaliHoloTV</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>0.1</fillPercent>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <MarketValue>1200</MarketValue>
+      <Mass>5</Mass>
+      <JoyGainFactor>1.4</JoyGainFactor>
+    </statBases>
+    <pathCost>35</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(1,1)</size>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <designationCategory>Joy</designationCategory>
+    <building>
+      <joyKind>Television</joyKind>
+      <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
+      <boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
+      <watchBuildingStandDistanceRange>
+        <min>2</min>
+        <max>5</max>
+      </watchBuildingStandDistanceRange>
+			<watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <compClass>Avali.CompHoloTV</compClass>
+        <glowRadius>2</glowRadius>
+        <glowColor>(200,150,0,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>AvaliHolograms</li>
+    </researchPrerequisites>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

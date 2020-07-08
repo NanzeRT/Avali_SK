@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!-- AvaliWormholePlatform -->
+  <ResearchProjectDef>
+      <defName>AvaliWormholePlatform</defName>
+      <label>Wormhole platform</label>
+      <description>Construct the platform where a wormhole is generated and maintained. The first step to leaving the planet using Avali wormhole technology.\nNote that if a wormhole breaks out of control it can be very destructive.</description>
+      <baseCost>4000</baseCost>
+      <techLevel>Ultra</techLevel>
+      <tab>Avali</tab>
+      <prerequisites>
+          <li>AvaliPrinting</li>
+          <li>AdvancedFabrication</li>
+      </prerequisites>
+      <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+      <requiredResearchFacilities>
+          <li>MultiAnalyzer</li>
+      </requiredResearchFacilities>
+      <researchViewX>5</researchViewX>
+      <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+  
+  <!-- AvaliWormholePod -->
+  <ResearchProjectDef>
+      <defName>AvaliWormholePod</defName>
+      <label>Wormhole pod</label>
+      <description>Construct special pods designed to safely travel through wormholes.\nWormhole pods can be launched in a group - but the pods must be placed adjacent to eachother.</description>
+      <baseCost>1000</baseCost>
+      <techLevel>Ultra</techLevel>
+      <tab>Avali</tab>
+      <prerequisites>
+          <li>AvaliWormholePlatform</li>
+      </prerequisites>
+      <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+      <requiredResearchFacilities>
+          <li>MultiAnalyzer</li>
+      </requiredResearchFacilities>
+      <researchViewX>5</researchViewX>
+      <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+  
+  <!-- AvaliWormholeConsole -->
+  <ResearchProjectDef>
+      <defName>AvaliWormholeConsole</defName>
+      <label>Wormhole control console</label>
+      <description>Construct a console allowing colonists to generate a wormhole.\nThe speed of this task depends on the operator’s intellectual skill.</description>
+      <baseCost>2000</baseCost>
+      <techLevel>Ultra</techLevel>
+      <tab>Avali</tab>
+      <prerequisites>
+          <li>AvaliWormholePlatform</li>
+      </prerequisites>
+      <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+      <requiredResearchFacilities>
+          <li>MultiAnalyzer</li>
+      </requiredResearchFacilities>
+      <researchViewX>6</researchViewX>
+      <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  
+  <!-- AvaliWormholeGenerator -->
+  <ResearchProjectDef>
+      <defName>AvaliWormholeGenerator</defName>
+      <label>Wormhole generator</label>
+      <description>Build wormhole generators that increase generation speed. The increase grows with the amount of generators built.</description>
+      <baseCost>2500</baseCost>
+      <techLevel>Ultra</techLevel>
+      <tab>Avali</tab>
+      <prerequisites>
+          <li>AvaliWormholePlatform</li>
+      </prerequisites>
+      <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+      <requiredResearchFacilities>
+          <li>MultiAnalyzer</li>
+      </requiredResearchFacilities>
+      <researchViewX>6</researchViewX>
+      <researchViewY>1.4</researchViewY>
+  </ResearchProjectDef>
+  
+  <!-- AvaliWormholeStateStabilizer -->
+  <ResearchProjectDef>
+      <defName>AvaliWormholeStateStabilizer</defName>
+      <label>Wormhole state stabilizer</label>
+      <description>Build a wormhole stabilizer that prevents the generation progress from deteriorating over time.</description>
+      <baseCost>2000</baseCost>
+      <techLevel>Ultra</techLevel>
+      <tab>Avali</tab>
+      <prerequisites>
+          <li>AvaliWormholePlatform</li>
+      </prerequisites>
+      <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+      <requiredResearchFacilities>
+          <li>MultiAnalyzer</li>
+      </requiredResearchFacilities>
+      <researchViewX>6</researchViewX>
+      <researchViewY>3.6</researchViewY>
+  </ResearchProjectDef>
+  
+  <!-- AvaliWormholeAIOperator -->
+  <ResearchProjectDef>
+      <defName>AvaliWormholeAIOperator</defName>
+      <label>Wormhole AI operator</label>
+      <description>Build an AI-controlled wormhole operating station.\nGenerates progress faster than even the brightest minds.\nRequires an AI persona core.</description>
+      <baseCost>4000</baseCost>
+      <techLevel>Ultra</techLevel>
+      <tab>Avali</tab>
+      <prerequisites>
+          <li>AvaliWormholePlatform</li>
+      </prerequisites>
+      <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+      <requiredResearchFacilities>
+          <li>MultiAnalyzer</li>
+      </requiredResearchFacilities>
+      <researchViewX>6</researchViewX>
+      <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+</Defs>

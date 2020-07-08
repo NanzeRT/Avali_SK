@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BodyDef>
+    <defName>AvaliGuardDrone</defName>
+    <label>guard drone</label>
+    <corePart>
+      <def>AvaliGuardDroneChassis</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>AvaliGuardDroneHead</def>
+          <coverage>0.15</coverage>
+          <height>Top</height>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>AvaliDroneController</def>
+              <coverage>0.05</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>AvaliDroneSightSensor</def>
+              <coverage>0.1</coverage>
+            </li>
+            <li>
+              <def>AvaliDroneHearingSensor</def>
+              <coverage>0.01</coverage>
+            </li>
+          </parts>
+        </li>
+        
+        <li>
+          <def>AvaliGuardDroneLeftHoverblade</def>
+          <coverage>0.15</coverage>
+          <height>Middle</height>
+        </li>
+        <li>
+          <def>AvaliGuardDroneRightHoverblade</def>
+          <coverage>0.15</coverage>
+          <height>Middle</height>
+        </li>
+        
+        <li>
+          <def>AvaliGuardDroneLeftWing</def>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>AvaliGuardDroneRightWing</def>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+        </li>
+        
+        <li>
+          <def>AvaliDroneWeaponHolder</def>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>DroneWeaponHolder</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- AvaliSmell -->
+  <ThoughtDef>
+    <defName>AvaliSmell</defName>
+    <workerClass>Avali.ThoughtWorker_AvaliSmell</workerClass>
+    <stages>
+      <li>
+        <label>strange smell</label>
+        <description>What is that smell? Maybe some sort of a floor cleaner?</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>unpleasant smell</label>
+        <description>This place smells unpleasant. Looks like it's ammonia.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>bad smell</label>
+        <description>There is a strong smell of ammonia in the air. It looks like it comes from those small feathered aliens.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>stench</label>
+        <description>Smell going from those feathered aliens intolerable. I think I need to urgently get out for some fresh air.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>strong stench</label>
+        <description>How those small feathered aliens can have so horrible smell? Looks like I need a gas mask.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>unbearable stench</label>
+        <description>The smell from those feathered aliens... It's horrible... It seems to me to throw up now...</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- AvaliEnvironmentHot -->
+  <ThoughtDef>
+    <defName>AvaliEnvironmentHot</defName>
+    <workerClass>ThoughtWorker_Hot</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>hot</label>
+        <description>It's too hot here. Becomes difficult to breathe.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>very hot</label>
+        <description>It's way too hot here. If I could just have a breath of cool air...</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>    
+        <li>
+        <label>sweltering hot</label>
+        <description>I feel like I'm in an oven! I'm not sure how long I can handle this.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+      <li>
+        <label>blistering hot</label>
+        <description>This place is searing hot. I feel that I'm boiling alive!</description>
+        <baseMoodEffect>-16</baseMoodEffect>
+      </li>     
+    </stages>
+  </ThoughtDef>
+  
+  <!-- ListenerAny -->
+  <ThoughtDef>
+    <defName>ListenerAny</defName>
+    <durationDays>0.003</durationDays>
+		<stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>bad singing</label> <!-- -5 --> 
+        <description>That more looks like noises then singing.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>content singing</label> <!-- 1 -->
+        <description>Not bad, but nothing more.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>good singing</label> <!-- 5 -->
+        <description>That guy looks like a talent!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>beautiful singing</label> <!-- 10 -->
+        <description>For a long time I have not heard anything like that. What a beautiful voice...</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>wonderful singing</label> <!-- 15 -->
+        <description>Not in vain Avali considered as the best singers in the galaxy. This is one of the most beautiful song what I heard in a whole my life!</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- ListenerAvali -->
+  <ThoughtDef>
+    <defName>ListenerAvali</defName>
+    <durationDays>0.003</durationDays>
+		<stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>horrible singing</label> <!-- -10 -->
+        <description>My talons make much pleasant noices than the mouth of this guy. Somebody tell him to shut up!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>bad singing</label> <!-- -5 -->
+        <description>Aghh... than noice totally not a singing, more like a crackle of ice or a gnash of metal...</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>content singing</label> <!-- 1 -->
+        <description>Any Avali can sing like that.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>good singing</label> <!-- 5 -->
+        <description>I like it. I would not say that the best voice I ever heard, but It still good.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>beautiful singing</label> <!-- 10 -->
+        <description>Wow! What a beautiful voice. I like it!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

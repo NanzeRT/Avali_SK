@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "FabricationBench"]/recipes</xpath>
+    <value>
+      <li>MakePlasteel</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "CookMealBase"]/defaultIngredientFilter/disallowedThingDefs</xpath>
+		<value>
+			<li>Meat_Avali</li>
+		</value>
+	</Operation> 
+</Patch>

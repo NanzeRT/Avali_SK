@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- <ThinkTreeDef>
+		<defName>Avali_PreMain</defName>
+		<insertTag>Humanlike_PreMain</insertTag>
+		<insertPriority>16</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+        <li Class="Avali.JobGiver_GotoForLovinAvali"/>
+      </subNodes>
+		</thinkRoot>
+	</ThinkTreeDef> -->
+  
+  <ThinkTreeDef>
+		<defName>Avali_PostMentalState</defName>
+		<insertTag>Humanlike_PostMentalState</insertTag>
+		<insertPriority>16</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="ThinkNode_ConditionalMentalState">
+          <state>AvaliWanderInSilence</state>
+          <subNodes>
+            <li Class="JobGiver_WanderAnywhere">
+              <maxDanger>Deadly</maxDanger>
+            </li>
+          </subNodes>
+        </li>
+      </subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

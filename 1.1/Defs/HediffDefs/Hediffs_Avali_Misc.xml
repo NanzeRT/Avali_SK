@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- OxygenAtmosphere -->
+  <HediffDef>
+    <defName>OxygenAtmosphere</defName>
+    <label>oxygen atmosphere</label>
+    <description>The basic thermoregulation and life support system not designed to work in such severe for Avali conditions without additional equipment or augments. To survive more than day you colonists must have life support belts or armors with life support system. Minimal summary enviromental protection level must be non less then 15%.</description>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <hediffClass>HediffWithComps</hediffClass>
+    <makesSickThought>true</makesSickThought>
+    <makesAlert>true</makesAlert>
+    <initialSeverity>0.001</initialSeverity>
+    <minSeverity>0.001</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <lethalSeverity>1</lethalSeverity>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <taleOnVisible>ToxicityRevealed</taleOnVisible>
+    <isBad>true</isBad>
+    <tendable>true</tendable>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>96</baseTendDurationHours>
+        <severityPerDayTended>-3.0</severityPerDayTended>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>10 hours to death</label>
+      </li>
+      <li>
+        <label>9 hours to death</label>
+        <minSeverity>0.1</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.9</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.9</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>8 hours to death</label>
+        <minSeverity>0.2</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.8</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.8</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>7 hours to death</label>
+        <minSeverity>0.3</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.7</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.7</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>6 hours to death</label>
+        <minSeverity>0.4</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.6</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.6</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>5 hours to death</label>
+        <minSeverity>0.5</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.5</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.5</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>4 hours to death</label>
+        <minSeverity>0.6</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.4</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.4</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>3 hours to death</label>
+        <minSeverity>0.7</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.3</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.3</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>2 hours to death</label>
+        <minSeverity>0.8</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.2</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.2</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>1 hour to death</label>
+        <minSeverity>0.9</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.2</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0.2</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <setMax>0</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliBiology -->
+  <HediffDef>
+    <defName>AvaliBiology</defName>
+    <label>avali biology</label>
+    <description>Avali biology.</description>
+    <hediffClass>Avali.Hediff_AvaliBiology</hediffClass>
+    <everCurableByItem>false</everCurableByItem>
+    <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>0.001</initialSeverity>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>1.0</offset>
+          </li>
+        </capMods>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.25</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>1.0</offset>
+          </li>
+        </capMods>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li> 
+        <minSeverity>0.5</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>1.0</offset>
+          </li>
+        </capMods>
+        
+        <restFallFactorOffset>1.0</restFallFactorOffset>
+        <statOffsets>
+          <RestRateMultiplier>3.0</RestRateMultiplier>
+        </statOffsets>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- ToxicImmunity -->
+  <HediffDef>
+    <defName>ToxicImmunity</defName>
+    <label>toxic immunity</label>
+    <description>This colonist has 100% environmental protection, so no more susceptible to any kind of environmental hazards. Toxic Follouts no longer cause them any harm.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <everCurableByItem>false</everCurableByItem>
+    <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+          <makeImmuneTo>
+						<li>ToxicBuildup</li>
+					</makeImmuneTo>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliAgeTracker -->
+  <HediffDef>
+    <defName>AvaliAgeTracker</defName>
+    <hediffClass>Avali.Hediff_AvaliAgeTracker</hediffClass>
+    <label>avali kit age tracker</label>
+    <description>Avali kit age tracker.</description>
+    <everCurableByItem>false</everCurableByItem>
+    <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- CantTalk -->
+  <HediffDef>
+    <defName>CantTalk</defName>
+    <label>can't talk</label>
+    <description>Can't talk.</description>
+    <everCurableByItem>false</everCurableByItem>
+    <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <setMax>0</setMax>
+          </li>
+        </capMods>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliSugarEffect -->
+  <HediffDef>
+    <defName>AvaliSugarEffect</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>high on sugar</label>
+    <labelNoun>a sugar high</labelNoun>
+    <description>This Avali high on sugar, they have enhanced senses, move and work at 50% faster, but get tired at 250% faster.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <restFallFactor>2.5</restFallFactor>
+          <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.15</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>0.5</offset>
+          </li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.5</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.5</offset>
+					</li>
+        </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+  
+  <!-- AvaliHasEgg -->
+  <HediffDef>
+    <defName>AvaliHasEgg</defName>
+    <label>has egg</label>
+    <labelNoun>has egg</labelNoun>
+    <description>This colonist has egg.</description>
+    <everCurableByItem>false</everCurableByItem>
+    <hediffClass>Avali.Hediff_AvaliHasEgg</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <initialSeverity>0.001</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Discoverable">
+        <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+        <discoverLetterLabel>{0} lay the egg soon</discoverLetterLabel>
+        <discoverLetterText>{0} lay the egg soon!</discoverLetterText>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>egg started forming</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <label>egg almost formed</label>
+        <minSeverity>0.9</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>egg formed</label>
+        <minSeverity>1.0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!-- AvaliCaresOfEgg -->
+  <HediffDef>
+    <defName>AvaliCaresOfEgg</defName>
+    <label>cares of the egg</label>
+    <description>Cares of the egg.</description>
+    <everCurableByItem>false</everCurableByItem>
+    <hediffClass>Avali.Hediff_AvaliCaresOfEgg</hediffClass>
+    <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
+    <initialSeverity>0.001</initialSeverity>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

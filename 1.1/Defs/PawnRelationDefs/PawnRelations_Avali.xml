@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <PawnRelationDef>
+    <defName>Packmate</defName>
+    <label>packmate</label>
+    <importance>100</importance>
+    <lostThought>MyPackmateLost</lostThought>
+    <diedThought>MyPackmateDied</diedThought>
+    <killedThought>KilledMyPackmate</killedThought>
+    <soldThoughts>
+      <li>SoldMyPackmate</li>
+    </soldThoughts>
+    <opinionOffset>35</opinionOffset>
+    <implied>false</implied>
+    <reflexive>false</reflexive> <!-- true - for both pawns, false - only for current pawn -->
+  </PawnRelationDef>
+
+  <PawnRelationDef>
+    <defName>PackLeader</defName>
+    <label>pack leader</label>
+    <importance>100</importance>
+    <lostThought>MyPackmateLost</lostThought>
+    <diedThought>MyPackmateDied</diedThought>
+    <killedThought>KilledMyPackmate</killedThought>
+    <soldThoughts>
+      <li>SoldMyPackmate</li>
+    </soldThoughts>
+    <opinionOffset>35</opinionOffset>
+    <implied>false</implied>
+    <reflexive>false</reflexive>
+  </PawnRelationDef>
+  
+  <PawnRelationDef>
+    <defName>Kit</defName>
+    <label>kit</label>
+    <importance>150</importance>
+    <lostThought>MyCaretakerLost</lostThought>
+    <diedThought>MyCaretakerDied</diedThought>
+    <killedThought>KilledMyCaretaker</killedThought>
+    <soldThoughts>
+      <li>SoldMyCaretaker</li>
+    </soldThoughts>
+    <opinionOffset>35</opinionOffset>
+    <implied>false</implied>
+    <reflexive>false</reflexive>
+  </PawnRelationDef>
+  
+  <PawnRelationDef>
+    <defName>Caretaker</defName>
+    <label>taking care of {1}</label>
+    <importance>150</importance>
+    <lostThought>MyStepchildLost</lostThought>
+    <diedThought>MyStepchildDied</diedThought>
+    <killedThought>KilledMyStepchild</killedThought>
+    <soldThoughts>
+      <li>SoldMyStepchild</li>
+    </soldThoughts>
+    <opinionOffset>35</opinionOffset>
+    <implied>false</implied>
+    <reflexive>false</reflexive>
+  </PawnRelationDef>
+</Defs>

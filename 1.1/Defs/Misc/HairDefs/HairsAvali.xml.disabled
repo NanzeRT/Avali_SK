@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>AvaliHair</defName>
+    <label>avali feathers</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Avali/Hairs/AvaliHair</texPath>
+		<hairTags>
+			<li>AvaliHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <!-- <HairDef>
+    <defName>AvaliFemaleHair</defName>
+    <label>avali female feathers</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Avali/Hairs/AvaliHair</texPath>
+    <hairTags>
+			<li>AvaliHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>AvaliMaleHair</defName>
+    <label>avali male feathers</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Avali/Hairs/AvaliHair</texPath>
+		<hairTags>
+			<li>AvaliHair</li>
+		</hairTags>
+  </HairDef> -->
+</Defs>

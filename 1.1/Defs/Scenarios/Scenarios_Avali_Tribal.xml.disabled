@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ScenarioDef>
+	<defName>AvaliTribalScanario</defName>
+	<label>Avali Rogue Tribe</label>
+	<description>Pirates attacked, destroyed your camp and killed or captured almost all your tribe. Only five of you managed to escape. Now, it's time to build up a new home.\n\nNote: You have no research done, but high tech level.</description>
+	<scenario>
+		<summary>Five survivors attempt to rebuild.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>AvaliPlayerColonyTribal</factionDef>
+		</playerFaction>
+		<parts>
+    
+			<!-- Config pages -->
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>5</pawnCount>
+        <pawnChoiceCount>10</pawnChoiceCount>
+			</li>
+
+			<!-- Player starting stuff spawn method-->
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>Standing</method>
+			</li>
+      
+			<!-- Player pawns modifiers -->
+			<li Class="ScenPart_ForcedHediff">
+				<def>ForcedHediff</def>
+				<visible>false</visible>
+				<context>PlayerStarter</context>
+				<chance>0.5</chance>
+				<hediff>Malnutrition</hediff>
+				<severityRange>
+					<min>0.2</min>
+					<max>0.4</max>
+				</severityRange>
+			</li>
+			<li Class="ScenPart_SetNeedLevel">
+				<def>SetNeedLevel</def>
+				<visible>false</visible>
+				<context>PlayerStarter</context>
+				<chance>1.0</chance>
+				<need>Food</need>
+				<levelRange>
+					<min>0</min>
+					<max>0.1</max>
+				</levelRange>
+			</li>
+
+			<!-- Player starting things -->
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>200</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MealSurvivalPack</thingDef>
+				<count>30</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Medicine</thingDef>
+				<count>20</count>
+			</li>
+      <li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Avali_Dagger</thingDef>
+        <stuff>Steel</stuff>
+				<count>2</count>
+			</li>
+      <li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Avali_Sword</thingDef>
+        <stuff>Steel</stuff>
+				<count>1</count>
+			</li>
+      <li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Avali_Spear</thingDef>
+        <stuff>Steel</stuff>
+				<count>2</count>
+			</li>
+      <li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>AvaliNanoFibre</thingDef>
+				<count>200</count>
+			</li>
+			<!-- Scatter some things near player start -->
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>WoodLog</thingDef>
+				<count>500</count>
+			</li>
+      <li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>Steel</thingDef>
+				<count>300</count>
+			</li>
+      <li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>20</count>
+			</li>
+      
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>Pirates attacked, destroyed your camp and killed or captured almost all your tribe. Only five of you managed to escape. Now, it's time to build up a new home.</text>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+			</parts>
+		</scenario>
+  </ScenarioDef>
+</Defs>

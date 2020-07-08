@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="AvaliPawnBase" ParentName="BaseHumanlikePawn" Abstract="True">
+    <inspectorTabs>
+      <li>Avali.ITab_Avali_Pack</li>
+    </inspectorTabs>
+  </ThingDef>
+  
+  <AlienRace.ThingDef_AlienRace Name="Avali" ParentName="AvaliPawnBase">
+    <defName>Avali</defName>
+    <label>avali</label>
+    <description>A small feathered raptor-like creature with big eyes and four ears.\nKnown for their bad temper and a love of the musical arts and shiny things.</description>
+    <alienRace>
+      <generalSettings>
+        <maleGenderProbability>0.5</maleGenderProbability>
+        <allowHumanBios>false</allowHumanBios>
+        <maxDamageForSocialfight>6</maxDamageForSocialfight>
+        <humanRecipeImport>true</humanRecipeImport>
+        <immuneToAge>false</immuneToAge>
+        <!-- Starting relations with other factions when you play as AvaliPlayerColony. -->
+        <factionRelations>
+          <li>
+            <factions>
+              <li>AvaliIndependent</li>
+            </factions>
+            <goodwill>
+              <min>10</min>
+              <max>30</max>
+            </goodwill>
+          </li>
+        </factionRelations>
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- Xenophobic little shits! -->
+            <defName>Xenophobia</defName>
+            <degree>1</degree>
+            <chance>30</chance>
+          </li>
+          <li>
+            <!-- Feathers burn good! -->
+            <defName>FearsFire</defName>
+            <chance>40</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <disallowedTraits>
+          <!-- <li>Cannibal</li>  -->
+          <!-- <li>Nudist</li> -->
+          <li>Abrasive</li> <!-- It makes no sense anymore - a similar behavior is implemented in Avali.dll -->
+          <li>Transhumanist</li>
+          <li>BodyPurist</li>
+          <li>Jealous</li>
+          <li>Greedy</li>
+          <li>CreepyBreathing</li>
+        </disallowedTraits>
+        <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+          </aliencrowntypes>
+          <alienbodytypes>
+            <li>Thin</li>
+          </alienbodytypes>
+          <alienskincolorgen Class="ColorGenerator_Options">
+            <options>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(0.2, 0.2, 0.2, 1)</min>
+                <max>RGBA(0.3, 0.2, 0.3, 1)</max>
+              </li>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(0.3, 0.3, 0.3, 1)</min>
+                <max>RGBA(0.4, 0.3, 0.4, 1)</max>
+              </li>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(0.4, 0.4, 0.4, 1)</min>
+                <max>RGBA(0.5, 0.4, 0.5, 1)</max>
+              </li>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(0.5, 0.5, 0.5, 1)</min>
+                <max>RGBA(0.6, 0.5, 0.6, 1)</max>
+              </li>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(0.6, 0.6, 0.6, 1)</min>
+                <max>RGBA(0.7, 0.6, 0.7, 1)</max>
+              </li>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(0.7, 0.7, 0.7, 1)</min>
+                <max>RGBA(0.8, 0.7, 0.8, 1)</max>
+              </li>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(0.8, 0.8, 0.8, 1)</min>
+                <max>RGBA(0.8, 0.8, 0.9, 1)</max>
+              </li>
+            </options>
+          </alienskincolorgen>
+          <alienskinsecondcolorgen Class="ColorGenerator_Options">
+            <options>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(1, 0, 0, 1)</min>
+                <max>RGBA(1, 1, 1, 1)</max>
+              </li>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(0, 1, 0, 1)</min>
+                <max>RGBA(1, 1, 1, 1)</max>
+              </li>
+              <li>
+                <weight>5</weight>
+                <min>RGBA(0, 0, 1, 1)</min>
+                <max>RGBA(1, 1, 1, 1)</max>
+              </li>
+            </options>
+          </alienskinsecondcolorgen>
+          <customDrawSize>(1, 1)</customDrawSize>
+          <customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
+          <bodyAddons>
+            <!-- Male/Female tail -->
+            <li>
+              <drawSize>1</drawSize>
+              <path>Things/Avali/Tail_Male/Tail</path>
+              <backstoryGraphics>
+                <AvaliFemaleRimworldChild>Things/Avali/Tail_Female/Tail</AvaliFemaleRimworldChild>
+                <AvaliFemaleRimworldAdult>Things/Avali/Tail_Female/Tail</AvaliFemaleRimworldAdult>
+                
+                <AvaliFemaleAvaliIlluminateChild>Things/Avali/Tail_Female/Tail</AvaliFemaleAvaliIlluminateChild>
+                <AvaliFemaleWarTornSurvivor>Things/Avali/Tail_Female/Tail</AvaliFemaleWarTornSurvivor>
+                <AvaliFemaleGeneticallyEditedWarrior>Things/Avali/Tail_Female/Tail</AvaliFemaleGeneticallyEditedWarrior>
+                <AvaliFemaleGeneticallyEditedSocial>Things/Avali/Tail_Female/Tail</AvaliFemaleGeneticallyEditedSocial>
+                <AvaliFemaleLostEgg>Things/Avali/Tail_Female/Tail</AvaliFemaleLostEgg>
+                <AvaliFemaleRejected>Things/Avali/Tail_Female/Tail</AvaliFemaleRejected>
+                <AvaliFemaleCoreChild>Things/Avali/Tail_Female/Tail</AvaliFemaleCoreChild>
+                <AvaliFemaleSpaceNomad>Things/Avali/Tail_Female/Tail</AvaliFemaleSpaceNomad>
+                <AvaliFemaleArtchild>Things/Avali/Tail_Female/Tail</AvaliFemaleArtchild>
+                <AvaliFemaleArchitect>Things/Avali/Tail_Female/Tail</AvaliFemaleArchitect>
+                <AvaliFemaleIndependentYouth>Things/Avali/Tail_Female/Tail</AvaliFemaleIndependentYouth>
+                <AvaliFemaleEngineerApprentice>Things/Avali/Tail_Female/Tail</AvaliFemaleEngineerApprentice>
+                <AvaliFemaleCadet>Things/Avali/Tail_Female/Tail</AvaliFemaleCadet>
+                <AvaliFemaleAnimalLover>Things/Avali/Tail_Female/Tail</AvaliFemaleAnimalLover>
+                <AvaliFemaleApprenticeNurse>Things/Avali/Tail_Female/Tail</AvaliFemaleApprenticeNurse>
+                
+                <AvaliFemaleArmorer>Things/Avali/Tail_Female/Tail</AvaliFemaleArmorer>
+                <AvaliFemaleMilitia>Things/Avali/Tail_Female/Tail</AvaliFemaleMilitia>
+                <AvaliFemaleMilitiaCaptain>Things/Avali/Tail_Female/Tail</AvaliFemaleMilitiaCaptain>
+                <AvaliFemaleDoctor>Things/Avali/Tail_Female/Tail</AvaliFemaleDoctor>
+                <AvaliFemaleSurvivor>Things/Avali/Tail_Female/Tail</AvaliFemaleSurvivor>
+                <AvaliFemaleEggSnatcher>Things/Avali/Tail_Female/Tail</AvaliFemaleEggSnatcher>
+                <AvaliFemaleChef>Things/Avali/Tail_Female/Tail</AvaliFemaleChef>
+                <AvaliFemaleEliteGuard>Things/Avali/Tail_Female/Tail</AvaliFemaleEliteGuard>
+                <AvaliFemaleFelon>Things/Avali/Tail_Female/Tail</AvaliFemaleFelon>
+                <AvaliFemaleAssassin>Things/Avali/Tail_Female/Tail</AvaliFemaleAssassin>
+                <AvaliFemaleToymaker>Things/Avali/Tail_Female/Tail</AvaliFemaleToymaker>
+                <AvaliFemaleMiner>Things/Avali/Tail_Female/Tail</AvaliFemaleMiner>
+                <AvaliFemaleScientist>Things/Avali/Tail_Female/Tail</AvaliFemaleScientist>
+                <AvaliFemaleStarbound>Things/Avali/Tail_Female/Tail</AvaliFemaleStarbound>
+							</backstoryGraphics>
+              <bodyPart>TailAvali</bodyPart>
+              <inFrontOfBody>false</inFrontOfBody>
+              <useSkinColor>true</useSkinColor>
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south />
+                <north>
+                  <bodyTypes>
+                    <Thin>(0, -0.1)</Thin>
+                  </bodyTypes>
+                  <portraitBodyTypes>
+										<Thin>(0, -0.1)</Thin>
+									</portraitBodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Thin>(-0.1, 0)</Thin>
+                  </bodyTypes>
+                  <portraitBodyTypes>
+										<Thin>(-0.1, 0)</Thin>
+									</portraitBodyTypes>
+                </east>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <graphicPaths>
+        <li>
+          <head>Things/Avali/Heads/</head>
+          <body>Things/Avali/Bodies/</body>
+          <skull>Things/Avali/Skull/AvaliSkull</skull>
+        </li>
+      </graphicPaths>
+      <hairSettings>
+        <hasHair>false</hasHair>
+      </hairSettings>
+      <relationSettings>
+      <!-- defaults
+        <relationChanceModifierChild>1.1</relationChanceModifierChild>
+        <relationChanceModifierExLover>1</relationChanceModifierExLover>
+        <relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+        <relationChanceModifierFiance>1.1</relationChanceModifierFiance>
+        <relationChanceModifierLover>1.05</relationChanceModifierLover>
+        <relationChanceModifierParent>1</relationChanceModifierParent>
+        <relationChanceModifierSibling>1</relationChanceModifierSibling>
+        <relationChanceModifierSpouse>1.1</relationChanceModifierSpouse>
+      -->
+        <relationChanceModifierChild>0</relationChanceModifierChild>
+        <relationChanceModifierParent>0</relationChanceModifierParent>
+        <relationChanceModifierSibling>0</relationChanceModifierSibling>
+        
+        <relationChanceModifierExLover>0.5</relationChanceModifierExLover>
+        <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+        <relationChanceModifierLover>0.52</relationChanceModifierLover>
+        <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+        <relationChanceModifierFiance>0</relationChanceModifierFiance>
+      </relationSettings>
+      <raceRestriction>
+        <apparelList>
+          <li>Avali_Apparel_Rings</li>
+          <li>Avali_Apparel_HeadWraps</li>
+          <li>Avali_Apparel_HeadWrapsNotMakeble</li>
+          <li>Avali_Apparel_Cap</li>
+          <li>Avali_Apparel_Headset</li>
+          <li>Avali_Apparel_ScoutHUD</li>
+          <li>Avali_Apparel_LightCombatHelmet</li>
+          
+          <li>Avali_Apparel_Wrap</li>
+          <li>Avali_Apparel_Sleeves</li>
+          <li>Avali_Apparel_Cloak</li>
+          <li>Avali_Apparel_BeltedCloak</li>
+          <li>Avali_Apparel_Trenchcoat</li>
+          <li>Avali_Apparel_Shirt</li>
+          <li>Avali_Apparel_Camo</li>
+          <li>Avali_Apparel_SurvivalGear</li>
+          <li>Avali_Apparel_ScoutArmor</li>
+          <li>Avali_Apparel_Exosuit</li>
+          <li>Avali_Apparel_GuardianArmor</li>
+          <li>Avali_Apparel_GuardianHelmet</li>
+          <li>Avali_Apparel_GuardianArmorElite</li>
+          <li>Avali_Apparel_GuardianHelmetElite</li>
+          <li>Avali_Apparel_CombatArmor</li>
+          <li>Avali_Apparel_CombatHelmet</li>
+          <li>Avali_Apparel_CombatArmorElite</li>
+          <li>Avali_Apparel_CombatHelmetElite</li>
+          <li>Avali_Apparel_HellcatArmor</li>
+          <li>Avali_Apparel_HellcatHelmet</li>
+          <li>Avali_Apparel_HellcatArmorElite</li>
+          <li>Avali_Apparel_HellcatHelmetElite</li>
+        </apparelList>
+        <whiteApparelList>
+          <li>Apparel_ShieldBeltAvali</li>
+          <li>Apparel_LifeSupportBeltAvali</li>
+          
+          <li>Apparel_TribalA</li>
+          <li>Apparel_Parka</li>
+          <li>Apparel_Duster</li>
+          <li>Apparel_Jacket</li>
+          <li>Apparel_VestPlate</li>
+          <li>Apparel_PowerArmor</li>
+          <li>Apparel_ArmorRecon</li>
+          
+          <li>Avali_Apparel_Scarf</li>
+          
+          <li>Apparel_CowboyHat</li>
+          <li>Apparel_BowlerHat</li>
+          <li>Apparel_TribalHeaddress</li>
+          <li>Apparel_Tuque</li>
+          <li>Apparel_WarMask</li>
+          <li>Apparel_WarVeil</li>
+          <li>Apparel_SimpleHelmet</li>
+          <li>Apparel_AdvancedHelmet</li>
+          <li>Apparel_PowerArmorHelmet</li>
+          <li>Apparel_ArmorHelmetRecon</li>
+          <li>Apparel_PsychicFoilHelmet</li>
+          
+          <li>Apparel_ShieldBelt</li>
+          <li>SmokepopBelt</li>
+          
+          <!-- Glittertech Apparel -->
+          <li>Apparel_NanoSuit</li>
+          <li>Apparel_Reactive</li>
+          <li>Apparel_NanoSkin</li>
+          <li>Apparel_NanoSpeed</li>
+          <li>Apparel_OCCombatVest</li>
+          <li>Apparel_HC1Shield</li>
+          <li>Apparel_OCShield</li>
+          
+          <!-- Rimatomics Apparel -->
+          <li>Apparel_RadiationSuit</li>
+          <li>Apparel_MoppSuitDesert</li>
+          <li>Apparel_MoppSuitWoodland</li>
+          <li>Apparel_MoppSuitSnow</li>
+          
+          <!-- Advanced Shield Belts Apparel -->
+          <li>Apparel_QRShieldBelt</li>
+          <li>Apparel_HeavyShieldBelt</li>
+          <li>Apparel_RangedShieldBelt</li>
+          
+          <!-- Dubs Kits stuff -->
+          <li>MedicineBag</li>
+					<li>MedicalKit</li>
+					<li>UltraMedKit</li>
+					<li>DubsRepairKit</li>
+          
+          <!-- Save Our Ship Apparel -->
+          <li>Apparel_SpaceSuitBody</li>
+					<li>Apparel_SpaceSuitHelmet</li>
+					<li>Apparel_SpaceSuitBodyHeavy</li>
+        </whiteApparelList>
+        <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+        
+        <weaponList>
+        </weaponList>
+        
+        <buildingList>
+          <li>AvaliPillow</li>
+          <li>AvaliCushion</li>
+          <li>AvaliCarpet1x1c</li>
+          <li>AvaliCarpet1x4c</li>
+          <li>AvaliCarpet4x2c</li>
+        </buildingList>
+        
+        <recipeList>
+        </recipeList>
+        
+        <plantList>
+        </plantList>
+        <!-- Disabled because of HAR2 bug. -->
+        <!-- <researchList>
+          <li>
+            <projects>
+                <li>AvaliCybernetics</li>
+                <li>AvaliCyberneticsAdvanced</li>
+                <li>AvaliSurvivalGear</li>
+                <li>AvaliScoutArmor</li>
+                <li>AvaliExosuit</li>
+                <li>AvaliGuardianArmor</li>
+                <li>AvaliCombatArmor</li>
+                <li>AvaliHellcatArmor</li>
+            </projects>
+          </li>
+        </researchList> -->
+        
+      </raceRestriction>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>CrashedTogether</li>
+          <li>Expectations</li>
+          <li>AteAvaliFoodRaw</li>
+          <li>AteAwfulMeal</li>
+          <li>AteRawFood</li>
+          <li>SleepDisturbed</li>
+          <li>EnvironmentDark</li>
+          <li>CabinFever</li>
+          <li>SharedBed</li>
+          <li>Naked</li>
+          <li>WantToSleepWithSpouseOrLover</li>
+          <li>AteInsectMeatAsIngredient</li>
+          <li>Insulted</li>
+          <li>Jealous</li>
+          <li>SleptInBedroom</li>
+          <li>SleptInBarracks</li>
+          <li>SleptInCold</li>
+          <li>SleptInHeat</li>
+          <li>WrongApparelGender</li>
+          <!--
+          <li>PrisonCell</li>
+          <li>PrisonBarracks</li>
+          -->
+        </cannotReceiveThoughts>
+        
+        <replacerList>
+          <!-- Opinion and Mood -->
+          <li>
+            <original>AteAvaliEggRaw</original>
+            <replacer>AvaliAteAvaliEggRaw</replacer> 
+          </li>
+          <li>
+            <original>AteAvaliEggOmlette</original>
+            <replacer>AvaliAteAvaliEggOmlette</replacer> 
+          </li>
+          
+          <li>
+            <original>MyLoverDied</original>
+            <replacer>MyLoverDiedAvali</replacer> 
+          </li>
+          
+          <li>
+            <original>SoldMyLovedOne</original>
+            <replacer>SoldMyLovedOneAvali</replacer> 
+          </li>
+          
+          <li>
+            <original>SoldMyStepchild</original>
+            <replacer>SoldMyKit</replacer> 
+          </li>
+          
+          <li>
+            <original>MyStepchildLost</original>
+            <replacer>MyKitLost</replacer> 
+          </li>
+          
+          <li>
+            <original>MyStepchildDied</original>
+            <replacer>MyKitDied</replacer> 
+          </li>
+          
+          <!-- Opinion -->
+          <li>
+            <original>KilledMyStepchild</original>
+            <replacer>KilledMyKit</replacer> 
+          </li>
+          
+          <li>
+            <original>KilledMyLover</original>
+            <replacer>KilledMyLoverAvali</replacer> 
+          </li>
+          
+          <!-- Mood -->
+          <li>
+            <original>EnvironmentHot</original>
+            <replacer>AvaliEnvironmentHot</replacer> 
+          </li>
+          
+          <li>
+            <original>SleptOnGround</original>
+            <replacer>SleptWithoutPillow</replacer> 
+          </li>
+          
+          <li>
+            <original>AteWithoutTable</original>
+            <replacer>AvaliAteWithoutTable</replacer> 
+          </li>
+          
+          <li>
+            <original>AteAvaliFood</original>
+            <replacer>AvaliAteAvaliFood</replacer> 
+          </li>
+          <li>
+            <original>AteAvaliFoodLavish</original>
+            <replacer>AvaliAteAvaliFoodLavish</replacer> 
+          </li>
+          <li>
+            <original>AteKibble</original>
+            <replacer>AvaliAteKibble</replacer> 
+          </li>
+          <li>
+            <original>AteCorpse</original>
+            <replacer>AvaliAteCorpse</replacer> 
+          </li>
+          <li>
+            <original>AteInsectMeatDirect</original>
+            <replacer>AvaliAteInsectMeatDirect</replacer> 
+          </li>
+          
+          <li>
+            <original>ObservedLayingCorpse</original>
+            <replacer>ObservedSentientSpecimenCorpse</replacer> 
+          </li>
+          <li>
+            <original>ObservedLayingRottingCorpse</original>
+            <replacer>ObservedSentientSpecimenRottingCorpse</replacer> 
+          </li>
+          
+          <li>
+            <original>NeedJoy</original>
+            <replacer>AvaliNeedJoy</replacer> 
+          </li>
+          <li>
+            <original>NeedComfort</original>
+            <replacer>AvaliNeedComfort</replacer> 
+          </li>
+        </replacerList>
+        
+        <butcherThoughtGeneral>
+          <thought>ButcheredSentientSpecimen</thought>
+          <knowThought>KnowButcheredSentientSpecimen</knowThought>
+        </butcherThoughtGeneral>
+        <butcherThoughtSpecific>
+            <li>
+              <raceList>
+                <li>Avali</li>
+              </raceList>
+              <thought>ButcheredAvaliCorpse</thought>
+              <knowThought>KnowButcheredAvaliCorpse</knowThought>
+          </li>
+        </butcherThoughtSpecific>
+        
+        <ateThoughtGeneral>
+          <thought>AteSentientSpecimenMeatDirect</thought>
+          <ingredientThought>AteSentientSpecimenMeatAsIngredient</ingredientThought>
+        </ateThoughtGeneral>
+        <ateThoughtSpecific>
+          <li>
+            <raceList>
+                <li>Avali</li>
+            </raceList>
+            <thought>AteAvaliMeatDirect</thought>
+            <ingredientThought>AteAvaliMeatAsIngredient</ingredientThought>
+          </li>
+        </ateThoughtSpecific>
+      </thoughtSettings>
+    </alienRace>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <MoveSpeed>7.62</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <PsychicSensitivity>1.0</PsychicSensitivity>
+      <MeleeDodgeChance>7</MeleeDodgeChance> <!-- 4 default human value -->
+      <MentalBreakThreshold>0.18</MentalBreakThreshold> <!-- 0.35 default human value -->
+      <!-- <ResearchSpeed>1.33</ResearchSpeed> -->  <!-- 1.33 default human value -->
+      
+      
+      <!--
+      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <GlobalLearningFactor>0.5</GlobalLearningFactor>
+      <EatingSpeed>0.5</EatingSpeed>
+      -->
+      
+      <!-- comfy temp range +/-25C -->
+      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
+      <ComfyTemperatureMax>-35</ComfyTemperatureMax>
+      <LeatherAmount>30</LeatherAmount> <!-- 50 * 0.6 = 30 -->
+      <MeatAmount>90</MeatAmount> <!-- Real value: 90 * 0.6 = 54 -->
+      <MiningSpeed>0.6</MiningSpeed>
+      <ConstructionSpeed>0.6</ConstructionSpeed>
+      <AnimalGatherSpeed>0.6</AnimalGatherSpeed>
+      <AnimalGatherYield>1.0</AnimalGatherYield>
+      <Mass>70</Mass> <!-- Real value: 70 * 0.6 = 42 -->
+    </statBases>
+    <tools>
+      <!-- LeftHandTalons -->
+      <li>
+        <label>left hand talons</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftHandTalons</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Cut</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <!-- RightHandTalons -->
+      <li>
+        <label>right hand talons</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>RightHandTalons</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Cut</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      
+      <!-- LeftFeetTalons -->
+      <li>
+        <label>left feet talons</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>LeftFeetTalons</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Cut</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <!-- RightFeetTalons -->
+      <li>
+        <label>right feet talons</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>RightFeetTalons</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Cut</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      
+      <!-- LeftHand -->
+      <li>
+        <label>left hand</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <chanceFactor>0.1</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>8</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <!-- RightHand -->
+      <li>
+        <label>right hand</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <chanceFactor>0.1</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>8</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      
+      <!-- LeftFeetAvali -->
+      <li>
+        <label>left feet</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>LeftFeetAvali</linkedBodyPartsGroup>
+        <chanceFactor>0.1</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>12</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <!-- RightFeetAvali -->
+      <li>
+        <label>right feet</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>RightFeetAvali</linkedBodyPartsGroup>
+        <chanceFactor>0.1</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>12</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      
+      <!-- Teeth -->
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>false</makesFootprints>
+      <lifeExpectancy>160</lifeExpectancy>
+      <meatColor>(114, 63, 255)</meatColor>
+      <leatherDef>Leather_Avali</leatherDef>
+      <nameGenerator>NamerPersonAvali</nameGenerator>
+      <body>Avali</body>
+      <bloodDef>FilthBloodAvali</bloodDef>	
+      <fleshType>Avali</fleshType>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHealthScale>0.6</baseHealthScale>
+      <baseHungerRate>0.6</baseHungerRate>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>30</gestationPeriodDays> <!-- 30 days to make egg and 30 days to hatch from egg. 15 x 4 = 60(1 year) -->
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>BabyStageAvali</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>ChildStageAvali</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>TeenStageAvali</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>AdultStageAvali</def>
+          <minAge>18</minAge>
+        </li>
+        <li>
+          <def>ElderStageAvali</def>
+          <minAge>90</minAge>
+        </li>
+        <li>
+          <def>AncestorStageAvali</def>
+          <minAge>140</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(13,0)</li>
+          <li>(18,100)</li>
+          <li>(20,100)</li>
+          <li>(30,100)</li>
+          <li>(40,40)</li>
+          <li>(50,20)</li>
+          <li>(60,10)</li>
+          <li>(70,5)</li>
+          <li>(80,2.5)</li>
+          <li>(90,1)</li>
+          <li>(100,0.5)</li>
+          <li>(110,0.1)</li>
+          <li>(120,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicAvali</li>
+      </hediffGiverSets>
+    </race>
+    <recipes>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+  
+  <AlienRace.RaceSettings>
+    <defName>AvaliRaceSettings</defName>
+    <pawnKindSettings>
+        <alienslavekinds>
+          <li>
+            <kindDefs>
+              <li>AvaliSlave</li>
+            </kindDefs>
+            <chance>25</chance>
+          </li>
+        </alienslavekinds>
+      <!-- Looks like the old bug was returned! Thank you Tynan! Great update! Have to comment it out:( -->
+      <!-- <alienrefugeekinds>
+          <li>
+            <kindDefs>
+              <li>AvaliSpaceRefugee</li>
+            </kindDefs>
+            <chance>25</chance>
+          </li>
+        </alienrefugeekinds> -->
+        <startingColonists>
+          <li>
+            <pawnKindEntries>
+              <li>
+                <kindDefs>
+                  <li>Avali</li>
+                </kindDefs>
+                <chance>100</chance>
+              </li>
+            </pawnKindEntries>
+            <factionDefs>
+              <li>AvaliPlayerColony</li> 
+            </factionDefs>
+          </li>
+        </startingColonists>
+        <alienwandererkinds>
+          <li>
+            <pawnKindEntries>
+              <li>
+                <kindDefs>
+                  <li>AvaliColonist</li>
+                  <li>AvaliScout</li>
+                  <li>AvaliKeeper</li>
+                  <li>AvaliSoldier</li>
+                  <li>AvaliStalker</li>
+                  <li>AvaliCommando</li>
+                  <li>AvaliAssassin</li>
+                </kindDefs>
+                <chance>50.0</chance>
+              </li>
+            </pawnKindEntries>
+            <factionDefs>
+              <li>AvaliPlayerColony</li> 
+            </factionDefs>
+          </li>
+        </alienwandererkinds>
+      </pawnKindSettings>
+  </AlienRace.RaceSettings>
+</Defs>

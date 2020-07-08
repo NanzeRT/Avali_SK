@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ResearchTabDef>
+        <defName>Avali</defName>
+        <label>Avali</label>
+    </ResearchTabDef>
+
+    <!-- AvaliClothes -->
+    <ResearchProjectDef>
+        <defName>AvaliClothes</defName>
+        <label>Avali clothing</label>
+        <description>Allows creation of Avali clothing.\n\nThey can be worn only by Avali because of their unique body size and structure.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>Avali</tab>
+        <!-- <prerequisites>
+            <li>ComplexClothing</li>
+        </prerequisites> -->
+        <researchViewX>0</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliPlants -->
+    <ResearchProjectDef>
+        <defName>AvaliPlants</defName>
+        <label>Avali plants</label>
+        <description>Sowing and cook plants of Avali homeworld. Kiri fruits, Nakati ovoids and Piru colonies.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Avali</tab>
+        <tags>
+            <li>AvaliStart</li>
+            <li>AvaliTribalStart</li>
+        </tags>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0.85</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliLifeSupportBelt -->
+    <ResearchProjectDef>
+        <defName>AvaliLifeSupportBelt</defName>
+        <label>Life support belt</label>
+        <description>Craft life support belts that create a personal bubble of air breathable by Avali.</description>
+        <baseCost>350</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>MultiAnalyzer</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0</researchViewX>
+        <researchViewY>1.65</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliHolograms -->
+    <ResearchProjectDef>
+        <defName>AvaliHolograms</defName>
+        <label>Avali holograms</label>
+        <description>Build compact and modern holographic television.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliLighting</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2</researchViewX>
+        <researchViewY>0.7</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliDoors -->
+    <ResearchProjectDef>
+        <defName>AvaliDoors</defName>
+        <label>Military-grade doors</label>
+        <description>Build super-durable doors designed specially for military bunkers, shelters and production complexes.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>Autodoors</li>
+            <li>AvaliHolograms</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>3</researchViewX>
+        <researchViewY>0.7</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliLighting -->
+    <ResearchProjectDef>
+        <defName>AvaliLighting</defName>
+        <label>Avali LED lamps</label>
+        <description>Build very efficient LED lamps.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Avali</tab>
+        <tags>
+            <li>AvaliStart</li>
+        </tags>
+        <prerequisites>
+            <li>AvaliPrinting</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>0.7</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliSurvivalGear -->
+    <ResearchProjectDef>
+        <defName>AvaliSurvivalGear</defName>
+        <label>Survival gear</label>
+        <description>Build basic survival gear and headset with basic enviromental support system.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliPrinting</li>
+            <li>AvaliLifeSupportBelt</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliScoutArmor -->
+    <ResearchProjectDef>
+        <defName>AvaliScoutArmor</defName>
+        <label>Scout armor</label>
+        <description>Make scout armor and scout's HUD with basic enviromental support system.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliSurvivalGear</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliExosuit -->
+    <ResearchProjectDef>
+        <defName>AvaliExosuit</defName>
+        <label>Avali exosuits</label>
+        <description>Make exosuits that increase working and walking speed. Include basic enviromental support system.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Ultra</techLevel> <!-- 3000 for humans (Industrial). Silly humans... -->
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliScoutArmor</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>3</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliGuardianArmor -->
+    <ResearchProjectDef>
+        <defName>AvaliGuardianArmor</defName>
+        <label>"Guardian" combat suit</label>
+        <description>Make "Guardian" combat suit with improved enviromental support system. Lots of armor, but very heavy and has almost no electronic assistance.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliExosuit</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>4</researchViewX>
+        <researchViewY>0.7</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliCombatArmor -->
+    <ResearchProjectDef>
+        <defName>AvaliCombatArmor</defName>
+        <label>Standart combat suit</label>
+        <description>Make standard Avali combat suit with improved envriomental support system. Nicely balances armor and user assistance systems.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliExosuit</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>4</researchViewX>
+        <researchViewY>1.4</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliHellcatArmor -->
+    <ResearchProjectDef>
+        <defName>AvaliHellcatArmor</defName>
+        <label>"Hellcat" combat suit</label>
+        <description>Make "Hellcat" combat suit with improved enviromental support system. Lightly armored and packed with all possible user assistance systems.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliExosuit</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>4</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliPrinting -->
+    <ResearchProjectDef>
+        <defName>AvaliPrinting</defName>
+        <label>Nanolathe</label>
+        <description>Build an Avali Nanolathe that allows quick production of Avali technology.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Avali</tab>
+        <tags>
+            <li>AvaliStart</li>
+        </tags>
+        <prerequisites>
+            <li>MultiAnalyzer</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0</researchViewX>
+        <researchViewY>2.5</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliWeaving -->
+    <ResearchProjectDef>
+        <defName>AvaliWeaving</defName>
+        <label>Nanoloom</label>
+        <description>Build a nanoloom to weave graphene and nanofiber.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <tags>
+            <li>AvaliStart</li>
+        </tags>
+        <prerequisites>
+            <li>AvaliPrinting</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliAerogel -->
+    <ResearchProjectDef>
+        <defName>AvaliAerogel</defName>
+        <label>Aerogel printing</label>
+        <description>Allows you to print aerogel. Aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.</description>
+        <baseCost>750</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <tags>
+            <li>AvaliStart</li>
+        </tags>
+        <prerequisites>
+            <li>AvaliPrinting</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0</researchViewX>
+        <researchViewY>3.25</researchViewY>
+    </ResearchProjectDef>
+    
+    <!-- AvaliPlasteel -->
+    <ResearchProjectDef>
+        <defName>AvaliPlasteel</defName>
+        <label>Plasteel baking</label>
+        <description>Make plasteel (plastasteel) - a durable and flexible composite of crystalline steel and carbon nanofibers.</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliWeaving</li>
+            <li>AdvancedFabrication</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliMelee -->
+    <ResearchProjectDef>
+        <defName>AvaliMelee</defName>
+        <label>Avali melee weapons</label>
+        <description>Craft spears and swords out of aerogel using nanolathe or machining table.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliPrinting</li>
+            <li>AvaliAerogel</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliRocketLaunchers -->
+    <ResearchProjectDef>
+        <defName>AvaliRocketLaunchers</defName>
+        <label>Avali rockets</label>
+        <description>Allows you to build "Firedart" rocket launchers and produce rockets.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliPrinting</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliRailguns -->
+    <ResearchProjectDef>
+        <defName>AvaliRailguns</defName>
+        <label>High-velocity weapons</label>
+        <description>Produce most of the Avali railgun weaponry using nanolathe.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliPrinting</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>2.8</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliMiniguns -->
+    <ResearchProjectDef>
+        <defName>AvaliMiniguns</defName>
+        <label>Hybrid miniguns</label>
+        <description>Allows you to build "Hailstorm" hybrid miniguns.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliRailguns</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2</researchViewX>
+        <researchViewY>2.8</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliGuardDrones -->
+    <!--
+    <ResearchProjectDef>
+        <defName>AvaliGuardDrones</defName>
+        <label>Guard drones</label>
+        <description>Allows make cheap and fast guard drones at fabrication bench.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>Fabrication</li>
+            <li>AvaliRailguns</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+    -->
+
+    <!-- AvaliNanites -->
+    <ResearchProjectDef>
+        <defName>AvaliNanites</defName>
+        <label>Nanite body modifications</label>
+        <description>Create injectors of body enchancing nanite colonies.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliPrinting</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2</researchViewX>
+        <researchViewY>5</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliNanitesAdvanced -->
+    <!--
+    <ResearchProjectDef>
+        <defName>AvaliNanitesAdvanced</defName>
+        <label>Advanced nanite body modifications</label>
+        <description>Allows create more advanced self-sufficient nanite colonies.</description>
+        <baseCost>4500</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliNanites</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>3</researchViewX>
+        <researchViewY>5</researchViewY>
+    </ResearchProjectDef>
+    -->
+
+    <!-- AvaliCybernetics -->
+    <ResearchProjectDef>
+        <defName>AvaliCybernetics</defName>
+        <label>Avali cybernetics</label>
+        <description>Build limb replacement cybernetics that enhance the user.\n\n- Can be researched only by Avali.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>Fabrication</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0</researchViewX>
+        <researchViewY>5</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliCyberneticsAdvanced -->
+    <ResearchProjectDef>
+        <defName>AvaliCyberneticsAdvanced</defName>
+        <label>Advanced cybernetics</label>
+        <description>Build advanced body replacement cybernetics made out of plasteel. Can suppress the effect of pack loss.\n\n- Can be researched only by Avali.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliCybernetics</li>
+            <li>AdvancedFabrication</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>5</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliAugments -->
+    <ResearchProjectDef>
+        <defName>AvaliAugments</defName>
+        <label>Augments</label>
+        <description>Build top-tier body modifications at fabrication bench. Can be used by non-Avali.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AdvancedFabrication</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliShieldBelt -->
+    <ResearchProjectDef>
+        <defName>AvaliShieldBelt</defName>
+        <label>Avali shield belt</label>
+        <description>Allows you to make avali shield belt.\n\nIn comparision to standard human shield belt, it provides a 3 times stronger field but with 2 times higher recharge duration.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>ShieldBelt</li>
+            <li>AvaliPrinting</li>
+            <li>AvaliAerogel</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>3.6</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliTurretSmall -->
+    <ResearchProjectDef>
+        <defName>AvaliTurretSmall</defName>
+        <label>Railgun turrets</label>
+        <description>Allows you to build Avali "Cerberus" railgun turrets.\n\nDespite its low rate of fire, it provides strong and highly accurate defense at very long range. All Avali turrets consume a lot of power due to usage of railgun technology.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliRailguns</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2</researchViewX>
+        <researchViewY>3.6</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliTurretMedium -->
+    <ResearchProjectDef>
+        <defName>AvaliTurretMedium</defName>
+        <label>Hybrid minigun turret</label>
+        <description>Allows you to build Avali "Ripper" hybrid minigun turret.\n\nHigh rate of fire at medium range, with the tradeoff of being relatively weak and not very accurate.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliTurretSmall</li>
+            <li>AvaliMiniguns</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>3</researchViewX>
+        <researchViewY>2.8</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliTurretLarge -->
+    <ResearchProjectDef>
+        <defName>AvaliTurretLarge</defName>
+        <label>Rocket launcher turret</label>
+        <description>Allows you to build Avali "Thrasher" rocker launcher turret.\n\nWith perfect balance of range and accuracy, it shoots expensive high explosive missiles at user selected rate of fire.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <prerequisites>
+            <li>AvaliTurretSmall</li>
+            <li>AvaliRocketLaunchers</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>3</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+    <!-- AvaliAeroponics -->
+    <ResearchProjectDef>
+        <defName>AvaliAeroponics</defName>
+        <label>Aeroponics</label>
+        <description>Build modular aeroponics with higher initial cost than classical hydroponics, allowing for faster and more energy efficient growth.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Ultra</techLevel>
+        <tab>Avali</tab>
+        <tags>
+            <li>AvaliStart</li>
+        </tags>
+        <prerequisites>
+            <li>AvaliPrinting</li>
+            <li>AvaliAerogel</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>1</researchViewX>
+        <researchViewY>4.3</researchViewY>
+    </ResearchProjectDef>
+</Defs>

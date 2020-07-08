@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>AvaliEgg</defName>
+    <label>Avali egg</label>
+    <description>An avali egg. If all goes well, it hatch into Avali kit.\nAvali eggs are valued among many people from glitterworld moneybags to backstreet culinarians. Those eggs are not only very tasty (expecially if prepared) but also have a wide range of anti-aging and healing properties. Avali, however, fundamentally disagree with this point.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Items/Special/EggAvali/EggAvali</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <preferability>DesperateOnly</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AteAvaliEggRaw</tasteThought>
+    </ingestible>
+    <statBases>
+      <Mass>10</Mass>
+      <MarketValue>1000.0</MarketValue>
+			<MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>3.0</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>-50</minSafeTemperature>
+				<maxSafeTemperature>6</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+      <!-- <li Class="Avali.CompProperties_HatcherAvali">
+        <hatcherDaystoHatch>30</hatcherDaystoHatch>
+        <hatcherPawn>Avali</hatcherPawn>
+      </li> -->
+    </comps>
+    <thingCategories>
+      <li>EggsFertilized</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- WARNING! Spoilers ahead! -->
+  
+  <ThingDef ParentName="ResourceBase" Name="TextBase"  Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>999</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+		</statBases>
+    <thingCategories>
+      <li>Texts</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Archotech</techLevel>
+    <menuHidden>True</menuHidden>
+    <inspectorTabs>
+      <li>Avali.ITab_Translation</li>
+    </inspectorTabs>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="TextBase">
+    <defName>TextThing</defName>
+    <label>Texts go here</label>
+    <description>Category for all text data storages.</description>
+    <graphicData>
+      <texPath>Things/Items/Special/PrecursorText</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <menuHidden>False</menuHidden>
+    <inspectorTabs Inherit="False"/>
+    <tradeTags Inherit="False" />
+  </ThingDef>
+  
+  <!-- Human texts -->
+  
+  <!-- UTFNews1_T -->
+  <ThingDef ParentName="TextBase">
+    <defName>UTFNews1_T</defName>
+    <label>UTF Informing Agency: A new race has been discovered!</label>
+    <graphicData>
+      <texPath>Things/Items/Special/UTFholopaper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="Avali.CompProperties_TextThing">
+        <translatedTexPath>Things/Items/Special/UTFholopaper</translatedTexPath>
+        <useJob>ReadText</useJob>
+        <useLabel>Read</useLabel>
+        <defaultMarketValue>10</defaultMarketValue>
+        <translatedMarketValue>10</translatedMarketValue>
+        <showAuthor>false</showAuthor>
+        <showTranslator>false</showTranslator>
+        <descriptionNotTranslated>United Terran Federation holopaper.</descriptionNotTranslated>
+        <translatedText>One of the research ships conducting reconnaissance for the presence of intelligent life forms and minerals discovered the civilization on one of the moons of the local gas giant, which originally seemed deserted, and apparently quite developed. However, they were soon contacted and asked to land to talk.
+When the researchers landed and emerged they saw in front of themselves quite lovely 4 ears of large-eyed feathered creatures about a meter tall. But nevertheless, despite their appearance, these creatures behaved quite aggressively - the researchers were disarmed, tied up, taken somewhere and then interrogated for several hours.
+Fortunately, thanks to the brilliant work of our diplomats (and also the fact that the united Terran fleet ranks 1st in strength in the investigated part of the galaxy, and such actions may well be regarded as an act of war), the research team was able to return home unharmed.
+What they saw on this seemingly lifeless dark moon turned out to be very entertaining: this race has practically not have cities at all, however it is explained by the fact that on their little moon has very little space suitable for construction, so most of their population lives in tents made from some very strong material, because they are forced to constantly migrate because of the movement of the ice sheets.
+Representatives of the new race call themselves Avali and accuse us of the fact that we almost completely exterminated their race about 2 thousand years ago, although there was no evidence except their own words. (By the way, they speak very quickly.)
+According to scans the moon has a methane-hydrogene atmosphere, with temperatures on it always extremely low, so any water there is found only in solid form, at the same time ammonia is appear in general in liquid form. How these strange feathered creatures could even survive in such harsh conditions is absolutely incomprehensible. Some scientists hypothesize that they are an ammoniac or silicon form of life, but at the moment there is no any evidence of these hypotheses.
+
+And now to other news: heavy battles with mechanoids continue on the planet Lucia III...</translatedText>
+      </li>
+    </comps>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <!-- UTFNews2_T -->
+  <!-- <ThingDef ParentName="TextBase">
+    <defName>UTFNews2_T</defName>
+    <label>United Terran Federation Informing Agency: Chaos in the network.</label>
+    <graphicData>
+      <texPath>Things/Items/Special/UTFholopaper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="Avali.CompProperties_TextThing">
+        <translatedTexPath>Things/Items/Special/UTFholopaper</translatedTexPath>
+        <useJob>ReadText</useJob>
+        <useLabel>Read</useLabel>
+        <defaultMarketValue>10</defaultMarketValue>
+        <translatedMarketValue>10</translatedMarketValue>
+        <showAuthor>false</showAuthor>
+        <showTranslator>false</showTranslator>
+        <descriptionNotTranslated>United Terran Federation holopaper.</descriptionNotTranslated>
+        <translatedText>По сети прокатилась невиданная никогда ранее серия взломов, ДДОСа, спама и просто троллинга, парализовавшая работу многих организаций на многих высокоразвитых планетах после того как Авали (недавно обнаруженная раса о которой мы уже писали раньше) получили доступ к галактической сети. В результате чего можно было увидеть как банкоматы на улицах ни с того ни с сего начинали плеваться деньгами или как автоматы с газировкой и кофе сходили с ума и обливали всех кому не посчастливилось оказаться поблизости.
+Интернет-сайты пострадали еще больше, так например сайт одного из крупнейших банков Объединенной Терранской Федерации был взломан и заполнен порнографией, в основном с представителями расы Авали, впрочем, стоит заметить, что некоторые пользователи сети сочли это скорее хорошим чем плохим.
+Тем не менее своими постоянными выходками в Интеренете Авали уже привлекли внимание даже первых лиц фередации. Сегодня глава федерации раскритиковал поведение Авали в Интернете назвав его "беспринципной наглостью" и "принебрежением оказанного доверия" и заявил что если взломы продолжаться и дальше то планеты с которых они были соврешены будут отключены от галактической сети.
+
+Так кто же они эти Авали, озорные пушистики или дьяволы родом из ледяной пустыни?</translatedText>
+      </li>
+    </comps>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+  </ThingDef> -->
+  
+  <!-- Misc texts -->
+  
+  <!-- MechanoidLog1_T -->
+  <!-- <ThingDef ParentName="TextBase">
+    <defName>MechanoidLog1_T</defName>
+    <label>09h001hb01n785141f.log</label>
+    <graphicData>
+      <texPath>Things/Items/Special/DataStorage</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="Avali.CompProperties_TextThing">
+        <translatedTexPath>Things/Items/Special/DataStorage</translatedTexPath>
+        <useJob>ReadText</useJob>
+        <useLabel>Read</useLabel>
+        <workSkill>Intellectual</workSkill>
+        <minSkillLevel>6</minSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>100</workLeft>
+        <defaultMarketValue>200</defaultMarketValue>
+        <translatedMarketValue>200</translatedMarketValue>
+        <showAuthor>false</showAuthor>
+        <showTranslator>false</showTranslator>
+        <descriptionNotTranslated>Portable data storage with unknown data.</descriptionNotTranslated>
+        <descriptionTranslated>Various technical information interspersed with the machine code.</descriptionTranslated>
+        <translatedText>Seems to be it's a mechanoid data collection satellite log.\nAbsolutely unreadable for non mechanoids. Only one passage can be of interest.\nApparently this is a discussion on some forum:
+
+Anon1328157
+Как же меня задрали эти авали, из-за них половина сервисов через день работает, во всех обсуждениях на всех сайтах один срач, спам и флуд о том какие они бедные и какие люди сволочи. Когда уже федерация найдет у себя яйца и уже наконец скинет на них пару термоядерных бомб, чтобы они хотя бы за дело нас обвиняли?
+
+Anon2790189
+Полностью согласен с Anon1328157 задолбали уже сил нет. Из-за них вчера мой умный дом в начале облил меня горячим кофе, потом зажал в дверях, а потом вообще во всем доме потух свет и мне пришлось вызывать сервисников. И вы знате что было когда я позвонил? А ничего! Связи не было, вообще нигде в городе!
+
+Anon5815082
+Тоже соглашусь. Как же хорошо было в интернете когда их не было.
+
+Anon5688593
+Это еще что, у меня вот на неделе со счета в банке пропала довольно крупная сумму денег, а когда я пошел в банк то я перед банком обнаружил толпу таких же как я и какого-то менеджера что-то рассказывающего о взломе. А мне то что с того? Я вообще-то на эти деньги собирался квартиру в четверг купить.
+
+Anon2177552
+What, do not like, yes? And it was necessary to think with your head before bomb as from the orbit! Suffer now! You only themselves to blame.
+
+Anon1328157
+>Anon2177552
+And here is one of them - remember the shit, and here is it.
+
+Anon5815082
+>Anon2177552
+We forgot to ask your opinion, turkey.
+
+Anon5688593
+>Anon2177552
+I hope Fighters for Racial Cleanliness get to you, scum, and put your tongue in your cloaca!
+
+User was banned. Reason: mentioning of organization prohibited in United Terran Federation.
+
+
+Discussion deleted. Reason: inciting inter-racial hatred.</translatedText>
+      </li>
+    </comps>
+    <techLevel>Ultra</techLevel>
+  </ThingDef> -->
+  
+  <!-- Precursor texts -->
+  
+  <!-- PrecursorText1_T -->
+  <ThingDef ParentName="TextBase">
+    <defName>PrecursorText1_T</defName>
+    <label>Shasa Uru Venddi</label>
+    <graphicData>
+      <texPath>Things/Items/Special/PrecursorText</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="Avali.CompProperties_TextThing">
+        <translatedTexPath>Things/Items/Special/PrecursorTextT</translatedTexPath>
+        <useJob>TranslateText</useJob>
+        <useLabel>Translate</useLabel>
+        <workSkill>Intellectual</workSkill>
+        <minSkillLevel>12</minSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>2000</workLeft>
+        <defaultMarketValue>1000</defaultMarketValue>
+        <translatedMarketValue>10000</translatedMarketValue>
+        <descriptionNotTranslated>Some ancient text. To be read it must be translated.</descriptionNotTranslated>
+        <descriptionTranslated>Ancient text with translation.</descriptionTranslated>
+        <labelTranslated>"Avali" experiment log</labelTranslated>
+        <translatedText>Our greatest triumph... no, our greatest joy! At long last we have created the perfect servitor race. A blend of avian and reptilian traits, we've fortified them with carbon based cells. This should allow them to survive on the harsh outer rimworlds we are seeding with their genes.
+They say we should name them, but I deemed that most unwise. At least, not until they have earned it. A fledgeling race still learning to be a species, these beings should provide us with the extra labor we require if the Generator is to be created in any decent period of time. With our physical bodies beginning to erode... time is precious.
+&lt;this book appears to span centuries. There are countless entries about this unnamed species they created, but none that give anything useful until roughly 824 years after the first entry.&gt; 
+It was assumed they would retain their docile traits, as we specifically erased the capacity for anger and rage in the initial generations.
+Nature, on the other hand, had other ideas. They are rising up and revolting now, refusing our commands and worse... they are angry about it. While still the ideal candidate species, they have been unable to facilitate our requirements for construction on the Generator. Recommend expunging genes through purge.
+The purge has failed! Somehow, they have taken control of the command vessels. I suspect inusurrection, most likely from the Naturalist caste. They sympathize with the plight of the Servants. Why they would side with fuzzy flying... things... is beyond me. We have been forced out of the system, and command has instructed us to simply abandon it, leaving the servants to their own devices.</translatedText>
+        <author></author>
+        <taleWhenTranslated>TranslatedPrecursorText1</taleWhenTranslated>
+        <thoughtWhenTranslated></thoughtWhenTranslated>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <!-- PrecursorText2_T -->
+  <ThingDef ParentName="TextBase">
+    <defName>PrecursorText2_T</defName>
+    <label>Jjkar Vikthos</label>
+    <graphicData>
+      <texPath>Things/Items/Special/PrecursorText</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="Avali.CompProperties_TextThing">
+        <translatedTexPath>Things/Items/Special/PrecursorTextT</translatedTexPath>
+        <useJob>TranslateText</useJob>
+        <useLabel>Translate this text</useLabel>
+        <workSkill>Intellectual</workSkill>
+        <minSkillLevel>12</minSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>1000</workLeft>
+        <defaultMarketValue>500</defaultMarketValue>
+        <translatedMarketValue>3500</translatedMarketValue>
+        <descriptionNotTranslated>Some ancient text. To be read it must be translated.</descriptionNotTranslated>
+        <descriptionTranslated>Ancient text with translation.</descriptionTranslated>
+        <labelTranslated>20 generations report</labelTranslated>
+        <translatedText>After only 20 generations we have observed them not only develop sapience on their own, but also develop more and more complex tools. The downside is that the length of time chosen for the experiment is much too long, and our empires expansion in this dimension has effectively limited our funding. We are unable to wait... so we have opted to speed things up a tad.
+Rather than allow a further 20 generations (510 additional rotations around the sun) to pass uninfluenced, we have gone ahead and shown our little slave-race the secrets of the universe. We left behind a drone and three combat units, completely deactivated. We have estimated a 500% increase in technological advancement within 20 years time. These once docile fuzzy raptors will soon be truly entertaining.</translatedText>
+        <author></author>
+        <taleWhenTranslated>TranslatedPrecursorText2</taleWhenTranslated>
+        <thoughtWhenTranslated></thoughtWhenTranslated>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

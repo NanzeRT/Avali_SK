@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- CyberneticAvaliTail -->
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>CyberneticAvaliTail</defName>
+	<label>cybernetic Avali tail</label>
+  <labelNoun>a cybernetic Avali tail</labelNoun>
+  <description>Not just a long metal rod, it has a plethora of stabilisation hardware and software, making an avali as agile and nimble as a cat.</description>
+	<spawnThingOnRemoved>CyberneticAvaliTail</spawnThingOnRemoved>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Manipulation</capacity>
+					<offset>0.25</offset>
+				</li>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>0.25</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<!-- CyberneticAvaliBody -->
+<HediffDef ParentName="ImplantHediffBase">
+	<defName>CyberneticAvaliBody</defName>
+	<label>cybernetic Avali torso</label>
+  <labelNoun>a cybernetic Avali torso</labelNoun>
+  <description>A technological marvel! Every organ is replaced with a mechanical counterpart which is three times smaller, leaving plenty of space for metabolism and vitality increasing hardware, this is as close an avali will ever get to being a terminator.</description>
+  <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>0.5</offset>
+				</li>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>0.5</offset>
+				</li>
+        <li>
+					<capacity>BloodPumping</capacity>
+					<offset>0.5</offset>
+				</li>
+        <li>
+					<capacity>Metabolism</capacity>
+					<offset>0.5</offset>
+				</li>
+			</capMods>
+      <statOffsets>
+        <MaxHitPoints>60</MaxHitPoints>
+        <PainShockThreshold>0.6</PainShockThreshold>
+        <ArmorRating_Enviromental>0.8</ArmorRating_Enviromental>
+        <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.5</ArmorRating_Heat>
+        <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+        <ComfyTemperatureMax>30</ComfyTemperatureMax>
+        <Flammability>0.4</Flammability>
+      </statOffsets>
+      <painFactor>0</painFactor>
+		</li>
+	</stages>
+</HediffDef>
+
+<!-- CyberneticAvaliHead -->
+<HediffDef ParentName="ImplantHediffBase">
+	<defName>CyberneticAvaliHead</defName>
+	<label>cybernetic Avali head</label>
+  <labelNoun>a cybernetic Avali head</labelNoun>
+  <description>A perverbial "Brain in a jar". Except this jar has a a whole suite of sensors, stabilisers, supercomputers is made out of plasteel and is fully self-sufficient.</description>
+  <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+  <comps>
+    <li Class="HediffCompProperties_VerbGiver">
+      <tools>
+        <li>
+          <label>teeth</label>
+          <capacities>
+            <li>Bite</li>
+          </capacities>
+          <power>20</power>
+          <cooldownTime>1.5</cooldownTime>
+        </li>
+      </tools>
+    </li>
+  </comps>
+	<stages>
+		<li>
+      <capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>0.5</offset>
+				</li>
+        <li>
+					<capacity>Eating</capacity>
+					<offset>0.5</offset>
+				</li>
+			</capMods>
+      <statOffsets>
+        <MaxHitPoints>40</MaxHitPoints>
+        <PainShockThreshold>1</PainShockThreshold>
+        <PsychicSensitivity>-1</PsychicSensitivity>
+        <ArmorRating_Enviromental>0.2</ArmorRating_Enviromental>
+        <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+        <ComfyTemperatureMax>20</ComfyTemperatureMax>
+      </statOffsets>
+      <painFactor>0</painFactor>
+		</li>
+	</stages>
+</HediffDef>
+
+<!-- CyberneticAvaliLeg -->
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>CyberneticAvaliLeg</defName>
+	<label>cybernetic Avali leg</label>
+  <labelNoun>a cybernetic Avali leg</labelNoun>
+  <description>Avali leg replica with sophisticated pneumatics and hydraulics, greatly increasing its recipient's agility. No more leg day!</description>
+  <comps>
+    <li Class="HediffCompProperties_VerbGiver">
+      <tools>
+        <li>
+          <label>leg</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>3</cooldownTime>
+        </li>
+        <li>
+          <label>leg talons</label>
+          <capacities>
+            <li>Scratch</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>3</cooldownTime>
+        </li>
+      </tools>
+    </li>
+  </comps>
+	<spawnThingOnRemoved>CyberneticAvaliLeg</spawnThingOnRemoved>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>1.4</partEfficiency>
+	</addedPartProps>
+</HediffDef>
+
+<!-- CyberneticAvaliArm -->
+<HediffDef ParentName="AddedBodyPartBase">
+  <defName>CyberneticAvaliArm</defName>
+  <label>cybernetic Avali arm</label>
+  <labelNoun>a cybernetic Avali arm</labelNoun>
+  <description>Avali arm replica with gyroscopic stabilisation, advanced predictive algorythms and advanced hydraulics. It also looks freaking cool.</description>
+  <comps>
+    <li Class="HediffCompProperties_VerbGiver">
+      <tools>
+        <li>
+          <label>fist</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.5</cooldownTime>
+        </li>
+        <li>
+          <label>hand talons</label>
+          <capacities>
+            <li>Scratch</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>1.5</cooldownTime>
+        </li>
+      </tools>
+    </li>
+  </comps>
+  <spawnThingOnRemoved>CyberneticAvaliArm</spawnThingOnRemoved>
+  <addedPartProps>
+    <solid>true</solid>
+    <partEfficiency>1.4</partEfficiency>
+  </addedPartProps>
+</HediffDef>
+
+<!-- ClothTail -->
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>ClothAvaliTail</defName>
+	<label>cloth tail</label>
+  <labelNoun>a cloth tail</labelNoun>
+  <description>A simple replacement made out of cloth. At least it feels like there's something.</description>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>0.6</partEfficiency>
+    <betterThanNatural>false</betterThanNatural>
+	</addedPartProps>
+  <spawnThingOnRemoved>Cloth</spawnThingOnRemoved>
+</HediffDef>
+
+<!-- ClothEar -->
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>ClothAvaliEar</defName>
+	<label>cloth ear</label>
+  <labelNoun>a cloth ear</labelNoun>
+  <description>A simple replacement made out of cloth. At least it feels like there's something.</description>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>0.6</partEfficiency>
+    <betterThanNatural>false</betterThanNatural>
+	</addedPartProps>
+  <spawnThingOnRemoved>Cloth</spawnThingOnRemoved>
+</HediffDef>
+</Defs>

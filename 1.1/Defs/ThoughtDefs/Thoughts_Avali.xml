@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- AvaliNeedJoy -->
+  <ThoughtDef>
+    <defName>AvaliNeedJoy</defName>
+    <workerClass>ThoughtWorker_NeedJoy</workerClass>
+    <stages>
+      <li>
+        <label>totally joy-deprived</label>
+        <description>I think that I'll die of boredom! I need some free time... Please.</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+      <li>
+        <label>very joy-deprived</label>
+        <description>I urgently need to do something fun! Roll in snow, throw snowballs at packmates, or build a snowman... Anything.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+      <li>
+        <label>joy-deprived</label>
+        <description>How about a break to do something fun?</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>joy-filled</label>
+        <description>That was fun!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>tons o' joy</label>
+        <description>Wow! It's been a long time since I've so much fun!</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- AvaliNeedComfort -->
+  <ThoughtDef>
+    <defName>AvaliNeedComfort</defName>
+    <workerClass>ThoughtWorker_NeedComfort</workerClass>
+    <stages>
+      <li>
+        <label>uncomfortable</label>
+        <description>I think we need more cushions and pillows.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>comfortable</label>
+        <description>I've been comfortable recently.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>very comfortable</label>
+        <description>I've been very comfortable recently.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely comfortable</label>
+        <description>I've been extremely comfortable recently. This place is so cushy!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+      <li>
+        <label>luxuriantly comfortable</label>
+        <description>I am resting on clouds of heaven.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- ============== Misc ===============-->
+  
+  <!-- SleptWithoutPillow -->
+  <ThoughtDef>
+		<defName>SleptWithoutPillow</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>Slept without pillow</label>
+				<description>I had to sleep without a pillow. It's annoying.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- AvaliDeaf -->
+  <ThoughtDef>
+		<defName>AvaliDeaf</defName>
+    <workerClass>Avali.ThoughtWorker_AvaliDeaf</workerClass>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>Deaf</label>
+				<description>I can't hear anything, even my own voice! This is horrible!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- PackLoss -->
+  <ThoughtDef>
+    <defName>PackLoss</defName>
+    <durationDays>10</durationDays>
+		<stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>pack loss (low)</label>
+        <description>I think I'm beginning to hear the voices of my packmates. I've heard about that "pack loss" thing. If I don't find someone I can trust soon, I think I'll go mad.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>pack loss (medium)</label>
+        <description>Now I not only hear voices of my packmates but see ghosts of them too. It's scaring me.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>pack loss (high)</label>
+        <description>Those voices and gauges is so real now... It becomes difficult to understand where reality is.</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+      <li>
+        <label>pack loss (extreme)</label>
+        <description>Shut up! Shut up! Go Away! You are not my packmates! I will kill you! I will kill you all!</description>
+        <baseMoodEffect>-50</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- AvaliSleepDisturbed -->
+  <ThoughtDef>
+    <defName>AvaliSleepDisturbed</defName>
+    <icon>Things/Mote/ThoughtSymbol/SleepZ</icon>
+		<showBubble>true</showBubble>
+		<durationDays>0.5</durationDays>
+		<stackLimit>4</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>didn't sleep well</label>
+        <description>I can't sleep well when some strangers is fooling around.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- AvaliSleepWithLovedOne -->
+  <ThoughtDef>
+	<defName>AvaliWantToSleepWithLovedOne</defName>
+    <thoughtClass>Thought_WantToSleepWithSpouseOrLover</thoughtClass>
+    <workerClass>Avali.ThoughtWorker_AvaliWantToSleepWithLovedOne</workerClass>
+		<stages>
+			<li>
+				<label>want to sleep in one room with {0}</label>
+				<description>I want to sleep in one room with my loved one!</description>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- AvaliNeedPrivacy -->
+  <ThoughtDef>
+	<defName>AvaliNeedPrivacy</defName>
+    <durationDays>0.5</durationDays>
+		<stackLimit>4</stackLimit>
+    <stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>wants privacy</label>
+				<description>I can't have fun with my packmates when some strangers is fooling around.</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- ============== Eggs ===============-->
+  
+  <!-- AvaliCaresOfEgg -->
+  <ThoughtDef>
+		<defName>AvaliCaresOfEgg</defName>
+		<durationDays>60</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>Cares of egg</label>
+				<description>We should take care about our own egg.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- AvaliEggLost -->
+  <ThoughtDef>
+		<defName>AvaliEggLost</defName>
+		<durationDays>30</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>Egg lost</label>
+				<description>We lost our egg. We are horrible parents.</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- ParentForcedToCookAvaliEgg -->
+  <ThoughtDef>
+		<defName>ParentForcedToCookAvaliEgg</defName>
+    <!-- <thoughtClass>Thought_AvaliEggCooked</thoughtClass>
+     <workerClass>ThoughtWorker_AvaliEggCooked</workerClass> -->
+		<durationDays>60</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>I cooked my egg</label>
+				<description>I had to cook my own egg. This is a nightmare.</description>
+				<baseMoodEffect>-50</baseMoodEffect>
+				<baseOpinionOffset>-70</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- AvaliEggCooked -->
+  <ThoughtDef>
+		<defName>AvaliEggCooked</defName>
+    <!-- <thoughtClass>Thought_AvaliEggCooked</thoughtClass>
+     <workerClass>ThoughtWorker_AvaliEggCooked</workerClass> -->
+		<durationDays>60</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>Colony cooked my egg</label>
+				<description>Colony cooked my egg. I make them pay for that!</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+				<baseOpinionOffset>-70</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- ParentForcedToEatAvaliEgg -->
+  <!--
+  <ThoughtDef>
+		<defName>ParentForcedToEatAvaliEgg</defName>
+		<durationDays>45</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>I eaten my egg</label>
+				<description>I had to eat my own egg. This is a nightmare.</description>
+				<baseMoodEffect>-50</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AvaliEggEaten</defName>
+		<durationDays>45</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>{0} eaten our egg</label>
+				<description>{0} eaten our egg. I make {0} pay for that!</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AvaliEggStolen</defName>
+		<durationDays>45</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>Our egg stolen</label>
+				<description>We cannot protect our egg and somebody stole it. We are horrible parents.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AvaliEggDestroyed</defName>
+		<durationDays>45</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>Our egg destroyed</label>
+				<description>We cannot protect our egg and now it's destroyed. We are horrible parents.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>AvaliEggSold</defName>
+		<durationDays>45</durationDays>
+		<stackLimit>10</stackLimit>
+		<stages>
+			<li>
+				<label>Our egg sold</label>
+				<description>Colony sold our egg. Monsters.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  -->
+  
+  <!-- WitnessedPackmateDeath -->
+  <!--
+  <ThoughtDef>
+		<defName>WitnessedPackmateDeath</defName>
+		<icon>Things/Mote/ThoughtSymbol/Skull</icon>
+		<showBubble>true</showBubble>
+		<durationDays>2</durationDays>
+		<stackLimit>6</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Witnessed packmate death</label>
+				<description>I saw one of my packmates die. I still hear their voice...</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  -->
+  
+  <!-- ============== Butchering ===============-->
+  
+  <!-- ButcheredSentientSpecimen -->
+  <ThoughtDef>
+		<defName>ButcheredSentientSpecimen</defName>
+		<durationDays>6.0</durationDays>
+		<stackLimit>4</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>i butchered sentient specimen</label>
+				<description>I butchered this guy like an animal. Is it really necessary?</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- KnowButcheredSentientSpecimen -->
+  <ThoughtDef>
+		<defName>KnowButcheredSentientSpecimen</defName>
+		<durationDays>6.0</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>we butchered sentient specimen</label>
+				<description>We butchered this guy like an animal. It's a little creepy.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- ButcheredAvaliCorpse -->
+  <ThoughtDef>
+		<defName>ButcheredAvaliCorpse</defName>
+		<durationDays>6.0</durationDays>
+		<stackLimit>4</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>i butchered another Avali</label>
+				<description>I butchered someone of my own kind up like an animal. Is it REALLY necessary?</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+  <!-- KnowButcheredAvaliCorpse -->
+	<ThoughtDef>
+		<defName>KnowButcheredAvaliCorpse</defName>
+		<durationDays>6.0</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>we butchered another Avali</label>
+				<description>We butchered someone of our own kind up like an animal. It's creepy.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- ============== Corpses ============== -->
+
+  <!-- ObservedSentientSpecimenCorpse -->
+  <ThoughtDef>
+		<defName>ObservedSentientSpecimenCorpse</defName>
+		<icon>Things/Mote/ThoughtSymbol/Skull</icon>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemoryObservation</thoughtClass>
+		<durationDays>0.25</durationDays>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>observed corpse</label>
+				<description>I saw a dead body laying on the ground. Bad luck to him, whoever it was.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+  <!-- ObservedSentientSpecimenRottingCorpse -->
+	<ThoughtDef>
+		<defName>ObservedSentientSpecimenRottingCorpse</defName>
+		<icon>Things/Mote/ThoughtSymbol/Skull</icon>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemoryObservation</thoughtClass>
+		<durationDays>0.25</durationDays>
+		<stackedEffectMultiplier>0.3</stackedEffectMultiplier>
+		<stackLimit>5</stackLimit>
+		<nullifyingTraits>
+			<li>Bloodlust</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>observed rotting corpse</label>
+				<description>It looks pretty bad. Maybe we should bury or at least hide it somewere?</description>
+				<baseMoodEffect>-7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  <!-- ObservedAvaliCorpse -->
+  <!--
+  <ThoughtDef>
+		<defName>ObservedAvaliCorpse</defName>
+		<icon>Things/Mote/ThoughtSymbol/Skull</icon>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemoryObservation</thoughtClass>
+		<durationDays>0.25</durationDays>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>observed corpse</label>
+				<description>I saw a dead Avali body laying on the ground. It was spooky.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  -->
+
+  <!-- ObservedAvaliRottingCorpse -->
+  <!--
+	<ThoughtDef>
+		<defName>ObservedAvaliRottingCorpse</defName>
+		<icon>Things/Mote/ThoughtSymbol/Skull</icon>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemoryObservation</thoughtClass>
+		<durationDays>0.25</durationDays>
+		<stackedEffectMultiplier>0.3</stackedEffectMultiplier>
+		<stackLimit>5</stackLimit>
+		<nullifyingTraits>
+			<li>Bloodlust</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>observed rotting corpse</label>
+				<description>I saw a rotting Avali corpse laying on the ground. We should bury or burn it.</description>
+				<baseMoodEffect>-7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  -->
+  
+</Defs>

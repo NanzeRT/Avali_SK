@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TraitDef>
+    <defName>FearsFire</defName>
+    <commonality>0.1</commonality>
+    <disabledWorkTags>Firefighting</disabledWorkTags>
+    <degreeDatas>
+      <li>
+        <label>fears fire</label>
+        <description>{PAWN_nameDef} fears fire and tries to stay as far away from any source of fire as possible.</description>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+			<li>Pyromaniac</li>
+		</conflictingTraits>
+  </TraitDef>
+</Defs>

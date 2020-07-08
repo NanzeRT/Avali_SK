@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Muffalo"]/tradeTags</xpath>
+    <value>
+      <li>AnimalAvali</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Bear_Polar"]</xpath>
+    <value>
+      <tradeTags>
+        <li>AnimalAvali</li>
+      </tradeTags>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Lynx"]/tradeTags</xpath>
+    <value>
+      <li>AnimalAvali</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Megasloth"]/tradeTags</xpath>
+    <value>
+      <li>AnimalAvali</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Snowhare"]</xpath>
+    <value>
+      <tradeTags>
+        <li>AnimalAvali</li>
+      </tradeTags>
+    </value>
+  </Operation>
+  
+  <!--
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Megaspider"]/tradeTags</xpath>
+    <value>
+      <li>AnimalAvali</li>
+    </value>
+  </Operation>
+  -->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Husky"]/tradeTags</xpath>
+    <value>
+      <li>AnimalAvali</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Alphabeaver"]/tradeTags</xpath>
+    <value>
+      <li>AnimalAvali</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Caribou"]/tradeTags</xpath>
+    <value>
+      <li>AnimalAvali</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Elk"]/tradeTags</xpath>
+    <value>
+      <li>AnimalAvali</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Warg"]/tradeTags</xpath>
+    <value>
+      <li>AnimalAvali</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Wolf_Timber"]</xpath>
+    <value>
+      <tradeTags>
+        <li>AnimalAvali</li>
+      </tradeTags>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Wolf_Arctic"]</xpath>
+    <value>
+      <tradeTags>
+        <li>AnimalAvali</li>
+      </tradeTags>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Fox_Arctic"]</xpath>
+    <value>
+      <tradeTags>
+        <li>AnimalAvali</li>
+      </tradeTags>
+    </value>
+  </Operation>
+</Patch>

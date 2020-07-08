@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="AvaliHatMakeableBase" ParentName="AvaliApparelMakeableBase" Abstract="True">
+    <thingCategories Inherit="False">
+      <li>AvaliHeadgear</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef Name="AvaliArmorHelmetMakeableBase" ParentName="AvaliArmorMakeableBase" Abstract="True">
+    <thingCategories Inherit="False">
+      <li>AvaliArmorHeadgear</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- ==================================== Avali ear rings =====================================-->
+  <ThingDef ParentName="AvaliHatMakeableBase">
+    <defName>Avali_Apparel_Rings</defName>
+    <label>avali ear rings</label>
+    <description>Just a few rings for ears.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Rings/Rings</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>0.006</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.3</SocialImpact>
+    </equippedStatOffsets>
+    <costList>
+      <Gold>6</Gold>
+    </costList>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>EarsAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/Rings/Rings</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Avali head wraps =====================================-->
+  <ThingDef ParentName="AvaliHatMakeableBase">
+    <defName>Avali_Apparel_HeadWraps</defName>
+    <label>avali head wraps</label>
+    <description>For when impressions count.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/HeadWraps/HeadWraps</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.2</SocialImpact>
+      <TradePriceImprovement>0.1</TradePriceImprovement>
+      <NegotiationAbility>0.1</NegotiationAbility>
+    </equippedStatOffsets>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costList>
+      <Gold>6</Gold>
+    </costList>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+        <li>UpperHeadAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/HeadWraps/HeadWraps</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+      <tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Avali scarf =====================================-->
+  <ThingDef ParentName="AvaliHatMakeableBase">
+    <defName>Avali_Apparel_Scarf</defName>
+    <label>scarf</label>
+    <description>A nice thick wooly scarf, perfect for a cold day on Avalon.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Scarf/Scarf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Teeth</li>
+        <li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/Scarf/Scarf</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <min>RGBA(0, 0, 0, 1)</min>
+          <max>RGBA(1, 1, 1, 1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- ==================================== Avali cap =====================================-->
+  <ThingDef ParentName="AvaliHatMakeableBase">
+    <defName>Avali_Apparel_Cap</defName>
+    <label>avali cap</label>
+    <description>A tiny cap.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Cap/Cap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.14</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHeadAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/Cap/Cap</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>AvaliCivilian</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Avali headset =====================================-->
+  <ThingDef ParentName="AvaliArmorHelmetMakeableBase">
+    <defName>Avali_Apparel_Headset</defName>
+    <label>avali headset</label>
+    <description>Little more than a robust headset and microphone.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliSurvivalGear</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/Headset/Headset</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>2600</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.02</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <TradePriceImprovement>0.15</TradePriceImprovement>
+      <NegotiationAbility>0.05</NegotiationAbility>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <PsychicSensitivity>-0.05</PsychicSensitivity>
+      <GlobalLearningFactor>0.02</GlobalLearningFactor>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHeadAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/Headset/Headset</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>AvaliHeadgear</li>
+        <li>AvaliCivilian</li>
+        <li>AvaliSpacer</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Avali scout HUD =====================================-->
+  <ThingDef ParentName="AvaliArmorHelmetMakeableBase">
+    <defName>Avali_Apparel_ScoutHUD</defName>
+    <label>avali scout's HUD</label>
+    <description>A lightweight headset HUD popular amongst explorers.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliScoutArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/ScoutHUD/ScoutHUD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>3200</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <GlobalLearningFactor>0.1</GlobalLearningFactor>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHeadAvali</li>
+        <li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/ScoutHUD/ScoutHUD</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>AvaliHeadgear</li>
+        <li>AvaliCivilian</li>
+        <li>AvaliSpacer</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Avali light combat helmet =====================================-->
+  <ThingDef ParentName="AvaliArmorHelmetMakeableBase">
+    <defName>Avali_Apparel_LightCombatHelmet</defName>
+    <label>avali light combat helmet</label>
+    <description>A simple helmet which gives moderate protection against sharp attacks. Not effective against blunt weapons.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliSurvivalGear</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/LightCombatHelmet/LightCombatHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+			<WorkToMake>6000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+		</statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHeadAvali</li>
+        <li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/LightCombatHelmet/LightCombatHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>AvaliSpacer</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Avali "Guardian" combat helmet =====================================-->
+  <ThingDef ParentName="AvaliArmorHelmetMakeableBase">
+    <defName>Avali_Apparel_GuardianHelmet</defName>
+    <label>avali "Guardian" combat helmet</label>
+    <description>The Guardian combat helmet is the is equivalent to wearing a tank on your head, massive, heavy and ungodly scary.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliGuardianArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/GuardianHelmet/GuardianHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.2</Flammability>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.95</ArmorRating_Heat>
+      <ArmorRating_Enviromental>0.6</ArmorRating_Enviromental>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>-0.5</SocialImpact>
+      <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+      <AimingDelayFactor>-0.10</AimingDelayFactor>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <PsychicSensitivity>-1</PsychicSensitivity>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHeadAvali</li>
+        <li>Teeth</li>
+        <li>EarsAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/GuardianHelmet/GuardianHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>AvaliTank</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Elite avali "Guardian" combat helmet =====================================-->
+  
+  
+  <!-- ==================================== Avali combat helmet =====================================-->
+  <ThingDef ParentName="AvaliArmorHelmetMakeableBase" Name="Avali_Apparel_CombatHelmet">
+    <defName>Avali_Apparel_CombatHelmet</defName>
+    <label>avali combat helmet</label>
+    <description>The standard for Avali power armors, the balance between armor and advanced technology.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliCombatArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/CombatHelmet/CombatHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>0.75</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.9</ArmorRating_Heat>
+      <ArmorRating_Enviromental>0.4</ArmorRating_Enviromental>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>4</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>-0.20</SocialImpact>
+      <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+      <AimingDelayFactor>-0.20</AimingDelayFactor>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <PsychicSensitivity>-1</PsychicSensitivity>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHeadAvali</li>
+        <li>Teeth</li>
+        <li>EarsAvali</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Avali/Apparel/CombatHelmet/CombatHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>AvaliMilitary</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Elite avali combat helmet =====================================-->
+  <ThingDef ParentName="Avali_Apparel_CombatHelmet">
+    <defName>Avali_Apparel_CombatHelmetElite</defName>
+    <label>elite avali combat helmet</label>
+    <description>The standard for Avali power armors, the balance between armor and advanced technology. \n\nThis one was painted to have a comsic look.</description>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/CombatHelmet/CombatHelmetElite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1640</MarketValue>
+    </statBases>
+		<generateCommonality>0.01</generateCommonality>
+  </ThingDef>
+  
+  <!-- ==================================== Avali Hellcat combat helmet =====================================-->
+  <ThingDef ParentName="AvaliArmorHelmetMakeableBase" Name="Avali_Apparel_HellcatHelmet">
+    <defName>Avali_Apparel_HellcatHelmet</defName>
+    <label>avali "Hellcat" combat helmet</label>
+    <description>The combat helmet is a complete upgrade from the standard design, with more advanced tracking hardware, advanced AI, and the bouns of a completed personal psychic shield. But PR wasnt too keen on the idea of the design.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>AvaliHellcatArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/HellcatHelmet/HellcatHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.7</ArmorRating_Heat>
+      <ArmorRating_Enviromental>0.2</ArmorRating_Enviromental>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>-0.1</SocialImpact>
+      <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+      <AimingDelayFactor>-0.3</AimingDelayFactor>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <PsychicSensitivity>-1</PsychicSensitivity>
+      <GlobalLearningFactor>0.2</GlobalLearningFactor>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <generateCommonality>1</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHeadAvali</li>
+        <li>Teeth</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Avali/Apparel/HellcatHelmet/HellcatHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>AvaliAssassin</li>
+        <li>EVA</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- ==================================== Elite avali Hellcat combat helmet =====================================-->
+  <ThingDef ParentName="Avali_Apparel_HellcatHelmet">
+    <defName>Avali_Apparel_HellcatHelmetElite</defName>
+    <label>elite avali "Hellcat"combat helmet </label>
+    <description>The combat helmet is a complete upgrade from the standard design, with more advanced tracking hardware, advanced AI, and the bouns of a completed personal psychic shield. But PR was keen on the idea of the design, thinking a dark red with orange was a good idea.</description>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Things/Avali/Apparel/HellcatHelmet/HellcatHelmetElite</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1539</MarketValue>
+    </statBases>
+    <generateCommonality>0.01</generateCommonality>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Small vanilla food. -->
+  
+  <!-- Cook4MealSmallSimple -->
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Cook4MealSmallSimple</defName>
+		<label>cook 4 small simple meals</label>
+		<description>Cook four straightforward meals from one ingredient, sized for something smaller than a human.</description>
+		<jobString>Cooking four small simple meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodRaw</li>
+					</categories>
+				</filter>
+				<count>1.2</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealSmallSimple>4</MealSmallSimple>
+		</products>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workAmount>720</workAmount>
+	</RecipeDef>
+  
+  <!-- Cook4MealSmallFine -->
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Cook4MealSmallFine</defName>
+		<label>cook 4 small fine meals</label>
+		<description>Cook four somewhat complex meals from a combination of meat and plant ingredients, sized for something smaller than a human.</description>
+		<jobString>Cooking four small fine meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+				</filter>
+				<count>0.6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.6</count>
+			</li>
+		</ingredients>
+		<products>
+      <MealSmallFine>4</MealSmallFine>
+    </products>
+    <workAmount>1080</workAmount>
+		<skillRequirements>
+			<Cooking>9</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+	
+  <!-- Cook4MealSmallLavish -->
+  <RecipeDef ParentName="CookMealBase">
+		<defName>Cook4MealSmallLavish</defName>
+		<label>cook 4 small lavish meals</label>
+		<description>Cook four very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted. Sized for something smaller than a human.</description>
+		<jobString>Cooking 4 small lavish meals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+				</filter>
+				<count>1.2</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>1.2</count>
+			</li>
+		</ingredients>
+		<products>
+      <MealSmallLavish>4</MealSmallLavish>
+    </products>
+    <workAmount>1920</workAmount>
+		<skillRequirements>
+			<Cooking>11</Cooking>
+		</skillRequirements>
+  </RecipeDef>
+  
+  <!-- Cook4MealSmallSurvival -->
+  <RecipeDef ParentName="CookMealBase">
+		<defName>Cook4MealSmallSurvival</defName>
+		<label>cook 4 small packaged survival meals</label>
+		<description>Prepare four packaged survival meals from a combination of meat and plant ingredients, sized for something smaller than a human. Much of the ingredients are wasted in the preservation process.</description>
+		<jobString>Cooking four small survival meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>0.8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.8</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealSmallSurvivalPack>4</MealSmallSurvivalPack>
+		</products>
+		<skillRequirements>
+			<Cooking>11</Cooking>
+		</skillRequirements>
+		<workAmount>1200</workAmount>
+		<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+	</RecipeDef>
+  
+	<!-- Avali-specific food. -->
+	
+	<!-- Cook4AvaliSpicyJerky -->
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Cook4AvaliSpicyJerky</defName>
+		<label>cook 4 spicy jerky</label>
+		<description>Cooks four chunks of seasoned jerky, popular with hunters and explorers.</description>
+		<jobString>Cooking four spicy jerky.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawNakatiBarks</li>
+					</thingDefs>
+				</filter>
+				<count>0.2</count> <!-- 0.05 = 1 -->
+			</li>
+		</ingredients>
+		<products>
+			<AvaliSpicyJerky>4</AvaliSpicyJerky>
+		</products>
+		<researchPrerequisite>AvaliPlants</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<workAmount>1080</workAmount>
+	</RecipeDef>
+	
+	<!-- Cook4AvaliPiruNoodle -->
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Cook4AvaliPiruNoodle</defName>
+		<label>cook 4 piru noodles</label>
+		<description>Cooks four sweet noodles made from Piru frond flour, a staple of Avali students.</description>
+		<jobString>Cooking four piru noodles.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawKiriFruits</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPiruFlour</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<products>
+			<AvaliPiruNoodle>4</AvaliPiruNoodle>
+		</products>
+		<researchPrerequisite>AvaliPlants</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<workAmount>1080</workAmount>
+	</RecipeDef>
+	
+	<!-- Cook4AvaliKiriCurry -->
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Cook4AvaliKiriCurry</defName>
+		<label>cook 4 kiri curry</label>
+		<description>Cooks four spicy meat noodles with a rich Kiri sauce.</description>
+		<jobString>Cooking four kiri curry.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliPiruNoodle</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliSpicyJerky</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawKiriFruits</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<AvaliKiriCurry>4</AvaliKiriCurry>
+		</products>
+		<researchPrerequisite>AvaliPlants</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>9</Cooking>
+		</skillRequirements>
+		<workAmount>600</workAmount>
+	</RecipeDef>
+	
+	<!-- Cook4AvaliTaco -->
+	<RecipeDef ParentName="CookMealBase">
+		<defName>Cook4AvaliTaco</defName>
+		<label>cook 4 Avalon-style tacos</label>
+		<description>Cooks four super-hot Nakati-spiced tacos; sometimes eaten on a dare by non-Avali.</description>
+		<jobString>Cooking four Avalon-style tacos.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliSpicyJerky</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPiruFlour</li>
+					</thingDefs>
+				</filter>
+				<count>24</count>
+			</li>
+		</ingredients>
+		<products>
+			<AvaliTaco>4</AvaliTaco>
+		</products>
+		<researchPrerequisite>AvaliPlants</researchPrerequisite>
+		<skillRequirements>
+			<Cooking>9</Cooking>
+		</skillRequirements>
+		<workAmount>1680</workAmount>
+	</RecipeDef>
+</Defs>

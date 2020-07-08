@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <Avali>Avali</Avali>
+  <AvaliEggChance>Avali fertilization chance </AvaliEggChance>
+  <AvaliWatching>watching.</AvaliWatching>
+  
+  <PutOnLabel>Put on {0}</PutOnLabel>
+  
+  <MustPlaceUnderRoof>Must be placed under roof.</MustPlaceUnderRoof>
+  <MustPlaceUnderNotThickRoof>Must be placed under not thick roof.</MustPlaceUnderNotThickRoof>
+  
+  <MessageAvaliTurretWontFireBecauseHoldFire>Warning: Turret won't fire because it's set to "Hold fire".</MessageAvaliTurretWontFireBecauseHoldFire>
+  
+  <CantTranslate>Can't translate.\n</CantTranslate>
+  <SkillLevelToSmall> skill level must be at least </SkillLevelToSmall>
+  <CantReach> can't reach this.</CantReach>
+  <RequiredUnoccupiedWorkTable>Required unoccupied {0}</RequiredUnoccupiedWorkTable>
+  <WithFacilities> with {0}</WithFacilities>
+  <RequredSkill>Requred skill:</RequredSkill>
+  <MustBeTranslated>To be read it must be translated.</MustBeTranslated>
+  <NoResearchBench>Research bench needed.</NoResearchBench>
+  <NoAppropriateWorkBench>Appropriate work bench needed.</NoAppropriateWorkBench>
+  <Translator>Translated by</Translator>
+  <TranslationProgress>Translation progress: </TranslationProgress>
+  <Unknown>Unknown</Unknown>
+  
+  <UseRunningTrack>Generate power</UseRunningTrack>
+  
+  <EquipedWeaponOwnerPawn>Equiped weapon owner: </EquipedWeaponOwnerPawn>
+  <WeaponOwnerPawn>Owner: </WeaponOwnerPawn>
+  <ShouldBeEquiped>Should be equiped by owner to switch.</ShouldBeEquiped>
+  <OwnerNotCasterPawn>Access denied: not an owner.</OwnerNotCasterPawn>
+  <ShouldBeUndrafted>{0} should be undrafted to switch.</ShouldBeUndrafted>
+  <NotAwake>{0} not awake.</NotAwake>
+  <BindMode_AnyPawnInFaction>Faction</BindMode_AnyPawnInFaction>
+  <BindMode_AnyPawnInFactionDesc>User identification method: Owner and his faction.</BindMode_AnyPawnInFactionDesc>
+  <BindMode_OwnerPawnOnly>Owner</BindMode_OwnerPawnOnly>
+  <BindMode_OwnerPawnOnlyDesc>User identification method: Owner only.</BindMode_OwnerPawnOnlyDesc>
+  <BindMode_None>Anyone</BindMode_None>
+  <BindMode_NoneDesc>User identification method: Anyone.</BindMode_NoneDesc>
+  <EraseOwnerPawnInfo>Erase</EraseOwnerPawnInfo>
+  <EraseOwnerPawnInfoDesc>Erase current owner data.</EraseOwnerPawnInfoDesc>
+  <CantHackBindedThing>Can't hack.\n</CantHackBindedThing>
+  <HackBindedThing>Hack</HackBindedThing>
+  <HackProgress>Hack progress: </HackProgress>
+  
+  <TabAvaliPack>Pack</TabAvaliPack>
+  <PackSpecialization>Specialization:</PackSpecialization>
+  <PackSpecializationDesc>Packs tends to become specialized towards certain tasks which becomes their role in a tribe. Pack role may change over time.</PackSpecializationDesc>
+  <PackLeader>Pack leader:</PackLeader>
+  <PackLeaderDesc>The most skilled pack members will became pack leaders. Pack leader is not constant and may change over time if in leader's pack joins somebody with highter skills or some of pack members skills became highter then leader skills.</PackLeaderDesc>
+  <PackMembers>Pack members:</PackMembers>
+  <PackEffects>Pack activity effects:</PackEffects>
+  <PackEffectsDesc>Colonost skills will be improved for each packmate in range of {0} (based on Hearing).</PackEffectsDesc>
+  <NotInPack>{0} doesn't consists in any pack.</NotInPack>
+  
+  <WormholeProgress>Wormhole progress: {0}% / {1}%/min ({2}/hour)</WormholeProgress>
+  <WorkingSupportedAvalableWormholeGenerators>Wormhole generators:  Working  Supported  Avalable</WorkingSupportedAvalableWormholeGenerators>
+  <WSAWormholeGenerators>                         {0}         {1}          {2}</WSAWormholeGenerators>
+  <HaveStateStabilizer>Singularity stabilized.</HaveStateStabilizer>
+  <NotHaveStateStabilizer>Singularity not stabilized.</NotHaveStateStabilizer>
+  
+  <MustPlaceOnWormholePlatformIntCell>Must be placed in specified spot on the wormhole platform to function.</MustPlaceOnWormholePlatformIntCell>
+  
+  <CommandNextWormholeTarget>Next wormhole target</CommandNextWormholeTarget>
+  <CommandPrevWormholeTarget>Previous wormhole target</CommandPrevWormholeTarget>
+  <WormholeTargetDisabled>The target planet cannot be altered after the wormhole process generation has begun.</WormholeTargetDisabled>
+  
+  <WormholeTarget>Target: </WormholeTarget>
+  <Avalon>Avalon</Avalon>
+  <AvalonDesc>Avalon is the capital planet of the Avali Illuminate and home planet of the Avali race.</AvalonDesc>
+  <Orassia>Orassia</Orassia>
+  <OrassiaDesc>Orassia is the capital planet of the Orassian Empire and the home planet of the Orassians.</OrassiaDesc>
+  <Earth>Earth</Earth>
+  <EarthDesc>Earth is the capital planet of the United Terran Federation, and the cradle of all humanity.</EarthDesc>
+  <NewEarth>New Earth</NewEarth>
+  <NewEarthDesc>New Earth is the most technologically advanced planet in United Terran Federation.</NewEarthDesc>
+  <Mars>Mars</Mars>
+  <MarsDesc>Mars was terraformed in the year 2826. Now it’s the richest planet in the United Terran Federation.</MarsDesc>
+  <Venus>Venus</Venus>
+  <VenusDesc>Venus was terraformed in the year 3101. It’s the industrial centre of the United Terran Federation, producing almost 40% of all consumer goods.</VenusDesc>
+  <Terra>Terra</Terra>
+  <TerraDesc>These coordinates don’t even belong to this universe. Where did you get them?</TerraDesc>
+</LanguageData>

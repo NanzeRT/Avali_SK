@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JoyGiverDef>
+    <defName>SingsAlone</defName>
+    <giverClass>Avali.JoyGiver_InPrivateRoomAvali</giverClass>
+    <baseChance>2</baseChance>
+    <pctPawnsEverDo>0.4</pctPawnsEverDo>
+    <jobDef>SingsAlone</jobDef>
+    <joyKind>Meditative</joyKind>
+  </JoyGiverDef>
+  
+  <JoyGiverDef>
+    <defName>SingsSocial</defName>
+    <giverClass>Avali.JoyGiver_SocialRelaxAvali</giverClass>
+    <baseChance>3</baseChance>
+    <jobDef>SingsSocial</jobDef>
+    <joyKind>Social</joyKind>
+  </JoyGiverDef>
+  
+  <JoyGiverDef>
+    <defName>UseRunningTrack</defName>
+    <giverClass>Avali.JoyGiver_InteractBuildingStanding</giverClass>
+    <baseChance>2</baseChance>
+    <thingDefs>
+      <li>AvaliRunningTrack</li>
+    </thingDefs>
+    <jobDef>UseRunningTrack</jobDef>
+    <desireSit>false</desireSit>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <requiredCapacities>
+      <li>Moving</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+  <JoyGiverDef>
+    <defName>SingKaraoke</defName>
+    <giverClass>Avali.JoyGiver_SingKaraoke</giverClass>
+    <baseChance>2</baseChance>
+    <thingDefs>
+      <li>FlatscreenTelevision</li>
+      <li>MegascreenTelevision</li>
+      <li>AvaliHoloTV</li>
+    </thingDefs>
+    <jobDef>SingKaraoke</jobDef>
+    <desireSit>false</desireSit>
+    <joyKind>Social</joyKind>
+    <requiredCapacities>
+      <li>Talking</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>

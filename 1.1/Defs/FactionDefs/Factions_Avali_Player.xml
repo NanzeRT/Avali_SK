@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<FactionDef>
+	<defName>AvaliPlayerColony</defName>
+	<label>Avali survivors</label>
+	<description>Your own Avali tribe.</description>
+	<isPlayer>true</isPlayer>
+	<basicMemberKind>Avali</basicMemberKind>
+	<pawnSingular>colonist</pawnSingular>
+	<pawnsPlural>colonists</pawnsPlural>
+	<techLevel>Ultra</techLevel>
+  <backstoryCategories>
+    <li>AvaliBackstory</li>
+  </backstoryCategories>
+  <factionIconPath>World/WorldObjects/AvaliBaseIcon</factionIconPath>
+  <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  <pawnNameMaker>NamerPersonAvali</pawnNameMaker>
+  <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+  <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+  <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<startingResearchTags>
+    <li>AvaliStart</li>
+	</startingResearchTags>
+	<hairTags>
+		<li>AvaliHair</li>
+	</hairTags>
+	<apparelStuffFilter>
+    <thingDefs>
+      <li>AvaliNanoFibre</li>
+    </thingDefs>
+	</apparelStuffFilter>
+  <colorSpectrum>
+		<li>(1, 0.52, 0.05)</li>
+	</colorSpectrum>
+</FactionDef>
+
+<!--
+<FactionDef>
+	<defName>AvaliPlayerColonyTribal</defName>
+	<label>Avali rogue tribe</label>
+	<description>Avali rogue tribe start. (No research done, but high tech level)</description>
+	<isPlayer>true</isPlayer>
+	<basicMemberKind>Avali</basicMemberKind>
+	<pawnsPlural>colonists</pawnsPlural>
+  <factionIconPath>World/WorldObjects/AvaliBaseIcon</factionIconPath>
+  <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+	<pawnNameMaker>NamerPersonAvali</pawnNameMaker>
+  <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+  <factionNameMaker>NamerFactionBaseTribal</factionNameMaker>
+  <settlementNameMaker>NamerFactionTribal</settlementNameMaker>
+	<techLevel>Ultra</techLevel>
+  <backstoryCategories>
+    <li>AvaliTribalBackstory</li>
+  </backstoryCategories>
+	<startingResearchTags>
+		<li>TribalStart</li>
+	</startingResearchTags>
+	<hairTags>
+		<li>AvaliHair</li>
+	</hairTags>
+	<apparelStuffFilter>
+		<thingDefs>
+        <li>Cloth</li>
+        <li>Leather</li>
+      </thingDefs>
+	</apparelStuffFilter>
+  <recipePrerequisiteTags>
+    <li>Tribal</li>
+  </recipePrerequisiteTags>
+	<colorSpectrum>
+		<li>(0, 0.437, 0.847)</li>
+	</colorSpectrum>
+</FactionDef>
+-->
+
+</Defs>

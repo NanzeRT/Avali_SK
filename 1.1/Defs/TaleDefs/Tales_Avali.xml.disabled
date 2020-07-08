@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TaleDef>
+    <defName>AvaliLayedAnEgg</defName>
+    <label>layed an egg</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>1.0</baseInterest>
+    <usableForArt>false</usableForArt>
+  </TaleDef>
+  
+  <TaleDef>
+    <defName>AvaliHatchedFromEgg</defName>
+    <label>hatched from egg</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>10</baseInterest>
+    <usableForArt>false</usableForArt>
+  </TaleDef>
+  
+  <TaleDef>
+    <defName>AvaliEggStolen</defName>
+    <label>egg snatched</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>1.0</baseInterest>
+    <usableForArt>false</usableForArt>
+  </TaleDef>
+  
+  <TaleDef>
+    <defName>AvaliEggDestroyed</defName>
+    <label>egg destroyed</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>1.0</baseInterest>
+    <usableForArt>false</usableForArt>
+  </TaleDef>
+  
+  <TaleDef>
+    <defName>AvaliEggSold</defName>
+    <label>egg sold</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>1.0</baseInterest>
+    <usableForArt>false</usableForArt>
+  </TaleDef>
+  
+  <TaleDef>
+    <defName>AvaliEggCooked</defName>
+    <label>egg cooked</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>1.0</baseInterest>
+    <usableForArt>false</usableForArt>
+  </TaleDef>
+  
+  <TaleDef>
+    <defName>AvaliEggEaten</defName>
+    <label>egg eaten</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>1.0</baseInterest>
+    <usableForArt>false</usableForArt>
+  </TaleDef>
+  
+  <TaleDef>
+    <defName>AvaliKitGetCaretaker</defName>
+    <label>kit get caretaker</label>
+    <taleClass>Tale_DoublePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>10</baseInterest>
+    <usableForArt>false</usableForArt>
+  </TaleDef>
+</Defs>

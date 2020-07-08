@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Not fully implemented yet. Will be added in next minor update. -->
+  
+  <!-- ===== Pecursor pistol ===== -->
+  
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_Precursor_Pistol</defName>
+    <label>precursor pistol</label>
+    <description>Sidearm of the ancient Precursor race. \nThe weakest Precursor weapon, but has a decent range for a pistol and is quick on the draw.</description>
+    <techLevel>Archotech</techLevel>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/Precursor_Pistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Precursor_Pistol</defaultProjectile>
+        <forcedMissRadius>0.1</forcedMissRadius>
+        <warmupTime>0.3</warmupTime>
+        <ai_AvoidFriendlyFireRadius>2</ai_AvoidFriendlyFireRadius>
+        <range>35.9</range>
+        <soundCast>Shot_Precursor_Pistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+		<weaponTags>
+			<li>PrecursorGunSimple</li>
+		</weaponTags>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Precursor_Pistol</defName>
+    <label>precursor pistol energy projectile</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/PrecursorPistolShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>PlasmaBomb</damageDef>
+      <damageAmountBase>22</damageAmountBase>
+      <explosionRadius>1</explosionRadius>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  
+  <!-- ===== Pecursor SMG ===== -->
+  
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_Precursor_SMG</defName>
+    <label>precursor Crippler</label>
+    <description>An ancient and terribly deadly sidearm. \nLow damage per shot, decent range, but an incredibly high rate of fire.</description>
+    <techLevel>Archotech</techLevel>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/Precursor_SMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>4000</MarketValue>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Precursor_SMG</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>20.9</range>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_Precursor_SMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+		<weaponTags>
+			<li>PrecursorGunSimple</li>
+		</weaponTags>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Precursor_SMG</defName>
+    <label>precursor Crippler dart</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/PrecursorSMGShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  
+  <!-- ===== Pecursor assault rifle ===== -->
+  
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_Precursor_AssaultRifle</defName>
+    <label>precursor assault rifle</label>
+    <description>A rifle popular in ages long-past by those known as the Precursors. \nGood range, good damage, and good accuracy.</description>
+    <techLevel>Archotech</techLevel>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/Precursor_Rifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+      <Mass>7</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Precursor_AssaultRifle</defaultProjectile>
+        <forcedMissRadius>0.3</forcedMissRadius>
+        <warmupTime>0.5</warmupTime>
+        <ai_AvoidFriendlyFireRadius>2</ai_AvoidFriendlyFireRadius>
+        <range>40.9</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots> <!-- 0.2 sec -->
+        <soundCast>Shot_Precursor_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+		<weaponTags>
+			<li>PrecursorGun</li>
+		</weaponTags>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Precursor_AssaultRifle</defName>
+    <label>precursor rifle energy projectile</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/PrecursorAssaultRifleShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>PlasmaBomb</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <explosionRadius>1</explosionRadius>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_Precursor_Shotgun</defName>
+    <label>precursor Harbinger</label>
+    <description>A curious, unique weapon of ancient design. \nShort range, EMP damage, 5 shots at once.</description>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/Precursor_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+      <Mass>8</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Precursor_Shotgun</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>20</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>Shot_Precursor_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Precursor_Shotgun</defName>
+    <label>precursor Harbinger energy orb</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/PrecursorShotgunShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>EMPOrb</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <explosionRadius>1</explosionRadius>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  
+  <!-- ===== Pecursor Annihilator ===== -->
+  
+  <ThingDef ParentName="BaseWeapon">
+    <defName>Gun_Precursor_Cannon</defName>
+    <label>precursor Annihilator</label>
+    <description>The compressed rage of the Precursors.\nMedium explosion radius, huge damage, very low projectile speed.\nUse with caution.</description>
+    <techLevel>Archotech</techLevel>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/Precursor_Cannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <MarketValue>8000</MarketValue>
+      <Mass>12</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>10</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Precursor_Cannon_Shot</defaultProjectile>
+        <forcedMissRadius>2.9</forcedMissRadius>
+        <warmupTime>5</warmupTime>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <ai_AvoidFriendlyFireRadius>12</ai_AvoidFriendlyFireRadius>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <range>50</range>
+        <soundCast>Shot_Precursor_Annihilator</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PrecursorGunDestructive</li>
+    </weaponTags>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <equippedStatOffsets>
+      <MoveSpeed>-1</MoveSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Precursor_Cannon_Shot</defName>
+    <label>precursor Annihilator energy ball</label>
+    <graphicData>
+      <texPath>Things/Items/Weapons/Special/PrecursorCannonShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>PlasmaBomb</damageDef>
+      <damageAmountBase>120</damageAmountBase>
+      <explosionRadius>5.9</explosionRadius>
+      <speed>2</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

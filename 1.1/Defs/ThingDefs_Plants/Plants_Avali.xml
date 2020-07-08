@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="AvaliPlantBase" ParentName="PlantBase" Abstract="True">
+    <!-- <thingClass>Avali.Plant_Avali</thingClass> -->
+    <thingClass>Plant</thingClass>
+    <plant>
+      <neverBlightable>false</neverBlightable>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <cavePlant>true</cavePlant>
+      <!-- <wildClusterRadius>8</wildClusterRadius> -->
+    </plant>
+  </ThingDef>
+  
+  <!--=========================== Food crops ==============================-->
+	<ThingDef ParentName="AvaliPlantBase">
+    <defName>AvaliKiriFruit</defName>
+    <label>Kiri fruit</label>
+    <description>The fruiting body of a subterranean slime mold.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/KiriFruitPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawKiriFruits</harvestedThingDef>
+			<harvestYield>12</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+      <sowResearchPrerequisites>
+        <li>AvaliPlants</li>
+      </sowResearchPrerequisites>
+			<topWindExposure>0.1</topWindExposure>
+			<growDays>5.8</growDays>
+			<visualSizeRange>0.3~1.0</visualSizeRange>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="AvaliPlantBase">
+    <defName>AvaliNakatiOvoid</defName>
+    <label>Nakati ovoid</label>
+    <description>A biolumiscent ovoid, eventually this'll grow into a colony.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/NakatiOvoidPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<growDays>6.5</growDays>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawNakatiBarks</harvestedThingDef>
+			<harvestYield>6</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<sowResearchPrerequisites>
+        <li>AvaliPlants</li>
+      </sowResearchPrerequisites>
+			<topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+    </plant>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(0, 255, 236, 0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="AvaliPlantBase">
+    <defName>AvaliPiruColony</defName>
+    <label>Piru colony</label>
+    <description>Small, barnacle-like colonies which grow long frond-like feeding filaments.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.3</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/PiruColonyPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawPiruFlour</harvestedThingDef>
+			<harvestYield>20</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+        <li>Hydroponic</li>
+			</sowTags>
+      <sowResearchPrerequisites>
+        <li>AvaliPlants</li>
+      </sowResearchPrerequisites>
+			<topWindExposure>0.1</topWindExposure>
+			<growDays>11.3</growDays>
+			<visualSizeRange>0.3~1.0</visualSizeRange>
+    </plant>
+  </ThingDef>
+</Defs>

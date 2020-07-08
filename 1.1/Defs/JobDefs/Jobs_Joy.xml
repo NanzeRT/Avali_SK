@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>SingsAlone</defName>
+    <driverClass>Avali.JobDriver_SingsAlone</driverClass>
+    <reportString>sings.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyGainRate>1</joyGainRate>
+    <joyKind>Meditative</joyKind>
+    <taleOnCompletion>Sang</taleOnCompletion>
+  </JobDef>
+
+  <JobDef>
+    <defName>SingsSocial</defName>
+    <driverClass>Avali.JobDriver_SingsSocial</driverClass>
+    <reportString>sings.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyGainRate>1</joyGainRate>
+    <joyKind>Social</joyKind>
+  </JobDef>
+  
+  <JobDef>
+    <defName>UseRunningTrack</defName>
+    <driverClass>Avali.JobDriver_UseRunningTrack</driverClass>
+    <reportString>using running track.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>1</joyMaxParticipants>
+    <joyGainRate>1</joyGainRate>
+    <joyXpPerTick>0.003</joyXpPerTick>
+    <joyKind>Gaming_Dexterity</joyKind>
+  </JobDef>
+  
+  <JobDef>
+    <defName>SingKaraoke</defName>
+    <driverClass>Avali.JobDriver_SingKaraoke</driverClass>
+    <reportString>singing karaoke.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>1</joyMaxParticipants>
+    <joyGainRate>1</joyGainRate>
+    <joyXpPerTick>0.003</joyXpPerTick>
+    <joyKind>Social</joyKind>
+  </JobDef>
+</Defs>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>AvaliGraphene</defName>
+    <label>woven graphene</label>
+    <description>Graphene that's been woven specially for use in Avali crafting stations.</description>
+    <graphicData>
+      <texPath>Things/Items/Resource/AvaliGraphene</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>AvaliAerogel</defName>
+    <label>aerogel</label>
+    <description>Aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.</description>
+    <graphicData>
+      <texPath>Things/Items/Resource/AvaliAerogel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>AvaliNanoFibre</defName>
+    <label>nanofibre</label>
+    <description>A superstrong and ultralight synthetic fabric.</description>
+    <graphicData>
+      <texPath>Things/Items/Resource/AvaliNanoFibre</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(216, 216, 216)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.35</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.25</commonality>
+      <statFactors>
+        <MaxHitPoints>2.0</MaxHitPoints>
+        <Flammability>0.35</Flammability>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+    <colorGeneratorInTraderStock Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>5</weight>
+          <only>(216, 216, 216)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(63, 63, 63)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(224, 151, 92)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(0, 38, 216)</only>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(216, 0, 0)</only>
+        </li>
+      </options>
+    </colorGeneratorInTraderStock>
+  </ThingDef>
+</Defs>

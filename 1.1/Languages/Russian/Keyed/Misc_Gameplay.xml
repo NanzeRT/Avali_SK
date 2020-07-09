@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <TurretShootDelay>Turret shoot delay</TurretShootDelay>
+  <CommandDefaultTurretShootDelay>Default</CommandDefaultTurretShootDelay>
+  <CommandDefaultTurretShootDelayDesc>Default turret shoot delay.</CommandDefaultTurretShootDelayDesc>
+  <CommandDecreaseTurretShootDelayDesc>Decrease turret shoot delay.</CommandDecreaseTurretShootDelayDesc>
+  <CommandIncreaseTurretShootDelayDesc>Increase turret shoot delay.</CommandIncreaseTurretShootDelayDesc>
+  <TrackedTarget>Tracked target</TrackedTarget>
+</LanguageData>

@@ -1,0 +1,5 @@
+﻿tail
+left upper ear
+left lower ear
+right upper ear
+right lower ear

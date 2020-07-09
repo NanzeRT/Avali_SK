@@ -71,9 +71,12 @@
       </li>
     </comps>
     <costList>
-      <Plasteel>30</Plasteel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <Metallic>22</Metallic>
+      <Electronics>5</Electronics>
+      <Power_basic>1</Power_basic>
+	  <ElectronicComponents>6</ElectronicComponents>
+	  <Rifle_Component>5</Rifle_Component>
+	  <AvaliNanoFibre>14</AvaliNanoFibre>
     </costList>
     <recipeMaker>
       <researchPrerequisite>AvaliRailguns</researchPrerequisite>

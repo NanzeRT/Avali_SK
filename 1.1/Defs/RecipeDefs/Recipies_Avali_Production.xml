@@ -14,19 +14,19 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Coal</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Coal</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AvaliGraphene>10</AvaliGraphene>
+			<AvaliGraphene>12</AvaliGraphene>
 		</products>
 		<workSkill>Crafting</workSkill>
 		<!-- <researchPrerequisite>AvaliWeaving</researchPrerequisite> -->
@@ -51,14 +51,25 @@
 				</filter>
 				<count>10</count>
 			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AvaliGraphene</li>
 			</thingDefs>
+      <thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AvaliNanoFibre>10</AvaliNanoFibre>
+			<AvaliNanoFibre>20</AvaliNanoFibre>
 		</products>
 		<workSkill>Crafting</workSkill>
 		<researchPrerequisite>AvaliWeaving</researchPrerequisite>
@@ -81,7 +92,7 @@
 						<li>AvaliGraphene</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>16</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -90,50 +101,9 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AvaliAerogel>10</AvaliAerogel>
+			<AvaliAerogel>8</AvaliAerogel>
 		</products>
 		<workSkill>Crafting</workSkill>
 		<researchPrerequisite>AvaliAerogel</researchPrerequisite>
-	</RecipeDef>
-  
-  <!-- MakePlasteel -->
-	<RecipeDef>
-		<defName>MakePlasteel</defName>
-		<label>Make plasteel</label>
-		<description>Make a plasteel.</description>
-		<jobString>Making plasteel.</jobString>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>1000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>AvaliNanoFibre</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>AvaliNanoFibre</li>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Plasteel>10</Plasteel>
-		</products>
-		<workSkill>Crafting</workSkill>
-		<researchPrerequisite>AvaliPlasteel</researchPrerequisite>
 	</RecipeDef>
 </Defs> 

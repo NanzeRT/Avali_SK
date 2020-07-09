@@ -70,7 +70,7 @@
 		</products>
 		<workSkill>Crafting</workSkill>
 		<recipeUsers>
-			<li>MechWeaponCraftingWorkTable</li> <!--    		-->
+			<li>AvaliNanolathe</li> <!--    		-->
 		</recipeUsers>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<researchPrerequisite>PrecisionRifling</researchPrerequisite> <!--     -->

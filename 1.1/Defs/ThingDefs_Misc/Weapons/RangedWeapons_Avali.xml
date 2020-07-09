@@ -70,6 +70,9 @@
         <workLeft>2500</workLeft>
       </li>
     </comps>
+    <recipeUsers>
+			<li>AvaliNanolathe</li> <!--    		-->
+		</recipeUsers>
     <costList>
       <Metallic>22</Metallic>
       <Electronics>5</Electronics>
@@ -154,6 +157,9 @@
       <AccuracyLong>0.25</AccuracyLong>
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
     </statBases>
+    <recipeUsers>
+			<li>AvaliNanolathe</li> <!--    		-->
+		</recipeUsers>
     <costList>
       <Metallic>48</Metallic>
       <Rifle_Component>6</Rifle_Component>
@@ -250,6 +256,9 @@
       <AccuracyLong>0.65</AccuracyLong>
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
+		<recipeUsers>
+			<li>AvaliNanolathe</li> <!--    		-->
+		</recipeUsers>
     <costList>
       <SLDBar>30</SLDBar>
       <Rifle_Component>11</Rifle_Component>
@@ -345,6 +354,9 @@
       <AccuracyLong>0.5</AccuracyLong>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
+		<recipeUsers>
+			<li>AvaliNanolathe</li> <!--    		-->
+		</recipeUsers>
     <costList>
       <Metallic>34</Metallic>
       <Railgun_Component>1</Railgun_Component>
@@ -442,6 +454,9 @@
       <AccuracyLong>1.0</AccuracyLong>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
+		<recipeUsers>
+			<li>AvaliNanolathe</li> <!--    		-->
+		</recipeUsers>
     <costList>
       <Plasteel>125</Plasteel>
       <ComponentIndustrial>10</ComponentIndustrial>
@@ -534,6 +549,9 @@
       <AccuracyLong>0.45</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
     </statBases>
+		<recipeUsers>
+			<li>AvaliNanolathe</li> <!--    		-->
+		</recipeUsers>
     <costList>
       <Plasteel>175</Plasteel>
       <ComponentIndustrial>10</ComponentIndustrial>
@@ -630,6 +648,9 @@
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>15</RangedWeapon_Cooldown>
     </statBases>
+		<recipeUsers>
+			<li>AvaliNanolathe</li> <!--    		-->
+		</recipeUsers>
     <costList>
       <Plasteel>200</Plasteel>
       <AvaliRocket>20</AvaliRocket>

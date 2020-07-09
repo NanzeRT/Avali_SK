@@ -43,12 +43,12 @@
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
 		<statBases>
-			<MarketValue>450</MarketValue>
+			<MarketValue>340</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
 			<Flammability>0.7</Flammability>
 			<SellPriceFactor>0.5</SellPriceFactor>
-			<Mass>0.4</Mass>
-			<Bulk>3</Bulk>
+			<Mass>0.7</Mass>
+			<Bulk>2</Bulk>
 		</statBases>
 		<useHitPoints>true</useHitPoints>
 		<thingCategories>
@@ -60,5 +60,36 @@
 			</categories>
 		</stuffProps>
 		<stackLimit>25</stackLimit>
+	</ThingDef>
+	
+	<!-- Power module advensed -->
+	<ThingDef ParentName="CropsBase">
+		<defName>Power_adv</defName>
+		<label>Advensed avali power module</label>
+		<description>An improved energy module needed to create powerful weapons and avali armor.</description>
+		<graphicData>
+			<texPath>Things/Items/Resource/power_adv</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>650</MarketValue>
+			<DeteriorationRate>3</DeteriorationRate>
+			<Flammability>0.6</Flammability>
+			<SellPriceFactor>0.65</SellPriceFactor>
+			<Mass>1.2</Mass>
+			<Bulk>3.5</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Electronics</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Matty</li>
+			</categories>
+		</stuffProps>
+		<stackLimit>10</stackLimit>
 	</ThingDef>
 </Defs>

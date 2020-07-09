@@ -10,7 +10,7 @@
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<skillRequirements>
-			<Crafting>15</Crafting> <!--   		-->
+			<Crafting>12</Crafting> <!--   		-->
 		</skillRequirements>
 		<ingredients> <!--    		-->
 			<li>
@@ -19,7 +19,7 @@
 						<li>USLDBar</li>
 					</categories>
 				</filter>
-				<count>30</count>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
@@ -32,15 +32,23 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BiosyntheticMaterial</li>
+						<li>Microchips</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Microchips</li>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Power_adv</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -52,8 +60,9 @@
 				<li>HCMBar</li>
 			</categories>
 			<thingDefs>
-				<li>BiosyntheticMaterial</li>
+				<li>ElectronicComponents</li>
 				<li>Microchips</li>
+                <li>Power_adv</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

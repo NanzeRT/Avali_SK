@@ -22,27 +22,18 @@
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>Silver</thingDef>
-				<count>500</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
 				<thingDef>MealSmallSurvivalPack</thingDef>
 				<count>80</count>
 			</li>
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>AvaliNanoFibre</thingDef>
-				<count>800</count>
+				<thingDef>DeployableTentMedium</thingDef>
+		<stuff>AvaliNanoFibre</stuff>
+				<count>3</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>MedicineUltratech</thingDef>
-				<count>30</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>ComponentIndustrial</thingDef>
 				<count>30</count>
 			</li>
       <li Class="ScenPart_StartingThing_Defined">
@@ -54,17 +45,7 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>GunAvaliPistol</thingDef>
-				<count>1</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>GunAvaliShotgun</thingDef>
-				<count>1</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>GunAvaliSniper</thingDef>
-				<count>1</count>
+				<count>3</count>
 			</li>
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -72,20 +53,16 @@
         <stuff>Plasteel</stuff>
 				<count>4</count>
 			</li>
-			<li Class="ScenPart_ScatterThingsNearPlayerStart">
-				<def>ScatterThingsNearPlayerStart</def>
-				<thingDef>Steel</thingDef>
-				<count>600</count>
-			</li>
 			<li Class="ScenPart_ScatterThingsAnywhere">
 				<def>ScatterThingsAnywhere</def>
 				<thingDef>ShipChunk</thingDef>
-				<count>3</count>
+				<count>12</count>
 			</li>
 			<li Class="ScenPart_ScatterThingsAnywhere">
 				<def>ScatterThingsAnywhere</def>
-				<thingDef>Steel</thingDef>
-				<count>720</count>
+				<thingDef>Cairn</thingDef>
+		<stuff>BlocksGranite</stuff>
+				<count>7</count>
 			</li>
       
       <!-- Game start dialog -->

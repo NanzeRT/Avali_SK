@@ -53,7 +53,7 @@
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
       <WorkToMake>6000</WorkToMake>
-      <Mass>0.5</Mass>
+      <Mass>1.7</Mass>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.55</AccuracyMedium>
@@ -81,7 +81,7 @@
     <recipeMaker>
       <researchPrerequisite>AvaliRailguns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>5</Crafting>
+        <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
     <verbs>
@@ -90,7 +90,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>BulletAvaliPistol</defaultProjectile>
         <warmupTime>0.3</warmupTime>
-        <range>25.9</range>
+        <range>39.9</range>
         <soundCast>Shot_Avali_Pistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -147,7 +147,7 @@
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
       <WorkToMake>16500</WorkToMake>
-      <Mass>0.8</Mass>
+      <Mass>1.9</Mass>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
       <AccuracyMedium>0.45</AccuracyMedium>
@@ -155,14 +155,17 @@
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>45</Plasteel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-      <ComponentSpacer>2</ComponentSpacer>
+      <Metallic>48</Metallic>
+      <Rifle_Component>6</Rifle_Component>
+      <Electronics>7</Electronics>
+      <ElectronicComponents>12</ElectronicComponents>
+      <Power_basic>1</Power_basic>
+      <Plastic>14</Plastic>
     </costList>
     <recipeMaker>
       <researchPrerequisite>AvaliRailguns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
     </recipeMaker>
     <comps>
@@ -181,7 +184,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>BulletAvaliSMG</defaultProjectile>
         <warmupTime>0.5</warmupTime>
-        <range>24.9</range>
+        <range>39.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <soundCast>Shot_Avali_SMG</soundCast>
@@ -240,7 +243,7 @@
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
       <WorkToMake>60000</WorkToMake>
-      <Mass>1.5</Mass>
+      <Mass>4.4</Mass>
       <AccuracyTouch>0.70</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.75</AccuracyMedium>
@@ -248,14 +251,16 @@
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>60</Plasteel>
-      <ComponentIndustrial>8</ComponentIndustrial>
-      <ComponentSpacer>4</ComponentSpacer>
+      <SLDBar>30</SLDBar>
+      <Rifle_Component>11</Rifle_Component>
+      <Electronics>5</Electronics>
+      <Railgun_Component>1</Railgun_Component>
+      <Plastic>30<Plastic>
     </costList>
     <recipeMaker>
       <researchPrerequisite>AvaliRailguns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>8</Crafting>
+        <Crafting>14</Crafting>
       </skillRequirements>
     </recipeMaker>
     <comps>
@@ -274,7 +279,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>BulletAvaliRifle</defaultProjectile>
         <warmupTime>0.5</warmupTime>
-        <range>35.9</range>
+        <range>55.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>Shot_Avali_Rifle</soundCast>
@@ -333,7 +338,7 @@
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
       <WorkToMake>47000</WorkToMake>
-      <Mass>2</Mass>
+      <Mass>4.5</Mass>
       <AccuracyTouch>0.7</AccuracyTouch>
       <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.6</AccuracyMedium>
@@ -341,9 +346,11 @@
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>80</Plasteel>
-      <ComponentIndustrial>6</ComponentIndustrial>
-      <ComponentSpacer>4</ComponentSpacer>
+      <Metallic>34</Metallic>
+      <Railgun_Component>1</Railgun_Component>
+      <Rifle_Component>4</Rifle_Component>
+      <Electronic>5</Electronic>
+      <Plastic>22</Plastic>
     </costList>
     <recipeMaker>
       <researchPrerequisite>AvaliRailguns</researchPrerequisite>
@@ -367,7 +374,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Avali_Shotgun</defaultProjectile>
         <warmupTime>0.75</warmupTime>
-        <range>20</range>
+        <range>30</range>
         <burstShotCount>8</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>Shot_Avali_Shotgun</soundCast>

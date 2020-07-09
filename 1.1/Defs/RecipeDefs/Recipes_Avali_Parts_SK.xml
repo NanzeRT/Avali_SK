@@ -10,7 +10,7 @@
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<skillRequirements>
-			<Crafting>12</Crafting> <!--   		-->
+			<Crafting>13</Crafting> <!--   		-->
 		</skillRequirements>
 		<ingredients> <!--    		-->
 			<li>
@@ -27,7 +27,7 @@
 						<li>HCMBar</li>
 					</categories>
 				</filter>
-				<count>15</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -62,7 +62,7 @@
 			<thingDefs>
 				<li>ElectronicComponents</li>
 				<li>Microchips</li>
-                <li>Power_adv</li>
+        <li>Power_adv</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

@@ -42,7 +42,7 @@
   
   <!-- ===== Avali Pistol ===== -->
   
-  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+  <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>GunAvaliPistol</defName>
     <label>avali 'Frostbite' pistol</label>
     <description>The basic Avali military grade sidearm.</description>
@@ -69,7 +69,6 @@
         <workTable>HiTechResearchBench</workTable>
         <workLeft>2500</workLeft>
       </li>
-    </comps>
     <verbs>
       <li>
         <verbClass>Avali.Verb_ShootBinded</verbClass>
@@ -122,7 +121,7 @@
 
   <!-- ===== Avali SMG ===== -->
 
-  <!-- <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
     <defName>GunAvaliSMG</defName>
     <label>avali 'Coldsnap' SMG</label>
     <description>A more compact version of the 'Blizzard', more commonly used in close quaters.</description>
@@ -141,7 +140,7 @@
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
     </statBases>
     <recipeUsers>
-			<li>AvaliNanolathe</li>
+			<li>AvaliNanolathe</li> <!--    		-->
 		</recipeUsers>
     <costList>
       <Metallic>48</Metallic>
@@ -218,9 +217,9 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
-  -->
+
   <!-- ===== Avali Assault Rifle ===== -->
- <!-- 
+
   <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
     <defName>Gun_Avali_AssaultRifle</defName>
     <label>avali 'Blizzard' rifle</label>
@@ -240,7 +239,7 @@
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
 		<recipeUsers>
-			<li>AvaliNanolathe</li>
+			<li>AvaliNanolathe</li> <!--    		-->
 		</recipeUsers>
     <costList>
       <SLDBar>30</SLDBar>
@@ -316,9 +315,9 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
- -->
+
   <!-- ===== Avali Shotgun ===== -->
-<!-- 
+
   <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
     <defName>GunAvaliShotgun</defName>
     <label>avali 'Avalanche' shotgun</label>
@@ -338,7 +337,7 @@
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
 		<recipeUsers>
-			<li>AvaliNanolathe</li>
+			<li>AvaliNanolathe</li> <!--    		-->
 		</recipeUsers>
     <costList>
       <Metallic>34</Metallic>
@@ -416,9 +415,9 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
- -->
+
   <!-- ===== Avali Sniper Rifle ===== -->
-<!-- 
+
   <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
     <defName>GunAvaliSniper</defName>
     <label>avali 'Firelance' anti-material rifle</label>
@@ -438,7 +437,7 @@
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
 		<recipeUsers>
-			<li>AvaliNanolathe</li>
+			<li>AvaliNanolathe</li> <!--    		-->
 		</recipeUsers>
     <costList>
       <Plasteel>125</Plasteel>
@@ -511,9 +510,9 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
- -->
+
   <!-- ===== Avali Minigun ===== -->
-<!-- 
+
   <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
     <defName>GunAvaliMinigun</defName>
     <label>avali 'Hailstorm' hybrid minigun</label>
@@ -533,7 +532,7 @@
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
     </statBases>
 		<recipeUsers>
-			<li>AvaliNanolathe</li>
+			<li>AvaliNanolathe</li> <!--    		-->
 		</recipeUsers>
     <costList>
       <Plasteel>175</Plasteel>
@@ -610,9 +609,9 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
- -->
+
   <!-- ===== Avali Rocket Launcher ===== -->
-<!-- 
+
   <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
     <defName>Gun_Avali_Rocket_Launcher</defName>
     <label>avali 'Firedart' rocket launcher</label>
@@ -632,7 +631,7 @@
       <RangedWeapon_Cooldown>15</RangedWeapon_Cooldown>
     </statBases>
 		<recipeUsers>
-			<li>AvaliNanolathe</li>
+			<li>AvaliNanolathe</li> <!--    		-->
 		</recipeUsers>
     <costList>
       <Plasteel>200</Plasteel>
@@ -651,7 +650,7 @@
         <hackMinSkillLevel>18</hackMinSkillLevel>
         <workTable>HiTechResearchBench</workTable>
         <workLeft>7500</workLeft>
-      </li> -->
+      </li>
       <!-- <li Class="CompProperties_Refuelable">
         <fuelLabel>Rockets left</fuelLabel>
         <fuelGizmoLabel>Rockets count</fuelGizmoLabel>
@@ -670,7 +669,7 @@
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <outOfFuelMessage>Cannot shoot: No rockets left</outOfFuelMessage>
         <fuelIconPath>UI/Overlays/Rocket</fuelIconPath>
-      </li> --> <!--
+      </li> -->
     </comps>
     <verbs>
       <li>
@@ -687,8 +686,8 @@
         <range>39.9</range>
         <soundCast>Shot_Avali_RocketLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>14</muzzleFlashScale> -->
-        <!-- <consumeFuelPerShot>1</consumeFuelPerShot> --> <!--
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <!-- <consumeFuelPerShot>1</consumeFuelPerShot> -->
       </li>
     </verbs>
     <weaponTags>
@@ -733,7 +732,7 @@
       <speed>50</speed>
     </projectile>
   </ThingDef>
- -->
+
   <!-- ================= Test and Drone weapons ================= -->
 
   <ThingDef ParentName="AvaliBaseWeaponRanged">

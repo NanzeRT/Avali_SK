@@ -63,6 +63,8 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AvaliGraphene</li>
+			</thingDefs>
+      <thingDefs>
 				<li>Cloth</li>
 			</thingDefs>
 		</fixedIngredientFilter>

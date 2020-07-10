@@ -92,4 +92,43 @@
 		</stuffProps>
 		<stackLimit>10</stackLimit>
 	</ThingDef>
+  
+  <!-- Seeds -->
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedKiriFruit</defName>
+    <label>Kiri fruit seeds</label>
+    <sources>
+      <li>AvaliKiriFruit</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Kiri</texPath></graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+  
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedNakatiOvoid</defName>
+    <label>Nakati ovoid seeds</label>
+    <sources>
+      <li>AvaliNakatiOvoid</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Nakati</texPath></graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedPiruColony</defName>
+    <label>Piru colony seeds</label>
+    <sources>
+      <li>AvaliPiruColony</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Piru</texPath></graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+  
 </Defs>

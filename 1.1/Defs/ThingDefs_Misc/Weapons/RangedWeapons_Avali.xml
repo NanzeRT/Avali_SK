@@ -264,7 +264,7 @@
       <Rifle_Component>11</Rifle_Component>
       <Electronics>5</Electronics>
       <Railgun_Component>1</Railgun_Component>
-      <Plastic>30<Plastic>
+      <Plastic>30</Plastic>
     </costList>
     <recipeMaker>
       <researchPrerequisite>AvaliRailguns</researchPrerequisite>

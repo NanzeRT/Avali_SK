@@ -74,6 +74,7 @@
     <thingCategories>
       <li>Textiles</li>
     </thingCategories>
+    <stackLimit>300</stackLimit>
     <comps>
       <li>
         <compClass>CompColorable</compClass>
@@ -101,7 +102,6 @@
           <weight>5</weight>
           <only>(216, 0, 0)</only>
         </li>
-        <stackLimit>300</stackLimit>
       </options>
     </colorGeneratorInTraderStock>
   </ThingDef>

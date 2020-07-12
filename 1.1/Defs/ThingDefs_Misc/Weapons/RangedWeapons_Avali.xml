@@ -42,7 +42,7 @@
   
   <!-- ===== Avali Pistol ===== -->
   
-  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+  <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>GunAvaliPistol</defName>
     <label>avali 'Frostbite' pistol</label>
     <description>The basic Avali military grade sidearm.</description>
@@ -52,7 +52,6 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>6000</WorkToMake>
       <Mass>1.7</Mass>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -122,7 +121,7 @@
 
   <!-- ===== Avali SMG ===== -->
 
-  <!-- <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+  <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>GunAvaliSMG</defName>
     <label>avali 'Coldsnap' SMG</label>
     <description>A more compact version of the 'Blizzard', more commonly used in close quaters.</description>
@@ -132,7 +131,6 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
       <Mass>1.9</Mass>
       <AccuracyTouch>0.95</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
@@ -140,23 +138,6 @@
       <AccuracyLong>0.25</AccuracyLong>
       <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
     </statBases>
-    <recipeUsers>
-			<li>AvaliNanolathe</li>
-		</recipeUsers>
-    <costList>
-      <Metallic>48</Metallic>
-      <Rifle_Component>6</Rifle_Component>
-      <Electronics>7</Electronics>
-      <ElectronicComponents>12</ElectronicComponents>
-      <Power_basic>1</Power_basic>
-      <Plastic>14</Plastic>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>AvaliRailguns</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>12</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <comps>
       <li Class="Avali.CompProperties_WeaponAvali">
         <useJob>HackBindedThing</useJob>
@@ -173,7 +154,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>BulletAvaliSMG</defaultProjectile>
         <warmupTime>0.5</warmupTime>
-        <range>39.9</range>
+        <range>24.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <soundCast>Shot_Avali_SMG</soundCast>
@@ -218,10 +199,10 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
-  -->
+
   <!-- ===== Avali Assault Rifle ===== -->
- <!-- 
-  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+
+  <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>Gun_Avali_AssaultRifle</defName>
     <label>avali 'Blizzard' rifle</label>
     <description>The standard Avali infantry weapon.</description>
@@ -231,7 +212,6 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>60000</WorkToMake>
       <Mass>4.4</Mass>
       <AccuracyTouch>0.70</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
@@ -239,22 +219,6 @@
       <AccuracyLong>0.65</AccuracyLong>
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
-		<recipeUsers>
-			<li>AvaliNanolathe</li>
-		</recipeUsers>
-    <costList>
-      <SLDBar>30</SLDBar>
-      <Rifle_Component>11</Rifle_Component>
-      <Electronics>5</Electronics>
-      <Railgun_Component>1</Railgun_Component>
-      <Plastic>30</Plastic>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>AvaliRailguns</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>14</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <comps>
       <li Class="Avali.CompProperties_WeaponAvali">
         <useJob>HackBindedThing</useJob>
@@ -316,10 +280,10 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
- -->
+
   <!-- ===== Avali Shotgun ===== -->
-<!-- 
-  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+
+  <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>GunAvaliShotgun</defName>
     <label>avali 'Avalanche' shotgun</label>
     <description>An avali shotgun! Deadly in close quaters, but inaccurate at longer ranges.</description>
@@ -329,7 +293,6 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>47000</WorkToMake>
       <Mass>4.5</Mass>
       <AccuracyTouch>0.7</AccuracyTouch>
       <AccuracyShort>0.8</AccuracyShort>
@@ -337,22 +300,6 @@
       <AccuracyLong>0.5</AccuracyLong>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
-		<recipeUsers>
-			<li>AvaliNanolathe</li>
-		</recipeUsers>
-    <costList>
-      <Metallic>34</Metallic>
-      <Railgun_Component>1</Railgun_Component>
-      <Rifle_Component>4</Rifle_Component>
-      <Electronic>5</Electronic>
-      <Plastic>22</Plastic>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>AvaliRailguns</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-    </recipeMaker>
     <comps>
       <li Class="Avali.CompProperties_WeaponAvali">
         <useJob>HackBindedThing</useJob>
@@ -369,7 +316,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Avali_Shotgun</defaultProjectile>
         <warmupTime>0.75</warmupTime>
-        <range>30</range>
+        <range>20</range>
         <burstShotCount>8</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>Shot_Avali_Shotgun</soundCast>
@@ -416,9 +363,9 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
- -->
+
   <!-- ===== Avali Sniper Rifle ===== -->
-<!-- 
+
   <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
     <defName>GunAvaliSniper</defName>
     <label>avali 'Firelance' anti-material rifle</label>
@@ -429,17 +376,14 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>68000</WorkToMake>
+      <!-- <WorkToMake>68000</WorkToMake> -->
       <Mass>3</Mass>
       <AccuracyTouch>0.1</AccuracyTouch>
       <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>1.0</AccuracyMedium>
       <AccuracyLong>1.0</AccuracyLong>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
-    </statBases>
-		<recipeUsers>
-			<li>AvaliNanolathe</li>
-		</recipeUsers>
+    </statBases><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     <costList>
       <Plasteel>125</Plasteel>
       <ComponentIndustrial>10</ComponentIndustrial>
@@ -450,7 +394,7 @@
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
-    </recipeMaker>
+    </recipeMaker> -->
     <comps>
       <li Class="Avali.CompProperties_WeaponAvali">
         <useJob>HackBindedThing</useJob>
@@ -511,9 +455,9 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
- -->
+
   <!-- ===== Avali Minigun ===== -->
-<!-- 
+
   <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
     <defName>GunAvaliMinigun</defName>
     <label>avali 'Hailstorm' hybrid minigun</label>
@@ -524,17 +468,14 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>90000</WorkToMake>
+      <!-- <WorkToMake>90000</WorkToMake> -->
       <Mass>4</Mass>
       <AccuracyTouch>0.2</AccuracyTouch>
       <AccuracyShort>0.65</AccuracyShort>
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.45</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
-    </statBases>
-		<recipeUsers>
-			<li>AvaliNanolathe</li>
-		</recipeUsers>
+    </statBases><!-- 
     <costList>
       <Plasteel>175</Plasteel>
       <ComponentIndustrial>10</ComponentIndustrial>
@@ -545,7 +486,7 @@
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
-    </recipeMaker>
+    </recipeMaker> -->
     <comps>
       <li Class="Avali.CompProperties_WeaponAvali">
         <useJob>HackBindedThing</useJob>
@@ -610,9 +551,9 @@
       <speed>150</speed>
     </projectile>
   </ThingDef>
- -->
-  <!-- ===== Avali Rocket Launcher ===== -->
-<!-- 
+
+    <!-- ===== Avali Rocket Launcher ===== -->
+
   <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
     <defName>Gun_Avali_Rocket_Launcher</defName>
     <label>avali 'Firedart' rocket launcher</label>
@@ -623,17 +564,14 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>120000</WorkToMake>
+      <!-- <WorkToMake>120000</WorkToMake> -->
       <Mass>5</Mass>
       <AccuracyTouch>0.60</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.70</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>15</RangedWeapon_Cooldown>
-    </statBases>
-		<recipeUsers>
-			<li>AvaliNanolathe</li>
-		</recipeUsers>
+    </statBases><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
     <costList>
       <Plasteel>200</Plasteel>
       <AvaliRocket>20</AvaliRocket>
@@ -642,7 +580,7 @@
     </costList>
     <recipeMaker>
       <researchPrerequisite>AvaliRocketLaunchers</researchPrerequisite>
-    </recipeMaker>
+    </recipeMaker> -->
     <comps>
       <li Class="Avali.CompProperties_WeaponAvali">
         <useJob>HackBindedThing</useJob>
@@ -670,7 +608,7 @@
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <outOfFuelMessage>Cannot shoot: No rockets left</outOfFuelMessage>
         <fuelIconPath>UI/Overlays/Rocket</fuelIconPath>
-      </li> --> <!--
+      </li> -->
     </comps>
     <verbs>
       <li>
@@ -688,7 +626,7 @@
         <soundCast>Shot_Avali_RocketLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <!-- <consumeFuelPerShot>1</consumeFuelPerShot> --> <!--
+        <!-- <consumeFuelPerShot>1</consumeFuelPerShot> -->
       </li>
     </verbs>
     <weaponTags>
@@ -733,7 +671,6 @@
       <speed>50</speed>
     </projectile>
   </ThingDef>
- -->
   <!-- ================= Test and Drone weapons ================= -->
 
   <ThingDef ParentName="AvaliBaseWeaponRanged">

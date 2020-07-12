@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- -->
+
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliPistol</defName>
 		<label>Build avali 'Frostbite' pistol</label>
@@ -73,14 +75,459 @@
 			</thingDefs>
 			<categories>
         <li>Metallic</li>
-				<!--<li>SLDBar</li>
-				<li>USLDBar</li>
-				<li>Leathers</li>-->
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
     <researchPrerequisite>AvaliRailguns</researchPrerequisite>
-	</RecipeDef>  
+	</RecipeDef>
+  
+  <!-- -->
+  
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildAvaliSMG</defName>
+		<label>Build avali 'Coldsnap' SMG</label>
+		<description>Builds avali 'Coldsnap' SMG, A more compact version of the 'Blizzard', more commonly used in close quaters.</description>
+		<jobString>Building avali 'Coldsnap' SMG.</jobString>
+		<workAmount>16500</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>48</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Power_basic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>14</count>
+			</li>
+		</ingredients>
+		<products>
+			<GunAvaliSMG>1</GunAvaliSMG>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rifle_Component</li>
+        <li>Electronics</li>
+				<li>ElectronicComponents</li>
+				<li>Power_basic</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+        <li>Metallic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+	</RecipeDef>
+  
+  <!-- -->
+  
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_Avali_AssaultRifle</defName>
+		<label>Build avali 'Blizzard' rifle</label>
+		<description>Builds avali 'Blizzard' rifle, The standard Avali infantry weapon.</description>
+		<jobString>Building avali 'Blizzard' rifle.</jobString>
+		<workAmount>60000</workAmount>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Railgun_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<products>
+			<Gun_Avali_AssaultRifle>1</Gun_Avali_AssaultRifle>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rifle_Component</li>
+        <li>Electronics</li>
+				<li>Railgun_Component</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+        <li>SLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+	</RecipeDef>
+  
+  <!-- -->
+  
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildAvaliShotgun</defName>
+		<label>Build avali 'Avalanche' shotgun</label>
+		<description>Builds avali 'Avalanche' shotgun! It's deadly in close quaters, but inaccurate at longer ranges.</description>
+		<jobString>Building avali 'Avalanche' shotgun.</jobString>
+		<workAmount>47000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Railgun_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>22</count>
+			</li>
+		</ingredients>
+		<products>
+			<GunAvaliShotgun>1</GunAvaliShotgun>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rifle_Component</li>
+        <li>Electronics</li>
+				<li>Railgun_Component</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+        <li>Metallic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+	</RecipeDef>
+  
+  <!-- TODO: make recipe -->
+  
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildAvaliSniper</defName>
+		<label>Build avali 'GunAvaliSniper' </label>
+		<description>Builds avali 'GunAvaliSniper' ! It's deadly in close quaters, but inaccurate at longer ranges.</description>
+		<jobString>Building avali 'GunAvaliSniper' .</jobString>
+		<workAmount>47000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Railgun_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>22</count>
+			</li>
+		</ingredients>
+		<products>
+			<GunAvaliSniper>1</GunAvaliSniper>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rifle_Component</li>
+        <li>Electronics</li>
+				<li>Railgun_Component</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+        <li>Metallic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+	</RecipeDef>
+  
+  <!-- TODO: make recipe -->
+  
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildAvaliMinigun</defName>
+		<label>Build avali 'AvaliMinigun' </label>
+		<description>Builds avali 'AvaliMinigun' ! It's deadly in close quaters, but inaccurate at longer ranges.</description>
+		<jobString>Building avali 'AvaliMinigun' .</jobString>
+		<workAmount>47000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Railgun_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>22</count>
+			</li>
+		</ingredients>
+		<products>
+			<GunAvaliMinigun>1</GunAvaliMinigun>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rifle_Component</li>
+        <li>Electronics</li>
+				<li>Railgun_Component</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+        <li>Metallic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+	</RecipeDef>
+  
+  <!-- TODO: make recipe -->
+  
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_Avali_Rocket_Launcher</defName>
+		<label>Build avali '_Avali_Rocket_Launcher' </label>
+		<description>Builds avali '_Avali_Rocket_Launcher' ! It's deadly in close quaters, but inaccurate at longer ranges.</description>
+		<jobString>Building avali '_Avali_Rocket_Launcher' .</jobString>
+		<workAmount>47000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Railgun_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>22</count>
+			</li>
+		</ingredients>
+		<products>
+			<Gun_Avali_Rocket_Launcher>1</Gun_Avali_Rocket_Launcher>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rifle_Component</li>
+        <li>Electronics</li>
+				<li>Railgun_Component</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+        <li>Metallic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliRocketLaunchers</researchPrerequisite>
+	</RecipeDef>
+  
 </Defs>

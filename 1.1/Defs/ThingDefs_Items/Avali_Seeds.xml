@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Defs>
+
+  <!-- -->
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedAvaliKiriFruit</defName>
+    <label>Kiri Fruit seeds</label>
+    <sources>
+      <li>AvaliKiriFruit</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Seeds</texPath></graphicData>
+    <statBases>
+      <MarketValue>7</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+  
+  <!-- -->
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedAvaliNakatiOvoid</defName>
+    <label>Nakati Ovoid seeds</label>
+    <sources>
+      <li>AvaliNakatiOvoid</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Seeds</texPath></graphicData>
+    <statBases>
+      <MarketValue>7</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+
+  <!-- -->
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedAvaliPiruColony</defName>
+    <label>Piru Colony seeds</label>
+    <sources>
+      <li>AvaliPiruColony</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Seeds</texPath></graphicData>
+    <statBases>
+      <MarketValue>7</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+</Defs>

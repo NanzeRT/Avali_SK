@@ -23,7 +23,7 @@
     <sources>
       <li>AvaliNakatiOvoid</li>
     </sources>
-    <graphicData><texPath>Things/Item/sSeeds/Nakati</texPath></graphicData>
+    <graphicData><texPath>Things/Items/Seeds/Nakati</texPath></graphicData>
     <statBases>
       <MarketValue>7</MarketValue>
     </statBases>

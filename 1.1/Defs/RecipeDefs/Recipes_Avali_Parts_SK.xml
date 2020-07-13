@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <!-- Railgun_Component -->
 		<RecipeDef>
 		<defName>MakeRailgun_Component</defName>
 		<label>Make Railgun component</label>
@@ -73,6 +74,94 @@
 			<li>AvaliNanolathe</li> <!--    		-->
 		</recipeUsers>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>PrecisionRifling</researchPrerequisite> <!--     -->
+		<researchPrerequisite>AvaliRailguns</researchPrerequisite> <!--     -->
 	</RecipeDef>
+  
+  <!-- Power module basic -->
+  		<RecipeDef>
+		<defName>MakePowerBasic</defName>
+		<label>Make basic power module</label>
+		<description>Power basic module - the main source of energy for Avali's weapons and armor. Produces 2.</description>
+		<jobString>Making Railgun Component.</jobString>
+		<workAmount>400</workAmount> <!--    		-->
+		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<skillRequirements>
+			<Crafting>10</Crafting> <!--   		-->
+		</skillRequirements>
+		<ingredients> <!--    		-->
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PRSBar</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Microchips</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliGraphene</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>ComponentAdvanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter> <!--    		-->
+			<categories>
+				<li>SLDBar</li>
+				<li>PRSBar</li>
+			</categories>
+			<thingDefs>
+				<li>ElectronicComponents</li>
+				<li>Microchips</li>
+        <li>ComponentAdvanced</li>
+        <li>AvaliGraphene</li>
+        <li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Power_basic>2</Power_basic>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>      <!--    		-->
+		</recipeUsers>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>AvaliLTRW</researchPrerequisite> <!--     -->
+	</RecipeDef>
+
 </Defs>

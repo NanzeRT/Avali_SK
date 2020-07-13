@@ -125,7 +125,7 @@
         <baseCost>3000</baseCost>
         <techLevel>Spacer</techLevel>
         <tab>Avali</tab>
-		<tags>
+        <tags>
             <li>AvaliTribalStart</li>
         </tags>
         <prerequisites>
@@ -243,9 +243,6 @@
         <baseCost>3000</baseCost>
         <techLevel>Spacer</techLevel>
         <tab>Avali</tab>
-        <tags>
-            <li>AvaliStart</li>
-        </tags>
         <prerequisites>
             <li>MultiAnalyzer</li>
             <li>AvaliWeaving</li>
@@ -582,9 +579,6 @@
         <baseCost>2500</baseCost>
         <techLevel>Spacer</techLevel>
         <tab>Avali</tab>
-        <tags>
-            <li>AvaliStart</li>
-        </tags>
         <prerequisites>
             <li>AvaliPrinting</li>
             <li>AvaliAerogel</li>
@@ -602,7 +596,7 @@
     <ResearchProjectDef>
         <defName>AvaliLTRW</defName>
         <label>Low tech railgun</label>
-        <description>Create pistols and SMG Awali and also of the power module. The machine for creating the latter will be available after studying the Avali nanolathe technology.</description>
+        <description>Create pistols and SMG Avali and also of the power module. The machine for creating the latter will be available after studying the Avali nanolathe technology.</description>
         <baseCost>2500</baseCost>
         <techLevel>Spacer</techLevel>
         <tab>Avali</tab>

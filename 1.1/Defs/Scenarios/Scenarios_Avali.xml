@@ -42,6 +42,16 @@
         <stuff>Plasteel</stuff>
 				<count>1</count>
 			</li>
+      <li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>SeedAvaliKiriFruit</thingDef>
+				<count>16</count>
+			</li>
+      <li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>SeedAvaliPiruColony</thingDef>
+				<count>16</count>
+			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>GunAvaliPistol</thingDef>

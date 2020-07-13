@@ -89,7 +89,7 @@
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+    <researchPrerequisite>AvaliLTRW</researchPrerequisite>
 	</RecipeDef>
   
   <!-- -->
@@ -180,7 +180,7 @@
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+    <researchPrerequisite>AvaliLTRW</researchPrerequisite>
 	</RecipeDef>
   
   <!-- -->

@@ -9,7 +9,7 @@
     <sources>
       <li>AvaliKiriFruit</li>
     </sources>
-    <graphicData><texPath>Things/Item/Seeds/Kiri</texPath></graphicData>
+    <graphicData><texPath>Things/Items/Seeds/Kiri</texPath></graphicData>
     <statBases>
       <MarketValue>7</MarketValue>
     </statBases>
@@ -23,7 +23,7 @@
     <sources>
       <li>AvaliNakatiOvoid</li>
     </sources>
-    <graphicData><texPath>Things/Item/Seeds/Nakati</texPath></graphicData>
+    <graphicData><texPath>Things/Item/sSeeds/Nakati</texPath></graphicData>
     <statBases>
       <MarketValue>7</MarketValue>
     </statBases>
@@ -37,7 +37,7 @@
     <sources>
       <li>AvaliPiruColony</li>
     </sources>
-    <graphicData><texPath>Things/Item/Seeds/Piru</texPath></graphicData>
+    <graphicData><texPath>Things/Items/Seeds/Piru</texPath></graphicData>
     <statBases>
       <MarketValue>7</MarketValue>
     </statBases>

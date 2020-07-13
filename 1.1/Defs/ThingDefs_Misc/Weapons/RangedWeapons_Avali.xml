@@ -13,18 +13,7 @@
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="AvaliBaseMakeableWeaponRanged" ParentName="AvaliBaseWeaponRanged" Abstract="True">
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
-        <li>AvaliNanolathe</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-    </recipeMaker>
-  </ThingDef>
+  <ThingDef Name="AvaliBaseMakeableWeaponRanged" ParentName="AvaliBaseWeaponRanged" Abstract="True"/>
 
   <!-- ===== Test Pistol not forget to remove ===== -->
   
@@ -366,7 +355,7 @@
 
   <!-- ===== Avali Sniper Rifle ===== -->
 
-  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+  <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>GunAvaliSniper</defName>
     <label>avali 'Firelance' anti-material rifle</label>
     <description>An anti-material sniper rifle more frequently used for hunting armoured vehicles than wildlife.</description>
@@ -458,7 +447,7 @@
 
   <!-- ===== Avali Minigun ===== -->
 
-  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+  <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>GunAvaliMinigun</defName>
     <label>avali 'Hailstorm' hybrid minigun</label>
     <description>The primary Avali suppressive fire and support weapon.</description>
@@ -554,7 +543,7 @@
 
     <!-- ===== Avali Rocket Launcher ===== -->
 
-  <ThingDef ParentName="AvaliBaseMakeableWeaponRanged">
+  <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>Gun_Avali_Rocket_Launcher</defName>
     <label>avali 'Firedart' rocket launcher</label>
     <description>The primary Avali anti-vehicle weapon.</description>

@@ -88,8 +88,9 @@
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
+      <li>AdvWeaponCraftingWorkTable</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+    <researchPrerequisite>AvaliLTRW</researchPrerequisite>
 	</RecipeDef>
   
   <!-- -->
@@ -179,8 +180,9 @@
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
+      <li>AdvWeaponCraftingWorkTable</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+    <researchPrerequisite>AvaliLTRW</researchPrerequisite>
 	</RecipeDef>
   
   <!-- -->

@@ -24,7 +24,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Rifle_Component</li>
+						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -61,17 +61,26 @@
 				</filter>
 				<count>14</count>
 			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Pistol_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
 		</ingredients>
 		<products>
 			<GunAvaliPistol>1</GunAvaliPistol>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
         <li>Electronics</li>
 				<li>ElectronicComponents</li>
 				<li>Power_basic</li>
 				<li>AvaliNanoFibre</li>
+        <li>Pistol_Component</li>
 			</thingDefs>
 			<categories>
         <li>Metallic</li>
@@ -106,7 +115,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Rifle_Component</li>
+						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
 				<count>6</count>
@@ -143,17 +152,26 @@
 				</filter>
 				<count>14</count>
 			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SMG_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
 		</ingredients>
 		<products>
 			<GunAvaliSMG>1</GunAvaliSMG>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
         <li>Electronics</li>
 				<li>ElectronicComponents</li>
 				<li>Power_basic</li>
 				<li>Plastic</li>
+        <li>SMG_Component</li>
 			</thingDefs>
 			<categories>
         <li>Metallic</li>
@@ -188,7 +206,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Rifle_Component</li>
+						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
 				<count>11</count>
@@ -217,16 +235,25 @@
 				</filter>
 				<count>30</count>
 			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rifle_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
 		</ingredients>
 		<products>
 			<Gun_Avali_AssaultRifle>1</Gun_Avali_AssaultRifle>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
         <li>Electronics</li>
 				<li>Railgun_Component</li>
 				<li>Plastic</li>
+        <li>Rifle_Component</li>
 			</thingDefs>
 			<categories>
         <li>SLDBar</li>
@@ -261,7 +288,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Rifle_Component</li>
+						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
 				<count>4</count>
@@ -290,16 +317,25 @@
 				</filter>
 				<count>22</count>
 			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shotgun_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
 		</ingredients>
 		<products>
 			<GunAvaliShotgun>1</GunAvaliShotgun>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
         <li>Electronics</li>
 				<li>Railgun_Component</li>
 				<li>Plastic</li>
+        <li>Shotgun_Component</li>
 			</thingDefs>
 			<categories>
         <li>Metallic</li>
@@ -334,7 +370,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Rifle_Component</li>
+						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
 				<count>4</count>
@@ -363,16 +399,25 @@
 				</filter>
 				<count>22</count>
 			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Sniper_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
 		</ingredients>
 		<products>
 			<GunAvaliSniper>1</GunAvaliSniper>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
         <li>Electronics</li>
 				<li>Railgun_Component</li>
 				<li>Plastic</li>
+        <li>Sniper_Component</li>
 			</thingDefs>
 			<categories>
         <li>Metallic</li>
@@ -407,7 +452,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Rifle_Component</li>
+						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
 				<count>4</count>
@@ -436,16 +481,25 @@
 				</filter>
 				<count>22</count>
 			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Heavy_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
 		</ingredients>
 		<products>
 			<GunAvaliMinigun>1</GunAvaliMinigun>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
         <li>Electronics</li>
 				<li>Railgun_Component</li>
 				<li>Plastic</li>
+        <li>Heavy_Component</li>
 			</thingDefs>
 			<categories>
         <li>Metallic</li>
@@ -480,7 +534,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Rifle_Component</li>
+						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
 				<count>4</count>
@@ -496,29 +550,29 @@
       <li>
 				<filter>
 					<thingDefs>
-						<li>Railgun_Component</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-      <li>
-				<filter>
-					<thingDefs>
 						<li>Plastic</li>
 					</thingDefs>
 				</filter>
 				<count>22</count>
 			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Launcher_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
 		</ingredients>
 		<products>
 			<Gun_Avali_Rocket_Launcher>1</Gun_Avali_Rocket_Launcher>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
         <li>Electronics</li>
-				<li>Railgun_Component</li>
 				<li>Plastic</li>
+        <li>Launcher_Component</li>
 			</thingDefs>
 			<categories>
         <li>Metallic</li>

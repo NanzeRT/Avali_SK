@@ -602,17 +602,13 @@
     <ResearchProjectDef>
         <defName>AvaliLTRW</defName>
         <label>Low tech railgun</label>
-        <description>Crafting power modules, pistol and SMG Avali.</description>
+        <description>Create pistols and SMG Awali and also of the power module. The machine for creating the latter will be available after studying the Avali nanolathe technology.</description>
         <baseCost>2500</baseCost>
         <techLevel>Spacer</techLevel>
         <tab>Avali</tab>
         <tags>
             <li>AvaliStart</li>
         </tags>
-        <prerequisites>
-            <li>AvaliPrinting</li>
-            <li>SK_MachiningIII</li>
-        </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>

@@ -81,7 +81,7 @@
   		<RecipeDef>
 		<defName>MakePowerBasic</defName>
 		<label>Make basic power module</label>
-		<description>Power basic module - the main source of energy for Avali's weapons and armor. Produces 2.</description>
+		<description>Basic power module - the main source of energy for Avali's weapons and armor. Produces 2.</description>
 		<jobString>Making Railgun Component.</jobString>
 		<workAmount>400</workAmount> <!--    		-->
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
@@ -162,6 +162,72 @@
 		</recipeUsers>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<researchPrerequisite>AvaliLTRW</researchPrerequisite> <!--     -->
+	</RecipeDef>
+
+  <!-- Power module adv -->
+  		<RecipeDef>
+		<defName>MakePowerAdv</defName>
+		<label>Make advenced power module</label>
+		<description>Advanced power module - the only source of energy in Avali's high-tech armor and weapons. Produces 1.</description>
+		<jobString>Making Railgun Component.</jobString>
+		<workAmount>450</workAmount> <!--    		-->
+		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<skillRequirements>
+			<Crafting>12</Crafting> <!--   		-->
+		</skillRequirements>
+		<ingredients> <!--    		-->
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SteelBar</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Power_basic</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliGraphene</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>ComponentAdvanced</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter> <!--    		-->
+			<thingDefs>
+				<li>SteelBar</li>
+				<li>Power_basic</li>
+        <li>ComponentAdvanced</li>
+        <li>AvaliGraphene</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Power_adv>1</Power_adv>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>      <!--    		-->
+		</recipeUsers>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>AvaliRailguns</researchPrerequisite> <!--     -->
 	</RecipeDef>
 
 </Defs>

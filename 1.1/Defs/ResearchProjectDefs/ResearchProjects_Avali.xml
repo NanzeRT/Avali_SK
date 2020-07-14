@@ -16,6 +16,7 @@
         <!-- <prerequisites>
             <li>ComplexClothing</li>
         </prerequisites> -->
+        <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
         <researchViewX>0</researchViewX>
         <researchViewY>0</researchViewY>
     </ResearchProjectDef>
@@ -26,13 +27,16 @@
         <label>Avali plants</label>
         <description>Sowing and cook plants of Avali homeworld. Kiri fruits, Nakati ovoids and Piru colonies.</description>
         <baseCost>1000</baseCost>
-        <techLevel>Medieval</techLevel>
+        <techLevel>Industrial</techLevel>
         <tab>Avali</tab>
         <tags>
             <li>AvaliStart</li>
             <li>AvaliTribalStart</li>
         </tags>
-        <requiredResearchBuilding>ResearchBench</requiredResearchBuilding>
+        <prerequisites>
+             <li>AdvancedFabrication</li>
+        </prerequisites>
+        <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
         <researchViewX>0</researchViewX>
         <researchViewY>0.85</researchViewY>
     </ResearchProjectDef>

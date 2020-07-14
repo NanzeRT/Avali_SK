@@ -23,7 +23,7 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>MealSmallSurvivalPack</thingDef>
-				<count>40</count>
+				<count>80</count>
 			</li>
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -35,12 +35,6 @@
 				<def>StartingThing_Defined</def>
 				<thingDef>MedicineUltratech</thingDef>
 				<count>30</count>
-			</li>
-      <li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Avali_Spear</thingDef>
-        <stuff>Plasteel</stuff>
-				<count>1</count>
 			</li>
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -60,7 +54,7 @@
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>GunAvaliSMG</thingDef>
-				<count>1</count>
+				<count>2</count>
 			</li>
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -70,15 +64,23 @@
 			</li>
 			<li Class="ScenPart_ScatterThingsAnywhere">
 				<def>ScatterThingsAnywhere</def>
+        <visible>false</visible>
 				<thingDef>ShipChunk</thingDef>
 				<count>12</count>
 			</li>
 			<li Class="ScenPart_ScatterThingsAnywhere">
 				<def>ScatterThingsAnywhere</def>
+        <visible>false</visible>
 				<thingDef>Cairn</thingDef>
 		<stuff>BlocksGranite</stuff>
 				<count>7</count>
 			</li>
+      <li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>CrashedShipWreck</thingDef>
+					<count>3</count>
+				</li>
       
       <!-- Game start dialog -->
       <li Class="ScenPart_GameStartDialog">

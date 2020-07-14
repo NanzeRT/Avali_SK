@@ -8,7 +8,7 @@
 	<basicMemberKind>Avali</basicMemberKind>
 	<pawnSingular>colonist</pawnSingular>
 	<pawnsPlural>colonists</pawnsPlural>
-	<techLevel>Ultra</techLevel>
+	<techLevel>Spacer</techLevel>
   <backstoryCategories>
     <li>AvaliBackstory</li>
   </backstoryCategories>

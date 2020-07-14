@@ -32,7 +32,7 @@
             <li>AvaliStart</li>
             <li>AvaliTribalStart</li>
         </tags>
-        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchBuilding>ResearchBench</requiredResearchBuilding>
         <researchViewX>0</researchViewX>
         <researchViewY>0.85</researchViewY>
     </ResearchProjectDef>
@@ -607,6 +607,9 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
+        <prerequisites>
+          <li>SK_MachiningII</li>
+        </prerequisites>
         <researchViewX>1</researchViewX>
         <researchViewY>4.3</researchViewY>
     </ResearchProjectDef>

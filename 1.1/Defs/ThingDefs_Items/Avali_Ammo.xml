@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>RailgunsAmmoPistol</defName>
+		<label>Ammunition railgun (pistol)</label>
+		<parent>AmmoPistols</parent>
+	</ThingCategoryDef>
+
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Railguns" ParentName="SmallAmmoBase" Abstract="True">
+		<description>Ammunition railgans Avali</description>
+		<statBases>
+			<Mass>0.02</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>RailgunsAmmoa</li>
+		</thingCategories>
+	</ThingDef>
+  
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Railguns">
+		<defName>AvaliPistol</defName>
+		<label>Ammunition railgun (pistol)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Pistol</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.35</MarketValue>
+		</statBases>
+		<ammoClass>RailgunsAmmo</ammoClass>
+	</ThingDef>
+  
+</Defs>

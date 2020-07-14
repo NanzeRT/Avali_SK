@@ -23,13 +23,13 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>MealSmallSurvivalPack</thingDef>
-				<count>80</count>
+				<count>40</count>
 			</li>
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>DeployableTentMedium</thingDef>
 		<stuff>AvaliNanoFibre</stuff>
-				<count>3</count>
+				<count>2</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -55,7 +55,12 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>GunAvaliPistol</thingDef>
-				<count>3</count>
+				<count>2</count>
+			</li>
+      <li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>GunAvaliSMG</thingDef>
+				<count>1</count>
 			</li>
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>

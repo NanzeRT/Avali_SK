@@ -62,6 +62,8 @@
         <stuff>Plasteel</stuff>
 				<count>4</count>
 			</li>
+      
+     
 			<li Class="ScenPart_ScatterThingsAnywhere">
 				<def>ScatterThingsAnywhere</def>
         <visible>false</visible>
@@ -72,15 +74,30 @@
 				<def>ScatterThingsAnywhere</def>
         <visible>false</visible>
 				<thingDef>Cairn</thingDef>
-		<stuff>BlocksGranite</stuff>
+        <stuff>BlocksGranite</stuff>
 				<count>7</count>
+			</li>
+      <li Class="ScenPart_ScatterThingsAnywhere">
+				<def>ScatterThingsAnywhere</def>
+        <visible>false</visible>
+				<thingDef>Totem</thingDef>
+        <stuff>WoodLog</stuff>
+				<count>11</count>
 			</li>
       <li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
 					<visible>false</visible>
 					<thingDef>CrashedShipWreck</thingDef>
 					<count>3</count>
-				</li>
+      </li>
+        
+        
+      <li Class="ScenPart_CreateIncident">
+				<def>CreateIncident</def>
+        <visible>false</visible>
+				<incident>RaidEnemy</incident>
+				<intervalDays>0.3</intervalDays>
+			</li>
       
       <!-- Game start dialog -->
       <li Class="ScenPart_GameStartDialog">

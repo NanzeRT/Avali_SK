@@ -3,36 +3,114 @@
 	<ThingCategoryDef>
 		<defName>RailgunsAmmoPistol</defName>
 		<label>Ammunition railgun (pistol)</label>
-		<parent>AmmoPistols</parent>
+		<parent>AmmoAdvanced</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
 	</ThingCategoryDef>
 
+	<!-- ==================== AmmoSet ========================== -->
 
-  <ThingDef Class="CombatExtended.AmmoDef" Name="Railguns" ParentName="SmallAmmoBase" Abstract="True">
-		<description>Ammunition railgans Avali</description>
-		<statBases>
-			<Mass>0.02</Mass>
-			<Bulk>0.02</Bulk>
-		</statBases>
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_RailRay</defName>
+		<label>Avali pistol charged rail ray</label>
+		<ammoTypes>
+			<Ammo_AvaliRailPistol>Bullet_PistolAvaliChargeLance</Ammo_AvaliRailPistol>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+		
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+		<defName>Ammo_AvaliRailPistol</defName>
+		<label>Pistol charged Rail Ray</label>
 		<tradeTags>
-			<li>CE_AutoEnableTrade</li>
 			<li>CE_AutoEnableCrafting</li>
 		</tradeTags>
 		<thingCategories>
-			<li>RailgunsAmmoa</li>
+			<li>AmmoRailRay</li>
 		</thingCategories>
-	</ThingDef>
-  
-  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Railguns">
-		<defName>AvaliPistol</defName>
-		<label>Ammunition railgun (pistol)</label>
 		<graphicData>
-			<texPath>Things/Ammo/Pistol</texPath>
+			<texPath>Things/Items/Ammo/RailRay</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>0.35</MarketValue>
+			<MarketValue>20</MarketValue>
+			<Mass>0.01</Mass>
+			<Bulk>0.02</Bulk>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.9</Flammability>
 		</statBases>
-		<ammoClass>RailgunsAmmo</ammoClass>
+		<tradeability>Sellable</tradeability>
+		<destroyOnDrop>False</destroyOnDrop>
+		<ammoClass>Charged</ammoClass>
 	</ThingDef>
-  
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SK_BaseBullet">
+		<defName>Bullet_PistolAvaliChargeLance</defName>
+		<thingClass>SK.Projectile_LaserCE</thingClass>
+		<label>Avali pistol charge lance</label>
+		<graphicData>
+			<texPath>Things/Items/Weapons/Bullet_Avali</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>21</damageAmountBase>
+			<speed>270</speed>
+			<!-- <armorPenetrationBase>1.1</armorPenetrationBase> -->
+			<armorPenetrationSharp>80</armorPenetrationSharp>
+			<armorPenetrationBlunt>240</armorPenetrationBlunt>
+		</projectile>
+		<preFiringInitialIntensity>12</preFiringInitialIntensity>
+		<preFiringFinalIntensity>6</preFiringFinalIntensity>
+		<postFiringInitialIntensity>3</postFiringInitialIntensity>
+		<postFiringFinalIntensity>3</postFiringFinalIntensity>
+		<preFiringDuration>6</preFiringDuration>
+		<postFiringDuration>3</postFiringDuration>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_PistolAvaliRailRay</defName>
+		<label>make avali pistol charged Rail Ray cartridge x30</label>
+		<description>Craft 30 Charged Rail Ray cartridges.</description>
+		<jobString>Making Charged Rail Ray cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+      <li>
+        <filter>
+          <categories>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
+			<li>
+				<filter>
+					<categories>
+						<li>HCMBar</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HSMBar</li>
+        <li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_RailRay>30</Ammo_RailRay>
+		</products>
+	</RecipeDef>  
 </Defs>

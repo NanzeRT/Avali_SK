@@ -33,7 +33,7 @@
   
   <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>GunAvaliPistol</defName>
-    <label>avali 'Frostbite' pistol</label>
+    <label>Avali 'Frostbite' pistol</label>
     <description>The basic Avali military grade sidearm.</description>
     <graphicData>
       <texPath>Things/Items/Weapons/Avali_Pistol</texPath>
@@ -47,6 +47,7 @@
       <SwayFactor>0.9</SwayFactor>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
       <Bulk>1.4</Bulk>
+      <ShotSpread>0.14</ShotSpread>
     </statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">

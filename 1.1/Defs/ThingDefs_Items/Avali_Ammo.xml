@@ -109,6 +109,11 @@
         <li>USLDBar</li>
 			</categories>
 		</fixedIngredientFilter>
+    <recipeUsers>
+			<li>AvaliNanolathe</li>
+      <li>AmmoBench</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliLTRW</researchPrerequisite>
 		<products>
 			<Ammo_RailRay>30</Ammo_RailRay>
 		</products>

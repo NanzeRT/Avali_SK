@@ -108,6 +108,7 @@
 				<defaultProjectile>Bullet_PistolAvaliChargeLance</defaultProjectile>
 				<warmupTime>0.24</warmupTime>
 				<range>40</range>
+        <burstShotCount>3</burstShotCount>
 				<soundCast>Shot_Avali_SMG</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

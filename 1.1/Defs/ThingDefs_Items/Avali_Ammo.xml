@@ -45,12 +45,12 @@
 	</ThingDef>
 	<!-- ================== Projectiles ================== -->
 
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SK_BaseBullet">
+	<ThingDef Class="SK.ThingDef_LaserProjectileCR" ParentName="SK_BaseBullet">
 		<defName>Bullet_PistolAvaliChargeLance</defName>
 		<thingClass>SK.Projectile_LaserCE</thingClass>
 		<label>Avali pistol charge lance</label>
 		<graphicData>
-			<texPath>Things/Items/Weapons/Bullet_Avali</texPath>
+			<texPath>Things/Projectile/ChargeRay</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -72,7 +72,7 @@
 	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_PistolAvaliRailRay</defName>
+		<defName>MakeAmmo_AvaliRailPistol</defName>
 		<label>make avali pistol charged Rail Ray cartridge x30</label>
 		<description>Craft 30 Charged Rail Ray cartridges.</description>
 		<jobString>Making Charged Rail Ray cartridges.</jobString>

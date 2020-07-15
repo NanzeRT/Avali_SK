@@ -95,9 +95,9 @@
       </li>
 			<li>
 				<filter>
-					<categories>
-						<li>HCMBar</li>
-					</categories>
+					<thingDefs>
+						<li>CopperBar</li>
+					</thingDefs>
 				</filter>
 				<count>5</count>
 			</li>
@@ -105,9 +105,11 @@
 		<fixedIngredientFilter>
 			<categories>
 				<li>SLDBar</li>
-				<li>HSMBar</li>
         <li>USLDBar</li>
 			</categories>
+      <thingDefs>
+        <li>CopperBar</li>
+      </thingDefs>
 		</fixedIngredientFilter>
     <recipeUsers>
 			<li>AvaliNanolathe</li>

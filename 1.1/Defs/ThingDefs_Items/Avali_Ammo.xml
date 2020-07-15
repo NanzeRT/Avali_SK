@@ -10,7 +10,7 @@
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_RailRay</defName>
+		<defName>AmmoSet_RailRayPistol</defName>
 		<label>Avali pistol charged rail ray</label>
 		<ammoTypes>
 			<Ammo_AvaliRailPistol>Bullet_PistolAvaliChargeLance</Ammo_AvaliRailPistol>
@@ -115,7 +115,7 @@
 		</recipeUsers>
     <researchPrerequisite>AvaliLTRW</researchPrerequisite>
 		<products>
-			<Ammo_RailRay>30</Ammo_RailRay>
+			<Ammo_AvaliRailPistol>30</Ammo_AvaliRailPistol>
 		</products>
 	</RecipeDef>  
 </Defs>

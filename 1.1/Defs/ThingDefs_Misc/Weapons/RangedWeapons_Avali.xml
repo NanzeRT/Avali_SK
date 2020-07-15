@@ -46,6 +46,7 @@
       <SightsEfficiency>0.95</SightsEfficiency>
       <SwayFactor>0.9</SwayFactor>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <Bulk>1.4</Bulk>
     </statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -59,6 +60,13 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+    <weaponTags>
+       <li>ASN3</li>
+       <li>AdvancedGun</li>
+       <li>TierTwoLow</li>
+       <li>Futuristic</li>
+       <li>CE_AI_Rifle</li>
+    </weaponTags>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireModes">
 				<aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -67,7 +75,7 @@
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>14</magazineSize>
 				<reloadTime>1.4</reloadTime>
-				<ammoSet>AmmoSet_RailRay</ammoSet>
+				<ammoSet>AmmoSet_RailRayPistol</ammoSet>
 			</li>
 		</comps>
   </ThingDef>

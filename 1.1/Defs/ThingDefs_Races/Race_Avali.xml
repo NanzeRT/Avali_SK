@@ -533,7 +533,7 @@
     </statBases>
     <tools>
       <!-- LeftHandTalons -->
-      <li>
+      <li Class="CombatExtended.ToolCE">
         <label>left hand talons</label>
         <capacities>
           <li>Scratch</li>
@@ -549,9 +549,11 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+				<armorPenetrationSharp>1.30</armorPenetrationSharp>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
       </li>
       <!-- RightHandTalons -->
-      <li>
+      <li Class="CombatExtended.ToolCE">
         <label>right hand talons</label>
         <capacities>
           <li>Scratch</li>
@@ -567,10 +569,12 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+				<armorPenetrationSharp>1.30</armorPenetrationSharp>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
       </li>
       
       <!-- LeftFeetTalons -->
-      <li>
+      <li Class="CombatExtended.ToolCE">
         <label>left feet talons</label>
         <capacities>
           <li>Scratch</li>
@@ -587,9 +591,11 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+				<armorPenetrationSharp>1.30</armorPenetrationSharp>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
       </li>
       <!-- RightFeetTalons -->
-      <li>
+      <li Class="CombatExtended.ToolCE">
         <label>right feet talons</label>
         <capacities>
           <li>Scratch</li>
@@ -606,10 +612,12 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+				<armorPenetrationSharp>1.30</armorPenetrationSharp>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
       </li>
       
       <!-- LeftHand -->
-      <li>
+      <li Class="CombatExtended.ToolCE">
         <label>left hand</label>
         <capacities>
           <li>Blunt</li>
@@ -626,9 +634,10 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
       </li>
       <!-- RightHand -->
-      <li>
+      <li Class="CombatExtended.ToolCE">
         <label>right hand</label>
         <capacities>
           <li>Blunt</li>
@@ -645,10 +654,11 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
       </li>
       
       <!-- LeftFeetAvali -->
-      <li>
+      <li Class="CombatExtended.ToolCE">
         <label>left feet</label>
         <capacities>
           <li>Blunt</li>
@@ -665,9 +675,10 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
       </li>
       <!-- RightFeetAvali -->
-      <li>
+      <li Class="CombatExtended.ToolCE">
         <label>right feet</label>
         <capacities>
           <li>Blunt</li>
@@ -684,10 +695,11 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
       </li>
       
       <!-- Teeth -->
-      <li>
+      <li Class="CombatExtended.ToolCE">
         <label>teeth</label>
         <capacities>
           <li>Bite</li>
@@ -696,6 +708,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.1</chanceFactor>
+				<armorPenetrationSharp>1.5</armorPenetrationSharp>
       </li>
     </tools>
     <race>
@@ -779,6 +792,11 @@
     </race>
     <recipes>
     </recipes>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Humanoid</bodyShape>
+			</li>
+		</modExtensions>
   </AlienRace.ThingDef_AlienRace>
   
   <AlienRace.RaceSettings>

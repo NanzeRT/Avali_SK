@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingCategoryDef>
-		<defName>RailgunsAmmoPistol</defName>
-		<label>Ammunition railgun (pistol)</label>
+		<defName>RailgunsAmmoLow</defName>
+		<label>Ammunition railgun (low)</label>
 		<parent>AmmoAdvanced</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
 	</ThingCategoryDef>
@@ -10,23 +10,24 @@
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_RailRayPistol</defName>
-		<label>Avali pistol charged rail ray</label>
+		<defName>AmmoSet_RailLow</defName>
+		<label>low rail ammo</label>
 		<ammoTypes>
-			<Ammo_AvaliRailPistol>Bullet_PistolAvaliChargeLance</Ammo_AvaliRailPistol>
+			<Ammo_AvaliRailLow>Bullet_AvaliLowRailLance</Ammo_AvaliRailLow>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 		
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
-		<defName>Ammo_AvaliRailPistol</defName>
-		<label>Pistol charged Rail Ray</label>
+		<defName>Ammo_AvaliRailLow</defName>
+		<label>Low Rail Ammo</label>
+    <description>Avali low calibre rail ammunition</description>
 		<tradeTags>
 			<li>CE_AutoEnableCrafting</li>
 		</tradeTags>
 		<thingCategories>
-			<li>AmmoRailRay</li>
+			<li>AmmoRailAvali</li>
 		</thingCategories>
 		<graphicData>
 			<texPath>Things/Items/Ammo/RailRay</texPath>
@@ -46,7 +47,7 @@
 	<!-- ================== Projectiles ================== -->
 
 	<ThingDef Class="SK.ThingDef_LaserProjectileCR" ParentName="SK_BaseBullet">
-		<defName>Bullet_PistolAvaliChargeLance</defName>
+		<defName>Bullet_AvaliLowRailLance</defName>
 		<thingClass>SK.Projectile_LaserCE</thingClass>
 		<label>Avali pistol charge lance</label>
 		<graphicData>
@@ -72,10 +73,10 @@
 	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_AvaliRailPistol</defName>
-		<label>make avali pistol charged Rail Ray cartridge x30</label>
-		<description>Craft 30 Charged Rail Ray cartridges.</description>
-		<jobString>Making Charged Rail Ray cartridges.</jobString>
+		<defName>MakeAmmo_AvaliRailLow</defName>
+		<label>make avali Low Rail cartridge x30</label>
+		<description>Craft 30 low calibre Rail cartridges.</description>
+		<jobString>Making Low Rail cartridges.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -117,7 +118,7 @@
 		</recipeUsers>
     <researchPrerequisite>AvaliLTRW</researchPrerequisite>
 		<products>
-			<Ammo_AvaliRailPistol>30</Ammo_AvaliRailPistol>
+			<Ammo_AvaliRailLow>30</Ammo_AvaliRailLow>
 		</products>
 	</RecipeDef>  
 </Defs>

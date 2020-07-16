@@ -53,7 +53,7 @@
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_PistolAvaliChargeLance</defaultProjectile>
+				<defaultProjectile>Bullet_AvaliLowRailLance</defaultProjectile>
 				<warmupTime>0.24</warmupTime>
 				<range>40</range>
 				<soundCast>Shot_Avali_Pistol</soundCast>
@@ -76,7 +76,7 @@
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>14</magazineSize>
 				<reloadTime>1.4</reloadTime>
-				<ammoSet>AmmoSet_RailRayPistol</ammoSet>
+				<ammoSet>AmmoSet_RailLow</ammoSet>
 			</li>
 		</comps>
   </ThingDef>
@@ -105,7 +105,7 @@
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_PistolAvaliChargeLance</defaultProjectile>
+				<defaultProjectile>Bullet_AvaliLowRailLance</defaultProjectile>
 				<warmupTime>0.24</warmupTime>
 				<range>40</range>
         <burstShotCount>3</burstShotCount>
@@ -129,7 +129,7 @@
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>30</magazineSize>
 				<reloadTime>1.6</reloadTime>
-				<ammoSet>AmmoSet_RailRayPistol</ammoSet>
+				<ammoSet>AmmoSet_RailLow</ammoSet>
 			</li>
 		</comps>
   </ThingDef>

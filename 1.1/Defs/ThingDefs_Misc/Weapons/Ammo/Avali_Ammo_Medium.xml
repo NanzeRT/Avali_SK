@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingCategoryDef>
-		<defName>RailgunsAmmoLow</defName>
-		<label>Ammunition railgun (low)</label>
+		<defName>RailgunsAmmoMedium</defName>
+		<label>Ammunition railgun (Medium)</label>
 		<parent>AmmoAdvanced</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
 	</ThingCategoryDef>
@@ -10,19 +10,19 @@
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_RailLow</defName>
-		<label>low rail ammo</label>
+		<defName>AmmoSet_RailMedium</defName>
+		<label>Medium rail ammo</label>
 		<ammoTypes>
-			<Ammo_AvaliRailLow>Bullet_AvaliLowRailLance</Ammo_AvaliRailLow>
+			<Ammo_AvaliRailMedium>Bullet_AvaliMediumRailLance</Ammo_AvaliRailMedium>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 		
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
-		<defName>Ammo_AvaliRailLow</defName>
-		<label>Low Rail Ammo</label>
-    <description>Avali low calibre rail ammunition</description>
+		<defName>Ammo_AvaliRailMedium</defName>
+		<label>Medium Rail Ammo</label>
+    <description>Avali medium calibre rail ammunition</description>
 		<tradeTags>
 			<li>CE_AutoEnableCrafting</li>
 		</tradeTags>
@@ -34,9 +34,9 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>20</MarketValue>
-			<Mass>0.01</Mass>
-			<Bulk>0.02</Bulk>
+			<MarketValue>25</MarketValue>
+			<Mass>0.02</Mass>
+			<Bulk>0.03</Bulk>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>0.9</Flammability>
 		</statBases>
@@ -47,7 +47,7 @@
 	<!-- ================== Projectiles ================== -->
 
 	<ThingDef Class="SK.ThingDef_LaserProjectileCR" ParentName="SK_BaseBullet">
-		<defName>Bullet_AvaliLowRailLance</defName>
+		<defName>Bullet_AvaliMediumRailLance</defName>
 		<thingClass>SK.Projectile_LaserCE</thingClass>
 		<label>Avali pistol charge lance</label>
 		<graphicData>
@@ -56,8 +56,8 @@
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>18</damageAmountBase>
-			<speed>270</speed>
+			<damageAmountBase>27</damageAmountBase>
+			<speed>280</speed>
 			<!-- <armorPenetrationBase>1.1</armorPenetrationBase> -->
 			<armorPenetrationSharp>80</armorPenetrationSharp>
 			<armorPenetrationBlunt>240</armorPenetrationBlunt>
@@ -73,10 +73,10 @@
 	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_AvaliRailLow</defName>
-		<label>make avali Low Rail cartridge x30</label>
-		<description>Craft 30 low calibre Rail cartridges.</description>
-		<jobString>Making Low Rail cartridges.</jobString>
+		<defName>MakeAmmo_AvaliRailMedium</defName>
+		<label>make avali Medium Rail cartridge x25</label>
+		<description>Craft 25 Medium calibre Rail cartridges.</description>
+		<jobString>Making Medium Rail cartridges.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -92,12 +92,12 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>10</count>
+        <count>15</count>
       </li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>CopperBar</li>
+						<li>SilverBar</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -109,16 +109,16 @@
         <li>USLDBar</li>
 			</categories>
       <thingDefs>
-        <li>CopperBar</li>
+        <li>SilverBar</li>
       </thingDefs>
 		</fixedIngredientFilter>
     <recipeUsers>
 			<li>AvaliNanolathe</li>
       <li>AmmoBench</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliLTRW</researchPrerequisite>
+    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
 		<products>
-			<Ammo_AvaliRailLow>30</Ammo_AvaliRailLow>
+			<Ammo_AvaliRailLow>25</Ammo_AvaliRailLow>
 		</products>
 	</RecipeDef>  
 </Defs>

@@ -42,9 +42,14 @@
     </graphicData>
     <uiIconPath>Things/Building/Production/AvaliNanolathe</uiIconPath>
     <costList>
-      <Steel>150</Steel>
-      <ComponentIndustrial>10</ComponentIndustrial>
+      <AdvMechanism>4</AdvMechanism>
+      <ComponentAdvenced>10</ComponentAdvenced>
+      <Microhips>3</Microhips>
     </costList>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>65</costStuffCount>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <statBases>

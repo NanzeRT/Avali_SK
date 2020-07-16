@@ -78,21 +78,13 @@
 		<description>Craft 25 Medium calibre Rail cartridges.</description>
 		<jobString>Making Medium Rail cartridges.</jobString>
 		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>SLDBar</li>
-					</categories>
-				</filter>
-				<count>30</count>
-			</li>
       <li>
         <filter>
           <categories>
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>15</count>
+        <count>40</count>
       </li>
 			<li>
 				<filter>
@@ -105,7 +97,6 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-				<li>SLDBar</li>
         <li>USLDBar</li>
 			</categories>
       <thingDefs>

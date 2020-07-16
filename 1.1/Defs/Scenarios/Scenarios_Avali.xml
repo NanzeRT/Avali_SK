@@ -64,7 +64,7 @@
 			</li>
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>Ammo_AvaliRailPistol</thingDef>
+				<thingDef>Ammo_AvaliRailLow</thingDef>
 				<count>600</count>
 			</li>
       

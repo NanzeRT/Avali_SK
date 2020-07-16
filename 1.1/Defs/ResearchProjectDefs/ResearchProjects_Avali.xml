@@ -13,9 +13,13 @@
         <baseCost>500</baseCost>
         <techLevel>Medieval</techLevel>
         <tab>Avali</tab>
-        <!-- <prerequisites>
+        <tags>
+            <li>AvaliStart</li>
+            <li>AvaliTribalStart</li>
+        </tags>
+        <prerequisites>
             <li>ComplexClothing</li>
-        </prerequisites> -->
+        </prerequisites>
         <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
         <researchViewX>0</researchViewX>
         <researchViewY>0</researchViewY>

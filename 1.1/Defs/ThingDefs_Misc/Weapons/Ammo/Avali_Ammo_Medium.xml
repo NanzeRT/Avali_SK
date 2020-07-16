@@ -109,7 +109,7 @@
 		</recipeUsers>
     <researchPrerequisite>AvaliRailguns</researchPrerequisite>
 		<products>
-			<Ammo_AvaliRailLow>25</Ammo_AvaliRailLow>
+			<Ammo_AvaliRailMedium>25</Ammo_AvaliRailMedium>
 		</products>
 	</RecipeDef>  
 </Defs>

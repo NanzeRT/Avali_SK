@@ -95,11 +95,11 @@
     <statBases>
       <MarketValue>560</MarketValue>
       <Mass>2.2</Mass>
-      <SightsEfficiency>0.95</SightsEfficiency>
+      <SightsEfficiency>1</SightsEfficiency>
       <SwayFactor>0.9</SwayFactor>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
       <Bulk>1.9</Bulk>
-      <ShotSpread>0.14</ShotSpread>
+      <ShotSpread>0.08</ShotSpread>
     </statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -146,73 +146,45 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
+      <MarketValue>560</MarketValue>
       <Mass>4.4</Mass>
-      <AccuracyTouch>0.70</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+      <SightsEfficiency>0.95</SightsEfficiency>
+      <SwayFactor>0.8</SwayFactor>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <Bulk>3.2</Bulk>
+      <ShotSpread>0.02</ShotSpread>
     </statBases>
-    <comps>
-      <li Class="Avali.CompProperties_WeaponAvali">
-        <useJob>HackBindedThing</useJob>
-        <useLabel>Hack {0}</useLabel>
-        <hackWorkSkill>Intellectual</hackWorkSkill>
-        <hackMinSkillLevel>14</hackMinSkillLevel>
-        <workTable>HiTechResearchBench</workTable>
-        <workLeft>5000</workLeft>
-      </li>
-    </comps>
-    <verbs>
-      <li>
-        <verbClass>Avali.Verb_ShootBinded</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>BulletAvaliRifle</defaultProjectile>
-        <warmupTime>0.5</warmupTime>
-        <range>55.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>Shot_Avali_Rifle</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_AvaliMediumRailLance</defaultProjectile>
+				<warmupTime>0.25</warmupTime>
+				<range>60</range>
+        <burstShotCount>4</burstShotCount>
+				<soundCast>Shot_Avali_Rifle</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
     <weaponTags>
-      <li>AvaliGun</li>
+       <li>ASN3</li>
+       <li>AdvancedGun</li>
+       <li>TierTwoLow</li>
+       <li>Futuristic</li>
+       <li>CE_AI_Rifle</li>
     </weaponTags>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>BulletAvaliRifle</defName>
-    <label>avali rifle bullet</label>
-    <graphicData>
-      <texPath>Things/Items/Weapons/Bullet_Avali</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <speed>150</speed>
-    </projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>44</magazineSize>
+				<reloadTime>1.9</reloadTime>
+				<ammoSet>AmmoSet_RailMedium</ammoSet>
+			</li>
+		</comps>
   </ThingDef>
 
   <!-- ===== Avali Shotgun ===== -->

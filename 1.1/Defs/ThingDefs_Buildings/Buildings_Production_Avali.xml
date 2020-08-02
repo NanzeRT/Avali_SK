@@ -41,15 +41,15 @@
       </damageData>
     </graphicData>
     <uiIconPath>Things/Building/Production/AvaliNanolathe</uiIconPath>
-    <costList>
-      <AdvMechanism>4</AdvMechanism>
-      <ComponentAdvenced>10</ComponentAdvenced>
-      <Microhips>3</Microhips>
-    </costList>
-    <stuffCategories>
-      <li>RuggedMetallic</li>
-    </stuffCategories>
-    <costStuffCount>65</costStuffCount>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+      <costList>
+        <AdvMechanism>4</AdvMechanism>
+        <ComponentAdvanced>10</ComponentAdvanced>
+        <Microchips>3</Microchips>
+      </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <statBases>

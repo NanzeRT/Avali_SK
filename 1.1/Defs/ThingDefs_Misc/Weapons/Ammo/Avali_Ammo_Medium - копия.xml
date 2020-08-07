@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>RailgunsAmmoBuckshot</defName>
+		<label>Ammunition railgun (Bucksot)</label>
+		<parent>AmmoAdvanced</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_RailBuck</defName>
+		<label>Buckshot rail ammo</label>
+		<ammoTypes>
+			<Ammo_AvaliRailBuck>Bullet_AvaliBuckRailLance</Ammo_AvaliRailBuck>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+		
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+		<defName>Ammo_AvaliRailBuck</defName>
+		<label>Buckshot Rail Ammo</label>
+    <description>Avali buckshot calibre rail ammunition</description>
+		<tradeTags>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoRailAvali</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Items/Ammo/RailRay</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Mass>0.02</Mass>
+			<Bulk>0.03</Bulk>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.9</Flammability>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<destroyOnDrop>False</destroyOnDrop>
+		<ammoClass>Charged</ammoClass>
+	</ThingDef>
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="SK.ThingDef_LaserProjectileCR" ParentName="SK_BaseBullet">
+		<defName>Bullet_AvaliBuckshotRailLance</defName>
+		<thingClass>SK.Projectile_LaserCE</thingClass>
+		<label>Avali rifle charge lance</label>
+		<graphicData>
+			<texPath>Things/Projectile/ChargeRay</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>27</damageAmountBase>
+			<speed>280</speed>
+      <pelletCount>8</pelletCount>
+			<!-- <armorPenetrationBase>1.1</armorPenetrationBase> -->
+			<armorPenetrationSharp>80</armorPenetrationSharp>
+			<armorPenetrationBlunt>240</armorPenetrationBlunt>
+		</projectile>
+		<preFiringInitialIntensity>12</preFiringInitialIntensity>
+		<preFiringFinalIntensity>6</preFiringFinalIntensity>
+		<postFiringInitialIntensity>3</postFiringInitialIntensity>
+		<postFiringFinalIntensity>3</postFiringFinalIntensity>
+		<preFiringDuration>6</preFiringDuration>
+		<postFiringDuration>3</postFiringDuration>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_AvaliRailBuck</defName>
+		<label>make avali Buckshot Rail cartridge x25</label>
+		<description>Craft 25 Buckshot calibre Rail cartridges.</description>
+		<jobString>Making Buckshot Rail cartridges.</jobString>
+		<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SilverBar</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+        <li>USLDBar</li>
+			</categories>
+      <thingDefs>
+        <li>SilverBar</li>
+      </thingDefs>
+		</fixedIngredientFilter>
+    <recipeUsers>
+			<li>AvaliNanolathe</li>
+      <li>AmmoBench</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+		<products>
+			<Ammo_AvaliRailBuck>25</Ammo_AvaliRailBuck>
+		</products>
+	</RecipeDef>  
+</Defs>

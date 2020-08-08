@@ -58,10 +58,7 @@
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>5</damageAmountBase>
 			<speed>150</speed>
-      <pelletCount>
-        <min>6</min>
-        <max>8</max>
-       </pelletCount>
+      <pelletCount>8</pelletCount>
 			<armorPenetrationBase>0.21</armorPenetrationBase>
 			<armorPenetrationSharp>80</armorPenetrationSharp>
 			<armorPenetrationBlunt>240</armorPenetrationBlunt>

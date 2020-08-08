@@ -206,16 +206,6 @@
       <AccuracyLong>0.5</AccuracyLong>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
-    <comps>
-      <li Class="Avali.CompProperties_WeaponAvali">
-        <useJob>HackBindedThing</useJob>
-        <useLabel>Hack {0}</useLabel>
-        <hackWorkSkill>Intellectual</hackWorkSkill>
-        <hackMinSkillLevel>14</hackMinSkillLevel>
-        <workTable>HiTechResearchBench</workTable>
-        <workLeft>5000</workLeft>
-      </li>
-    </comps>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -229,6 +219,14 @@
       </li>
     </verbs>
     <comps>
+      <li Class="Avali.CompProperties_WeaponAvali">
+        <useJob>HackBindedThing</useJob>
+        <useLabel>Hack {0}</useLabel>
+        <hackWorkSkill>Intellectual</hackWorkSkill>
+        <hackMinSkillLevel>14</hackMinSkillLevel>
+        <workTable>HiTechResearchBench</workTable>
+        <workLeft>5000</workLeft>
+      </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiUseBurstMode>FALSE</aiUseBurstMode>
         <aiAimMode>AimedShot</aiAimMode>

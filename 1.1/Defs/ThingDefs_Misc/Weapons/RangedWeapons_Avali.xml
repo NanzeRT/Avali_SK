@@ -217,20 +217,31 @@
       </li>
     </comps>
     <verbs>
-      <li>
-        <verbClass>Avali.Verb_ShootBinded</verbClass>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_Avali_Shotgun</defaultProjectile>
+        <defaultProjectile>Bullet_AvaliBuckshotRailLance</defaultProjectile>
         <warmupTime>0.75</warmupTime>
         <range>20</range>
-        <burstShotCount>8</burstShotCount>
-        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>Shot_Avali_Shotgun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
       </li>
     </verbs>
-   <weaponTags>
+    <comps>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+        <noSingleShot>FALSE</noSingleShot>
+      </li>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>4</magazineSize>
+        <reloadOneAtATime>true</reloadOneAtATime>
+        <reloadTime>0.8</reloadTime>
+        <ammoSet>AmmoSet_RailBuck</ammoSet>
+      </li>
+    </comps>
+    <weaponTags>
       <li>AvaliGun</li>
     </weaponTags>
     <tools>
@@ -252,22 +263,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_Avali_Shotgun</defName>
-    <label>avali shotgun bullet</label>
-    <graphicData>
-      <texPath>Things/Items/Weapons/Bullet_Avali</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>5</damageAmountBase>
-      <stoppingPower>5</stoppingPower>
-      <armorPenetrationBase>0.21</armorPenetrationBase>
-      <speed>150</speed>
-    </projectile>
   </ThingDef>
 
   <!-- ===== Avali Sniper Rifle ===== -->

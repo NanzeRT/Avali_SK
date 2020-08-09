@@ -49,17 +49,16 @@
 	<ThingDef Class="SK.ThingDef_LaserProjectileCR" ParentName="SK_BaseBullet">
 		<defName>Bullet_AvaliBuckshotRailLance</defName>
 		<thingClass>SK.Projectile_LaserCE</thingClass>
-		<label>Avali rifle charge lance</label>
+		<label>Avali shotgun charge lance</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeRay</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>8</damageAmountBase>
+			<damageAmountBase>5</damageAmountBase>
 			<speed>150</speed>
       <pelletCount>8</pelletCount>
-      <spreadMult>17</spreadMult>
 			<armorPenetrationBase>0.21</armorPenetrationBase>
 			<armorPenetrationSharp>80</armorPenetrationSharp>
 			<armorPenetrationBlunt>240</armorPenetrationBlunt>
@@ -77,7 +76,7 @@
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_AvaliRailBuck</defName>
 		<label>make avali Buckshot Rail cartridge x25</label>
-		<description>Craft 25 Buckshot calibre Rail cartridges.</description>
+		<description>Craft 25 Buckshot Rail cartridges.</description>
 		<jobString>Making Buckshot Rail cartridges.</jobString>
 		<ingredients>
       <li>

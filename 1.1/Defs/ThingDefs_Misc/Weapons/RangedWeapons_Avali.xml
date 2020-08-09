@@ -212,7 +212,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_AvaliBuckshotRailLance</defaultProjectile>
         <warmupTime>0.75</warmupTime>
-        <range>20</range>
+        <range>22</range>
         <soundCast>Shot_Avali_Shotgun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
@@ -240,7 +240,11 @@
       </li>
     </comps>
     <weaponTags>
-      <li>AvaliGun</li>
+       <li>ASN3</li>
+       <li>AdvancedGun</li>
+       <li>TierTwoLow</li>
+       <li>Futuristic</li>
+       <li>CE_AI_Rifle</li>
     </weaponTags>
     <tools>
       <li>

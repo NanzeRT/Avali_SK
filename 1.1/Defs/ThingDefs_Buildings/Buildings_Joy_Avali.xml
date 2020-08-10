@@ -27,10 +27,16 @@
     <tickerType>Normal</tickerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Joy</designationCategory>
-		<costList>
-			<Steel>100</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
-		</costList>
+		<stuffCategories>
+      	<li>Metallic</li>
+		<li>Plastic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <SyntheticFibers>15</SyntheticFibers>
+	  <Rubber>10</Rubber>
+      <ComponentIndustrial>10</ComponentIndustrial>
+	  </costList>
     <comps>
       <!-- <li Class="CompProperties_Forbiddable"/> -->
       <li Class="CompProperties_Breakdownable"/>
@@ -54,7 +60,7 @@
     <researchPrerequisites>
       <li>AvaliPrinting</li>
     </researchPrerequisites>
-  </ThingDef>
+	</ThingDef>
   
   <!-- ======================== TV ======================= -->
   
@@ -77,10 +83,18 @@
       <li>BuildingsJoy</li>
     </thingCategories>
     <tickerType>Normal</tickerType>
+   <stuffCategories>
+      	<li>SLDBar</li>
+		<li>Glass</li>
+		<li>Plastic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
     <costList>
-      <Steel>40</Steel>
-      <ComponentIndustrial>12</ComponentIndustrial>
-    </costList>
+	  <Rubber>45</Rubber>
+	  <MagneticMaterial>10</MagneticMaterial>
+      <AdvMechanism>5</AdvMechanism>
+	  <Microchips>1</Microchips>
+	  </costList>
     <statBases>
       <WorkToBuild>10000</WorkToBuild>
       <MaxHitPoints>80</MaxHitPoints>
@@ -127,4 +141,6 @@
       <li>Television</li>
     </tradeTags>
   </ThingDef>
+  
+  
 </Defs>

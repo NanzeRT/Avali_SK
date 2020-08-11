@@ -293,7 +293,7 @@
     <holdsRoof>false</holdsRoof>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <canOverlapZones>false</canOverlapZones>
-    <fertility>2.5</fertility>
+    <fertility>2.9</fertility>
     <building>
       <defaultPlantToGrow>Plant_Rice</defaultPlantToGrow>
       <sowTag>Hydroponic</sowTag>
@@ -305,7 +305,7 @@
         <compClass>CompPowerTrader</compClass>
         <transmitsPower>true</transmitsPower>
         <shortCircuitInRain>true</shortCircuitInRain>
-        <basePowerConsumption>10</basePowerConsumption>
+        <basePowerConsumption>40</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>

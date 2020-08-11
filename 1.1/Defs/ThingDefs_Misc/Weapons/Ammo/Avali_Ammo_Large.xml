@@ -109,8 +109,6 @@
 			</categories>
       <thingDefs>
         <li>SilverBar</li>
-      </thingDefs>
-      <thingDefs>
         <li>Tungsten</li>
       </thingDefs>
 		</fixedIngredientFilter>

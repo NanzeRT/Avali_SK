@@ -77,9 +77,10 @@
     </stuffCategories>
     <costStuffCount>125</costStuffCount>
     <costList>
-      <Plasteel>100</Plasteel>
-      <ComponentIndustrial>8</ComponentIndustrial>
-      <ComponentSpacer>4</ComponentSpacer>
+		<ElectronicComponents>40</ElectronicComponents>
+		<Wire>40</Wire>
+		<ComponentIndustrial>25</ComponentIndustrial>
+		<Mechanism>15</Mechanism>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -206,14 +207,17 @@
       <li>BuildingsSecurity</li>
     </thingCategories>
     <hasTooltip>true</hasTooltip>
-    <stuffCategories>
+   <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <costStuffCount>200</costStuffCount>
+    <costStuffCount>250</costStuffCount>
     <costList>
-      <Plasteel>150</Plasteel>
-      <ComponentIndustrial>12</ComponentIndustrial>
-      <ComponentSpacer>6</ComponentSpacer>
+		<SyntheticFibers>20</SyntheticFibers>
+		<ElectronicComponents>6</ElectronicComponents>
+		<Rubber>55</Rubber>
+		<Plastic>40</Plastic>
+		<Electronics>2</Electronics>
+		<Mechanism>15</Mechanism>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -343,12 +347,13 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <costStuffCount>300</costStuffCount>
+    <costStuffCount>375</costStuffCount>
     <costList>
-      <AvaliRocket>20</AvaliRocket>
-      <Plasteel>200</Plasteel>
-      <ComponentIndustrial>20</ComponentIndustrial>
-      <ComponentSpacer>10</ComponentSpacer>
+		<ReinforcedConcrete>30</ReinforcedConcrete>
+		<MagneticMaterial>20</MagneticMaterial>
+		<BiosyntheticMaterial>15</BiosyntheticMaterial>
+		<AdvMechanism>12</AdvMechanism>
+		<Microchips>3</Microchips>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>

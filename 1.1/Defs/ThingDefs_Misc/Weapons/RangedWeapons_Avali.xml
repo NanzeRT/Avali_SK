@@ -146,7 +146,7 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <MarketValue>560</MarketValue>
+      <MarketValue>650</MarketValue>
       <Mass>4.4</Mass>
       <SightsEfficiency>0.95</SightsEfficiency>
       <SwayFactor>0.8</SwayFactor>
@@ -199,12 +199,13 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
+      <MarketValue>700</MarketValue>
       <Mass>4.5</Mass>
-      <AccuracyTouch>0.7</AccuracyTouch>
-      <AccuracyShort>0.8</AccuracyShort>
-      <AccuracyMedium>0.6</AccuracyMedium>
-      <AccuracyLong>0.5</AccuracyLong>
+      <SightsEfficiency>0.8</SightsEfficiency>
+      <SwayFactor>0.9</SwayFactor>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <Bulk>3.1</Bulk>
+      <ShotSpread>0.09</ShotSpread>
     </statBases>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -212,21 +213,20 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_AvaliBuckshotRailLance</defaultProjectile>
         <warmupTime>0.75</warmupTime>
-        <range>20</range>
+        <range>22</range>
         <soundCast>Shot_Avali_Shotgun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>ASN3</li>
+      <li>AdvancedGun</li>
+      <li>TierTwoLow</li>
+      <li>Futuristic</li>
+      <li>CE_AI_Rifle</li>
+    </weaponTags>    
     <comps>
-      <li Class="Avali.CompProperties_WeaponAvali">
-        <useJob>HackBindedThing</useJob>
-        <useLabel>Hack {0}</useLabel>
-        <hackWorkSkill>Intellectual</hackWorkSkill>
-        <hackMinSkillLevel>14</hackMinSkillLevel>
-        <workTable>HiTechResearchBench</workTable>
-        <workLeft>5000</workLeft>
-      </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiUseBurstMode>FALSE</aiUseBurstMode>
         <aiAimMode>AimedShot</aiAimMode>
@@ -239,32 +239,6 @@
         <ammoSet>AmmoSet_RailBuck</ammoSet>
       </li>
     </comps>
-    <weaponTags>
-      <li>ASN3</li>
-      <li>AdvancedGun</li>
-      <li>TierTwoLow</li>
-      <li>Futuristic</li>
-      <li>CE_AI_Rifle</li>
-    </weaponTags>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
   </ThingDef>
 
   <!-- ===== Avali Sniper Rifle ===== -->

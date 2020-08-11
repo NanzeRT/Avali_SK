@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!--
   <ThingDef ParentName="BuildingBase">
     <defName>AvaliPowerConduit</defName>
     <label>insulated power conduit</label>
@@ -67,5 +68,5 @@
       <li>Electricity</li>
       <li>AvaliWeaving</li>
     </researchPrerequisites>
-  </ThingDef>
+  </ThingDef> -->
 </Defs>

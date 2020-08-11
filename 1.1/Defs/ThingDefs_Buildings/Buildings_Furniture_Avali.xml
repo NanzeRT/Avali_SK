@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!--============================== Beds ==============================-->
   
@@ -23,10 +23,9 @@
       <ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
     </statBases>
     <stuffCategories>
-      <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>25</costStuffCount>
+    <costStuffCount>55</costStuffCount>
     <building>
       <bed_showSleeperBody>True</bed_showSleeperBody>
       <bed_healPerDay>4</bed_healPerDay>
@@ -77,7 +76,6 @@
     </statBases>
     <stuffCategories>
       <li>Fabric</li>
-      <li>Leathery</li>
     </stuffCategories>
     <costStuffCount>100</costStuffCount>
     <building>
@@ -190,11 +188,10 @@
     <socialPropernessMatters>true</socialPropernessMatters>
     <stuffCategories>
       <li>Fabric</li>
-      <li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>45</costStuffCount>
+    <costStuffCount>65</costStuffCount>
     <costList>
-      <Steel>45</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <pathCost>30</pathCost>
     <fillPercent>0.35</fillPercent>
@@ -234,12 +231,12 @@
     <socialPropernessMatters>true</socialPropernessMatters>
     <stuffCategories>
       <li>Fabric</li>
-      <li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>60</costStuffCount>
+    <costStuffCount>100</costStuffCount>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <SyntheticFibers>15</SyntheticFibers>
+	  <Rubber>10</Rubber>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <pathCost>30</pathCost>
     <fillPercent>0.40</fillPercent>
@@ -304,9 +301,15 @@
     </statBases>
     <pathCost>60</pathCost>
     <defaultPlacingRot>South</defaultPlacingRot>
+	<stuffCategories>
+			<li>Metallic</li>
+			<li>Plastic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
     <costList>
       <AvaliAerogel>10</AvaliAerogel>
-      <Steel>5</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -341,9 +344,15 @@
       </damageData>
     </graphicData>
     <size>(2,2)</size>
+	<stuffCategories>
+			<li>Metallic</li>
+			<li>Plastic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
     <costList>
       <AvaliAerogel>20</AvaliAerogel>
-      <Steel>10</Steel>
+      <ComponentIndustrial>20</ComponentIndustrial>
     </costList>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -373,9 +382,15 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
+	<stuffCategories>
+			<li>Metallic</li>
+			<li>Plastic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
     <costList>
       <AvaliAerogel>40</AvaliAerogel>
-      <Steel>20</Steel>
+    <ComponentIndustrial>40</ComponentIndustrial>
     </costList>
     <statBases>
       <MaxHitPoints>175</MaxHitPoints>
@@ -409,9 +424,12 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <costList>
-      <Steel>28</Steel>
-    </costList>
+   <stuffCategories>
+			<li>Metallic</li>
+			<li>Plastic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
       <WorkToBuild>750</WorkToBuild>
@@ -442,9 +460,12 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <costList>
-      <Steel>95</Steel>
-    </costList>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Plastic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>3000</WorkToBuild>
@@ -516,7 +537,7 @@
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
-    <costStuffCount>80</costStuffCount>
+    <costStuffCount>120</costStuffCount>
     <designationHotKey>Misc8</designationHotKey>
   </ThingDef>
   
@@ -540,7 +561,7 @@
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
-    <costStuffCount>140</costStuffCount>
+    <costStuffCount>240</costStuffCount>
     <designationHotKey>Misc8</designationHotKey>
   </ThingDef>
   
@@ -589,9 +610,14 @@
       <texPath>Things/Building/Furniture/Light/AvaliCrystalLight</texPath>
       <drawSize>1.5</drawSize>
     </graphicData>
+	<stuffCategories>
+			<li>Metallic</li>
+			<li>Plastic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
     <costList>
-      <AvaliAerogel>10</AvaliAerogel>
-      <Steel>10</Steel>
+      <AvaliAerogel>5</AvaliAerogel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <statBases>
@@ -636,9 +662,15 @@
       <drawSize>1.0</drawSize>
     </graphicData>
     <uiIconPath>Things/Building/Furniture/Light/AvaliStandingLight_MenuIcon</uiIconPath>
-    <costList>
-      <Steel>25</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+    <stuffCategories>
+			<li>Metallic</li>
+			<li>Plastic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>35</costStuffCount>
+	<costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+	  <ElectronicComponents>2</ElectronicComponents>
     </costList>
     <statBases>
       <Mass>2</Mass>
@@ -668,9 +700,15 @@
     </graphicData>
     <altitudeLayer>Weather</altitudeLayer>
 		<passability>Standable</passability>
-    <costList>
-      <Steel>15</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+    <stuffCategories>
+			<li>Metallic</li>
+			<li>Plastic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+	<costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+	  <ElectronicComponents>2</ElectronicComponents>
     </costList>
     <statBases>
       <Mass>1</Mass>
@@ -706,9 +744,15 @@
     </graphicData>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
 		<passability>Standable</passability>
-    <costList>
-      <Steel>20</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+   <stuffCategories>
+			<li>Metallic</li>
+			<li>Plastic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+	<costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+	  <ElectronicComponents>2</ElectronicComponents>
     </costList>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>

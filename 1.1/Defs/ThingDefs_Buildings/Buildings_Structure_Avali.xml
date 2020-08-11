@@ -64,7 +64,7 @@
     <description>A plain yet complex industrial door. Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
     <statBases>
       <WorkToBuild>1100</WorkToBuild>
-      <MaxHitPoints>500</MaxHitPoints>
+      <MaxHitPoints>250</MaxHitPoints>
       <Flammability>0</Flammability>
     </statBases>
     <graphicData>
@@ -77,11 +77,14 @@
       </damageData>
     </graphicData>
     <uiIconPath>Things/Building/Door/AvaliInterlockingDoor_MenuIcon</uiIconPath>
-    <costList>
-      <Steel>40</Steel>
-      <Plasteel>10</Plasteel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
+    <stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+		<ComponentIndustrial>3</ComponentIndustrial>
+		<ElectronicComponents>2</ElectronicComponents>
+		</costList>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -105,7 +108,7 @@
     <description>This looks like it could stop a railgun slug. Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
     <statBases>
       <WorkToBuild>2200</WorkToBuild>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>425</MaxHitPoints>
       <Flammability>0</Flammability>
     </statBases>
     <graphicData>
@@ -118,11 +121,15 @@
       </damageData>
     </graphicData>
     <uiIconPath>Things/Building/Door/AvaliPlatedDoor_MenuIcon</uiIconPath>
-    <costList>
-      <Steel>10</Steel>
-      <Plasteel>40</Plasteel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
+    <stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+		<AvaliAerogel>10</AvaliAerogel>
+		<ComponentAdvanced>6</ComponentAdvanced>
+		<ElectronicComponents>5</ElectronicComponents>
+		</costList>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -146,12 +153,12 @@
     <label>tent door</label>
     <description>It almost doesn’t slow movement, but isn’t very durable.</description>
     <stuffCategories>
-      <li>Fabric</li>
-			<li>Leathery</li>
+		<li>Fabric</li>
+		<li>Leathery</li>
     </stuffCategories>
-    <costStuffCount>10</costStuffCount>
+    <costStuffCount>15</costStuffCount>
     <statBases>
-      <MaxHitPoints>25</MaxHitPoints>
+      <MaxHitPoints>15</MaxHitPoints>
       <WorkToBuild>100</WorkToBuild>
       <DoorOpenSpeed>10</DoorOpenSpeed>
     </statBases>
@@ -177,7 +184,7 @@
   
   <!--========================= Walls =============================-->
   
-  <!-- AvaliTentWall -->
+  <!-- AvaliTentWall 
   <ThingDef ParentName="AvaliBuildingBase" Name="AvaliTentWall">
     <defName>AvaliTentWall</defName>
     <label>tent wall</label>
@@ -244,10 +251,10 @@
     </damageMultipliers>
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <designationHotKey>Misc3</designationHotKey>
-  </ThingDef>
+  </ThingDef>-->
   
-  <!-- AvaliPlainWall -->
-  <ThingDef ParentName="AvaliBuildingBase">
+   
+  <!--<ThingDef ParentName="AvaliBuildingBase">
     <defName>AvaliPlainWall</defName>
     <label>plain wall</label>
     <thingClass>Building</thingClass>
@@ -315,7 +322,7 @@
     <researchPrerequisites>
       <li>AvaliPrinting</li>
     </researchPrerequisites>
-  </ThingDef>
+  </ThingDef> -->
   
   <!-- AvaliAerogelWall -->
   <ThingDef ParentName="AvaliBuildingBase">
@@ -345,12 +352,12 @@
     </graphicData>
     <uiIconPath>Things/Building/Wall/AvaliAerogelWall_MenuIcon</uiIconPath>
     <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
+      <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>50</WorkToBuild>
       <Flammability>0.2</Flammability>
     </statBases>
     <costList>
-      <AvaliAerogel>5</AvaliAerogel>
+      <AvaliAerogel>6</AvaliAerogel>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>

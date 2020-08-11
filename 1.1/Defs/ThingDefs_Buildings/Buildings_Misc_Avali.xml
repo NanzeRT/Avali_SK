@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- AvaliAerogelSkylight -->
   <ThingDef ParentName="AvaliBuildingBase">
@@ -29,7 +29,7 @@
       <li>Avali.PlaceWorker_UnderNotThickRoofOnly</li>
     </placeWorkers>
     <costList>
-      <AvaliAerogel>3</AvaliAerogel>
+      <AvaliAerogel>10</AvaliAerogel>
     </costList>
     <altitudeLayer>Weather</altitudeLayer>
 		<passability>Standable</passability>
@@ -59,7 +59,7 @@
     </researchPrerequisites>
   </ThingDef>
   
-  <!-- AvaliAerogelWindow -->
+  <!--
   <ThingDef ParentName="AvaliBuildingBase">
     <defName>AvaliAerogelWindow</defName>
     <label>aerogel window</label>
@@ -80,15 +80,15 @@
     <costList>
       <AvaliAerogel>3</AvaliAerogel>
     </costList>
-    <!-- <placeWorkers>
+	<placeWorkers>
       <li>Avali.PlaceWorker_AvaliWindow</li>
-    </placeWorkers> -->
+    </placeWorkers> 
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
     <blockWind>true</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
     <fillPercent>1</fillPercent>
-    <coversFloor>true</coversFloor>
+    <coversFloor>true</coversFloor> 
     <placingDraggableDimensions>1</placingDraggableDimensions>
     <tickerType>Never</tickerType>
     <rotatable>true</rotatable>
@@ -97,7 +97,7 @@
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <holdsRoof>false</holdsRoof>
     <designationCategory>Misc</designationCategory>
-    <!-- <staticSunShadowHeight>1.0</staticSunShadowHeight> -->
+     <staticSunShadowHeight>1.0</staticSunShadowHeight> 
     <blockLight>false</blockLight>
     <canOverlapZones>false</canOverlapZones>
     <building>
@@ -111,5 +111,5 @@
     <researchPrerequisites>
       <li>AvaliAerogel</li>
     </researchPrerequisites>
-  </ThingDef>
+  </ThingDef> -->
 </Defs>

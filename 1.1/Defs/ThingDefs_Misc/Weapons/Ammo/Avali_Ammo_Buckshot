@@ -60,7 +60,7 @@
 			<speed>150</speed>
       <pelletCount>6</pelletCount>
       <spreadMult>18</spreadMult>
-			<armorPenetrationBase>0.21</armorPenetrationBase>
+			<!-- <armorPenetrationBase>0.21</armorPenetrationBase> -->
 			<armorPenetrationSharp>80</armorPenetrationSharp>
 			<armorPenetrationBlunt>240</armorPenetrationBlunt>
 		</projectile>

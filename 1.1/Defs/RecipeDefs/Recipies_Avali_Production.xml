@@ -9,7 +9,7 @@
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>1000</workAmount>
+		<workAmount>1500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -17,7 +17,7 @@
 						<li>Coal</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

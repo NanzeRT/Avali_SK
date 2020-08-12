@@ -82,18 +82,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_BeatFire</soundInteract>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>70</costStuffCount>
-    <costList>
-      <Chemfuel>20</Chemfuel>
-      <AvaliAerogel>20</AvaliAerogel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
-    </costList>
     <statBases>
-      <WorkToMake>26000</WorkToMake>
       <Mass>2</Mass>
       <AccuracyTouch>0.60</AccuracyTouch>
       <AccuracyShort>0.81</AccuracyShort>

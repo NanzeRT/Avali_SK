@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- -->
+  <!-- Ranged weapon -->
+  
+  <!-- Pistol -->
 
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliPistol</defName>
@@ -93,7 +95,7 @@
     <researchPrerequisite>AvaliLTRW</researchPrerequisite>
 	</RecipeDef>
   
-  <!-- -->
+  <!-- SMG -->
   
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliSMG</defName>
@@ -185,7 +187,7 @@
     <researchPrerequisite>AvaliLTRW</researchPrerequisite>
 	</RecipeDef>
   
-  <!-- -->
+  <!-- Assault Rifle -->
   
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>Build_Avali_AssaultRifle</defName>
@@ -267,7 +269,7 @@
     <researchPrerequisite>AvaliRailguns</researchPrerequisite>
 	</RecipeDef>
   
-  <!-- -->
+  <!-- Shotgun -->
   
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliShotgun</defName>
@@ -349,7 +351,7 @@
     <researchPrerequisite>AvaliRailguns</researchPrerequisite>
 	</RecipeDef>
   
-  <!-- TODO: make recipe -->
+  <!-- Sniper Rifle -->
   
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliSniper</defName>
@@ -431,7 +433,7 @@
     <researchPrerequisite>AvaliRailguns</researchPrerequisite>
 	</RecipeDef>
   
-  <!-- TODO: make recipe -->
+  <!-- Minigun -->
   
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliMinigun</defName>
@@ -513,7 +515,7 @@
     <researchPrerequisite>AvaliRailguns</researchPrerequisite>
 	</RecipeDef>
   
-  <!-- TODO: make recipe -->
+  <!-- Rocket Launcher -->
   
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>Build_Avali_Rocket_Launcher</defName>
@@ -586,4 +588,44 @@
     <researchPrerequisite>AvaliRocketLaunchers</researchPrerequisite>
 	</RecipeDef>
   
+  <!-- Anti-material Rifle -->
+  
+  делать
+  
+  <!-- Melee weapon -->
+  
+  <RecipeDef ParentName="MeleeWeaponRecipeBase">
+    <defName>Build_Avali_Pila</defName>
+    <label>Build Avali pila</label>
+    <description>A refined hunting pilum. The shaft penetrates deeper thanks to micro-engines that ignite when thrown and accelerates the pilum in air.</description>
+    <jobString>Building_Avali_Pila</jobString>
+    <workAmount>16000</workAmount>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>60</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AvaliAerogel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
 </Defs>

@@ -89,7 +89,6 @@
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<repairEffect>Repair</repairEffect>
-		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>Autodoors</li>
 			<li>AvaliDoors</li>
@@ -133,7 +132,6 @@
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<repairEffect>Repair</repairEffect>
-		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>Autodoors</li>
 			<li>AvaliDoors</li>
@@ -377,7 +375,6 @@
 				<multiplier>2</multiplier>
 			</li>
 		</damageMultipliers>
-		<constructEffect>ConstructDirt</constructEffect>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<designationHotKey>Misc3</designationHotKey>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>

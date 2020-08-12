@@ -20,7 +20,6 @@
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
-		<constructEffect>ConstructMetal</constructEffect>
 	</ThingDef>
 	<ThingDef ParentName="AvaliBenchBase">
 		<defName>AvaliNanolathe</defName>

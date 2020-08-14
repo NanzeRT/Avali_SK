@@ -588,11 +588,9 @@
     <researchPrerequisite>AvaliRocketLaunchers</researchPrerequisite>
 	</RecipeDef>
   
-  <!-- Anti-material Rifle -->
-  
-  делать
-  
   <!-- Melee weapon -->
+  
+  <!-- Pila -->
   
   <RecipeDef ParentName="MeleeWeaponRecipeBase">
     <defName>Build_Avali_Pila</defName>
@@ -618,6 +616,14 @@
             <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
         <count>6</count>
       </li>
       <li>
@@ -630,12 +636,13 @@
       </li>
     </ingredients>
     		<products>
-			<Gun_Avali_Rocket_Launcher>1</Gun_Avali_Rocket_Launcher>
+			<Avali_Pila>1</Avali_Pila>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AvaliAerogel</li>
         <li>ComponentSpacer</li>
+        <li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>
         <li>Metallic</li>
@@ -646,4 +653,137 @@
 		</recipeUsers>
     <researchPrerequisite>AvaliMelee</researchPrerequisite>
   </RecipeDef>
+  
+  <!-- Dagger -->
+  
+  <RecipeDef ParentName="MeleeWeaponRecipeBase">
+    <defName>Build_Avali_Dagger</defName>
+    <label>Build Avali dagger</label>
+    <description>Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.</description>
+    <jobString>Building_Avali_Dagger</jobString>
+    <workAmount>4000</workAmount>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>55</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AvaliAerogel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    		<products>
+			<Avali_Dagger>1</Avali_Dagger>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AvaliAerogel</li>
+        <li>ComponentSpacer</li>
+        <li>ComponentIndustrial</li>
+			</thingDefs>
+			<categories>
+        <li>Metallic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliMelee</researchPrerequisite>
+  </RecipeDef>
+  
+  <!-- Short Sword -->
+  
+    <RecipeDef ParentName="MeleeWeaponRecipeBase">
+    <defName>Build_Avali_Short_Sword</defName>
+    <label>Build Avali short sword</label>
+    <description>The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.</description>
+    <jobString>Building_Avali_Short_Sword</jobString>
+    <workAmount>10000</workAmount>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>60</count>
+			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AvaliAerogel</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+    </ingredients>
+    		<products>
+			<Avali_Sword>1</Avali_Sword>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AvaliAerogel</li>
+        <li>ComponentSpacer</li>
+        <li>ComponentIndustrial</li>
+			</thingDefs>
+			<categories>
+        <li>Metallic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AvaliNanolathe</li>
+		</recipeUsers>
+    <researchPrerequisite>AvaliMelee</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Long Sword -->
+  
+  Delat'
+  
 </Defs>

@@ -64,7 +64,7 @@
     <ingestible />
     <plant>
 			<fertilitySensitivity>0.4</fertilitySensitivity>
-			<growDays>6.5</growDays>
+			<growDays>5.6</growDays>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawNakatiBarks</harvestedThingDef>
@@ -116,7 +116,7 @@
         <li>AvaliPlants</li>
       </sowResearchPrerequisites>
 			<topWindExposure>0.1</topWindExposure>
-			<growDays>11.3</growDays>
+			<growDays>7.4</growDays>
 			<visualSizeRange>0.3~1.0</visualSizeRange>
     </plant>
   </ThingDef>

@@ -149,18 +149,9 @@
       <texPath>Things/Items/Weapons/Avali_Dagger</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>40</costStuffCount>
-    <costList>
-      <AvaliAerogel>10</AvaliAerogel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
     <statBases>
-      <WorkToMake>4000</WorkToMake>
       <Mass>0.25</Mass>
     </statBases>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
     <tools>
         <li>
           <label>handle</label>
@@ -202,19 +193,9 @@
       <texPath>Things/Items/Weapons/Avali_Shortsword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>50</costStuffCount>
-    <costList>
-      <AvaliAerogel>20</AvaliAerogel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
-    </costList>
     <statBases>
-      <WorkToMake>10000</WorkToMake>
       <Mass>1.5</Mass>
     </statBases>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
     <tools>
         <li>
           <label>handle</label>

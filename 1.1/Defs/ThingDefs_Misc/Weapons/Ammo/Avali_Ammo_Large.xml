@@ -13,7 +13,7 @@
 		<defName>AmmoSet_RailLarge</defName>
 		<label>Large rail ammo</label>
 		<ammoTypes>
-			<Ammo_AvaliRailMedium>Bullet_AvaliLargeRailLance</Ammo_AvaliRailMedium>
+			<Ammo_AvaliRailLarge>Bullet_AvaliLargeRailLance</Ammo_AvaliRailLarge>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 		

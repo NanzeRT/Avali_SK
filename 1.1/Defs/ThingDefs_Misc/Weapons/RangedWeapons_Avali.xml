@@ -253,84 +253,44 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <!-- <WorkToMake>68000</WorkToMake> -->
-      <Mass>3</Mass>
-      <AccuracyTouch>0.1</AccuracyTouch>
-      <AccuracyShort>0.8</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
-      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
-    </statBases><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    <costList>
-      <Plasteel>125</Plasteel>
-      <ComponentIndustrial>10</ComponentIndustrial>
-      <ComponentSpacer>8</ComponentSpacer>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>AvaliRailguns</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>9</Crafting>
-      </skillRequirements>
-    </recipeMaker> -->
-    <comps>
-      <li Class="Avali.CompProperties_WeaponAvali">
-        <useJob>HackBindedThing</useJob>
-        <useLabel>Hack {0}</useLabel>
-        <hackWorkSkill>Intellectual</hackWorkSkill>
-        <hackMinSkillLevel>16</hackMinSkillLevel>
-        <workTable>HiTechResearchBench</workTable>
-        <workLeft>5000</workLeft>
-      </li>
-    </comps>
-    <verbs>
-      <li>
-        <verbClass>Avali.Verb_ShootBinded</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>BulletAvaliSniper</defaultProjectile>
-        <warmupTime>6.5</warmupTime>
-        <range>79.9</range>
-        <soundCast>Shot_Avali_SniperRifle</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>14</muzzleFlashScale>
-      </li>
-    </verbs>
+      <MarketValue>960</MarketValue>
+      <Mass>6</Mass>
+      <SightsEfficiency>2</SightsEfficiency>
+      <SwayFactor>1</SwayFactor>
+      <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+      <Bulk>4.3</Bulk>
+      <ShotSpread>0.001</ShotSpread>
+    </statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_AvaliLargeRailLance</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>70</range>
+				<soundCast>Shot_Avali_Pistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
     <weaponTags>
-      <li>AvaliGunSniper</li>
+       <li>ASN3</li>
+       <li>AdvancedGun</li>
+       <li>TierTwoLow</li>
+       <li>Futuristic</li>
+       <li>CE_AI_Rifle</li>
     </weaponTags>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>BulletAvaliSniper</defName>
-    <label>avali sniper rifle bullet</label>
-    <graphicData>
-      <texPath>Things/Items/Weapons/Bullet_Avali_Sniper</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>55</damageAmountBase>
-      <stoppingPower>5</stoppingPower>
-      <speed>150</speed>
-    </projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>14</magazineSize>
+				<reloadTime>1.7</reloadTime>
+				<ammoSet>AmmoSet_RailLarge</ammoSet>
+			</li>
+		</comps>
   </ThingDef>
 
   <!-- ===== Avali Minigun ===== -->

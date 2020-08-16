@@ -230,7 +230,6 @@
           </li>
         </capMods>
         
-        <restFallFactorOffset>1.0</restFallFactorOffset>
         <statOffsets>
           <RestRateMultiplier>3.0</RestRateMultiplier>
         </statOffsets>

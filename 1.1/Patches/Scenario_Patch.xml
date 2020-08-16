@@ -1,0 +1,26 @@
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>Defs/ScenarioDef[defName="AvaliScenario"]/scenario/parts</xpath>
+      <value>
+
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+           <thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
+           <stuff>TitaniumBar</stuff>
+           <count>2</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+           <def>StartingThing_Defined</def>
+           <thingDef>TFJ_Tool_Building_Hammer</thingDef>
+           <stuff>TitaniumBar</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
+          <stuff>TitaniumBar</stuff>
+        </li>
+        </value>
+    </Operation>
+    
+</Patch>

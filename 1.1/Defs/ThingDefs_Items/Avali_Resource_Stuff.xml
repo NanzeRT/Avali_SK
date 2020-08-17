@@ -20,7 +20,7 @@
     </thingCategories>
   </ThingDef>
   
-  <ThingDef ParentName="ResourceBase">
+<!--	<ThingDef ParentName="ResourceBase">
     <defName>AvaliAerogel</defName>
     <label>aerogel</label>
     <description>Aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.</description>
@@ -38,7 +38,70 @@
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
-  </ThingDef>
+  </ThingDef>	-->
+  
+  <ThingDef ParentName="SK_ResourceBase">
+		<defName>AvaliAerogel</defName>
+		<label>Aerogel</label>
+		<description>Aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.</description>
+		<graphicData>
+			<texPath>Things/Items/Resource/AvaliAerogel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>true</useHitPoints>
+		<stackLimit>300</stackLimit>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.44</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.125</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>-5</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.55</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.75</BluntDamageMultiplier>
+			<Mass>0.01</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>USLDBar</li>
+		</thingCategories>
+		<smeltable>false</smeltable>
+		<stuffProps>
+			<stuffAdjective>Aerogel</stuffAdjective>
+			<categories>
+				<li>Metallic</li>
+				<li>StrongMetallic</li>
+				<li>RuggedMetallic</li>	
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(255,178,102)</color>
+			<commonality>0.1</commonality>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>0.99</MaxHitPoints>
+				<Beauty>1.5</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>2.6</WorkToMake>
+				<WorkToBuild>2.6</WorkToBuild>
+				<DoorOpenSpeed>1.35</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.55</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>1.13</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>1.48</MeleePenetrationFactor>
+				<Mass>0.15</Mass>
+			</statFactors>			
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	</ThingDef>
+  
   
   <ThingDef ParentName="ResourceBase">
     <defName>AvaliNanoFibre</defName>

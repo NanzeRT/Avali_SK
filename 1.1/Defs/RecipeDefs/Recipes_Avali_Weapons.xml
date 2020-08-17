@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-  <!-- Ranged weapon -->
-  
-  <!-- Pistol -->
-
+	<!-- Ranged weapon -->
+	<!-- Pistol -->
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliPistol</defName>
 		<label>Build avali 'Frostbite' pistol</label>
@@ -39,7 +36,7 @@
 				</filter>
 				<count>5</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Power_basic</li>
@@ -47,7 +44,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ElectronicComponents</li>
@@ -55,7 +52,7 @@
 				</filter>
 				<count>6</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>AvaliNanoFibre</li>
@@ -63,14 +60,14 @@
 				</filter>
 				<count>14</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Pistol_Component</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Pistol_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
 		</ingredients>
 		<products>
 			<GunAvaliPistol>1</GunAvaliPistol>
@@ -78,25 +75,23 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Weapon_Parts</li>
-        <li>Electronics</li>
+				<li>Electronics</li>
 				<li>ElectronicComponents</li>
 				<li>Power_basic</li>
 				<li>AvaliNanoFibre</li>
-        <li>Pistol_Component</li>
+				<li>Pistol_Component</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
-      <li>AdvWeaponCraftingWorkTable</li>
+			<li>AdvWeaponCraftingWorkTable</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliLTRW</researchPrerequisite>
+		<researchPrerequisite>AvaliLTRW</researchPrerequisite>
 	</RecipeDef>
-  
-  <!-- SMG -->
-  
+	<!-- SMG -->
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliSMG</defName>
 		<label>Build avali 'Coldsnap' SMG</label>
@@ -131,7 +126,7 @@
 				</filter>
 				<count>7</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Power_basic</li>
@@ -139,7 +134,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>ElectronicComponents</li>
@@ -147,7 +142,7 @@
 				</filter>
 				<count>12</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Plastic</li>
@@ -155,14 +150,14 @@
 				</filter>
 				<count>14</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>SMG_Component</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
 		</ingredients>
 		<products>
 			<GunAvaliSMG>1</GunAvaliSMG>
@@ -170,25 +165,23 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Weapon_Parts</li>
-        <li>Electronics</li>
+				<li>Electronics</li>
 				<li>ElectronicComponents</li>
 				<li>Power_basic</li>
 				<li>Plastic</li>
-        <li>SMG_Component</li>
+				<li>SMG_Component</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
-      <li>AdvWeaponCraftingWorkTable</li>
+			<li>AdvWeaponCraftingWorkTable</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliLTRW</researchPrerequisite>
+		<researchPrerequisite>AvaliLTRW</researchPrerequisite>
 	</RecipeDef>
-  
-  <!-- Assault Rifle -->
-  
+	<!-- Assault Rifle -->
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>Build_Avali_AssaultRifle</defName>
 		<label>Build avali 'Blizzard' rifle</label>
@@ -223,7 +216,7 @@
 				</filter>
 				<count>5</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Railgun_Component</li>
@@ -231,7 +224,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Plastic</li>
@@ -239,14 +232,14 @@
 				</filter>
 				<count>30</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Rifle_Component</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
 		</ingredients>
 		<products>
 			<Gun_Avali_AssaultRifle>1</Gun_Avali_AssaultRifle>
@@ -254,23 +247,21 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Weapon_Parts</li>
-        <li>Electronics</li>
+				<li>Electronics</li>
 				<li>Railgun_Component</li>
 				<li>Plastic</li>
-        <li>Rifle_Component</li>
+				<li>Rifle_Component</li>
 			</thingDefs>
 			<categories>
-        <li>SLDBar</li>
+				<li>SLDBar</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+		<researchPrerequisite>AvaliRailguns</researchPrerequisite>
 	</RecipeDef>
-  
-  <!-- Shotgun -->
-  
+	<!-- Shotgun -->
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliShotgun</defName>
 		<label>Build avali 'Avalanche' shotgun</label>
@@ -305,7 +296,7 @@
 				</filter>
 				<count>5</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Railgun_Component</li>
@@ -313,7 +304,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Plastic</li>
@@ -321,14 +312,14 @@
 				</filter>
 				<count>22</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Shotgun_Component</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Shotgun_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
 		</ingredients>
 		<products>
 			<GunAvaliShotgun>1</GunAvaliShotgun>
@@ -336,23 +327,21 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Weapon_Parts</li>
-        <li>Electronics</li>
+				<li>Electronics</li>
 				<li>Railgun_Component</li>
 				<li>Plastic</li>
-        <li>Shotgun_Component</li>
+				<li>Shotgun_Component</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+		<researchPrerequisite>AvaliRailguns</researchPrerequisite>
 	</RecipeDef>
-  
-  <!-- Sniper Rifle -->
-  
+	<!-- Sniper Rifle -->
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliSniper</defName>
 		<label>Build avali 'GunAvaliSniper' </label>
@@ -387,7 +376,7 @@
 				</filter>
 				<count>5</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Railgun_Component</li>
@@ -395,7 +384,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Plastic</li>
@@ -403,14 +392,14 @@
 				</filter>
 				<count>22</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Sniper_Component</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sniper_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
 		</ingredients>
 		<products>
 			<GunAvaliSniper>1</GunAvaliSniper>
@@ -418,23 +407,21 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Weapon_Parts</li>
-        <li>Electronics</li>
+				<li>Electronics</li>
 				<li>Railgun_Component</li>
 				<li>Plastic</li>
-        <li>Sniper_Component</li>
+				<li>Sniper_Component</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+		<researchPrerequisite>AvaliRailguns</researchPrerequisite>
 	</RecipeDef>
-  
-  <!-- Minigun -->
-  
+	<!-- Minigun -->
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildAvaliMinigun</defName>
 		<label>Build avali 'AvaliMinigun' </label>
@@ -469,7 +456,7 @@
 				</filter>
 				<count>5</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Railgun_Component</li>
@@ -477,7 +464,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Plastic</li>
@@ -485,14 +472,14 @@
 				</filter>
 				<count>22</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Heavy_Component</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Heavy_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
 		</ingredients>
 		<products>
 			<GunAvaliMinigun>1</GunAvaliMinigun>
@@ -500,23 +487,21 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Weapon_Parts</li>
-        <li>Electronics</li>
+				<li>Electronics</li>
 				<li>Railgun_Component</li>
 				<li>Plastic</li>
-        <li>Heavy_Component</li>
+				<li>Heavy_Component</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliRailguns</researchPrerequisite>
+		<researchPrerequisite>AvaliRailguns</researchPrerequisite>
 	</RecipeDef>
-  
-  <!-- Rocket Launcher -->
-  
+	<!-- Rocket Launcher -->
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>Build_Avali_Rocket_Launcher</defName>
 		<label>Build avali '_Avali_Rocket_Launcher' </label>
@@ -551,7 +536,7 @@
 				</filter>
 				<count>5</count>
 			</li>
-      <li>
+			<li>
 				<filter>
 					<thingDefs>
 						<li>Plastic</li>
@@ -559,14 +544,14 @@
 				</filter>
 				<count>22</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Launcher_Component</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
 		</ingredients>
 		<products>
 			<Gun_Avali_Rocket_Launcher>1</Gun_Avali_Rocket_Launcher>
@@ -574,35 +559,32 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Weapon_Parts</li>
-        <li>Electronics</li>
+				<li>Electronics</li>
 				<li>Plastic</li>
-        <li>Launcher_Component</li>
+				<li>Launcher_Component</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliRocketLaunchers</researchPrerequisite>
+		<researchPrerequisite>AvaliRocketLaunchers</researchPrerequisite>
 	</RecipeDef>
-  
-  <!-- Melee weapon -->
-  
-  <!-- Pila -->
-  
-  <RecipeDef ParentName="MeleeWeaponRecipeBase">
-    <defName>Build_Avali_Pila</defName>
-    <label>Build Avali pila</label>
-    <description>A refined hunting pilum. The shaft penetrates deeper thanks to micro-engines that ignite when thrown and accelerates the pilum in air.</description>
-    <jobString>Building_Avali_Pila</jobString>
-    <workAmount>16000</workAmount>
-    <skillRequirements>
-      <Crafting>12</Crafting>
-    </skillRequirements>
-    <ingredients>
-      <li>
+	<!-- Melee weapon -->
+	<!-- Pila -->
+	<RecipeDef>
+		<defName>Build_Avali_Pila</defName>
+		<label>Build Avali pila</label>
+		<description>A refined hunting pilum. The shaft penetrates deeper thanks to micro-engines that ignite when thrown and accelerates the pilum in air.</description>
+		<jobString>Building_Avali_Pila</jobString>
+		<workAmount>16000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
 				<filter>
 					<categories>
 						<li>Metallic</li>
@@ -610,63 +592,61 @@
 				</filter>
 				<count>60</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentSpacer</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>6</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>AvaliAerogel</li>
-          </thingDefs>
-        </filter>
-        <count>50</count>
-      </li>
-    </ingredients>
-    		<products>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliAerogel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
 			<Avali_Pila>1</Avali_Pila>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AvaliAerogel</li>
-        <li>ComponentSpacer</li>
-        <li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliMelee</researchPrerequisite>
-  </RecipeDef>
-  
-  <!-- Dagger -->
-  
-  <RecipeDef ParentName="MeleeWeaponRecipeBase">
-    <defName>Build_Avali_Dagger</defName>
-    <label>Build Avali dagger</label>
-    <description>Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.</description>
-    <jobString>Building_Avali_Dagger</jobString>
-    <workAmount>4000</workAmount>
-    <skillRequirements>
-      <Crafting>12</Crafting>
-    </skillRequirements>
-    <ingredients>
-      <li>
+		<researchPrerequisite>AvaliMelee</researchPrerequisite>
+	</RecipeDef>
+	<!-- Dagger -->
+	<RecipeDef>
+		<defName>Build_Avali_Dagger</defName>
+		<label>Build Avali dagger</label>
+		<description>Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.</description>
+		<jobString>Building_Avali_Dagger</jobString>
+		<workAmount>4000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
 				<filter>
 					<categories>
 						<li>Metallic</li>
@@ -674,63 +654,61 @@
 				</filter>
 				<count>55</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentSpacer</li>
-          </thingDefs>
-        </filter>
-        <count>4</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>AvaliAerogel</li>
-          </thingDefs>
-        </filter>
-        <count>40</count>
-      </li>
-    </ingredients>
-    		<products>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliAerogel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
 			<Avali_Dagger>1</Avali_Dagger>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AvaliAerogel</li>
-        <li>ComponentSpacer</li>
-        <li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliMelee</researchPrerequisite>
-  </RecipeDef>
-  
-  <!-- Short Sword -->
-  
-    <RecipeDef ParentName="MeleeWeaponRecipeBase">
-    <defName>Build_Avali_Short_Sword</defName>
-    <label>Build Avali short sword</label>
-    <description>The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.</description>
-    <jobString>Building_Avali_Short_Sword</jobString>
-    <workAmount>10000</workAmount>
-    <skillRequirements>
-      <Crafting>12</Crafting>
-    </skillRequirements>
-    <ingredients>
-      <li>
+		<researchPrerequisite>AvaliMelee</researchPrerequisite>
+	</RecipeDef>
+	<!-- Short Sword -->
+	<RecipeDef>
+		<defName>Build_Avali_Short_Sword</defName>
+		<label>Build Avali short sword</label>
+		<description>The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.</description>
+		<jobString>Building_Avali_Short_Sword</jobString>
+		<workAmount>10000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
 				<filter>
 					<categories>
 						<li>Metallic</li>
@@ -738,63 +716,61 @@
 				</filter>
 				<count>60</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentSpacer</li>
-          </thingDefs>
-        </filter>
-        <count>4</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>4</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>AvaliAerogel</li>
-          </thingDefs>
-        </filter>
-        <count>60</count>
-      </li>
-    </ingredients>
-    		<products>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliAerogel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<products>
 			<Avali_Sword>1</Avali_Sword>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AvaliAerogel</li>
-        <li>ComponentSpacer</li>
-        <li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliMelee</researchPrerequisite>
-  </RecipeDef>
-
-  <!-- Long Sword -->
-  
-<RecipeDef ParentName="MeleeWeaponRecipeBase">
-    <defName>Build_Avali_Long_Sword</defName>
-    <label>Build Avali long sword</label>
-    <description>The 'Dire Shard' longsword is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.</description>
-    <jobString>Building_Avali_Long_Sword</jobString>
-    <workAmount>17000</workAmount>
-    <skillRequirements>
-      <Crafting>12</Crafting>
-    </skillRequirements>
-    <ingredients>
-      <li>
+		<researchPrerequisite>AvaliMelee</researchPrerequisite>
+	</RecipeDef>
+	<!-- Long Sword -->
+	<RecipeDef>
+		<defName>Build_Avali_Long_Sword</defName>
+		<label>Build Avali long sword</label>
+		<description>The 'Dire Shard' longsword is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.</description>
+		<jobString>Building_Avali_Long_Sword</jobString>
+		<workAmount>17000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
 				<filter>
 					<categories>
 						<li>Metallic</li>
@@ -802,63 +778,61 @@
 				</filter>
 				<count>70</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentSpacer</li>
-          </thingDefs>
-        </filter>
-        <count>8</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>6</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>AvaliAerogel</li>
-          </thingDefs>
-        </filter>
-        <count>100</count>
-      </li>
-    </ingredients>
-    		<products>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliAerogel</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<products>
 			<Avali_LongSword>1</Avali_LongSword>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AvaliAerogel</li>
-        <li>ComponentSpacer</li>
-        <li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliMelee</researchPrerequisite>
-  </RecipeDef>  
-  
-  <!-- Spear -->
-  
-  <RecipeDef ParentName="MeleeWeaponRecipeBase">
-    <defName>Build_Avali_Spear</defName>
-    <label>Build Avali spear</label>
-    <description>Avali 'Icicle' spear - a modern take on the ancient Avali spear design.</description>
-    <jobString>Building_Avali_Spear</jobString>
-    <workAmount>17000</workAmount>
-    <skillRequirements>
-      <Crafting>12</Crafting>
-    </skillRequirements>
-    <ingredients>
-      <li>
+		<researchPrerequisite>AvaliMelee</researchPrerequisite>
+	</RecipeDef>
+	<!-- Spear -->
+	<RecipeDef>
+		<defName>Build_Avali_Spear</defName>
+		<label>Build Avali spear</label>
+		<description>Avali 'Icicle' spear - a modern take on the ancient Avali spear design.</description>
+		<jobString>Building_Avali_Spear</jobString>
+		<workAmount>17000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
 				<filter>
 					<categories>
 						<li>Metallic</li>
@@ -866,48 +840,47 @@
 				</filter>
 				<count>75</count>
 			</li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentSpacer</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>AvaliAerogel</li>
-          </thingDefs>
-        </filter>
-        <count>95</count>
-      </li>
-    </ingredients>
-    		<products>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AvaliAerogel</li>
+					</thingDefs>
+				</filter>
+				<count>95</count>
+			</li>
+		</ingredients>
+		<products>
 			<Avali_Spear>1</Avali_Spear>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AvaliAerogel</li>
-        <li>ComponentSpacer</li>
-        <li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>
-        <li>Metallic</li>
+				<li>Metallic</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
-    <researchPrerequisite>AvaliMelee</researchPrerequisite>
-  </RecipeDef>
-  
+		<researchPrerequisite>AvaliMelee</researchPrerequisite>
+	</RecipeDef>
 </Defs>

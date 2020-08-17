@@ -237,19 +237,9 @@
       <texPath>Things/Items/Weapons/Avali_Longsword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>120</costStuffCount>
-    <costList>
-      <AvaliAerogel>30</AvaliAerogel>
-      <ComponentIndustrial>4</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
-    </costList>
     <statBases>
-      <WorkToMake>22000</WorkToMake>
       <Mass>3</Mass>
     </statBases>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
     <tools>
         <li>
           <label>handle</label>
@@ -291,19 +281,9 @@
       <texPath>Things/Items/Weapons/Avali_Spear</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>100</costStuffCount>
-    <costList>
-      <AvaliAerogel>15</AvaliAerogel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
-    </costList>
     <statBases>
-      <WorkToMake>17000</WorkToMake>
       <Mass>3</Mass>
     </statBases>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
     <tools>
         <li>
           <label>shaft</label>
@@ -330,7 +310,7 @@
   </ThingDef>
 
   <!-- ===== Avali Hammer ===== -->
-    <ThingDef ParentName="AvaliBaseMeleeWeapon_Blunt">
+  <!--  <ThingDef ParentName="AvaliBaseMeleeWeapon_Blunt">
       <defName>Avali_Hammer</defName>
       <label>Avali 'Glacier' hammer</label>
       <description>The glacier-type 'skeleton key' is used for breaking down doors, or sometimes walls, with it's on board rocket motor and guidance fins.</description>
@@ -374,5 +354,5 @@
       <weaponTags>
       <li>AvaliMeleeMilitary</li>
     </weaponTags>
-	</ThingDef>
+	</ThingDef> -->
 </Defs>

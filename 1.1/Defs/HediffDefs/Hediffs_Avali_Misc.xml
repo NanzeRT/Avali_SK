@@ -230,6 +230,7 @@
           </li>
         </capMods>
         
+        <restFallFactorOffset>1.0</restFallFactorOffset> <!-- Усталость -->
         <statOffsets>
           <RestRateMultiplier>3.0</RestRateMultiplier>
         </statOffsets>

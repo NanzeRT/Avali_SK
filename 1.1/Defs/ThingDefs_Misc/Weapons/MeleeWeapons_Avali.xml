@@ -51,6 +51,7 @@
 		</graphicData>
 		<soundInteract>Interact_BeatFire</soundInteract>
 		<statBases>
+      <MarketValue>340</MarketValue>
 			<Mass>2</Mass>
 			<AccuracyTouch>0.60</AccuracyTouch>
 			<AccuracyShort>0.81</AccuracyShort>
@@ -117,6 +118,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
+     <MarketValue>400</MarketValue>
 			<Mass>0.25</Mass>
 		</statBases>
 		<tools>
@@ -160,6 +162,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
+     <MarketValue>450</MarketValue>
 			<Mass>1.5</Mass>
 		</statBases>
 		<tools>
@@ -204,6 +207,7 @@
 		</graphicData>
 		<statBases>
 			<Mass>3</Mass>
+      <MarketValue>523</MarketValue>
 		</statBases>
 		<tools>
 			<li>
@@ -246,6 +250,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
+    <MarketValue>450</MarketValue>
 			<Mass>3</Mass>
 		</statBases>
 		<tools>

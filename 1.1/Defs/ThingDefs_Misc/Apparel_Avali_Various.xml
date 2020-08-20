@@ -517,10 +517,15 @@
       <WorkSpeedGlobal>-0.10</WorkSpeedGlobal> -->
       <CarryBulk>2.1</CarryBulk>
     </equippedStatOffsets>
+    <stuffCategories>
+      <li>SLDBar</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
     <costList>
-      <Plasteel>60</Plasteel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <Power_basic>2</Power_basic>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+      <AdvMechanism>2</AdvMechanism>
     </costList>
 		<generateCommonality>2</generateCommonality>
 		<apparel>
@@ -571,10 +576,16 @@
       <MoveSpeed>0.2</MoveSpeed>
       <CarryBulk>3.4</CarryBulk>
     </equippedStatOffsets>
+    <stuffCategories>
+      <li>SLDBar</li>
+    </stuffCategories>
+    <costStuffCount>70</costStuffCount>
     <costList>
-      <Plasteel>80</Plasteel>
-      <ComponentIndustrial>6</ComponentIndustrial>
-      <ComponentSpacer>2</ComponentSpacer>
+      <Power_basic>2</Power_basic>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentSpacer>5</ComponentSpacer>
+      <AdvMechanism>4</AdvMechanism>
+      <AvaliNanoFibre>20</AvaliNanoFibre>
     </costList>
 		<generateCommonality>2</generateCommonality>
 		<apparel>
@@ -625,9 +636,16 @@
       <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
       <CarryBulk>20</CarryBulk>
     </equippedStatOffsets>
+    <stuffCategories>
+      <li>USLDBar</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Power_adv>1</Power_adv>
       <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>6</ComponentSpacer>
+      <AdvMechanism>6</AdvMechanism>
+      <AvaliNanoFibre>22</AvaliNanoFibre>
     </costList>
 		<generateCommonality>2</generateCommonality>
 		<apparel>
@@ -684,10 +702,17 @@
       <EquipDelay>15</EquipDelay>
       <CarryBulk>4</CarryBulk>
     </equippedStatOffsets>
+    <stuffCategories>
+      <li>SLDBar</li>
+      <li>USLDBar</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
     <costList>
-      <Plasteel>200</Plasteel>
+      <Power_basic>2</Power_basic>
       <ComponentIndustrial>8</ComponentIndustrial>
-      <ComponentSpacer>4</ComponentSpacer>
+      <ComponentSpacer>6</ComponentSpacer>
+      <AdvMechanism>4</AdvMechanism>
+      <AvaliNanoFibre>30</AvaliNanoFibre>
     </costList>
 		<generateCommonality>1</generateCommonality>
 		<apparel>
@@ -753,10 +778,17 @@
       -->
       <CarryBulk>4</CarryBulk>
     </equippedStatOffsets>
+    <stuffCategories>
+      <li>SLDBar</li>
+      <li>USLDBar</li>
+    </stuffCategories>
+    <costStuffCount>95</costStuffCount>
     <costList>
-      <Plasteel>150</Plasteel>
-      <ComponentIndustrial>10</ComponentIndustrial>
-      <ComponentSpacer>6</ComponentSpacer>
+      <Power_basic>2</Power_basic>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>8</ComponentSpacer>
+      <AdvMechanism>4</AdvMechanism>
+      <AvaliNanoFibre>25</AvaliNanoFibre>
     </costList>
 		<generateCommonality>2</generateCommonality>
 		<apparel>
@@ -832,10 +864,16 @@
       <AimingDelayFactor>-0.2</AimingDelayFactor>
       <CarryBulk>5</CarryBulk>
     </equippedStatOffsets>
+    <stuffCategories>
+      <li>USLDBar</li>
+    </stuffCategories>
+    <costStuffCount>120</costStuffCount>
     <costList>
-      <Plasteel>100</Plasteel>
+      <Power_adv>2</Power_adv>
       <ComponentIndustrial>12</ComponentIndustrial>
-      <ComponentSpacer>8</ComponentSpacer>
+      <ComponentSpacer>10</ComponentSpacer>
+      <AdvMechanism>6</AdvMechanism>
+      <AvaliNanoFibre>40</AvaliNanoFibre>
     </costList>
     <generateCommonality>1</generateCommonality>
     <apparel>

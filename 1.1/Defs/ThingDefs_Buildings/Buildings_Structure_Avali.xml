@@ -13,7 +13,7 @@
 			<SellPriceFactor>0.70</SellPriceFactor>
 		</statBases>
 	</ThingDef>
-	<!--========================= Doors =============================-->
+	<!--========================= Doors =============================
 	<ThingDef ParentName="AvaliBuildingBase" Name="AvaliDoorBase" Abstract="True">
 		<thingClass>Building_Door</thingClass>
 		<category>Building</category>
@@ -53,7 +53,7 @@
 			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
 		</placeWorkers>
 	</ThingDef>
-	<!-- AvaliInterlockingDoor -->
+	<!-- AvaliInterlockingDoor 
 	<ThingDef ParentName="AvaliDoorBase">
 		<defName>AvaliInterlockingDoor</defName>
 		<label>interlocking door</label>
@@ -68,7 +68,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
 				<!--  no damage marks because they don't move with the door
-        <rect>(0,0.12,1,0.76)</rect>-->
+        <rect>(0,0.12,1,0.76)</rect>
+        
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>
@@ -95,7 +96,7 @@
 		</researchPrerequisites>
 		<designationHotKey>Misc2</designationHotKey>
 	</ThingDef>
-	<!-- AvaliPlatedDoor -->
+	<!-- AvaliPlatedDoor 
 	<ThingDef ParentName="AvaliDoorBase">
 		<defName>AvaliPlatedDoor</defName>
 		<label>plated door</label>
@@ -110,7 +111,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
 				<!--  no damage marks because they don't move with the door
-        <rect>(0,0.12,1,0.76)</rect>-->
+        <rect>(0,0.12,1,0.76)</rect>
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>
@@ -138,7 +139,7 @@
 		</researchPrerequisites>
 		<designationHotKey>Misc2</designationHotKey>
 	</ThingDef>
-	<!-- AvaliTentDoor -->
+	<!-- AvaliTentDoor 
 	<ThingDef ParentName="AvaliDoorBase">
 		<defName>AvaliTentDoor</defName>
 		<thingClass>Building_Door</thingClass>
@@ -159,7 +160,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
 				<!--  no damage marks because they don't move with the door
-        <rect>(0,0.12,1,0.76)</rect>-->
+        <rect>(0,0.12,1,0.76)</rect>
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>

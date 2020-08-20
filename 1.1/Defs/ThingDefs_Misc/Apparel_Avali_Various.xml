@@ -182,6 +182,9 @@
       <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2.5</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+			<CarryBulk>0.5</CarryBulk>
+    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -242,6 +245,9 @@
       <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2.5</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+			<CarryBulk>1.1</CarryBulk>
+    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -300,7 +306,7 @@
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.5</EquipDelay>
+      <EquipDelay>1.1</EquipDelay>
     </statBases>
     <apparel>
       <bodyPartGroups>
@@ -362,6 +368,9 @@
       <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+			<CarryBulk>2</CarryBulk>
+    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -424,6 +433,7 @@
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.04</MoveSpeed>
+      <CarryBulk>1.6</CarryBulk>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -488,12 +498,11 @@
       <Insulation_Heat>25</Insulation_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
-    <!--
     <equippedStatOffsets>
-      <MoveSpeed>-0.10</MoveSpeed>
-      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+      <!-- <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal> -->
+      <CarryBulk>2.1</CarryBulk>
     </equippedStatOffsets>
-    -->
     <costList>
       <Plasteel>60</Plasteel>
       <ComponentIndustrial>3</ComponentIndustrial>
@@ -546,6 +555,7 @@
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0.2</MoveSpeed>
+      <CarryBulk>3.4</CarryBulk>
     </equippedStatOffsets>
     <costList>
       <Plasteel>80</Plasteel>
@@ -599,6 +609,7 @@
       <CarryingCapacity>75</CarryingCapacity>
       <MoveSpeed>0.5</MoveSpeed>
       <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+      <CarryBulk>20</CarryBulk>
     </equippedStatOffsets>
     <costList>
       <Plasteel>50</Plasteel>
@@ -657,6 +668,7 @@
       <WorkSpeedGlobal>-0.40</WorkSpeedGlobal>
       <AimingDelayFactor>-0.15</AimingDelayFactor>
       <EquipDelay>15</EquipDelay>
+      <CarryBulk>4</CarryBulk>
     </equippedStatOffsets>
     <costList>
       <Plasteel>200</Plasteel>
@@ -725,6 +737,7 @@
       <MoveSpeed>-0.10</MoveSpeed>
       <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
       -->
+      <CarryBulk>4</CarryBulk>
     </equippedStatOffsets>
     <costList>
       <Plasteel>150</Plasteel>
@@ -803,6 +816,7 @@
       <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
       <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
       <AimingDelayFactor>-0.2</AimingDelayFactor>
+      <CarryBulk>5</CarryBulk>
     </equippedStatOffsets>
     <costList>
       <Plasteel>100</Plasteel>

@@ -4,6 +4,7 @@
     <defName>AvaliIlluminate</defName>
     <label>Avali Illuminate</label>
     <description>Avali Illuminate represents the single largest and most powerful Avali faction encompassing almost half of the species population and spanning numerous systems. It is the faction that most represents the Avali from an outside perspective, a position cemented by its control over the Avali homeworld, Avalon.</description>
+    <startingGoodwill>5</startingGoodwill>
     <pawnSingular>avali Illuminate</pawnSingular>
     <pawnsPlural>avali Illuminates</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -20,9 +21,14 @@
       <li>AvaliHair</li>
     </hairTags>
     <apparelStuffFilter>
+      <categories>
+				<li>Leathers</li>
+			</categories>
       <thingDefs>
         <li>AvaliNanoFibre</li>
+        <li>Kevlar</li>
         <li>Plasteel</li>
+        <li>AvaliAerogel</li>
       </thingDefs>
     </apparelStuffFilter>
     <factionIconPath>World/WorldObjects/AvaliBaseIcon</factionIconPath>

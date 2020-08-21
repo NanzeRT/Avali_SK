@@ -83,7 +83,7 @@
         <researchViewY>0.7</researchViewY>
     </ResearchProjectDef>
 
-    <!-- AvaliDoors -->
+    <!-- AvaliDoors 
     <ResearchProjectDef>
         <defName>AvaliDoors</defName>
         <label>Military-grade doors</label>
@@ -101,7 +101,7 @@
         </requiredResearchFacilities>
         <researchViewX>3</researchViewX>
         <researchViewY>0.7</researchViewY>
-    </ResearchProjectDef>
+    </ResearchProjectDef> -->
 
     <!-- AvaliLighting -->
     <ResearchProjectDef>
@@ -234,6 +234,7 @@
         <tab>Avali</tab>
         <prerequisites>
             <li>AvaliExosuit</li>
+            <li>AvaliGuardianArmor</li>
         </prerequisites>
         <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
         <requiredResearchFacilities>

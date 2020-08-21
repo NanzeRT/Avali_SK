@@ -687,8 +687,8 @@
       <WorkToMake>60000</WorkToMake>
       <MaxHitPoints>500</MaxHitPoints>
       <Mass>5</Mass>
-      <ArmorRating_Sharp>14</ArmorRating_Sharp>
-      <ArmorRating_Blunt>9.8</ArmorRating_Blunt>
+      <ArmorRating_Sharp>17.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>24.9</ArmorRating_Blunt>
       <ArmorRating_Heat>1.0</ArmorRating_Heat>
       <ArmorRating_Enviromental>1</ArmorRating_Enviromental>
       <Insulation_Cold>55</Insulation_Cold>
@@ -706,13 +706,13 @@
       <li>SLDBar</li>
       <li>USLDBar</li>
     </stuffCategories>
-    <costStuffCount>80</costStuffCount>
+    <costStuffCount>100</costStuffCount>
     <costList>
       <Power_basic>2</Power_basic>
       <ComponentIndustrial>8</ComponentIndustrial>
-      <ComponentSpacer>6</ComponentSpacer>
-      <AdvMechanism>4</AdvMechanism>
-      <AvaliNanoFibre>30</AvaliNanoFibre>
+      <ComponentSpacer>10</ComponentSpacer>
+      <AdvMechanism>6</AdvMechanism>
+      <AvaliNanoFibre>20</AvaliNanoFibre>
     </costList>
 		<generateCommonality>1</generateCommonality>
 		<apparel>
@@ -760,8 +760,8 @@
       <WorkToMake>50000</WorkToMake>
       <MaxHitPoints>400</MaxHitPoints>
       <Mass>4</Mass>
-      <ArmorRating_Sharp>17.8</ArmorRating_Sharp>
-      <ArmorRating_Blunt>24.9</ArmorRating_Blunt>
+      <ArmorRating_Sharp>14.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>15.6</ArmorRating_Blunt>
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
       <ArmorRating_Enviromental>0.75</ArmorRating_Enviromental>
       <Insulation_Cold>50</Insulation_Cold>
@@ -782,7 +782,7 @@
       <li>SLDBar</li>
       <li>USLDBar</li>
     </stuffCategories>
-    <costStuffCount>95</costStuffCount>
+    <costStuffCount>90</costStuffCount>
     <costList>
       <Power_basic>2</Power_basic>
       <ComponentIndustrial>8</ComponentIndustrial>

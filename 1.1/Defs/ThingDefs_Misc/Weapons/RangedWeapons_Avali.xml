@@ -62,11 +62,7 @@
 			</li>
 		</verbs>
     <weaponTags>
-       <li>ASN3</li>
-       <li>AdvancedGun</li>
-       <li>TierTwoLow</li>
-       <li>Futuristic</li>
-       <li>CE_AI_Rifle</li>
+       <li>AvaliGunSimple</li>
     </weaponTags>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -115,11 +111,7 @@
 			</li>
 		</verbs>
     <weaponTags>
-       <li>ASN3</li>
-       <li>AdvancedGun</li>
-       <li>TierTwoLow</li>
-       <li>Futuristic</li>
-       <li>CE_AI_Rifle</li>
+       <li>AvaliGunSimple</li>
     </weaponTags>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -168,11 +160,7 @@
 			</li>
 		</verbs>
     <weaponTags>
-       <li>ASN3</li>
-       <li>AdvancedGun</li>
-       <li>TierTwoLow</li>
-       <li>Futuristic</li>
-       <li>CE_AI_Rifle</li>
+       <li>AvaliGun</li>
     </weaponTags>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -220,11 +208,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>ASN3</li>
-      <li>AdvancedGun</li>
-      <li>TierTwoLow</li>
-      <li>Futuristic</li>
-      <li>CE_AI_Rifle</li>
+      <li>AvaliGun</li>
     </weaponTags>    
     <comps>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -274,11 +258,7 @@
 			</li>
 		</verbs>
     <weaponTags>
-       <li>ASN3</li>
-       <li>AdvancedGun</li>
-       <li>TierTwoLow</li>
-       <li>Futuristic</li>
-       <li>CE_AI_Rifle</li>
+       <li>AvaliGunSniper</li>
     </weaponTags>
 		<comps>
 			<li Class="CombatExtended.CompProperties_FireModes">

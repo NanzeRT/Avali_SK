@@ -286,14 +286,15 @@
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
       <!-- <WorkToMake>90000</WorkToMake> -->
-      <Mass>4</Mass>
-      <AccuracyTouch>0.2</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.45</AccuracyLong>
-      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
-    </statBases><!-- 
-    <costList>
+      <MarketValue>960</MarketValue>
+      <Mass>6</Mass>
+      <SightsEfficiency>0.8</SightsEfficiency>
+      <SwayFactor>2</SwayFactor>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+      <Bulk>4.1</Bulk>
+      <ShotSpread>0.07</ShotSpread>
+    </statBases>
+    <!--<costList>
       <Plasteel>175</Plasteel>
       <ComponentIndustrial>10</ComponentIndustrial>
       <ComponentSpacer>5</ComponentSpacer>
@@ -304,33 +305,32 @@
         <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker> -->
-    <comps>
-      <li Class="Avali.CompProperties_WeaponAvali">
-        <useJob>HackBindedThing</useJob>
-        <useLabel>Hack {0}</useLabel>
-        <hackWorkSkill>Intellectual</hackWorkSkill>
-        <hackMinSkillLevel>16</hackMinSkillLevel>
-        <workTable>HiTechResearchBench</workTable>
-        <workLeft>5000</workLeft>
-      </li>
-    </comps>
     <verbs>
-      <li>
-        <verbClass>Avali.Verb_ShootBinded</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>BulletAvaliMinigun</defaultProjectile>
-        <warmupTime>1.5</warmupTime>
-        <range>35.9</range>
-        <burstShotCount>40</burstShotCount>
-        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>Shot_Avali_Minigun</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_AvaliLowRailLance</defaultProjectile>
+				<warmupTime>0.9</warmupTime>
+				<range>50</range>
+				<soundCast>Shot_Avali_Pistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>20</muzzleFlashScale>
+			</li>
+		</verbs>
     <weaponTags>
-      <li>AvaliGunHeavy</li>
+       <li>AvaliGunHeavy</li>
     </weaponTags>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>220</magazineSize>
+				<reloadTime>7.4</reloadTime>
+				<ammoSet>AmmoSet_RailLow</ammoSet>
+			</li>
+		</comps>
     <tools>
       <li>
         <label>stock</label>
@@ -354,21 +354,6 @@
       <MoveSpeed>-0.25</MoveSpeed>
     </equippedStatOffsets>
   </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>BulletAvaliMinigun</defName>
-    <label>avali Minigun Bullet</label>
-    <graphicData>
-      <texPath>Things/Items/Weapons/Bullet_Avali</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <speed>150</speed>
-    </projectile>
-  </ThingDef>
-
     <!-- ===== Avali Rocket Launcher ===== -->
 
   <ThingDef ParentName="AvaliBaseWeaponRanged">

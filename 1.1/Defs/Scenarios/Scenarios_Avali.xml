@@ -63,7 +63,7 @@
       <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Apparel_LifeSupportBeltAvali</thingDef>
-        <stuff>Plasteel</stuff>
+        <stuff>AvaliAerogel</stuff>
 				<count>4</count>
 			</li>
       <li Class="ScenPart_StartingThing_Defined">

@@ -29,8 +29,17 @@
             </goodwill>
           </li>
         </factionRelations>
-     
-       
+        <forcedRaceTraitEntries>
+          <li>
+						<defName>Xenophobia</defName>
+						<degree>1</degree>
+						<chance>30</chance>
+					</li>
+          <li>
+            <defName>FearsFire</defName>
+            <chance>40</chance>
+          </li>
+        </forcedRaceTraitEntries>
         <alienPartGenerator>
           <aliencrowntypes>
             <li>Average_Normal</li>

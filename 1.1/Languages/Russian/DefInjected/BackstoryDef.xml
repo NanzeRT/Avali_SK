@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ===== Hatched Pawns Stories ===== -->
+ 
+<AvaliMaleRimworldChild.title>Дитя Rimworld</AvaliMaleRimworldChild.title>
+<AvaliMaleRimworldChild.titleShort>Rimworld</AvaliMaleRimworldChild.titleShort>
+<AvaliMaleRimworldChild.baseDescription>[PAWN_nameDef] вылупился, и всё [PAWN_possessive] детство [PAWN_pronoun] помогал(а) другим колонистам выжить в этои враждебном мире.</AvaliMaleRimworldChild.baseDescription>
+
+<AvaliMaleRimworldAdult.title>Колонист Rimworld</AvaliMaleRimworldAdult.title>
+<AvaliMaleRimworldAdult.titleShort>Rimworld</AvaliMaleRimworldAdult.titleShort>
+<AvaliMaleRimworldAdult.baseDescription>После того, как [PAWN_nameDef] вырос [PAWN_pronoun] стал(а) полноценным членом колонии.</AvaliMaleRimworldAdult.baseDescription>
+
+  <!-- ===== Child Stories ===== -->
+  <!-- AvaliMaleAvaliIlluminateChild -->
+<AvaliMaleAvaliIlluminateChild.title>Дитя Иллюмината</AvaliMaleAvaliIlluminateChild.title>
+<AvaliMaleAvaliIlluminateChild.titleShort>Иллюминат</AvaliMaleAvaliIlluminateChild.titleShort>
+<AvaliMaleAvaliIlluminateChild.baseDescription>Placeholder</AvaliMaleAvaliIlluminateChild.baseDescription>
+
+  <!-- AvaliMaleWarTornSurvivor -->
+<AvaliMaleWarTornSurvivor.title>Выживший в войне</AvaliMaleWarTornSurvivor.title>
+<AvaliMaleWarTornSurvivor.titleShort>Выживший</AvaliMaleWarTornSurvivor.titleShort>
+<AvaliMaleWarTornSurvivor.baseDescription>[PAWN_nameDef] вылупился в разрушенном войной мире, где еда была крайне редка и другие Авали дрались за неё. [PAWN_pronoun] нреазговорчив и пытается избегать других из-за прошлой жизни, которую [PAWN_pronoun] пытается забыть.</AvaliMaleWarTornSurvivor.baseDescription>
+
+  <!-- AvaliMaleGeneticallyEditedWarrior -->
+<AvaliMaleGeneticallyEditedWarrior.title>Генетически модифицированный</AvaliMaleGeneticallyEditedWarrior.title>
+<AvaliMaleGeneticallyEditedWarrior.titleShort>Генетически модифицированный</AvaliMaleGeneticallyEditedWarrior.titleShort>
+<AvaliMaleGeneticallyEditedWarrior.baseDescription>Ещё до рождения [PAWN_nameDef] был подвержен изменениям, чтобы быть воином. [PAWN_pronoun] был идеален для почти любого боевого сценария, способным помериться силами с любым врагом уже в детстве. Однако [PAWN_pronoun] не обладал какими-либо социальными навыками, а его обучение во многих областях было коротким</AvaliMaleGeneticallyEditedWarrior.baseDescription>
+
+</LanguageData>

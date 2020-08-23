@@ -315,8 +315,8 @@
       <EquipDelay>2.5</EquipDelay>
 		</statBases>
     <stuffCategories>
-      <li>SLDBar</li>
-      <li>USLDBar</li>
+      <li>StrongMetallic</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
     <costStuffCount>22</costStuffCount>
     <costList>
@@ -374,8 +374,8 @@
       <PsychicSensitivity>-1</PsychicSensitivity>
     </equippedStatOffsets>
     <stuffCategories>
-      <li>SLDBar</li>
-      <li>USLDBar</li>
+      <li>StrongMetallic</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
     <costStuffCount>40</costStuffCount>
     <costList>
@@ -440,8 +440,8 @@
       <PsychicSensitivity>-1</PsychicSensitivity>
     </equippedStatOffsets>
     <stuffCategories>
-      <li>SLDBar</li>
-      <li>USLDBar</li>
+      <li>StrongMetallic</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
     <costStuffCount>40</costStuffCount>
     <costList>
@@ -520,7 +520,7 @@
       <GlobalLearningFactor>0.2</GlobalLearningFactor>
     </equippedStatOffsets>
     <stuffCategories>
-      <li>USLDBar</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
     <costStuffCount>50</costStuffCount>
     <costList>

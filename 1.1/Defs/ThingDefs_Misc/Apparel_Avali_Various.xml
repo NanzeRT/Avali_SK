@@ -518,7 +518,7 @@
       <CarryBulk>2.1</CarryBulk>
     </equippedStatOffsets>
     <stuffCategories>
-      <li>SLDBar</li>
+      <li>StrongMetallic</li>
     </stuffCategories>
     <costStuffCount>60</costStuffCount>
     <costList>
@@ -577,7 +577,7 @@
       <CarryBulk>3.4</CarryBulk>
     </equippedStatOffsets>
     <stuffCategories>
-      <li>SLDBar</li>
+      <li>StrongMetallic</li>
     </stuffCategories>
     <costStuffCount>70</costStuffCount>
     <costList>
@@ -637,7 +637,7 @@
       <CarryBulk>20</CarryBulk>
     </equippedStatOffsets>
     <stuffCategories>
-      <li>USLDBar</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
     <costStuffCount>30</costStuffCount>
     <costList>
@@ -703,8 +703,8 @@
       <CarryBulk>4</CarryBulk>
     </equippedStatOffsets>
     <stuffCategories>
-      <li>SLDBar</li>
-      <li>USLDBar</li>
+      <li>StrongMetallic</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
     <costStuffCount>100</costStuffCount>
     <costList>
@@ -779,8 +779,8 @@
       <CarryBulk>4</CarryBulk>
     </equippedStatOffsets>
     <stuffCategories>
-      <li>SLDBar</li>
-      <li>USLDBar</li>
+      <li>StrongMetallic</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
     <costStuffCount>90</costStuffCount>
     <costList>
@@ -865,7 +865,7 @@
       <CarryBulk>5</CarryBulk>
     </equippedStatOffsets>
     <stuffCategories>
-      <li>USLDBar</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
     <costStuffCount>120</costStuffCount>
     <costList>

@@ -29,29 +29,8 @@
             </goodwill>
           </li>
         </factionRelations>
-        <forcedRaceTraitEntries>
-          <li>
-            <!-- Xenophobic little shits! -->
-            <defName>Xenophobia</defName>
-            <degree>1</degree>
-            <chance>30</chance>
-          </li>
-          <li>
-            <!-- Feathers burn good! -->
-            <defName>FearsFire</defName>
-            <chance>40</chance>
-          </li>
-        </forcedRaceTraitEntries>
-        <disallowedTraits>
-          <!-- <li>Cannibal</li>  -->
-          <!-- <li>Nudist</li> -->
-          <li>Abrasive</li> <!-- It makes no sense anymore - a similar behavior is implemented in Avali.dll -->
-          <li>Transhumanist</li>
-          <li>BodyPurist</li>
-          <li>Jealous</li>
-          <li>Greedy</li>
-          <li>CreepyBreathing</li>
-        </disallowedTraits>
+     
+       
         <alienPartGenerator>
           <aliencrowntypes>
             <li>Average_Normal</li>

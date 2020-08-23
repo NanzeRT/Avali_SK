@@ -4,6 +4,7 @@
   <HediffDef>
     <defName>OxygenAtmosphere</defName>
     <label>oxygen atmosphere</label>
+    <description>The basic thermoregulation and life support system not designed to work in such severe for Avali conditions without additional equipment or augments. To survive more than day you colonists must have life support belts or armors with life support system. Minimal summary enviromental protection level must be non less then 15%.</description>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
     <hediffClass>HediffWithComps</hediffClass>
     <makesSickThought>true</makesSickThought>
@@ -14,11 +15,12 @@
     <lethalSeverity>1</lethalSeverity>
     <scenarioCanAdd>false</scenarioCanAdd>
     <taleOnVisible>ToxicityRevealed</taleOnVisible>
+    <isBad>true</isBad>
     <tendable>true</tendable>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <baseTendDurationHours>24</baseTendDurationHours>
-        <severityPerDayTended>-1.0</severityPerDayTended>
+        <baseTendDurationHours>96</baseTendDurationHours>
+        <severityPerDayTended>-3.0</severityPerDayTended>
       </li>
     </comps>
     <stages>
@@ -180,6 +182,7 @@
   <HediffDef>
     <defName>AvaliBiology</defName>
     <label>avali biology</label>
+    <description>Avali biology.</description>
     <hediffClass>Avali.Hediff_AvaliBiology</hediffClass>
     <everCurableByItem>false</everCurableByItem>
     <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
@@ -226,6 +229,11 @@
             <offset>1.0</offset>
           </li>
         </capMods>
+        
+        <restFallFactorOffset>1.0</restFallFactorOffset> <!-- Усталость -->
+        <statOffsets>
+          <RestRateMultiplier>3.0</RestRateMultiplier>
+        </statOffsets>
         <becomeVisible>false</becomeVisible>
       </li>
     </stages>
@@ -235,6 +243,7 @@
   <HediffDef>
     <defName>ToxicImmunity</defName>
     <label>toxic immunity</label>
+    <description>This colonist has 100% environmental protection, so no more susceptible to any kind of environmental hazards. Toxic Follouts no longer cause them any harm.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <everCurableByItem>false</everCurableByItem>
     <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
@@ -254,6 +263,7 @@
     <defName>AvaliAgeTracker</defName>
     <hediffClass>Avali.Hediff_AvaliAgeTracker</hediffClass>
     <label>avali kit age tracker</label>
+    <description>Avali kit age tracker.</description>
     <everCurableByItem>false</everCurableByItem>
     <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
@@ -268,6 +278,7 @@
   <HediffDef>
     <defName>CantTalk</defName>
     <label>can't talk</label>
+    <description>Can't talk.</description>
     <everCurableByItem>false</everCurableByItem>
     <defaultLabelColor>(255, 255, 255)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
@@ -288,7 +299,9 @@
   <HediffDef>
     <defName>AvaliSugarEffect</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>avali sugar effect</label>
+    <label>high on sugar</label>
+    <labelNoun>a sugar high</labelNoun>
+    <description>This Avali high on sugar, they have enhanced senses, move and work at 50% faster, but get tired at 250% faster.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
@@ -330,6 +343,7 @@
     <defName>AvaliHasEgg</defName>
     <label>has egg</label>
     <labelNoun>has egg</labelNoun>
+    <description>This colonist has egg.</description>
     <everCurableByItem>false</everCurableByItem>
     <hediffClass>Avali.Hediff_AvaliHasEgg</hediffClass>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
@@ -373,6 +387,7 @@
   <HediffDef>
     <defName>AvaliCaresOfEgg</defName>
     <label>cares of the egg</label>
+    <description>Cares of the egg.</description>
     <everCurableByItem>false</everCurableByItem>
     <hediffClass>Avali.Hediff_AvaliCaresOfEgg</hediffClass>
     <defaultLabelColor>(255, 255, 255)</defaultLabelColor>

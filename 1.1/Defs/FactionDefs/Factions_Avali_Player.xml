@@ -28,6 +28,8 @@
 	<apparelStuffFilter>
     <thingDefs>
       <li>AvaliNanoFibre</li>
+      <li>TitaniumBar</li>
+      <li>AvaliAerogel</li>
     </thingDefs>
 	</apparelStuffFilter>
   <colorSpectrum>

@@ -2,7 +2,7 @@
 <Defs>
 	<!-- ===== Bases ===== -->
 	<ThingDef Name="AvaliBaseMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
-		<techLevel>Ultra</techLevel>
+		<techLevel>Spacer</techLevel>
 		<smeltable>true</smeltable>
 		<weaponTags>
 			<li>Melee</li>

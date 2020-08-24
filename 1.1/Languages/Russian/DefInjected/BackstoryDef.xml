@@ -12,6 +12,7 @@
 <AvaliMaleRimworldAdult.baseDescription>После того, как [PAWN_nameDef] вырос [PAWN_pronoun] стал(а) полноценным членом колонии.</AvaliMaleRimworldAdult.baseDescription>
 
   <!-- ===== Child Stories ===== -->
+  
   <!-- AvaliMaleAvaliIlluminateChild -->
 <AvaliMaleAvaliIlluminateChild.title>Дитя Иллюмината</AvaliMaleAvaliIlluminateChild.title>
 <AvaliMaleAvaliIlluminateChild.titleShort>Иллюминат</AvaliMaleAvaliIlluminateChild.titleShort>
@@ -26,5 +27,25 @@
 <AvaliMaleGeneticallyEditedWarrior.title>Генетически модифицированный</AvaliMaleGeneticallyEditedWarrior.title>
 <AvaliMaleGeneticallyEditedWarrior.titleShort>Генетически модифицированный</AvaliMaleGeneticallyEditedWarrior.titleShort>
 <AvaliMaleGeneticallyEditedWarrior.baseDescription>Ещё до рождения [PAWN_nameDef] был подвержен изменениям, чтобы быть воином. [PAWN_pronoun] был идеален для почти любого боевого сценария, способным помериться силами с любым врагом уже в детстве. Однако [PAWN_pronoun] не обладал какими-либо социальными навыками, а его обучение во многих областях было коротким</AvaliMaleGeneticallyEditedWarrior.baseDescription>
+
+  <!-- AvaliMaleGeneticallyEditedSocial -->
+<AvaliMaleGeneticallyEditedSocial.title>Генетически модифицированный</AvaliMaleGeneticallyEditedSocial.title>
+<AvaliMaleGeneticallyEditedSocial.titleShort>Генетически модифицированный</AvaliMaleGeneticallyEditedSocial.titleShort>
+<AvaliMaleGeneticallyEditedSocial.baseDescription>До своего вылупления, [PAWN_nameDef] был генетически изменён чтобы быть крайне социальным. [PAWN_pronoun] начал говорить на намного меньшем возрасте чем большинство Авали и уже в 4 года [PAWN_pronoun] быстро улучшал способность убеждать других и понимать что им нравится а что нет. Со временем стало очевидно что [PAWN_pronoun] отказывается вредить другим и ненавидит заниматься простым физическим трудом.</AvaliMaleGeneticallyEditedSocial.baseDescription>
+
+  <!-- AvaliMaleLostEgg -->
+<AvaliMaleLostEgg.title>Потерянное яйцо</AvaliMaleLostEgg.title>
+<AvaliMaleLostEgg.titleShort>Потерянное яйцо</AvaliMaleLostEgg.titleShort>
+<AvaliMaleLostEgg.baseDescription>Placeholder</AvaliMaleLostEgg.baseDescription>
+
+  <!-- Reject -->
+<AvaliMaleRejected.title>Брошеное яйцо</AvaliMaleRejected.title>
+<AvaliMaleRejected.titleShort>Брошеное яйцо</AvaliMaleRejected.titleShort>
+<AvaliMaleRejected.baseDescription>Когда [PAWN_DefName] вылупился, [PAWN_pronoun] не знал(а) где находится. Будучи потерянным (ой) и одним(ой), было очевидно что [PAWN_pronoun] был(а) отвергнут(а) или заброшен(а). Только через чистую удачу [PAWN_pronoun] смог(ла) пережить ужасы одиночества, обучившись навыкам хищника самостоятельно.</AvaliMaleRejected.baseDescription>
+
+  <!-- CoreChild -->
+
+
+
 
 </LanguageData>

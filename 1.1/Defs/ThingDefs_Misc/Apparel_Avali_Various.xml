@@ -491,7 +491,7 @@
     <defName>Avali_Apparel_SurvivalGear</defName>
     <label>avali survival gear</label>
     <description>The most basic life support and protection for the spacefaring Avali.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>AvaliSurvivalGear</researchPrerequisite>
@@ -551,7 +551,7 @@
     <defName>Avali_Apparel_ScoutArmor</defName>
     <label>avali scout armor</label>
     <description>Armor favoured by pathfinders. Doesn't give much protection, but increases mobility and environmental survivability.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>AvaliScoutArmor</researchPrerequisite>
@@ -600,6 +600,7 @@
         <li>OnSkin</li>
 			</layers>
 			<tags>
+        <li>AvaliCivilian</li>
         <li>AvaliSpacer</li>
         <li>AvaliScout</li>
         <li>EVA</li>
@@ -612,7 +613,7 @@
     <defName>Avali_Apparel_Exosuit</defName>
     <label>avali exosuit</label>
     <description>A powered exosuit.\nThe backbone for Avali power suits.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>AvaliExosuit</researchPrerequisite>
@@ -674,7 +675,7 @@
     <defName>Avali_Apparel_GuardianArmor</defName>
     <label>avali "Guardian" combat suit</label>
     <description>The biggest known design of Avali combat suit, weighting as much as a small car and being able to ram though the toughest of walls. \n\nCommonly used in frontlines assaults, plantary invasions, and heavy guard duty, other then that the suit is too impractical for anything else.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>AvaliGuardianArmor</researchPrerequisite>
@@ -747,7 +748,7 @@
     <defName>Avali_Apparel_CombatArmor</defName>
     <label>avali combat suit</label>
     <description>The standard for Avali Combat suit, the most armor you can put on an exosuit without affecting mobility.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>AvaliCombatArmor</researchPrerequisite>
@@ -835,7 +836,7 @@
     <defName>Avali_Apparel_HellcatArmor</defName>
     <label>avali "Hellcat" combat suit</label>
     <description>The "Hellcat" armor suite. Using all the power of the exoskeleton for mobility and firing stability. Doesn't offer much protection.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>AvaliHellcatArmor</researchPrerequisite>

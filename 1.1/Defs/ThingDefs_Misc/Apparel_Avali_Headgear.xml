@@ -315,8 +315,7 @@
       <EquipDelay>2.5</EquipDelay>
 		</statBases>
     <stuffCategories>
-      <li>StrongMetallic</li>
-      <li>SolidMetallic</li>
+      <li>Metallic</li>
     </stuffCategories>
     <costStuffCount>22</costStuffCount>
     <costList>
@@ -334,7 +333,9 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
+        <li>AvaliCivilian</li>
         <li>AvaliSpacer</li>
+        <li>AvaliHeadgear</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -344,7 +345,7 @@
     <defName>Avali_Apparel_GuardianHelmet</defName>
     <label>avali "Guardian" combat helmet</label>
     <description>The Guardian combat helmet is the is equivalent to wearing a tank on your head, massive, heavy and ungodly scary.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>AvaliGuardianArmor</researchPrerequisite>
@@ -410,7 +411,7 @@
     <defName>Avali_Apparel_CombatHelmet</defName>
     <label>avali combat helmet</label>
     <description>The standard for Avali power armors, the balance between armor and advanced technology.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>AvaliCombatArmor</researchPrerequisite>
@@ -473,7 +474,7 @@
     <defName>Avali_Apparel_CombatHelmetElite</defName>
     <label>elite avali combat helmet</label>
     <description>The standard for Avali power armors, the balance between armor and advanced technology. \n\nThis one was painted to have a comsic look.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Avali/Apparel/CombatHelmet/CombatHelmetElite</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -489,7 +490,7 @@
     <defName>Avali_Apparel_HellcatHelmet</defName>
     <label>avali "Hellcat" combat helmet</label>
     <description>The combat helmet is a complete upgrade from the standard design, with more advanced tracking hardware, advanced AI, and the bouns of a completed personal psychic shield. But PR wasnt too keen on the idea of the design.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>AvaliHellcatArmor</researchPrerequisite>
@@ -552,7 +553,7 @@
     <defName>Avali_Apparel_HellcatHelmetElite</defName>
     <label>elite avali "Hellcat"combat helmet </label>
     <description>The combat helmet is a complete upgrade from the standard design, with more advanced tracking hardware, advanced AI, and the bouns of a completed personal psychic shield. But PR was keen on the idea of the design, thinking a dark red with orange was a good idea.</description>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Avali/Apparel/HellcatHelmet/HellcatHelmetElite</texPath>
       <graphicClass>Graphic_Single</graphicClass>

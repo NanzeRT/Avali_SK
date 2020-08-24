@@ -220,7 +220,7 @@
         <magazineSize>4</magazineSize>
         <reloadOneAtATime>true</reloadOneAtATime>
         <reloadTime>0.8</reloadTime>
-        <ammoSet>AmmoSet_RailBuck</ammoSet>
+        <ammoSet>AmmoSet_Rail_Buck</ammoSet>
       </li>
     </comps>
   </ThingDef>
@@ -292,6 +292,7 @@
       <SwayFactor>2</SwayFactor>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
       <Bulk>4.1</Bulk>
+      <burstShotCount>20</burstShotCount>
       <ShotSpread>0.07</ShotSpread>
     </statBases>
     <!--<costList>

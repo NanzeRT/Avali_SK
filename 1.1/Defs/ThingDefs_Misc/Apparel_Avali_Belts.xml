@@ -75,6 +75,7 @@
       <Mass>2</Mass>
 			<WorkToMake>1000</WorkToMake>
       <ArmorRating_Enviromental>0.5</ArmorRating_Enviromental>
+      <Insulation_Heat>10</Insulation_Heat>
     </statBases>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>

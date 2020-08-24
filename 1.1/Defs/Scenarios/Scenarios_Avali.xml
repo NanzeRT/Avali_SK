@@ -71,12 +71,12 @@
 				<thingDef>Ammo_AvaliRailLow</thingDef>
 				<count>600</count>
 			</li>
-      <li Class="ScenPart_StartingThing_Defined">
+    <!--  <li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>ChateauAvalon</thingDef>
         <visible>false</visible>
 				<count>3</count>
-			</li>
+			</li> -->
       
      
 			<li Class="ScenPart_ScatterThingsAnywhere">

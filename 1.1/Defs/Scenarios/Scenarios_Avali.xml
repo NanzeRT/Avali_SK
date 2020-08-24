@@ -71,6 +71,12 @@
 				<thingDef>Ammo_AvaliRailLow</thingDef>
 				<count>600</count>
 			</li>
+      <li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ChateauAvalon</thingDef>
+        <visible>false</visible>
+				<count>3</count>
+			</li>
       
      
 			<li Class="ScenPart_ScatterThingsAnywhere">
@@ -99,6 +105,18 @@
 					<thingDef>CrashedShipWreck</thingDef>
 					<count>3</count>
       </li>
+      <li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>WoodPlank</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>BlocksGranite</thingDef>
+					<count>40</count>
+				</li>
         
         
       <li Class="ScenPart_CreateIncident">

@@ -23,6 +23,9 @@
 			<ComponentIndustrial>6</ComponentIndustrial>
       <ComponentSpacer>3</ComponentSpacer>
 		</costList>
+        <equippedStatOffsets>
+          <CarryBulk>5</CarryBulk>
+    </equippedStatOffsets>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
 			<researchPrerequisite>AvaliShieldBelt</researchPrerequisite>
@@ -77,6 +80,9 @@
       <ArmorRating_Enviromental>0.5</ArmorRating_Enviromental>
       <Insulation_Heat>10</Insulation_Heat>
     </statBases>
+    <equippedStatOffsets>
+          <CarryBulk>5</CarryBulk>
+    </equippedStatOffsets>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>

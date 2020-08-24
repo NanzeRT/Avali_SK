@@ -17,8 +17,12 @@
       <EnergyShieldEnergyMax>3.3</EnergyShieldEnergyMax>
 			<WorkToMake>26000</WorkToMake>
     </statBases>
+    </statBases>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
 		<costList>
-      <Plasteel>50</Plasteel>
       <Uranium>8</Uranium>
 			<ComponentIndustrial>6</ComponentIndustrial>
       <ComponentSpacer>3</ComponentSpacer>

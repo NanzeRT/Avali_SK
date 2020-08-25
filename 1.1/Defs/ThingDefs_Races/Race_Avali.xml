@@ -297,6 +297,9 @@
           <li>Apparel_SpaceSuitBody</li>
 					<li>Apparel_SpaceSuitHelmet</li>
 					<li>Apparel_SpaceSuitBodyHeavy</li>
+          
+          <!-- HSK adaptation Apparel -->
+          <li>Apparel_TribalBackpack</li>
         </whiteApparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         

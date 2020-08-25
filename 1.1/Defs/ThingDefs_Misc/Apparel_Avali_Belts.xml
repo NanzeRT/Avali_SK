@@ -17,19 +17,12 @@
       <EnergyShieldEnergyMax>3.3</EnergyShieldEnergyMax>
 			<WorkToMake>26000</WorkToMake>
     </statBases>
-    </statBases>
-		<stuffCategories>
-			<li>StrongMetallic</li>
-		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
 		<costList>
+      <Plasteel>50</Plasteel>
       <Uranium>8</Uranium>
 			<ComponentIndustrial>6</ComponentIndustrial>
       <ComponentSpacer>3</ComponentSpacer>
 		</costList>
-        <equippedStatOffsets>
-          <CarryBulk>5</CarryBulk>
-    </equippedStatOffsets>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
 			<researchPrerequisite>AvaliShieldBelt</researchPrerequisite>
@@ -85,7 +78,8 @@
       <Insulation_Heat>10</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
-          <CarryBulk>5</CarryBulk>
+      <MoveSpeed>0.1</MoveSpeed>
+      <CarryBulk>5</CarryBulk>
     </equippedStatOffsets>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>

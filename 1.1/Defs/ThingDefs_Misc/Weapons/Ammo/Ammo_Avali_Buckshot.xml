@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingCategoryDef>
-		<defName>RailgunAmmoBuckshot</defName>
-		<label>Ammunition railgun (Bucksot)</label>
+		<defName>RailgunsAmmoBuck</defName>
+		<label>Ammunition railgun (Buckshot)</label>
 		<parent>AmmoAdvanced</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
 	</ThingCategoryDef>
@@ -10,17 +10,17 @@
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_RailBuckshot</defName>
-		<label>Buckshot rail ammo</label>
+		<defName>AmmoSet_RailShot</defName>
+		<label>Backshot rail ammo</label>
 		<ammoTypes>
-			<Ammo_AvaliRailBuckshot>Bullet_AvaliBuckRailLance</Ammo_AvaliRailBuckshot>
+			<Ammo_AvaliRailBuck>Bullet_AvaliLargeRailBuck</Ammo_AvaliRailBuck>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 		
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
-		<defName>Ammo_AvaliRailBuckshot</defName>
+		<defName>Ammo_AvaliRailBuck</defName>
 		<label>Buckshot Rail Ammo</label>
     <description>Avali buckshot rail ammunition</description>
 		<tradeTags>
@@ -34,22 +34,22 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>25</MarketValue>
-			<Mass>0.02</Mass>
-			<Bulk>0.03</Bulk>
+			<MarketValue>28</MarketValue>
+			<Mass>0.07</Mass>
+			<Bulk>0.06</Bulk>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>0.9</Flammability>
 		</statBases>
-		<tradeability>Sellable</tradeability>
+    <ammoClass>Charged</ammoClass>
+    <tradeability>Sellable</tradeability>
 		<destroyOnDrop>False</destroyOnDrop>
-		<ammoClass>Charged</ammoClass>
 	</ThingDef>
 	<!-- ================== Projectiles ================== -->
 
 	<ThingDef Class="SK.ThingDef_LaserProjectileCR" ParentName="SK_BaseBullet">
-		<defName>Bullet_AvaliBuckshotRailLance</defName>
+		<defName>Bullet_AvaliBuckRailLance</defName>
 		<thingClass>SK.Projectile_LaserCE</thingClass>
-		<label>Avali shotgun charge lance</label>
+		<label>Avali buckshot charge lance</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeRay</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -60,7 +60,7 @@
 			<speed>150</speed>
       <pelletCount>6</pelletCount>
       <spreadMult>18</spreadMult>
-			<!-- <armorPenetrationBase>0.21</armorPenetrationBase> -->
+			<!-- <armorPenetrationBase>1.1</armorPenetrationBase> -->
 			<armorPenetrationSharp>80</armorPenetrationSharp>
 			<armorPenetrationBlunt>240</armorPenetrationBlunt>
 		</projectile>
@@ -94,7 +94,7 @@
 						<li>SilverBar</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>15</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -111,7 +111,7 @@
 		</recipeUsers>
     <researchPrerequisite>AvaliRailguns</researchPrerequisite>
 		<products>
-			<Ammo_AvaliRailBuckshot>25</Ammo_AvaliRailBuckshot>
+			<Ammo_AvaliRailBuck>25</Ammo_AvaliRailBuck>
 		</products>
 	</RecipeDef>  
 </Defs>

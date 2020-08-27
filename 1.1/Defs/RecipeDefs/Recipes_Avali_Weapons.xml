@@ -574,7 +574,7 @@
 	</RecipeDef>
 	<!-- Melee weapon -->
 	<!-- Pila -->
-	<RecipeDef>
+	<!-- <RecipeDef>
 		<defName>Build_Avali_Pila</defName>
 		<label>Build Avali pila</label>
 		<description>A refined hunting pilum. The shaft penetrates deeper thanks to micro-engines that ignite when thrown and accelerates the pilum in air.</description>
@@ -634,7 +634,7 @@
 			<li>AvaliNanolathe</li>
 		</recipeUsers>
 		<researchPrerequisite>AvaliMelee</researchPrerequisite>
-	</RecipeDef>
+	</RecipeDef> -->
 	<!-- Dagger -->
 	<RecipeDef>
 		<defName>Build_Avali_Dagger</defName>

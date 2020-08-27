@@ -549,7 +549,7 @@
   </ThingDef>
   
   <!-- ==================================== Elite avali Hellcat combat helmet =====================================-->
-  <ThingDef ParentName="Avali_Apparel_HellcatHelmet">
+  <!-- <ThingDef ParentName="Avali_Apparel_HellcatHelmet">
     <defName>Avali_Apparel_HellcatHelmetElite</defName>
     <label>elite avali "Hellcat"combat helmet </label>
     <description>The combat helmet is a complete upgrade from the standard design, with more advanced tracking hardware, advanced AI, and the bouns of a completed personal psychic shield. But PR was keen on the idea of the design, thinking a dark red with orange was a good idea.</description>
@@ -562,5 +562,5 @@
       <MarketValue>1539</MarketValue>
     </statBases>
     <generateCommonality>0.01</generateCommonality>
-  </ThingDef>
+  </ThingDef> -->
 </Defs>

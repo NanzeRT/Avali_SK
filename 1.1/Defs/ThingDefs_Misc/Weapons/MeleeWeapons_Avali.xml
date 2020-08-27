@@ -41,7 +41,7 @@
 		</inspectorTabs>
 	</ThingDef>
 	<!-- ===== Avali Pila ===== -->
-	<ThingDef ParentName="AvaliBaseMeleeWeapon">
+	<!-- <ThingDef ParentName="AvaliBaseMeleeWeapon">
 		<defName>Avali_Pila</defName>
 		<label>avali 'Hail' pila</label>
 		<description>A refined hunting pilum. The shaft penetrates deeper thanks to micro-engines that ignite when thrown and accelerates the pilum in air.</description>
@@ -107,7 +107,7 @@
 			<armorPenetrationBase>0.2</armorPenetrationBase>
 			<speed>40</speed>
 		</projectile>
-	</ThingDef>
+	</ThingDef> -->
 	<!-- ===== Avali Dagger ===== -->
 	<ThingDef ParentName="AvaliBaseMeleeWeapon">
 		<defName>Avali_Dagger</defName>

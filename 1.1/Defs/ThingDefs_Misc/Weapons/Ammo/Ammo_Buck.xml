@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingCategoryDef>
-		<defName>RailgunsAmmoShotgun</defName>
+		<defName>RailgunAmmoBuckshot</defName>
 		<label>Ammunition railgun (Bucksot)</label>
 		<parent>AmmoAdvanced</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
@@ -10,17 +10,17 @@
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_Rail_Buck</defName>
+		<defName>AmmoSet_RailBuckshot</defName>
 		<label>Buckshot rail ammo</label>
 		<ammoTypes>
-			<Ammo_AvaliRail_Buck>Bullet_AvaliBuckRailLance</Ammo_AvaliRail_Buck>
+			<Ammo_AvaliRailBuckshot>Bullet_AvaliBuckRailLance</Ammo_AvaliRailBuckshot>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 		
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
-		<defName>Ammo_AvaliRail_Buck</defName>
+		<defName>Ammo_AvaliRailBuckshot</defName>
 		<label>Buckshot Rail Ammo</label>
     <description>Avali buckshot rail ammunition</description>
 		<tradeTags>
@@ -75,7 +75,7 @@
 	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_AvaliRail_Buck</defName>
+		<defName>MakeAmmo_AvaliRailBuck</defName>
 		<label>make avali Buckshot Rail cartridge x25</label>
 		<description>Craft 25 Buckshot Rail cartridges.</description>
 		<jobString>Making Buckshot Rail cartridges.</jobString>
@@ -111,7 +111,7 @@
 		</recipeUsers>
     <researchPrerequisite>AvaliRailguns</researchPrerequisite>
 		<products>
-			<Ammo_AvaliRail_Buck>25</Ammo_AvaliRail_Buck>
+			<Ammo_AvaliRailBuckshot>25</Ammo_AvaliRailBuckshot>
 		</products>
 	</RecipeDef>  
 </Defs>

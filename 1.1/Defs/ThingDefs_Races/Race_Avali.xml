@@ -727,7 +727,7 @@
           <li>(3.5, 0)</li>
         </points>
       </litterSizeCurve>
-      <lifeStageAges>
+    <!--  <lifeStageAges>
         <li>
           <def>BabyStageAvali</def>
           <minAge>0</minAge>
@@ -752,7 +752,7 @@
           <def>AncestorStageAvali</def>
           <minAge>140</minAge>
         </li>
-      </lifeStageAges>
+      </lifeStageAges> -->
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>

@@ -19,6 +19,7 @@
 						<li>Malaria</li>
             <li>Plague</li>
 						<li>Flu</li>
+            <li>Measles</li>
 					</makeImmuneTo>
       </li>
     </stages>

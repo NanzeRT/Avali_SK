@@ -29,6 +29,7 @@
         <li>Kevlar</li>
         <li>Plasteel</li>
         <li>AvaliAerogel</li>
+        <li>TitaniumBar</li>
       </thingDefs>
     </apparelStuffFilter>
     <factionIconPath>World/WorldObjects/AvaliBaseIcon</factionIconPath>
@@ -36,7 +37,7 @@
   
   <FactionDef Name="AvaliIndependentBase"  Abstract="True">
     <leaderTitle>faction leader</leaderTitle>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <backstoryCategories>
       <li>AvaliBackstory</li>
     </backstoryCategories>

@@ -300,6 +300,7 @@
           
           <!-- HSK adaptation Apparel -->
           <li>Apparel_TribalBackpack</li>
+          <li>Apparello_Workglove</li>
         </whiteApparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         

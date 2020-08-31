@@ -41,11 +41,31 @@
   <!-- Reject -->
 <AvaliMaleRejected.title>Брошеное яйцо</AvaliMaleRejected.title>
 <AvaliMaleRejected.titleShort>Брошеное яйцо</AvaliMaleRejected.titleShort>
-<AvaliMaleRejected.baseDescription>Когда [PAWN_DefName] вылупился, [PAWN_pronoun] не знал(а) где находится. Будучи потерянным (ой) и одним(ой), было очевидно что [PAWN_pronoun] был(а) отвергнут(а) или заброшен(а). Только через чистую удачу [PAWN_pronoun] смог(ла) пережить ужасы одиночества, обучившись навыкам хищника самостоятельно.</AvaliMaleRejected.baseDescription>
+<AvaliMaleRejected.baseDescription>Когда [PAWN_DefName] вылупился, [PAWN_pronoun] не знал(а) где находится. Будучи потерянным(ой) и одним(ой), было очевидно что [PAWN_pronoun] был(а) отвергнут(а) или заброшен(а). Только через чистую удачу [PAWN_pronoun] смог(ла) пережить ужасы одиночества, обучившись навыкам хищника самостоятельно.</AvaliMaleRejected.baseDescription>
 
   <!-- CoreChild -->
+<AvaliMaleCoreChild.title>Дитя ядра Иллюмината</AvaliMaleCoreChild.title>
+<AvaliMaleCoreChild.titleShort>Дитя ядра</AvaliMaleCoreChild.titleShort>
+<AvaliMaleCoreChild.baseDescription>Placeholder</AvaliMaleCoreChild.baseDescription>
 
+  <!-- AvaliMaleSpaceNomad -->
+<AvaliMaleSpaceNomad.title>Космический кочевник</AvaliMaleSpaceNomad.title>
+<AvaliMaleSpaceNomad.titleShort>Космический кочевник</AvaliMaleSpaceNomad.titleShort>
+<AvaliMaleSpaceNomad.baseDescription> Когда[PAWN_nameDef] [PAWN_gender ? вылупился : вылупилась], [PAWN_pronoun] был частью племени космических кочевников. [PAWN_pronoun] быстро вник в искусство Авалийского ремесла и довольно быстро стал помогать в строительстве и производстве Авалийского снаряжения, одновременно помогая содержать сады на корабле.</AvaliMaleSpaceNomad.baseDescription>
 
+  <!-- AvaliMaleArtchild -->
+<AvaliMaleArtchild.title>Юный художник</AvaliMaleArtchild.title>
+<AvaliMaleArtchild.titleShort>Ребёнок-художник</AvaliMaleArtchild.titleShort>
+<AvaliMaleArtchild.baseDescription>Placeholder</AvaliMaleArtchild.baseDescription>
 
+  <!-- AvaliMaleArchitect -->
+<AvaliMaleArchitect.title>Архитектор</AvaliMaleArchitect.title>
+<AvaliMaleArchitect.titleShort>Архитектор</AvaliMaleArchitect.titleShort>
+<AvaliMaleArchitect.baseDescription>Placeholder</AvaliMaleArchitect.baseDescription>
+
+  <!-- AvaliMaleIndependentYouth -->
+<AvaliMaleIndependentYouth.title>Независимый ребенок</AvaliMaleIndependentYouth.title>
+<AvaliMaleIndependentYouth.titleShort>Беспризорник</AvaliMaleIndependentYouth.titleShort>
+<AvaliMaleIndependentYouth.baseDescription>Placeholder</AvaliMaleIndependentYouth.baseDescription>
 
 </LanguageData>

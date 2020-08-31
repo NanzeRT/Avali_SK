@@ -80,6 +80,7 @@
     <equippedStatOffsets>
       <MoveSpeed>0.1</MoveSpeed>
       <CarryBulk>5</CarryBulk>
+      <CarryingCapacity>10</CarryingCapacity>
     </equippedStatOffsets>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>

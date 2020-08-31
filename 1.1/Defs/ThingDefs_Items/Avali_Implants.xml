@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <ThingDef Name="AvaliAugmentBase" Abstract="True" ParentName="BodyPartBase">
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <thingCategories>
       <li>AugmentsAvali</li>
     </thingCategories>
@@ -33,7 +33,7 @@
   <!-- PlasteelAvaliTalons -->
   <ThingDef ParentName="BodyPartBase">
     <defName>PlasteelAvaliTalons</defName>
-    <label>plasteel Avali talons</label>
+    <label>steel Avali talons</label>
     <description>A relatively simple method of increasing the damage Avali talons can do.</description>
     <techLevel>Industrial</techLevel>
     <thingCategories>

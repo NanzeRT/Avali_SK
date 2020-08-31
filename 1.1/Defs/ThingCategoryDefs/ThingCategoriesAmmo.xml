@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>AmmoRailAvali</defName>
+      <label>ammunition</label>
+      <parent>Weapons</parent>
+      <iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+    </ThingCategoryDef>
+	
+</Defs>

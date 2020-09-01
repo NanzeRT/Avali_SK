@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliSleepingRoomImpressiveness -->
+
+  <AvaliSleepingRoomImpressiveness.stages.0.label>ужасная спальня</AvaliSleepingRoomImpressiveness.stages.0.label>
+  <AvaliSleepingRoomImpressiveness.stages.0.description>Моя спальная комната - ужасное место.</AvaliSleepingRoomImpressiveness.stages.0.description>
+  <AvaliSleepingRoomImpressiveness.stages.1.label>скучная спальня</AvaliSleepingRoomImpressiveness.stages.1.label>
+  <AvaliSleepingRoomImpressiveness.stages.1.description>Моя спальная комната - скучное место.</AvaliSleepingRoomImpressiveness.stages.1.description>
+  <AvaliSleepingRoomImpressiveness.stages.2.label>посредственная спальня</AvaliSleepingRoomImpressiveness.stages.2.label>
+  <AvaliSleepingRoomImpressiveness.stages.2.description>Моя спальная комната - посредственное место.</AvaliSleepingRoomImpressiveness.stages.2.description>
+  <AvaliSleepingRoomImpressiveness.stages.3.label>неплохая спальня</AvaliSleepingRoomImpressiveness.stages.3.label>
+  <AvaliSleepingRoomImpressiveness.stages.3.description>Моя спальня очень интересная. Мне нравится.</AvaliSleepingRoomImpressiveness.stages.3.description>
+  <AvaliSleepingRoomImpressiveness.stages.4.label>приятная спальня</AvaliSleepingRoomImpressiveness.stages.4.label>
+  <AvaliSleepingRoomImpressiveness.stages.4.description>Моя спальная комната на самом деле немного впечатляет. Мне нравится.</AvaliSleepingRoomImpressiveness.stages.4.description>
+  <AvaliSleepingRoomImpressiveness.stages.5.label>впечатляющая спальня</AvaliSleepingRoomImpressiveness.stages.5.label>
+  <AvaliSleepingRoomImpressiveness.stages.5.description>Моя спальная комната впечатляет. Я люблю ее!</AvaliSleepingRoomImpressiveness.stages.5.description>
+  <AvaliSleepingRoomImpressiveness.stages.6.label>очень впечатляющая спальня</AvaliSleepingRoomImpressiveness.stages.6.label>
+  <AvaliSleepingRoomImpressiveness.stages.6.description>Моя спальная комната очень впечатляет. Это лучшее место на свете!</AvaliSleepingRoomImpressiveness.stages.6.description>
+  <AvaliSleepingRoomImpressiveness.stages.7.label>удивительная спальня</AvaliSleepingRoomImpressiveness.stages.7.label>
+  <AvaliSleepingRoomImpressiveness.stages.7.description>Моя спальная комната удивительна. Это лучшее место на свете!</AvaliSleepingRoomImpressiveness.stages.7.description>
+  <AvaliSleepingRoomImpressiveness.stages.8.label>невероятно впечатляющая спальня</AvaliSleepingRoomImpressiveness.stages.8.label>
+  <AvaliSleepingRoomImpressiveness.stages.8.description>Моя спальная комната невероятно впечатляет. Это лучшее место на свете!</AvaliSleepingRoomImpressiveness.stages.8.description>
+  <AvaliSleepingRoomImpressiveness.stages.9.label>восхитительная спальня</AvaliSleepingRoomImpressiveness.stages.9.label>
+  <AvaliSleepingRoomImpressiveness.stages.9.description>Моя спальная комната - лучшее место, которое только можно представить. Она великолепна.</AvaliSleepingRoomImpressiveness.stages.9.description>
+
+
+  <!-- AvaliPackSleepingRoomRelations -->
+
+  <AvaliPackSleepingRoomRelations.stages.0.label>спит со стаей</AvaliPackSleepingRoomRelations.stages.0.label>
+  <AvaliPackSleepingRoomRelations.stages.0.description>Со своей стаей я никогда не буду чувствовать себя одиноким.</AvaliPackSleepingRoomRelations.stages.0.description>
+  <AvaliPackSleepingRoomRelations.stages.1.label>спит со стаей</AvaliPackSleepingRoomRelations.stages.1.label>
+  <AvaliPackSleepingRoomRelations.stages.1.description>Со своей стаей я никогда не буду чувствовать себя одиноким.</AvaliPackSleepingRoomRelations.stages.1.description>
+  <AvaliPackSleepingRoomRelations.stages.2.label>спит со стаей</AvaliPackSleepingRoomRelations.stages.2.label>
+  <AvaliPackSleepingRoomRelations.stages.2.description>Со своей стаей я никогда не буду чувствовать себя одиноким.</AvaliPackSleepingRoomRelations.stages.2.description>
+  <AvaliPackSleepingRoomRelations.stages.3.label>спит со стаей</AvaliPackSleepingRoomRelations.stages.3.label>
+  <AvaliPackSleepingRoomRelations.stages.3.description>Со своей стаей я никогда не буду чувствовать себя одиноким.</AvaliPackSleepingRoomRelations.stages.3.description>
+  <AvaliPackSleepingRoomRelations.stages.4.label>спит со стаей</AvaliPackSleepingRoomRelations.stages.4.label>
+  <AvaliPackSleepingRoomRelations.stages.4.description>Со своей стаей я никогда не буду чувствовать себя одиноким.</AvaliPackSleepingRoomRelations.stages.4.description>
+
+
+</LanguageData>

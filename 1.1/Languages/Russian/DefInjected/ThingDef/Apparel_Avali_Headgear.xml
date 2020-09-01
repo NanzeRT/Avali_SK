@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Avali ear rings -->
+
+  <Avali_Apparel_Rings.label>avali ear rings</Avali_Apparel_Rings.label>
+  <Avali_Apparel_Rings.description>Just a few rings for ears.</Avali_Apparel_Rings.description>
+
+
+  <!-- Avali head wraps -->
+
+  <Avali_Apparel_HeadWraps.label>avali head wraps</Avali_Apparel_HeadWraps.label>
+  <Avali_Apparel_HeadWraps.description>For when impressions count.</Avali_Apparel_HeadWraps.description>
+
+
+  <!-- Avali scarf -->
+
+  <Avali_Apparel_Scarf.label>scarf</Avali_Apparel_Scarf.label>
+  <Avali_Apparel_Scarf.description>A nice thick wooly scarf, perfect for a cold day on Avalon.</Avali_Apparel_Scarf.description>
+
+
+  <!-- Avali cap -->
+
+  <Avali_Apparel_Cap.label>avali cap</Avali_Apparel_Cap.label>
+  <Avali_Apparel_Cap.description>A tiny cap.</Avali_Apparel_Cap.description>
+
+
+  <!-- Avali headset -->
+
+  <Avali_Apparel_Headset.label>avali headset</Avali_Apparel_Headset.label>
+  <Avali_Apparel_Headset.description>Little more than a robust headset and microphone.</Avali_Apparel_Headset.description>
+
+
+  <!-- Avali scout HUD -->
+
+  <Avali_Apparel_ScoutHUD.label>avali scout's HUD</Avali_Apparel_ScoutHUD.label>
+  <Avali_Apparel_ScoutHUD.description>A lightweight headset HUD popular amongst explorers.</Avali_Apparel_ScoutHUD.description>
+
+
+  <!-- Avali light combat helmet -->
+
+  <Avali_Apparel_LightCombatHelmet.label>avali light combat helmet</Avali_Apparel_LightCombatHelmet.label>
+  <Avali_Apparel_LightCombatHelmet.description>A simple helmet which gives moderate protection against sharp attacks. Not effective against blunt weapons.</Avali_Apparel_LightCombatHelmet.description>
+
+
+  <!-- Avali "Guardian" combat helmet -->
+
+  <Avali_Apparel_GuardianHelmet.label>avali "Guardian" combat helmet</Avali_Apparel_GuardianHelmet.label>
+  <Avali_Apparel_GuardianHelmet.description>The Guardian combat helmet is the is equivalent to wearing a tank on your head, massive, heavy and ungodly scary.</Avali_Apparel_GuardianHelmet.description>
+
+
+  <!-- Avali combat helmet -->
+
+  <Avali_Apparel_CombatHelmet.label>avali combat helmet</Avali_Apparel_CombatHelmet.label>
+  <Avali_Apparel_CombatHelmet.description>The standard for Avali power armors, the balance between armor and advanced technology.</Avali_Apparel_CombatHelmet.description>
+
+
+  <!-- Elite avali combat helmet -->
+
+  <Avali_Apparel_CombatHelmetElite.label>elite avali combat helmet</Avali_Apparel_CombatHelmetElite.label>
+  <Avali_Apparel_CombatHelmetElite.description>The standard for Avali power armors, the balance between armor and advanced technology. \n\nThis one was painted to have a comsic look.</Avali_Apparel_CombatHelmetElite.description>
+
+
+  <!-- Avali Hellcat combat helmet -->
+
+  <Avali_Apparel_HellcatHelmet.label>avali "Hellcat" combat helmet</Avali_Apparel_HellcatHelmet.label>
+  <Avali_Apparel_HellcatHelmet.description>The combat helmet is a complete upgrade from the standard design, with more advanced tracking hardware, advanced AI, and the bouns of a completed personal psychic shield. But PR wasnt too keen on the idea of the design.</Avali_Apparel_HellcatHelmet.description>
+
+
+  <!-- Elite avali Hellcat combat helmet -->
+
+  <Avali_Apparel_HellcatHelmetElite.label>elite avali "Hellcat"combat helmet </Avali_Apparel_HellcatHelmetElite.label>
+  <Avali_Apparel_HellcatHelmetElite.description>The combat helmet is a complete upgrade from the standard design, with more advanced tracking hardware, advanced AI, and the bouns of a completed personal psychic shield. But PR was keen on the idea of the design, thinking a dark red with orange was a good idea.</Avali_Apparel_HellcatHelmetElite.description>
+
+
+</LanguageData>

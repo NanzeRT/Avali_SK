@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CookMealStackSmallSimple -->
+
+  <CookMealStackSmallSimple.label>cook stack of small simple meals</CookMealStackSmallSimple.label>
+  <CookMealStackSmallSimple.description>Cook fifteen straightforward meals from one ingredient, sized for something smaller than a human.</CookMealStackSmallSimple.description>
+  <CookMealStackSmallSimple.jobString>Cooking stack of small simple meals.</CookMealStackSmallSimple.jobString>
+
+
+  <!-- CookMealStackSmallFine -->
+
+  <CookMealStackSmallFine.label>cook stack of small fine meals</CookMealStackSmallFine.label>
+  <CookMealStackSmallFine.description>Cook fifteen somewhat complex meals from a combination of meat and plant ingredients, sized for something smaller than a human.</CookMealStackSmallFine.description>
+  <CookMealStackSmallFine.jobString>Cooking stack of small fine meals.</CookMealStackSmallFine.jobString>
+
+
+  <!-- CookMealStackSmallLavish -->
+
+  <CookMealStackSmallLavish.label>cook stack of small lavish meals</CookMealStackSmallLavish.label>
+  <CookMealStackSmallLavish.description>Cook fifteen very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted. Sized for something smaller than a human.</CookMealStackSmallLavish.description>
+  <CookMealStackSmallLavish.jobString>Cooking stack of small lavish meals.</CookMealStackSmallLavish.jobString>
+
+
+  <!-- CookMealStackSmallSurvival -->
+
+  <CookMealStackSmallSurvival.label>cook stack of small packaged survival meals</CookMealStackSmallSurvival.label>
+  <CookMealStackSmallSurvival.description>Prepare fifteen packaged survival meals from a combination of meat and plant ingredients, sized for something smaller than a human. Much of the ingredients are wasted in the preservation process.</CookMealStackSmallSurvival.description>
+  <CookMealStackSmallSurvival.jobString>Cooking small survival meal.</CookMealStackSmallSurvival.jobString>
+
+
+  <!-- CookStackAvaliSpicyJerky -->
+
+  <CookStackAvaliSpicyJerky.label>cook stack of spicy jerky</CookStackAvaliSpicyJerky.label>
+  <CookStackAvaliSpicyJerky.description>Cooks fifteen chunks of seasoned jerky, popular with hunters and explorers.</CookStackAvaliSpicyJerky.description>
+  <CookStackAvaliSpicyJerky.jobString>Cooking spicy jerky.</CookStackAvaliSpicyJerky.jobString>
+
+
+  <!-- CookStackAvaliPiruNoodle -->
+
+  <CookStackAvaliPiruNoodle.label>cook stack of piru noodles</CookStackAvaliPiruNoodle.label>
+  <CookStackAvaliPiruNoodle.description>Cooks fifteen sweet noodles made from Piru frond flour, a staple of Avali students.</CookStackAvaliPiruNoodle.description>
+  <CookStackAvaliPiruNoodle.jobString>Cooking piru noodle.</CookStackAvaliPiruNoodle.jobString>
+
+
+  <!-- CookStackAvaliKiriCurry -->
+
+  <CookStackAvaliKiriCurry.label>cook stack of kiri curry</CookStackAvaliKiriCurry.label>
+  <CookStackAvaliKiriCurry.description>Cooks fifteen spicy meat noodles with a rich Kiri sauce.</CookStackAvaliKiriCurry.description>
+  <CookStackAvaliKiriCurry.jobString>Cooking kiri curry.</CookStackAvaliKiriCurry.jobString>
+
+
+  <!-- CookStackAvaliTaco -->
+
+  <CookStackAvaliTaco.label>cook stack of Avalon-style tacos</CookStackAvaliTaco.label>
+  <CookStackAvaliTaco.description>Cooks fifteen super-hot Nakati-spiced tacos; sometimes eaten on a dare by non-Avali.</CookStackAvaliTaco.description>
+  <CookStackAvaliTaco.jobString>Cooking Avalon-style taco.</CookStackAvaliTaco.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Running track -->
+
+  <AvaliRunningTrack.label>running track</AvaliRunningTrack.label>
+  <AvaliRunningTrack.description>Not only keeps your colonists in shape, but also generates some amount of power in process. Can be used as a last resort power source.</AvaliRunningTrack.description>
+  <AvaliRunningTrack_Blueprint.label>running track (blueprint)</AvaliRunningTrack_Blueprint.label>
+  <AvaliRunningTrack_Frame.label>running track (building)</AvaliRunningTrack_Frame.label>
+  <AvaliRunningTrack_Frame.description>Not only keeps your colonists in shape, but also generates some amount of power in process. Can be used as a last resort power source.</AvaliRunningTrack_Frame.description>
+
+
+  <!-- TV -->
+
+  <AvaliHoloTV.label>Hologram television</AvaliHoloTV.label>
+  <AvaliHoloTV.description>This small and light thing emits a huge hologram with good picture quality and rich colors. Cool!</AvaliHoloTV.description>
+
+
+</LanguageData>

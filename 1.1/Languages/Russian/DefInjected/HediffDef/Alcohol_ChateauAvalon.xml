@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AmmoniaPoisoning.label>ammonia poisoning</AmmoniaPoisoning.label>
+  <AmmoniaPoisoning.description>Continued consumption may cause chemical damage of different severity, blindness, brain damage, death.</AmmoniaPoisoning.description>
+  <AmmoniaPoisoning.stages.0.label>light</AmmoniaPoisoning.stages.0.label>
+  <AmmoniaPoisoning.stages.1.label>minor</AmmoniaPoisoning.stages.1.label>
+  <AmmoniaPoisoning.stages.2.label>major</AmmoniaPoisoning.stages.2.label>
+  <AmmoniaPoisoning.stages.3.label>severe</AmmoniaPoisoning.stages.3.label>
+
+
+</LanguageData>

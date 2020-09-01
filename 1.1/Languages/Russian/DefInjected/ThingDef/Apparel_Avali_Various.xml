@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Avali wrap -->
+
+  <Avali_Apparel_Wrap.label>avali wrap</Avali_Apparel_Wrap.label>
+  <Avali_Apparel_Wrap.description>Never one to suffer indignity.</Avali_Apparel_Wrap.description>
+
+
+  <!-- Avali sleeves -->
+
+  <Avali_Apparel_Sleeves.label>avali sleeves</Avali_Apparel_Sleeves.label>
+  <Avali_Apparel_Sleeves.description>Long, elegant sleeves.</Avali_Apparel_Sleeves.description>
+
+
+  <!-- Avali cloak -->
+
+  <Avali_Apparel_Cloak.label>avali cloak</Avali_Apparel_Cloak.label>
+  <Avali_Apparel_Cloak.description>A cloak for those who call the tundra home.</Avali_Apparel_Cloak.description>
+
+
+  <!-- Avali belted cloak -->
+
+  <Avali_Apparel_BeltedCloak.label>avali belted cloak</Avali_Apparel_BeltedCloak.label>
+  <Avali_Apparel_BeltedCloak.description>A cloak for the eternal nomad.</Avali_Apparel_BeltedCloak.description>
+
+
+  <!-- Avali shirt -->
+
+  <Avali_Apparel_Shirt.label>avali shirt</Avali_Apparel_Shirt.label>
+  <Avali_Apparel_Shirt.description>For the restless wanderer.</Avali_Apparel_Shirt.description>
+
+
+  <!-- Avali trenchcoat -->
+
+  <Avali_Apparel_Trenchcoat.label>avali trenchcoat</Avali_Apparel_Trenchcoat.label>
+  <Avali_Apparel_Trenchcoat.description>Garb for the tundrastrider.</Avali_Apparel_Trenchcoat.description>
+
+
+  <!-- Avali camo -->
+
+  <Avali_Apparel_Camo.label>avali camo</Avali_Apparel_Camo.label>
+  <Avali_Apparel_Camo.description>Standard Avali camo. \nNo one still understands why the camo has orange in the camo pattern.</Avali_Apparel_Camo.description>
+
+
+  <!-- Avali survival gear -->
+
+  <Avali_Apparel_SurvivalGear.label>avali survival gear</Avali_Apparel_SurvivalGear.label>
+  <Avali_Apparel_SurvivalGear.description>The most basic life support and protection for the spacefaring Avali.</Avali_Apparel_SurvivalGear.description>
+
+
+  <!-- Avali scout armor -->
+
+  <Avali_Apparel_ScoutArmor.label>avali scout armor</Avali_Apparel_ScoutArmor.label>
+  <Avali_Apparel_ScoutArmor.description>Armor favoured by pathfinders. Doesn't give much protection, but increases mobility and environmental survivability.</Avali_Apparel_ScoutArmor.description>
+
+
+  <!-- Avali exosuit -->
+
+  <Avali_Apparel_Exosuit.label>avali exosuit</Avali_Apparel_Exosuit.label>
+  <Avali_Apparel_Exosuit.description>A powered exosuit.\nThe backbone for Avali power suits.</Avali_Apparel_Exosuit.description>
+
+
+  <!-- Avali "Guardian" combat suit -->
+
+  <Avali_Apparel_GuardianArmor.label>avali "Guardian" combat suit</Avali_Apparel_GuardianArmor.label>
+  <Avali_Apparel_GuardianArmor.description>The biggest known design of Avali combat suit, weighting as much as a small car and being able to ram though the toughest of walls. \n\nCommonly used in frontlines assaults, plantary invasions, and heavy guard duty, other then that the suit is too impractical for anything else.</Avali_Apparel_GuardianArmor.description>
+
+
+  <!-- Avali combat suit -->
+
+  <Avali_Apparel_CombatArmor.label>avali combat suit</Avali_Apparel_CombatArmor.label>
+  <Avali_Apparel_CombatArmor.description>The standard for Avali Combat suit, the most armor you can put on an exosuit without affecting mobility.</Avali_Apparel_CombatArmor.description>
+
+
+  <!-- Elite avali combat suit -->
+
+  <Avali_Apparel_CombatArmorElite.label>elite avali combat suit</Avali_Apparel_CombatArmorElite.label>
+  <Avali_Apparel_CombatArmorElite.description>The standard for Avali combat suit, giving decent protection without giving up to much speed. \nThis one was painted to look comsic.</Avali_Apparel_CombatArmorElite.description>
+
+
+  <!-- Avali Hellcat combat suit -->
+
+  <Avali_Apparel_HellcatArmor.label>avali "Hellcat" combat suit</Avali_Apparel_HellcatArmor.label>
+  <Avali_Apparel_HellcatArmor.description>The "Hellcat" armor suite. Using all the power of the exoskeleton for mobility and firing stability. Doesn't offer much protection.</Avali_Apparel_HellcatArmor.description>
+
+
+  <!-- Elite avali Hellcat combat suit -->
+
+  <Avali_Apparel_HellcatArmorElite.label>elite avali "Hellcat" combat suit</Avali_Apparel_HellcatArmorElite.label>
+  <Avali_Apparel_HellcatArmorElite.description>The "Hellcat" is a complete upgrade form the previous design, with it containing more AI computing, flexablity, and higher precision. \nThe PR was kind to give it some color. \nThis version also has a freezer full of tactical tacos inside of a hidden compartment.</Avali_Apparel_HellcatArmorElite.description>
+
+
+</LanguageData>

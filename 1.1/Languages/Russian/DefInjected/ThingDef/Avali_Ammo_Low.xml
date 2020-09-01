@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_AvaliRailLow.label>Low Rail Ammo</Ammo_AvaliRailLow.label>
+  <Ammo_AvaliRailLow.description>Avali low calibre rail ammunition</Ammo_AvaliRailLow.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_AvaliLowRailLance.label>Avali pistol charge lance</Bullet_AvaliLowRailLance.label>
+
+
+</LanguageData>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliSightAugment -->
+
+  <AvaliSightAugment.label>Avali vision augment</AvaliSightAugment.label>
+  <AvaliSightAugment.description>An augment enhancing vision. Especially useful for auditory-reliant races like Avali. Zoom included.</AvaliSightAugment.description>
+  <AvaliSightAugment.labelNoun>a Avali vision augment</AvaliSightAugment.labelNoun>
+
+
+  <!-- AvaliHearingAugment -->
+
+  <AvaliHearingAugment.label>Avali auditory augment</AvaliHearingAugment.label>
+  <AvaliHearingAugment.description>Auditory augments is very popular among military, scientific and exploration packs.</AvaliHearingAugment.description>
+  <AvaliHearingAugment.labelNoun>a Avali auditory augment</AvaliHearingAugment.labelNoun>
+
+
+  <!-- AvaliCoolAugment -->
+
+  <AvaliCoolAugment.label>Avali cooling augment</AvaliCoolAugment.label>
+  <AvaliCoolAugment.description>This augment allows users to survive in environments that are deadly hot to them.</AvaliCoolAugment.description>
+  <AvaliCoolAugment.labelNoun>a Avali cooling augment</AvaliCoolAugment.labelNoun>
+
+
+  <!-- AvaliHeatAugment -->
+
+  <AvaliHeatAugment.label>Avali heating augment</AvaliHeatAugment.label>
+  <AvaliHeatAugment.description>This augment allows users to survive in environments that too cold for them.</AvaliHeatAugment.description>
+  <AvaliHeatAugment.labelNoun>a Avali heating augment</AvaliHeatAugment.labelNoun>
+
+
+  <!-- AvaliEnviromentalAugment -->
+
+  <AvaliEnviromentalAugment.label>Avali life support augment</AvaliEnviromentalAugment.label>
+  <AvaliEnviromentalAugment.description>This augment allows users to survive in environments which were previously deadly toxic to them.</AvaliEnviromentalAugment.description>
+  <AvaliEnviromentalAugment.labelNoun>a Avali life support augment</AvaliEnviromentalAugment.labelNoun>
+
+
+  <!-- AvaliPackLossAugment -->
+
+  <AvaliPackLossAugment.label>Avali madness prevention augment</AvaliPackLossAugment.label>
+  <AvaliPackLossAugment.description>This augment prevents Avali from going mad from mental illness called Pack Loss.</AvaliPackLossAugment.description>
+  <AvaliPackLossAugment.labelNoun>a Avali madness prevention augment</AvaliPackLossAugment.labelNoun>
+
+
+  <!-- PlasteelAvaliTalons -->
+
+  <PlasteelAvaliTalons.label>plasteel Avali talons</PlasteelAvaliTalons.label>
+  <PlasteelAvaliTalons.description>A relatively simple method of increasing the damage Avali talons can do.</PlasteelAvaliTalons.description>
+  <PlasteelAvaliTalons.comps.0.tools.0.label>plasteel Avali talons</PlasteelAvaliTalons.comps.0.tools.0.label>
+  <PlasteelAvaliTalons.labelNoun>a plasteel Avali talons</PlasteelAvaliTalons.labelNoun>
+
+
+  <!-- AvaliBasicLiveSupport -->
+
+  <AvaliBasicLiveSupport.label>basic thermoregulation and life support system</AvaliBasicLiveSupport.label>
+  <AvaliBasicLiveSupport.description>All spacefaring Avali augmented with basic thermoregulation and life support system so they will not suffocate or boil alive immediately after landing on most planets. This system not designed to work in very harsh conditions without additional equipment or augments.</AvaliBasicLiveSupport.description>
+
+
+  <!-- AvaliBasicLifeSupportDamaged -->
+
+  <AvaliBasicLifeSupportDamaged.label>basic thermoregulation and life support system</AvaliBasicLifeSupportDamaged.label>
+  <AvaliBasicLifeSupportDamaged.description>All spacefaring Avali augmented with basic thermoregulation and life support system so they will not suffocate or boil alive immediately after landing on most planets. This system not designed to work in very harsh conditions without additional equipment or augments. This system was damaged leading to significant reduction it work efficiency, causing constant overheating of user's body even in relatively soft conditions.</AvaliBasicLifeSupportDamaged.description>
+
+
+</LanguageData>

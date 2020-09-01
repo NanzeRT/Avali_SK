@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Well, hello there~ -->
+
+  <NukoHero.title>Young hero</NukoHero.title>
+  <NukoHero.titleShort>Young hero</NukoHero.titleShort>
+  <NukoHero.baseDescription>[PAWN_possessive] tribe was destroyed during a pirate raid. [PAWN_nameDef] and [PAWN_possessive] packmates were captured. [PAWN_pronoun] managed to break free and release the rest. Together they killed the small crew and captured the ship which transported them.</NukoHero.baseDescription>
+
+  <NukoProtector.title>Grand protector</NukoProtector.title>
+  <NukoProtector.titleShort>Grand protector</NukoProtector.titleShort>
+  <NukoProtector.baseDescription>[PAWN_nameDef] was the first Avali protector. On [PAWN_possessive] graduation day unknown entity attacked Earth. [PAWN_nameDef] lost all their pack but was able to escape from the Earth before it was annihilated. After some time [PAWN_pronoun] tracked down the monster and killed it, thereby saving the galaxy and avenging [PAWN_possessive] pack.\nDuring the exploration of ancient precursor civilization ruins [PAWN_objective] found some sort of transdimensional transportation device, activated it and found himself on this rimworld.</NukoProtector.baseDescription>
+
+
+</LanguageData>

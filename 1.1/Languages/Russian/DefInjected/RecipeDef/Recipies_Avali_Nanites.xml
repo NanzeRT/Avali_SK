@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- InjectGuardianNanites -->
+
+  <InjectGuardianNanites.label>inject guardian nanites</InjectGuardianNanites.label>
+  <InjectGuardianNanites.description>Inject Guardian nanites.</InjectGuardianNanites.description>
+  <InjectGuardianNanites.jobString>Injects Guardian nanites.</InjectGuardianNanites.jobString>
+
+
+  <!-- InjectImmunityNanites -->
+
+  <InjectImmunityNanites.label>inject immunity nanites</InjectImmunityNanites.label>
+  <InjectImmunityNanites.description>Inject immunity nanites.</InjectImmunityNanites.description>
+  <InjectImmunityNanites.jobString>Injects immunity nanites.</InjectImmunityNanites.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AvaliNanolathe.label>avali nanolathe</AvaliNanolathe.label>
+  <AvaliNanolathe.description>An advanced avali 3D printer, this model is specialised for manufacturing and production.</AvaliNanolathe.description>
+
+  <AvaliNanoloom.label>avali nanoloom</AvaliNanoloom.label>
+  <AvaliNanoloom.description>An advanced avali 3D printer, this model is specialised for clothing and other delicate things.</AvaliNanoloom.description>
+
+  <AvaliStove.label>avali cooker</AvaliStove.label>
+  <AvaliStove.description>It's a combi gas-fan-microwave-oven-stove! Has increased cooking speed.</AvaliStove.description>
+
+  <AvaliAeroponics.label>Avali aeroponics tubing</AvaliAeroponics.label>
+  <AvaliAeroponics.description>These tubes transport a nutrient aerosol for growing plants indoors.</AvaliAeroponics.description>
+
+
+</LanguageData>

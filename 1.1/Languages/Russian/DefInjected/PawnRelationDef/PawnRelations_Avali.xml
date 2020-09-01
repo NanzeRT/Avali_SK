@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Packmate.label>packmate</Packmate.label>
+  <Packmate.labelFemale>packmate</Packmate.labelFemale>
+
+  <PackLeader.label>pack leader</PackLeader.label>
+  <PackLeader.labelFemale>pack leader</PackLeader.labelFemale>
+
+  <Kit.label>kit</Kit.label>
+  <Kit.labelFemale>kit</Kit.labelFemale>
+
+  <Caretaker.label>taking care of {1}</Caretaker.label>
+  <Caretaker.labelFemale>taking care of {1}</Caretaker.labelFemale>
+
+
+</LanguageData>

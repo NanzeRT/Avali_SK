@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliHatched -->
+
+  <AvaliHatched.stages.0.label>Вылупился в колонии</AvaliHatched.stages.0.label>
+
+
+  <!-- KilledMyPackmate -->
+
+  <KilledMyPackmate.stages.0.label>убит член моей стаи</KilledMyPackmate.stages.0.label>
+
+
+  <!-- SoldMyPackmate -->
+
+  <SoldMyPackmate.stages.0.label>член моей стаи продан</SoldMyPackmate.stages.0.label>
+  <SoldMyPackmate.stages.0.labelSocial>продан член моей стаи</SoldMyPackmate.stages.0.labelSocial>
+  <SoldMyPackmate.stages.0.description>Один из членов моей стаи был продан торговцу как кусок мяса!</SoldMyPackmate.stages.0.description>
+
+
+  <!-- KilledMyLoverAvali -->
+
+  <KilledMyLoverAvali.stages.0.label>моя любовь убита</KilledMyLoverAvali.stages.0.label>
+
+
+  <!-- SoldMyLovedOneAvali -->
+
+  <SoldMyLovedOneAvali.stages.0.label>моя любовь продана</SoldMyLovedOneAvali.stages.0.label>
+  <SoldMyLovedOneAvali.stages.0.labelSocial>любовь продана</SoldMyLovedOneAvali.stages.0.labelSocial>
+  <SoldMyLovedOneAvali.stages.0.description>Моя любовь была продана торговцу как кусок мяса!</SoldMyLovedOneAvali.stages.0.description>
+
+
+  <!-- KilledMyCaretaker -->
+
+  <KilledMyCaretaker.stages.0.label>убит мой caretaker</KilledMyCaretaker.stages.0.label>
+
+
+  <!-- SoldMyCaretaker -->
+
+  <SoldMyCaretaker.stages.0.label>мой caretaker продан</SoldMyCaretaker.stages.0.label>
+  <SoldMyCaretaker.stages.0.labelSocial>caretaker продан</SoldMyCaretaker.stages.0.labelSocial>
+  <SoldMyCaretaker.stages.0.description>Мой caretaker продан был продан торговцу как кусок мяса!</SoldMyCaretaker.stages.0.description>
+
+
+  <!-- KilledMyStepchild -->
+
+  <KilledMyStepchild.stages.0.label>убит мой приемный ребенок</KilledMyStepchild.stages.0.label>
+
+
+  <!-- KilledMyKit -->
+
+  <KilledMyKit.stages.0.label>убит мой kit</KilledMyKit.stages.0.label>
+
+
+  <!-- SoldMyStepchild -->
+
+  <SoldMyStepchild.stages.0.label>мой приемный ребенок продан</SoldMyStepchild.stages.0.label>
+  <SoldMyStepchild.stages.0.labelSocial>приемный ребенок</SoldMyStepchild.stages.0.labelSocial>
+  <SoldMyStepchild.stages.0.description>Я любил своего приемного ребенка, как собственного, несмотря на расовые различия, но он был продан торговцу, как кусок мяса!</SoldMyStepchild.stages.0.description>
+
+
+  <!-- SoldMyKit -->
+
+  <SoldMyKit.stages.0.label>мой kit продан</SoldMyKit.stages.0.label>
+  <SoldMyKit.stages.0.labelSocial>kit продан</SoldMyKit.stages.0.labelSocial>
+  <SoldMyKit.stages.0.description>Мой kit был продан торговцу как кусок мяса! Ты знаешь, ты ужасный человек!</SoldMyKit.stages.0.description>
+
+
+</LanguageData>

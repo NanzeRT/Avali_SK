@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_AvaliRailLow.label>make avali Low Rail cartridge x30</MakeAmmo_AvaliRailLow.label>
+  <MakeAmmo_AvaliRailLow.description>Craft 30 low calibre Rail cartridges.</MakeAmmo_AvaliRailLow.description>
+  <MakeAmmo_AvaliRailLow.jobString>Making Low Rail cartridges.</MakeAmmo_AvaliRailLow.jobString>
+
+
+</LanguageData>

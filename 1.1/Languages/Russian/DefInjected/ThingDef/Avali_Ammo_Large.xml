@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_AvaliRailLarge.label>Large Rail Ammo</Ammo_AvaliRailLarge.label>
+  <Ammo_AvaliRailLarge.description>Avali large calibre rail ammunition</Ammo_AvaliRailLarge.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_AvaliLargeRailLance.label>Avali large calibre charge lance</Bullet_AvaliLargeRailLance.label>
+
+
+</LanguageData>

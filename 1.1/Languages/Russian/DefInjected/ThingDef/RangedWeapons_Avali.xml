@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Avali Pistol -->
+
+  <GunAvaliPistol.label>Avali 'Frostbite' pistol</GunAvaliPistol.label>
+  <GunAvaliPistol.description>The basic Avali military grade sidearm.</GunAvaliPistol.description>
+
+
+  <!-- Avali SMG -->
+
+  <GunAvaliSMG.label>avali 'Coldsnap' SMG</GunAvaliSMG.label>
+  <GunAvaliSMG.description>A more compact version of the 'Blizzard', more commonly used in close quaters.</GunAvaliSMG.description>
+
+
+  <!-- Avali Assault Rifle -->
+
+  <Gun_Avali_AssaultRifle.label>avali 'Blizzard' rifle</Gun_Avali_AssaultRifle.label>
+  <Gun_Avali_AssaultRifle.description>The standard Avali infantry weapon.</Gun_Avali_AssaultRifle.description>
+
+
+  <!-- Avali Shotgun -->
+
+  <GunAvaliShotgun.label>avali 'Avalanche' shotgun</GunAvaliShotgun.label>
+  <GunAvaliShotgun.description>An avali shotgun! Deadly in close quaters, but inaccurate at longer ranges.</GunAvaliShotgun.description>
+
+
+  <!-- Avali Sniper Rifle -->
+
+  <GunAvaliSniper.label>avali 'Firelance' anti-material rifle</GunAvaliSniper.label>
+  <GunAvaliSniper.description>An anti-material sniper rifle more frequently used for hunting armoured vehicles than wildlife.</GunAvaliSniper.description>
+
+
+  <!-- Avali Minigun -->
+
+  <GunAvaliMinigun.label>avali 'Hailstorm' hybrid minigun</GunAvaliMinigun.label>
+  <GunAvaliMinigun.description>The primary Avali suppressive fire and support weapon.</GunAvaliMinigun.description>
+  <GunAvaliMinigun.tools.0.label>stock</GunAvaliMinigun.tools.0.label>
+  <GunAvaliMinigun.tools.1.label>barrel</GunAvaliMinigun.tools.1.label>
+
+
+  <!-- Avali Rocket Launcher -->
+
+  <Gun_Avali_Rocket_Launcher.label>avali 'Firedart' rocket launcher</Gun_Avali_Rocket_Launcher.label>
+  <Gun_Avali_Rocket_Launcher.description>The primary Avali anti-vehicle weapon.</Gun_Avali_Rocket_Launcher.description>
+  <Gun_Avali_Rocket_Launcher.comps.0.useLabel>Hack {0}</Gun_Avali_Rocket_Launcher.comps.0.useLabel>
+  <Gun_Avali_Rocket_Launcher.tools.0.label>stock</Gun_Avali_Rocket_Launcher.tools.0.label>
+  <Gun_Avali_Rocket_Launcher.tools.1.label>barrel</Gun_Avali_Rocket_Launcher.tools.1.label>
+
+  <Bullet_Avali_Rocket.label>avali rocket</Bullet_Avali_Rocket.label>
+
+
+</LanguageData>

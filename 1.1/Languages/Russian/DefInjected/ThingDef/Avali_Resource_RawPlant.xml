@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RawKiriFruits.label>kiri fruits</RawKiriFruits.label>
+  <RawKiriFruits.description>The fruiting body of a subterranean slime mold... delicious, I guess?</RawKiriFruits.description>
+
+
+  <!-- Plant matter (inedible by people) -->
+
+  <RawNakatiBarks.label>nakati barks</RawNakatiBarks.label>
+  <RawNakatiBarks.description>The spicy bark of the Nakati plant. Usually ground up before use.</RawNakatiBarks.description>
+
+  <RawPiruFlour.label>piru flour</RawPiruFlour.label>
+  <RawPiruFlour.description>Piru frond, ground down into a versatile flour-like substance. Not exactly edible.</RawPiruFlour.description>
+
+
+</LanguageData>

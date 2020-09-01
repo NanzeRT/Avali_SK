@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cook4MealSmallSimple -->
+
+  <Cook4MealSmallSimple.label>cook 4 small simple meals</Cook4MealSmallSimple.label>
+  <Cook4MealSmallSimple.description>Cook four straightforward meals from one ingredient, sized for something smaller than a human.</Cook4MealSmallSimple.description>
+  <Cook4MealSmallSimple.jobString>Cooking four small simple meals.</Cook4MealSmallSimple.jobString>
+
+
+  <!-- Cook4MealSmallFine -->
+
+  <Cook4MealSmallFine.label>cook 4 small fine meals</Cook4MealSmallFine.label>
+  <Cook4MealSmallFine.description>Cook four somewhat complex meals from a combination of meat and plant ingredients, sized for something smaller than a human.</Cook4MealSmallFine.description>
+  <Cook4MealSmallFine.jobString>Cooking four small fine meals.</Cook4MealSmallFine.jobString>
+
+
+  <!-- Cook4MealSmallLavish -->
+
+  <Cook4MealSmallLavish.label>cook 4 small lavish meals</Cook4MealSmallLavish.label>
+  <Cook4MealSmallLavish.description>Cook four very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted. Sized for something smaller than a human.</Cook4MealSmallLavish.description>
+  <Cook4MealSmallLavish.jobString>Cooking 4 small lavish meals.</Cook4MealSmallLavish.jobString>
+
+
+  <!-- Cook4MealSmallSurvival -->
+
+  <Cook4MealSmallSurvival.label>cook 4 small packaged survival meals</Cook4MealSmallSurvival.label>
+  <Cook4MealSmallSurvival.description>Prepare four packaged survival meals from a combination of meat and plant ingredients, sized for something smaller than a human. Much of the ingredients are wasted in the preservation process.</Cook4MealSmallSurvival.description>
+  <Cook4MealSmallSurvival.jobString>Cooking four small survival meal.</Cook4MealSmallSurvival.jobString>
+
+
+  <!-- Cook4AvaliSpicyJerky -->
+
+  <Cook4AvaliSpicyJerky.label>cook 4 spicy jerky</Cook4AvaliSpicyJerky.label>
+  <Cook4AvaliSpicyJerky.description>Cooks four chunks of seasoned jerky, popular with hunters and explorers.</Cook4AvaliSpicyJerky.description>
+  <Cook4AvaliSpicyJerky.jobString>Cooking four spicy jerky.</Cook4AvaliSpicyJerky.jobString>
+
+
+  <!-- Cook4AvaliPiruNoodle -->
+
+  <Cook4AvaliPiruNoodle.label>cook 4 piru noodles</Cook4AvaliPiruNoodle.label>
+  <Cook4AvaliPiruNoodle.description>Cooks four sweet noodles made from Piru frond flour, a staple of Avali students.</Cook4AvaliPiruNoodle.description>
+  <Cook4AvaliPiruNoodle.jobString>Cooking four piru noodles.</Cook4AvaliPiruNoodle.jobString>
+
+
+  <!-- Cook4AvaliKiriCurry -->
+
+  <Cook4AvaliKiriCurry.label>cook 4 kiri curry</Cook4AvaliKiriCurry.label>
+  <Cook4AvaliKiriCurry.description>Cooks four spicy meat noodles with a rich Kiri sauce.</Cook4AvaliKiriCurry.description>
+  <Cook4AvaliKiriCurry.jobString>Cooking four kiri curry.</Cook4AvaliKiriCurry.jobString>
+
+
+  <!-- Cook4AvaliTaco -->
+
+  <Cook4AvaliTaco.label>cook 4 Avalon-style tacos</Cook4AvaliTaco.label>
+  <Cook4AvaliTaco.description>Cooks four super-hot Nakati-spiced tacos; sometimes eaten on a dare by non-Avali.</Cook4AvaliTaco.description>
+  <Cook4AvaliTaco.jobString>Cooking four Avalon-style tacos.</Cook4AvaliTaco.jobString>
+
+
+</LanguageData>

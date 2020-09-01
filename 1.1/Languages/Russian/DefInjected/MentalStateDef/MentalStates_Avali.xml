@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AvaliWanderInSilence.label>wandering in silence</AvaliWanderInSilence.label>
+  <AvaliWanderInSilence.beginLetter>{0} has broken down and is wandering around in silence.</AvaliWanderInSilence.beginLetter>
+  <AvaliWanderInSilence.beginLetterLabel>wander in silence</AvaliWanderInSilence.beginLetterLabel>
+  <AvaliWanderInSilence.recoveryMessage>{0} is no longer wandering in silence.</AvaliWanderInSilence.recoveryMessage>
+  <AvaliWanderInSilence.baseInspectLine>Mental state: Wandering in silence</AvaliWanderInSilence.baseInspectLine>
+
+
+</LanguageData>

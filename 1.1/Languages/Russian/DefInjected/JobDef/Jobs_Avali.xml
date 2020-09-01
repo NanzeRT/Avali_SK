@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GotoForLovinAvali.reportString>moving.</GotoForLovinAvali.reportString>
+  <FindPartnerForLovinAvali.reportString>waiting for [PAWN_possessive] turn.</FindPartnerForLovinAvali.reportString>
+  <WatchLovinAvali.reportString>watching.</WatchLovinAvali.reportString>
+  <LovinAvali.reportString>lovin'.</LovinAvali.reportString>
+  <LovinAvaliPartner.reportString>lovin'.</LovinAvaliPartner.reportString>
+  <GotoLayAvaliEgg.reportString>moving to lay egg.</GotoLayAvaliEgg.reportString>
+  <LayAvaliEgg.reportString>laying egg.</LayAvaliEgg.reportString>
+  <CheckAvaliEgg.reportString>caring of egg.</CheckAvaliEgg.reportString>
+
+
+</LanguageData>

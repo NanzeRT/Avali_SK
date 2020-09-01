@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliClothes -->
+
+  <AvaliClothes.label>Avali clothing</AvaliClothes.label>
+  <AvaliClothes.description>Allows creation of Avali clothing.\n\nThey can be worn only by Avali because of their unique body size and structure.</AvaliClothes.description>
+
+
+  <!-- AvaliPlants -->
+
+  <AvaliPlants.label>Avali plants</AvaliPlants.label>
+  <AvaliPlants.description>Sowing and cook plants of Avali homeworld. Kiri fruits, Nakati ovoids and Piru colonies.</AvaliPlants.description>
+
+
+  <!-- AvaliLifeSupportBelt -->
+
+  <AvaliLifeSupportBelt.label>Life support belt</AvaliLifeSupportBelt.label>
+  <AvaliLifeSupportBelt.description>Craft life support belts that create a personal bubble of air breathable by Avali.</AvaliLifeSupportBelt.description>
+
+
+  <!-- AvaliHolograms -->
+
+  <AvaliHolograms.label>Avali holograms</AvaliHolograms.label>
+  <AvaliHolograms.description>Build compact and modern holographic television.</AvaliHolograms.description>
+
+
+  <!-- AvaliLighting -->
+
+  <AvaliLighting.label>Avali LED lamps</AvaliLighting.label>
+  <AvaliLighting.description>Build very efficient LED lamps.</AvaliLighting.description>
+
+
+  <!-- AvaliSurvivalGear -->
+
+  <AvaliSurvivalGear.label>Survival gear</AvaliSurvivalGear.label>
+  <AvaliSurvivalGear.description>Build basic survival gear and headset with basic enviromental support system.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliSurvivalGear.description>
+
+
+  <!-- AvaliScoutArmor -->
+
+  <AvaliScoutArmor.label>Scout armor</AvaliScoutArmor.label>
+  <AvaliScoutArmor.description>Make scout armor and scout's HUD with basic enviromental support system.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliScoutArmor.description>
+
+
+  <!-- AvaliExosuit -->
+
+  <AvaliExosuit.label>Avali exosuits</AvaliExosuit.label>
+  <AvaliExosuit.description>Make exosuits that increase working and walking speed. Include basic enviromental support system.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliExosuit.description>
+
+
+  <!-- AvaliGuardianArmor -->
+
+  <AvaliGuardianArmor.label>"Guardian" combat suit</AvaliGuardianArmor.label>
+  <AvaliGuardianArmor.description>Make "Guardian" combat suit with improved enviromental support system. Lots of armor, but very heavy and has almost no electronic assistance.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliGuardianArmor.description>
+
+
+  <!-- AvaliCombatArmor -->
+
+  <AvaliCombatArmor.label>Standart combat suit</AvaliCombatArmor.label>
+  <AvaliCombatArmor.description>Make standard Avali combat suit with improved envriomental support system. Nicely balances armor and user assistance systems.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliCombatArmor.description>
+
+
+  <!-- AvaliHellcatArmor -->
+
+  <AvaliHellcatArmor.label>"Hellcat" combat suit</AvaliHellcatArmor.label>
+  <AvaliHellcatArmor.description>Make "Hellcat" combat suit with improved enviromental support system. Lightly armored and packed with all possible user assistance systems.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliHellcatArmor.description>
+
+
+  <!-- AvaliPrinting -->
+
+  <AvaliPrinting.label>Nanolathe</AvaliPrinting.label>
+  <AvaliPrinting.description>Build an Avali Nanolathe that allows quick production of Avali technology.</AvaliPrinting.description>
+
+
+  <!-- AvaliWeaving -->
+
+  <AvaliWeaving.label>Nanoloom</AvaliWeaving.label>
+  <AvaliWeaving.description>Build a nanoloom to weave graphene and nanofiber.</AvaliWeaving.description>
+
+
+  <!-- AvaliAerogel -->
+
+  <AvaliAerogel.label>Aerogel printing</AvaliAerogel.label>
+  <AvaliAerogel.description>Allows you to print aerogel. Aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.</AvaliAerogel.description>
+
+
+  <!-- AvaliMelee -->
+
+  <AvaliMelee.label>Avali melee weapons</AvaliMelee.label>
+  <AvaliMelee.description>Craft spears and swords out of aerogel using nanolathe or machining table.</AvaliMelee.description>
+
+
+  <!-- AvaliRocketLaunchers -->
+
+  <AvaliRocketLaunchers.label>Avali rockets</AvaliRocketLaunchers.label>
+  <AvaliRocketLaunchers.description>Allows you to build "Firedart" rocket launchers and produce rockets.</AvaliRocketLaunchers.description>
+
+
+  <!-- AvaliRailguns -->
+
+  <AvaliRailguns.label>High-velocity weapons</AvaliRailguns.label>
+  <AvaliRailguns.description>Produce most of the Avali railgun weaponry using nanolathe.</AvaliRailguns.description>
+
+
+  <!-- AvaliMiniguns -->
+
+  <AvaliMiniguns.label>Hybrid miniguns</AvaliMiniguns.label>
+  <AvaliMiniguns.description>Allows you to build "Hailstorm" hybrid miniguns.</AvaliMiniguns.description>
+
+
+  <!-- AvaliNanites -->
+
+  <AvaliNanites.label>Nanite body modifications</AvaliNanites.label>
+  <AvaliNanites.description>Create injectors of body enchancing nanite colonies.</AvaliNanites.description>
+
+
+  <!-- AvaliCybernetics -->
+
+  <AvaliCybernetics.label>Avali cybernetics</AvaliCybernetics.label>
+  <AvaliCybernetics.description>Build limb replacement cybernetics that enhance the user.\n\n- Can be researched only by Avali.</AvaliCybernetics.description>
+
+
+  <!-- AvaliCyberneticsAdvanced -->
+
+  <AvaliCyberneticsAdvanced.label>Advanced cybernetics</AvaliCyberneticsAdvanced.label>
+  <AvaliCyberneticsAdvanced.description>Build advanced body replacement cybernetics made out of plasteel. Can suppress the effect of pack loss.\n\n- Can be researched only by Avali.</AvaliCyberneticsAdvanced.description>
+
+
+  <!-- AvaliAugments -->
+
+  <AvaliAugments.label>Augments</AvaliAugments.label>
+  <AvaliAugments.description>Build top-tier body modifications at fabrication bench. Can be used by non-Avali.</AvaliAugments.description>
+
+
+  <!-- AvaliShieldBelt -->
+
+  <AvaliShieldBelt.label>Avali shield belt</AvaliShieldBelt.label>
+  <AvaliShieldBelt.description>Allows you to make avali shield belt.\n\nIn comparision to standard human shield belt, it provides a 3 times stronger field but with 2 times higher recharge duration.</AvaliShieldBelt.description>
+
+
+  <!-- AvaliTurretSmall -->
+
+  <AvaliTurretSmall.label>Railgun turrets</AvaliTurretSmall.label>
+  <AvaliTurretSmall.description>Allows you to build Avali "Cerberus" railgun turrets.\n\nDespite its low rate of fire, it provides strong and highly accurate defense at very long range. All Avali turrets consume a lot of power due to usage of railgun technology.</AvaliTurretSmall.description>
+
+
+  <!-- AvaliTurretMedium -->
+
+  <AvaliTurretMedium.label>Hybrid minigun turret</AvaliTurretMedium.label>
+  <AvaliTurretMedium.description>Allows you to build Avali "Ripper" hybrid minigun turret.\n\nHigh rate of fire at medium range, with the tradeoff of being relatively weak and not very accurate.</AvaliTurretMedium.description>
+
+
+  <!-- AvaliTurretLarge -->
+
+  <AvaliTurretLarge.label>Rocket launcher turret</AvaliTurretLarge.label>
+  <AvaliTurretLarge.description>Allows you to build Avali "Thrasher" rocker launcher turret.\n\nWith perfect balance of range and accuracy, it shoots expensive high explosive missiles at user selected rate of fire.</AvaliTurretLarge.description>
+
+
+  <!-- AvaliAeroponics -->
+
+  <AvaliAeroponics.label>Aeroponics</AvaliAeroponics.label>
+  <AvaliAeroponics.description>Build modular aeroponics with higher initial cost than classical hydroponics, allowing for faster and more energy efficient growth.</AvaliAeroponics.description>
+
+
+  <!-- AvaliLowTechRangedWeapon -->
+
+  <AvaliLTRW.label>Low tech railgun</AvaliLTRW.label>
+  <AvaliLTRW.description>Create pistols and SMG Avali and also of the power module. The machine for creating the latter will be available after studying the Avali nanolathe technology.</AvaliLTRW.description>
+
+
+</LanguageData>

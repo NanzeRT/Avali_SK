@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliTurretSmall -->
+
+  <AvaliTurretSmall.label>avali 'Cerberus' turret</AvaliTurretSmall.label>
+  <AvaliTurretSmall.description>Cerberus turret uses electromagnetic force to launch high-velocity projectiles accelerated along a pair of conductive rails. Frequently used as quick deployable long-range point defence both effective against infantry and vehicles. Not effective at short range. Because of the very high currents flowing through rails they must be refurbished after use. Automatically fires at nearby enemies. May explode and cause fire when damaged.\n\nRanged cooldown: 2.5 s \nDamage per shot: 75 \nRange: 90</AvaliTurretSmall.description>
+
+  <Gun_AvaliTurretSmall.label>'Cerberus' railgun</Gun_AvaliTurretSmall.label>
+  <Gun_AvaliTurretSmall.description>A turret "brain" and a pair of parallel rails with ammunition feed system. Precise at range, it's not good at tracking close targets.</Gun_AvaliTurretSmall.description>
+
+
+  <!-- AvaliTurretMedium -->
+
+  <AvaliTurretMedium.label>avali 'Ripper' turret</AvaliTurretMedium.label>
+  <AvaliTurretMedium.description>A "big brother" of Hailstorm hybrid minigun - the Ripper turret will launch more projectiles with greater rate because it has constant power supply so it does not have to make pauses to charge the supercapacitors. Terrifyingly effective against unarmored targets, but it's rails must be refurbished after use beacuse of the very high currents flowing through them. Automatically fires at nearby enemies. May explode and cause fire when damaged.\n\nRanged cooldown: 0.04 s \nDamage per shot: 10 \nRange: 45</AvaliTurretMedium.description>
+
+  <Gun_AvaliTurretMedium.label>'Ripper' hybrid minigun</Gun_AvaliTurretMedium.label>
+  <Gun_AvaliTurretMedium.description>A turret "brain", a hybrid minigun-railgun and a ammunition feed system.</Gun_AvaliTurretMedium.description>
+
+
+  <!-- AvaliTurretLarge -->
+
+  <AvaliTurretLarge.label>avali 'Thrasher' turret</AvaliTurretLarge.label>
+  <AvaliTurretLarge.description>Despite the main Thrasher purpose being fighting against armored vehicles and mechanoids it's still pretty effective against infantry. Automatically fires at nearby enemies. Requires new rockets to be loaded after use. May explode and cause fires when damaged.\n\nYou can manually set delay between each shot. \nDamage per shot: 50 \nRange: 50</AvaliTurretLarge.description>
+
+  <Gun_AvaliTurretLarge.label>'Thrasher' doubled rocket launcher</Gun_AvaliTurretLarge.label>
+  <Gun_AvaliTurretLarge.description>A turret "brain", two rocket silos and loading system.</Gun_AvaliTurretLarge.description>
+
+
+</LanguageData>

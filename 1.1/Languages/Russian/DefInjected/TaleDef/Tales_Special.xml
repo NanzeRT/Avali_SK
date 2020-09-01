@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TranslatedPrecursorText1.label>translated ancient text</TranslatedPrecursorText1.label>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] finishing translation of a [object_label] text</TranslatedPrecursorText1.rulePack.rulesStrings.0>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.1>image->[pawn_nameFull] finished translation of a [object_label] text [circumstance_group]</TranslatedPrecursorText1.rulePack.rulesStrings.1>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.2>image->[pawn_nameFull] corrects errors in [object_label] text [circumstance_group]</TranslatedPrecursorText1.rulePack.rulesStrings.2>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.3>image->[pawn_nameFull] leafs through [object_label] text [circumstance_group]</TranslatedPrecursorText1.rulePack.rulesStrings.3>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.4>image->[pawn_nameFull] writing their name on a [object_label] text [circumstance_group]</TranslatedPrecursorText1.rulePack.rulesStrings.4>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.5>circumstance_phrase->with a gleam in [pawn_possessive] eye</TranslatedPrecursorText1.rulePack.rulesStrings.5>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.6>circumstance_phrase->while wiping the sweat from [pawn_possessive] forehead</TranslatedPrecursorText1.rulePack.rulesStrings.6>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.7>circumstance_phrase->while covered in grime</TranslatedPrecursorText1.rulePack.rulesStrings.7>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.8>circumstance_phrase->while smiling proudly</TranslatedPrecursorText1.rulePack.rulesStrings.8>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.9>circumstance_phrase->with a satisfied expression on [pawn_possessive] face</TranslatedPrecursorText1.rulePack.rulesStrings.9>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.10>desc_sentence->[outlander]s marvel at the [object_label] text.</TranslatedPrecursorText1.rulePack.rulesStrings.10>
+  <TranslatedPrecursorText1.rulePack.rulesStrings.11>desc_sentence->[outlander]s gaze in awe.</TranslatedPrecursorText1.rulePack.rulesStrings.11>
+
+  <TranslatedPrecursorText2.label>translated ancient text</TranslatedPrecursorText2.label>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] finishing translation of a [object_label] text</TranslatedPrecursorText2.rulePack.rulesStrings.0>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.1>image->[pawn_nameFull] finished translation of a [object_label] text [circumstance_group]</TranslatedPrecursorText2.rulePack.rulesStrings.1>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.2>image->[pawn_nameFull] corrects errors in [object_label] text [circumstance_group]</TranslatedPrecursorText2.rulePack.rulesStrings.2>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.3>image->[pawn_nameFull] leafs through [object_label] text [circumstance_group]</TranslatedPrecursorText2.rulePack.rulesStrings.3>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.4>image->[pawn_nameFull] writing their name on a [object_label] text [circumstance_group]</TranslatedPrecursorText2.rulePack.rulesStrings.4>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.5>circumstance_phrase->with a gleam in [pawn_possessive] eye</TranslatedPrecursorText2.rulePack.rulesStrings.5>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.6>circumstance_phrase->while wiping the sweat from [pawn_possessive] forehead</TranslatedPrecursorText2.rulePack.rulesStrings.6>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.7>circumstance_phrase->while covered in grime</TranslatedPrecursorText2.rulePack.rulesStrings.7>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.8>circumstance_phrase->while smiling proudly</TranslatedPrecursorText2.rulePack.rulesStrings.8>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.9>circumstance_phrase->with a satisfied expression on [pawn_possessive] face</TranslatedPrecursorText2.rulePack.rulesStrings.9>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.10>desc_sentence->[outlander]s marvel at the [object_label] text.</TranslatedPrecursorText2.rulePack.rulesStrings.10>
+  <TranslatedPrecursorText2.rulePack.rulesStrings.11>desc_sentence->[outlander]s gaze in awe.</TranslatedPrecursorText2.rulePack.rulesStrings.11>
+
+
+</LanguageData>

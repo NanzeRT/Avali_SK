@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CookMealSmallSimple -->
+
+  <CookMealSmallSimple.label>cook small simple meal</CookMealSmallSimple.label>
+  <CookMealSmallSimple.description>Cook a straightforward meal from one ingredient, sized for something smaller than a human.</CookMealSmallSimple.description>
+  <CookMealSmallSimple.jobString>Cooking small simple meal.</CookMealSmallSimple.jobString>
+
+
+  <!-- CookMealSmallFine -->
+
+  <CookMealSmallFine.label>cook small fine meal</CookMealSmallFine.label>
+  <CookMealSmallFine.description>Cook a somewhat complex meal from a combination of meat and plant ingredients, sized for something smaller than a human.</CookMealSmallFine.description>
+  <CookMealSmallFine.jobString>Cooking small fine meal.</CookMealSmallFine.jobString>
+
+
+  <!-- CookMealSmallLavish -->
+
+  <CookMealSmallLavish.label>cook small lavish meal</CookMealSmallLavish.label>
+  <CookMealSmallLavish.description>Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted. Sized for something smaller than a human.</CookMealSmallLavish.description>
+  <CookMealSmallLavish.jobString>Cooking small lavish meal.</CookMealSmallLavish.jobString>
+
+
+  <!-- CookMealSmallSurvival -->
+
+  <CookMealSmallSurvival.label>cook small packaged survival meal</CookMealSmallSurvival.label>
+  <CookMealSmallSurvival.description>Prepare a packaged survival meal from a combination of meat and plant ingredients, sized for something smaller than a human. Much of the ingredients are wasted in the preservation process.</CookMealSmallSurvival.description>
+  <CookMealSmallSurvival.jobString>Cooking small survival meal.</CookMealSmallSurvival.jobString>
+
+
+  <!-- CookAvaliSpicyJerky -->
+
+  <CookAvaliSpicyJerky.label>cook spicy jerky</CookAvaliSpicyJerky.label>
+  <CookAvaliSpicyJerky.description>Cooks a chunks of seasoned jerky, popular with hunters and explorers.</CookAvaliSpicyJerky.description>
+  <CookAvaliSpicyJerky.jobString>Cooking spicy jerky.</CookAvaliSpicyJerky.jobString>
+
+
+  <!-- CookAvaliPiruNoodle -->
+
+  <CookAvaliPiruNoodle.label>cook piru noodle</CookAvaliPiruNoodle.label>
+  <CookAvaliPiruNoodle.description>Cooks a sweet noodles made from Piru frond flour, a staple of Avali students.</CookAvaliPiruNoodle.description>
+  <CookAvaliPiruNoodle.jobString>Cooking piru noodle.</CookAvaliPiruNoodle.jobString>
+
+
+  <!-- CookAvaliKiriCurry -->
+
+  <CookAvaliKiriCurry.label>cook kiri curry</CookAvaliKiriCurry.label>
+  <CookAvaliKiriCurry.description>Cooks a spicy meat noodles with a rich Kiri sauce.</CookAvaliKiriCurry.description>
+  <CookAvaliKiriCurry.jobString>Cooking kiri curry.</CookAvaliKiriCurry.jobString>
+
+
+  <!-- CookAvaliTaco -->
+
+  <CookAvaliTaco.label>cook Avalon-style taco</CookAvaliTaco.label>
+  <CookAvaliTaco.description>Cooks a super-hot Nakati-spiced taco; sometimes eaten on a dare by non-Avali.</CookAvaliTaco.description>
+  <CookAvaliTaco.jobString>Cooking Avalon-style taco.</CookAvaliTaco.jobString>
+
+
+  <!-- CookAvaliEggOmlette -->
+
+  <CookAvaliEggOmlette.label>cook avali egg omlette</CookAvaliEggOmlette.label>
+  <CookAvaliEggOmlette.description>Cooks avali egg omlette. It's a very tasty for everyone exept Avali.</CookAvaliEggOmlette.description>
+  <CookAvaliEggOmlette.jobString>Cooking avali egg omlette.</CookAvaliEggOmlette.jobString>
+
+
+</LanguageData>

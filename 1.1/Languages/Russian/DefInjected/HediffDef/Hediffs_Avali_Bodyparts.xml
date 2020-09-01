@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CyberneticAvaliTail -->
+
+  <CyberneticAvaliTail.label>cybernetic Avali tail</CyberneticAvaliTail.label>
+  <CyberneticAvaliTail.description>Not just a long metal rod, it has a plethora of stabilisation hardware and software, making an avali as agile and nimble as a cat.</CyberneticAvaliTail.description>
+  <CyberneticAvaliTail.labelNoun>a cybernetic Avali tail</CyberneticAvaliTail.labelNoun>
+
+
+  <!-- CyberneticAvaliBody -->
+
+  <CyberneticAvaliBody.label>cybernetic Avali torso</CyberneticAvaliBody.label>
+  <CyberneticAvaliBody.description>A technological marvel! Every organ is replaced with a mechanical counterpart which is three times smaller, leaving plenty of space for metabolism and vitality increasing hardware, this is as close an avali will ever get to being a terminator.</CyberneticAvaliBody.description>
+  <CyberneticAvaliBody.labelNoun>a cybernetic Avali torso</CyberneticAvaliBody.labelNoun>
+
+
+  <!-- CyberneticAvaliHead -->
+
+  <CyberneticAvaliHead.label>cybernetic Avali head</CyberneticAvaliHead.label>
+  <CyberneticAvaliHead.description>A perverbial "Brain in a jar". Except this jar has a a whole suite of sensors, stabilisers, supercomputers is made out of plasteel and is fully self-sufficient.</CyberneticAvaliHead.description>
+  <CyberneticAvaliHead.comps.0.tools.0.label>teeth</CyberneticAvaliHead.comps.0.tools.0.label>
+  <CyberneticAvaliHead.labelNoun>a cybernetic Avali head</CyberneticAvaliHead.labelNoun>
+
+
+  <!-- CyberneticAvaliLeg -->
+
+  <CyberneticAvaliLeg.label>cybernetic Avali leg</CyberneticAvaliLeg.label>
+  <CyberneticAvaliLeg.description>Avali leg replica with sophisticated pneumatics and hydraulics, greatly increasing its recipient's agility. No more leg day!</CyberneticAvaliLeg.description>
+  <CyberneticAvaliLeg.comps.0.tools.0.label>leg</CyberneticAvaliLeg.comps.0.tools.0.label>
+  <CyberneticAvaliLeg.comps.0.tools.1.label>leg talons</CyberneticAvaliLeg.comps.0.tools.1.label>
+  <CyberneticAvaliLeg.labelNoun>a cybernetic Avali leg</CyberneticAvaliLeg.labelNoun>
+
+
+  <!-- CyberneticAvaliArm -->
+
+  <CyberneticAvaliArm.label>cybernetic Avali arm</CyberneticAvaliArm.label>
+  <CyberneticAvaliArm.description>Avali arm replica with gyroscopic stabilisation, advanced predictive algorythms and advanced hydraulics. It also looks freaking cool.</CyberneticAvaliArm.description>
+  <CyberneticAvaliArm.comps.0.tools.0.label>fist</CyberneticAvaliArm.comps.0.tools.0.label>
+  <CyberneticAvaliArm.comps.0.tools.1.label>hand talons</CyberneticAvaliArm.comps.0.tools.1.label>
+  <CyberneticAvaliArm.labelNoun>a cybernetic Avali arm</CyberneticAvaliArm.labelNoun>
+
+
+  <!-- ClothTail -->
+
+  <ClothAvaliTail.label>cloth tail</ClothAvaliTail.label>
+  <ClothAvaliTail.description>A simple replacement made out of cloth. At least it feels like there's something.</ClothAvaliTail.description>
+  <ClothAvaliTail.labelNoun>a cloth tail</ClothAvaliTail.labelNoun>
+
+
+  <!-- ClothEar -->
+
+  <ClothAvaliEar.label>cloth ear</ClothAvaliEar.label>
+  <ClothAvaliEar.description>A simple replacement made out of cloth. At least it feels like there's something.</ClothAvaliEar.description>
+  <ClothAvaliEar.labelNoun>a cloth ear</ClothAvaliEar.labelNoun>
+
+
+</LanguageData>

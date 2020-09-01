@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GuardianNanites.label>guardian nanites</GuardianNanites.label>
+  <GuardianNanites.description>A colony of self-sufficient nanites which make the carrier body immune to pathogenic bacterias such as malaria, plague and flu.</GuardianNanites.description>
+
+  <ImmunityNanites.label>immunity boost nanites</ImmunityNanites.label>
+  <ImmunityNanites.description>A colony of self-sufficient nanites which strengthen carrier's immunity.</ImmunityNanites.description>
+
+  <EnviromentalNanites.label>enviromental protection nanites</EnviromentalNanites.label>
+  <EnviromentalNanites.description>A colony of self-sufficient nanites that covers carrier's skin reducing influence of aggressive environments.</EnviromentalNanites.description>
+  <EnviromentalNanites.stages.0.label>15% protection</EnviromentalNanites.stages.0.label>
+
+
+  <!-- AvaliLifeExtensionNanites -->
+
+  <AvaliLifeExtensionNanites.label>Avali life extension nanites</AvaliLifeExtensionNanites.label>
+  <AvaliLifeExtensionNanites.description>Not implemented yet.</AvaliLifeExtensionNanites.description>
+  <AvaliLifeExtensionNanites.labelNoun>a Avali life extension nanites</AvaliLifeExtensionNanites.labelNoun>
+
+
+</LanguageData>

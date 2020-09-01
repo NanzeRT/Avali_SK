@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliAerogelWall -->
+
+  <AvaliAerogelWall.label>aerogel wall</AvaliAerogelWall.label>
+  <AvaliAerogelWall.description>By strength as steel but quick to build and orange. Capable of holding up a roof and pass light through.</AvaliAerogelWall.description>
+  <AvaliAerogelWall_Blueprint.label>aerogel wall (blueprint)</AvaliAerogelWall_Blueprint.label>
+  <AvaliAerogelWall_Frame.label>aerogel wall (building)</AvaliAerogelWall_Frame.label>
+  <AvaliAerogelWall_Frame.description>By strength as steel but quick to build and orange. Capable of holding up a roof and pass light through.</AvaliAerogelWall_Frame.description>
+
+
+</LanguageData>

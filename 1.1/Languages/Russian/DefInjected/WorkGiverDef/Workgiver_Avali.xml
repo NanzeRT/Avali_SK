@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <WorkGiverDef>
+    <defName>DoBillsAvaliRunningGenerator</defName>
+    <label>Generate energy</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <fixedBillGiverDefs>
+      <li>RunningGenerator</li>
+    </fixedBillGiverDefs>
+    <verb>generating energy</verb>
+    <gerund>generating energy at</gerund>
+    <requiredCapacities>
+      <li>Movement</li>
+    </requiredCapacities>
+  </WorkGiverDef> -->
+
+  <DoBillsAvaliNanoloom.label>Плетет ткань</DoBillsAvaliNanoloom.label>
+  <DoBillsAvaliNanoloom.verb>Плетет</DoBillsAvaliNanoloom.verb>
+  <DoBillsAvaliNanoloom.gerund>Плести в</DoBillsAvaliNanoloom.gerund>
+
+  <DoBillsAvaliNanolathe.label>Печатает предметы</DoBillsAvaliNanolathe.label>
+  <DoBillsAvaliNanolathe.verb>Печатает</DoBillsAvaliNanolathe.verb>
+  <DoBillsAvaliNanolathe.gerund>Печатать в</DoBillsAvaliNanolathe.gerund>
+
+
+</LanguageData>

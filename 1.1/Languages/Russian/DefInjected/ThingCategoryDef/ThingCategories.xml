@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Foods -->
+
+  <AvaliFoodMeals.label>avali meals</AvaliFoodMeals.label>
+
+
+  <!-- Items -->
+
+  <Texts.label>texts</Texts.label>
+  <NanitesAvali.label>avali nanites</NanitesAvali.label>
+
+
+  <!-- Apparel -->
+
+  <ApparelAvali.label>avali apparel</ApparelAvali.label>
+  <AvaliHeadgear.label>headgear</AvaliHeadgear.label>
+  <ApparelAvaliArmor.label>avali armor</ApparelAvaliArmor.label>
+  <AvaliArmorHeadgear.label>headgear</AvaliArmorHeadgear.label>
+  <ApparelAvaliNoble.label>noble apparel</ApparelAvaliNoble.label>
+
+
+  <!-- Weapons -->
+
+  <WeaponsAvali.label>avali weapons</WeaponsAvali.label>
+  <WeaponsMeleeAvali.label>melee weapons</WeaponsMeleeAvali.label>
+  <WeaponsRangedAvali.label>ranged weapons</WeaponsRangedAvali.label>
+
+
+  <!-- Implants -->
+
+  <AugmentsAvali.label>avali augments</AugmentsAvali.label>
+
+
+  <!-- BodyParts -->
+
+  <BodyPartsAvali.label>avali</BodyPartsAvali.label>
+
+
+</LanguageData>

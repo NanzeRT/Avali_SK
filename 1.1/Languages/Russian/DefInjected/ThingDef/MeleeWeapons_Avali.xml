@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Avali Dagger -->
+
+  <Avali_Dagger.label>Avali dagger</Avali_Dagger.label>
+  <Avali_Dagger.description>Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.</Avali_Dagger.description>
+  <Avali_Dagger.tools.0.label>handle</Avali_Dagger.tools.0.label>
+  <Avali_Dagger.tools.1.label>blade</Avali_Dagger.tools.1.label>
+  <Avali_Dagger.tools.2.label>point</Avali_Dagger.tools.2.label>
+
+
+  <!-- Avali Short Sword -->
+
+  <Avali_Sword.label>Avali 'Shard' shortsword</Avali_Sword.label>
+  <Avali_Sword.description>The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.</Avali_Sword.description>
+  <Avali_Sword.tools.0.label>handle</Avali_Sword.tools.0.label>
+  <Avali_Sword.tools.1.label>point</Avali_Sword.tools.1.label>
+  <Avali_Sword.tools.2.label>edge</Avali_Sword.tools.2.label>
+
+
+  <!-- Avali Long Sword -->
+
+  <Avali_LongSword.label>Avali 'Dire Shard' longsword</Avali_LongSword.label>
+  <Avali_LongSword.description>The 'Dire Shard' longsword is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.</Avali_LongSword.description>
+  <Avali_LongSword.tools.0.label>handle</Avali_LongSword.tools.0.label>
+  <Avali_LongSword.tools.1.label>point</Avali_LongSword.tools.1.label>
+  <Avali_LongSword.tools.2.label>edge</Avali_LongSword.tools.2.label>
+
+
+  <!-- Avali Spear -->
+
+  <Avali_Spear.label>Avali 'Icicle' spear</Avali_Spear.label>
+  <Avali_Spear.description>Avali 'Icicle' spear - a modern take on the ancient Avali spear design.</Avali_Spear.description>
+  <Avali_Spear.tools.0.label>shaft</Avali_Spear.tools.0.label>
+  <Avali_Spear.tools.1.label>point</Avali_Spear.tools.1.label>
+
+
+</LanguageData>

@@ -3,20 +3,20 @@
 
   <!-- Railgun Component -->
 
-  <Railgun_Component.label>Railgun weapon component</Railgun_Component.label>
-  <Railgun_Component.description>Main components for rail weapons.</Railgun_Component.description>
+  <Railgun_Component.label>Оружейные детали рейлагана</Railgun_Component.label>
+  <Railgun_Component.description>Основные детали рельсового оружия.</Railgun_Component.description>
 
 
   <!-- Power module basic -->
 
-  <Power_basic.label>Basic avali power module</Power_basic.label>
-  <Power_basic.description>The main source of energy for Avali's weapons and armor.</Power_basic.description>
+  <Power_basic.label>Базовый модуль питания Авали</Power_basic.label>
+  <Power_basic.description>Основной источник энергии для оружия и брони Авали.</Power_basic.description>
 
 
   <!-- Power module advensed -->
 
-  <Power_adv.label>Advensed avali power module</Power_adv.label>
-  <Power_adv.description>An improved energy module needed to create powerful weapons and avali armor.</Power_adv.description>
+  <Power_adv.label>Продвинутый модуль питания Авали</Power_adv.label>
+  <Power_adv.description>Улучшенный энергетический модуль, необходимый для создания мощного оружия и брони авали.</Power_adv.description>
 
 
 </LanguageData>

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AvaliNanolathe.label>avali nanolathe</AvaliNanolathe.label>
-  <AvaliNanolathe.description>An advanced avali 3D printer, this model is specialised for manufacturing and production.</AvaliNanolathe.description>
+  <AvaliNanolathe.label>Производственный 3D-принтер Авали</AvaliNanolathe.label>
+  <AvaliNanolathe.description>Продвинутый 3D-принтер Авали, эта модель предназначена для обработки и производства.</AvaliNanolathe.description>
 
-  <AvaliNanoloom.label>avali nanoloom</AvaliNanoloom.label>
-  <AvaliNanoloom.description>An advanced avali 3D printer, this model is specialised for clothing and other delicate things.</AvaliNanoloom.description>
+  <AvaliNanoloom.label>Ткацкий станок Авали</AvaliNanoloom.label>
+  <AvaliNanoloom.description>Продвинутый 3D-принтер Авали, эта модель предназначена для одежды и других деликатных вещей.</AvaliNanoloom.description>
 
-  <AvaliStove.label>avali cooker</AvaliStove.label>
-  <AvaliStove.description>It's a combi gas-fan-microwave-oven-stove! Has increased cooking speed.</AvaliStove.description>
+  <AvaliStove.label>Плита Авали</AvaliStove.label>
+  <AvaliStove.description>Это комбинированная плита-микроволновка-печь! Увеличена скорость приготовления.</AvaliStove.description>
 
-  <AvaliAeroponics.label>Avali aeroponics tubing</AvaliAeroponics.label>
-  <AvaliAeroponics.description>These tubes transport a nutrient aerosol for growing plants indoors.</AvaliAeroponics.description>
+  <AvaliAeroponics.label>Трубы аэропоники</AvaliAeroponics.label>
+  <AvaliAeroponics.description>Эти трубы переносят питательные вещества для выращивания растений в помещении.</AvaliAeroponics.description>
 
 
 </LanguageData>

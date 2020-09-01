@@ -3,11 +3,11 @@
 
   <!-- AvaliAerogelWall -->
 
-  <AvaliAerogelWall.label>aerogel wall</AvaliAerogelWall.label>
-  <AvaliAerogelWall.description>By strength as steel but quick to build and orange. Capable of holding up a roof and pass light through.</AvaliAerogelWall.description>
-  <AvaliAerogelWall_Blueprint.label>aerogel wall (blueprint)</AvaliAerogelWall_Blueprint.label>
-  <AvaliAerogelWall_Frame.label>aerogel wall (building)</AvaliAerogelWall_Frame.label>
-  <AvaliAerogelWall_Frame.description>By strength as steel but quick to build and orange. Capable of holding up a roof and pass light through.</AvaliAerogelWall_Frame.description>
+  <AvaliAerogelWall.label>Стена из Аэрогеля</AvaliAerogelWall.label>
+  <AvaliAerogelWall.description>По прочности как сталь, но более удобна в строительстве и имеет оранжевый цвет. Способна пропускать свет и удерживать крышу.</AvaliAerogelWall.description>
+  <AvaliAerogelWall_Blueprint.label>Стена из Аэрогеля (проект)</AvaliAerogelWall_Blueprint.label>
+  <AvaliAerogelWall_Frame.label>Стена из Аэрогеля (постройка)</AvaliAerogelWall_Frame.label>
+  <AvaliAerogelWall_Frame.description>По прочности как сталь, но более удобна в строительстве и имеет оранжевый цвет. Способна пропускать свет и удерживать крышу.</AvaliAerogelWall_Frame.description>
 
 
 </LanguageData>

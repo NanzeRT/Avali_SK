@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AvaliRocket.label>avali rocket</AvaliRocket.label>
-  <AvaliRocket.description>A unguided rocket filled with high explosives. Can be fired from avali 'Thrasher' turret. Explodes when damaged.</AvaliRocket.description>
+  <AvaliRocket.label>Ракета Авали</AvaliRocket.label>
+  <AvaliRocket.description>Неуправляемая ракета, снаряженная фугасом. Предназначена для использования в турели 'Thrasher'. Взрывается при повреждении.</AvaliRocket.description>
 
 
 </LanguageData>

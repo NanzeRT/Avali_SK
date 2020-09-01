@@ -41,10 +41,10 @@
   <AvaliAteInsectMeatDirect.stages.0.description>Мне пришлось есть серое склизкое мясо насекомого. Может, мы могли бы сначала его приготовить?</AvaliAteInsectMeatDirect.stages.0.description>
 
   <AteSentientSpecimenMeatDirect.stages.0.label>Съел сырое мясо разумного существа</AteSentientSpecimenMeatDirect.stages.0.label>
-  <AteSentientSpecimenMeatDirect.stages.0.description>Я ел сырое мясо разумных существ. Может, мы могли бы сначала его приготовить?</AteSentientSpecimenMeatDirect.stages.0.description>
+  <AteSentientSpecimenMeatDirect.stages.0.description>Я ел сырое мясо разумных существ. Это неправильно.</AteSentientSpecimenMeatDirect.stages.0.description>
 
   <AteSentientSpecimenMeatAsIngredient.stages.0.label>Съел блюдо из мяса разумного существа</AteSentientSpecimenMeatAsIngredient.stages.0.label>
-  <AteSentientSpecimenMeatAsIngredient.stages.0.description>Я съел еду, приготовленную из мяса другого разумного существа. Это не правильно.</AteSentientSpecimenMeatAsIngredient.stages.0.description>
+  <AteSentientSpecimenMeatAsIngredient.stages.0.description>Я съел еду, приготовленную из мяса другого разумного существа. Это неправильно.</AteSentientSpecimenMeatAsIngredient.stages.0.description>
 
 
   <!-- <ThoughtDef>

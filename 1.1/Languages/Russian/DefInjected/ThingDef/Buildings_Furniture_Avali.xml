@@ -3,65 +3,65 @@
 
   <!-- Beds -->
 
-  <AvaliPillow.label>pillow</AvaliPillow.label>
-  <AvaliPillow.description>Avali living spaces are soft and warm, you can just sleep on the floor curled up with your pack.</AvaliPillow.description>
+  <AvaliPillow.label>небольшая подушка</AvaliPillow.label>
+  <AvaliPillow.description>Жилые помещения Авали мягкие и теплые, вы можете просто спать на полу, свернувшись клубочком.</AvaliPillow.description>
 
-  <AvaliCushion.label>cushion</AvaliCushion.label>
-  <AvaliCushion.description>Lie on them, sleep on them, pile them up, make a fort out of them... cushions, the building blocks of furniture!</AvaliCushion.description>
+  <AvaliCushion.label>подушка</AvaliCushion.label>
+  <AvaliCushion.description>Лягте на них, спите на них, сложите их в кучу, сделайте из них крепость ... подушки, строительные блоки для мебели!</AvaliCushion.description>
 
 
   <!-- Chairs -->
 
-  <AvaliChair.label>avali office chair</AvaliChair.label>
-  <AvaliChair.description>A standard chair, suitable for sitting at a desk.</AvaliChair.description>
+  <AvaliChair.label>офисный стул</AvaliChair.label>
+  <AvaliChair.description>Стандартный стул, подходящий для сидения за письменным столом.</AvaliChair.description>
 
-  <AvaliArmchair.label>Maglev armchair</AvaliArmchair.label>
-  <AvaliArmchair.description>Best not sit on it if you're carrying magnetic media.</AvaliArmchair.description>
+  <AvaliArmchair.label>кресло Maglev</AvaliArmchair.label>
+  <AvaliArmchair.description>Лучше не садиться на него, если у вас в кармане диски с данными.</AvaliArmchair.description>
 
 
   <!-- Tables -->
 
-  <AvaliTable1x1c.label>avali round table (1x1)</AvaliTable1x1c.label>
-  <AvaliTable1x1c.description>A small aerogel table for 4 persons. Can be placed near bed to make it a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one table near the same bed has no effect.</AvaliTable1x1c.description>
+  <AvaliTable1x1c.label>круглый стол Авали (1x1)</AvaliTable1x1c.label>
+  <AvaliTable1x1c.description>Столик из аэрогеля на 4 персоны. Можно поставить рядом с кроватью, чтобы было немного удобнее. Должен быть размещен непосредственно у изголовья кровати. Размещение более одного стола рядом с одной кроватью не имеет никакого эффекта.</AvaliTable1x1c.description>
 
-  <AvaliTable2x2c.label>avali round table (2x2)</AvaliTable2x2c.label>
-  <AvaliTable2x2c.description>A rather low but large table.</AvaliTable2x2c.description>
+  <AvaliTable2x2c.label>круглый стол Авали (2x2)</AvaliTable2x2c.label>
+  <AvaliTable2x2c.description>Довольно низкий, но большой стол.</AvaliTable2x2c.description>
 
-  <AvaliTable3x3c.label>avali round table (3x3)</AvaliTable3x3c.label>
-  <AvaliTable3x3c.description>A rather low but large table.</AvaliTable3x3c.description>
+  <AvaliTable3x3c.label>круглый стол Авали (3x3)</AvaliTable3x3c.label>
+  <AvaliTable3x3c.description>Довольно низкий, но большой стол.</AvaliTable3x3c.description>
 
-  <AvaliTable1x2c.label>avali table (1x2)</AvaliTable1x2c.label>
-  <AvaliTable1x2c.description>A rather low but large table.</AvaliTable1x2c.description>
+  <AvaliTable1x2c.label>стол Авали (1x2)</AvaliTable1x2c.label>
+  <AvaliTable1x2c.description>Довольно низкий, но большой стол.</AvaliTable1x2c.description>
 
-  <AvaliTable2x4c.label>avali table (2x4)</AvaliTable2x4c.label>
-  <AvaliTable2x4c.description>A rather low but large table.</AvaliTable2x4c.description>
+  <AvaliTable2x4c.label>стол Авали (2x4)</AvaliTable2x4c.label>
+  <AvaliTable2x4c.description>Довольно низкий, но большой стол.</AvaliTable2x4c.description>
 
 
   <!-- Carpets -->
 
-  <AvaliCarpet1x1c.label>avali carpet (1x1)</AvaliCarpet1x1c.label>
-  <AvaliCarpet1x1c.description>A small carpet. Usually placed at the entrance to the tent.</AvaliCarpet1x1c.description>
+  <AvaliCarpet1x1c.label>ковер Авали (1x1)</AvaliCarpet1x1c.label>
+  <AvaliCarpet1x1c.description>Небольшой ковер. Обычно располагается у входа в помещение.</AvaliCarpet1x1c.description>
 
-  <AvaliCarpet1x4c.label>avali carpet (1x4)</AvaliCarpet1x4c.label>
-  <AvaliCarpet1x4c.description>A long carpet. Usually placed at the center of the tent.</AvaliCarpet1x4c.description>
+  <AvaliCarpet1x4c.label>ковер Авали (1x4)</AvaliCarpet1x4c.label>
+  <AvaliCarpet1x4c.description>Длинный ковер. Обычно располагается у входа в помещение.</AvaliCarpet1x4c.description>
 
-  <AvaliCarpet4x2c.label>avali carpet (4x2)</AvaliCarpet4x2c.label>
-  <AvaliCarpet4x2c.description>A big carpet. Usually placed at the center of the tent.</AvaliCarpet4x2c.description>
+  <AvaliCarpet4x2c.label>ковер Авали (4x2)</AvaliCarpet4x2c.label>
+  <AvaliCarpet4x2c.description>Большой ковер. Обычно располагается у входа в помещение.</AvaliCarpet4x2c.description>
 
 
   <!-- Lighting -->
 
-  <AvaliAerogelLight.label>avali crystal garden</AvaliAerogelLight.label>
-  <AvaliAerogelLight.description>It's a little garden of carefully woven crystals in a bowl with LED backlight.</AvaliAerogelLight.description>
+  <AvaliAerogelLight.label>кристальный сад</AvaliAerogelLight.label>
+  <AvaliAerogelLight.description>Миниатюрный сад из тщательно сплетенных кристаллов в чаше со светодиодной подсветкой.</AvaliAerogelLight.description>
 
-  <AvaliStandingLight.label>avali standing lamp</AvaliStandingLight.label>
-  <AvaliStandingLight.description>Standing Avali LED lamp. Cheap, light and efficient.</AvaliStandingLight.description>
+  <AvaliStandingLight.label>светодиодная лампа</AvaliStandingLight.label>
+  <AvaliStandingLight.description>Светодиодная лампа Авали. Дешево, светло и эффективно.</AvaliStandingLight.description>
 
-  <AvaliCellingLight.label>avali celling lamp</AvaliCellingLight.label>
-  <AvaliCellingLight.description>An Avali celling LED lamp. Cheap, light and efficient.</AvaliCellingLight.description>
+  <AvaliCellingLight.label>потолочная лампа</AvaliCellingLight.label>
+  <AvaliCellingLight.description>Потолочная лампа Авали. Дешево, светло и эффективно.</AvaliCellingLight.description>
 
-  <AvaliFloorLight.label>avali floor light panel</AvaliFloorLight.label>
-  <AvaliFloorLight.description>An Avali floor light panel.</AvaliFloorLight.description>
+  <AvaliFloorLight.label>напольная световая панель Авали</AvaliFloorLight.label>
+  <AvaliFloorLight.description>Напольная световая панель Авали.</AvaliFloorLight.description>
 
 
 </LanguageData>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- InstallAvaliSightAugment -->
+
+  <InstallAvaliSightAugment.label>install Avali vision augment</InstallAvaliSightAugment.label>
+  <InstallAvaliSightAugment.description>Installs Avali vision augment.</InstallAvaliSightAugment.description>
+  <InstallAvaliSightAugment.jobString>Installs vision augment.</InstallAvaliSightAugment.jobString>
+
+
+  <!-- InstallAvaliHearingAugment -->
+
+  <InstallAvaliHearingAugment.label>install Avali hearing augment</InstallAvaliHearingAugment.label>
+  <InstallAvaliHearingAugment.description>Installs Avali hearing augment.</InstallAvaliHearingAugment.description>
+  <InstallAvaliHearingAugment.jobString>Installs hearing augment.</InstallAvaliHearingAugment.jobString>
+
+
+  <!-- InstallAvaliCoolAugment -->
+
+  <InstallAvaliCoolAugment.label>install Avali cooling augment</InstallAvaliCoolAugment.label>
+  <InstallAvaliCoolAugment.description>Installs Avali cooling augment.</InstallAvaliCoolAugment.description>
+  <InstallAvaliCoolAugment.jobString>Installs Avali cooling augment.</InstallAvaliCoolAugment.jobString>
+
+
+  <!-- InstallAvaliHeatAugment -->
+
+  <InstallAvaliHeatAugment.label>install Avali heating augment</InstallAvaliHeatAugment.label>
+  <InstallAvaliHeatAugment.description>Installs Avali heating augment.</InstallAvaliHeatAugment.description>
+  <InstallAvaliHeatAugment.jobString>Installs Avali heating augment.</InstallAvaliHeatAugment.jobString>
+
+
+  <!-- InstallAvaliEnviromentalAugment -->
+
+  <InstallAvaliEnviromentalAugment.label>install Avali life support augment</InstallAvaliEnviromentalAugment.label>
+  <InstallAvaliEnviromentalAugment.description>Installs Avali life support augment.</InstallAvaliEnviromentalAugment.description>
+  <InstallAvaliEnviromentalAugment.jobString>Installs Avali life support augment.</InstallAvaliEnviromentalAugment.jobString>
+
+  <InstallAvaliPackLossAugment.label>install Avali madness prevention augment</InstallAvaliPackLossAugment.label>
+  <InstallAvaliPackLossAugment.description>Installs Avali madness prevention augment.</InstallAvaliPackLossAugment.description>
+  <InstallAvaliPackLossAugment.jobString>Installs Avali madness prevention augment.</InstallAvaliPackLossAugment.jobString>
+
+
+  <!-- InstallPlasteelAvaliTalons -->
+
+  <InstallPlasteelAvaliTalons.label>install steel Avali talons</InstallPlasteelAvaliTalons.label>
+  <InstallPlasteelAvaliTalons.description>Replace Avali talons with steel talons.</InstallPlasteelAvaliTalons.description>
+  <InstallPlasteelAvaliTalons.jobString>Installing steel Avali talons.</InstallPlasteelAvaliTalons.jobString>
+
+
+  <!-- RemovePlasteelAvaliTalons -->
+
+  <RemovePlasteelAvaliTalons.label>remove steel Avali talons</RemovePlasteelAvaliTalons.label>
+  <RemovePlasteelAvaliTalons.description>Remove steel Avali talons.</RemovePlasteelAvaliTalons.description>
+  <RemovePlasteelAvaliTalons.jobString>Removing steel Avali talons.</RemovePlasteelAvaliTalons.jobString>
+  <RemovePlasteelAvaliTalons.successfullyRemovedHediffMessage>{0} has successfully removed from {1}.</RemovePlasteelAvaliTalons.successfullyRemovedHediffMessage>
+
+
+</LanguageData>

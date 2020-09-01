@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_AvaliRailMedium.label>make avali Medium Rail cartridge x25</MakeAmmo_AvaliRailMedium.label>
+  <MakeAmmo_AvaliRailMedium.description>Craft 25 Medium calibre Rail cartridges.</MakeAmmo_AvaliRailMedium.description>
+  <MakeAmmo_AvaliRailMedium.jobString>Making Medium Rail cartridges.</MakeAmmo_AvaliRailMedium.jobString>
+
+
+</LanguageData>

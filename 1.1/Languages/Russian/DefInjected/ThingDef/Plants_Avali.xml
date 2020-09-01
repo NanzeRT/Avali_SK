@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Food crops -->
+
+  <AvaliKiriFruit.label>Kiri fruit</AvaliKiriFruit.label>
+  <AvaliKiriFruit.description>The fruiting body of a subterranean slime mold.</AvaliKiriFruit.description>
+
+  <AvaliNakatiOvoid.label>Nakati ovoid</AvaliNakatiOvoid.label>
+  <AvaliNakatiOvoid.description>A biolumiscent ovoid, eventually this'll grow into a colony.</AvaliNakatiOvoid.description>
+
+  <AvaliPiruColony.label>Piru colony</AvaliPiruColony.label>
+  <AvaliPiruColony.description>Small, barnacle-like colonies which grow long frond-like feeding filaments.</AvaliPiruColony.description>
+
+
+</LanguageData>

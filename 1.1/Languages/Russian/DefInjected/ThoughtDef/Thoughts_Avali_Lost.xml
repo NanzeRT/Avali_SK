@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MyPackmateLost.stages.0.label>пропал член стаи</MyPackmateLost.stages.0.label>
+  <MyPackmateLost.stages.0.description>Член моей стаи пропал. Я надеюсь, что он когда-нибудь вернется к нам.</MyPackmateLost.stages.0.description>
+
+  <MyCaretakerLost.stages.0.label>мой caretaker пропал</MyCaretakerLost.stages.0.label>
+  <MyCaretakerLost.stages.0.description>Мой caretaker пропал. Я надеюсь, что он когда-нибудь вернется к нам.</MyCaretakerLost.stages.0.description>
+
+  <MyKitLost.stages.0.label>мой kit {0} пропал</MyKitLost.stages.0.label>
+  <MyKitLost.stages.0.description>Мой kit пропал. Я надеюсь, что он когда-нибудь вернется к нам.</MyKitLost.stages.0.description>
+
+  <MyStepchildLost.stages.0.label>мой приемный ребенок {0} пропал</MyStepchildLost.stages.0.label>
+  <MyStepchildLost.stages.0.description>Мой приемный ребенок пропал. Я надеюсь, что он когда-нибудь вернется к нам.</MyStepchildLost.stages.0.description>
+
+
+</LanguageData>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <ThingDef Name="AvaliBodyPartArtificialBase" Abstract="True" ParentName="BodyPartBase">
-    <techLevel>Ultra</techLevel>
+    <techLevel>Spacer</techLevel>
     <thingCategories>
       <li>BodyPartsAvali</li>
     </thingCategories>

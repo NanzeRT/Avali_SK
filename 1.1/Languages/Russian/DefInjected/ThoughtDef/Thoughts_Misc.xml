@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliSmell -->
+
+  <AvaliSmell.stages.0.label>странный запах</AvaliSmell.stages.0.label>
+  <AvaliSmell.stages.0.description>Что это за запах? Может, какое-нибудь средство для мытья полов?</AvaliSmell.stages.0.description>
+  <AvaliSmell.stages.1.label>неприятный запах</AvaliSmell.stages.1.label>
+  <AvaliSmell.stages.1.description>Здесь неприятно пахнет. Похоже, это аммиак.</AvaliSmell.stages.1.description>
+  <AvaliSmell.stages.2.label>плохой запах</AvaliSmell.stages.2.label>
+  <AvaliSmell.stages.2.description>В воздухе сильный запах аммиака. Похоже, это от тех маленьких пернатых пришельцев.</AvaliSmell.stages.2.description>
+  <AvaliSmell.stages.3.label>зловоние</AvaliSmell.stages.3.label>
+  <AvaliSmell.stages.3.description>Запах, исходящий от этих пернатых пришельцев, невыносим. Думаю, мне нужно срочно выйти подышать свежим воздухом.</AvaliSmell.stages.3.description>
+  <AvaliSmell.stages.4.label>сильная вонь</AvaliSmell.stages.4.label>
+  <AvaliSmell.stages.4.description>Откуда у этих маленьких пернатых пришельцев такой ужасный запах? Похоже, мне нужен противогаз.</AvaliSmell.stages.4.description>
+  <AvaliSmell.stages.5.label>невыносимая вонь</AvaliSmell.stages.5.label>
+  <AvaliSmell.stages.5.description>Запах от тех пернатых пришельцев... Ужасен... Кажется, меня сейчас вырвет...</AvaliSmell.stages.5.description>
+
+
+  <!-- AvaliEnvironmentHot -->
+
+  <AvaliEnvironmentHot.stages.0.label>жарко</AvaliEnvironmentHot.stages.0.label>
+  <AvaliEnvironmentHot.stages.0.description>Здесь жарко. Становится трудно дышать.</AvaliEnvironmentHot.stages.0.description>
+  <AvaliEnvironmentHot.stages.1.label>очень жарко</AvaliEnvironmentHot.stages.1.label>
+  <AvaliEnvironmentHot.stages.1.description>Здесь очень жарко. Если бы я мог просто подышать прохладным воздухом...</AvaliEnvironmentHot.stages.1.description>
+  <AvaliEnvironmentHot.stages.2.label>горячо</AvaliEnvironmentHot.stages.2.label>
+  <AvaliEnvironmentHot.stages.2.description>Я как в духовке! Я не уверен, как долго я смогу это выносить.</AvaliEnvironmentHot.stages.2.description>
+  <AvaliEnvironmentHot.stages.3.label>очень горячо</AvaliEnvironmentHot.stages.3.label>
+  <AvaliEnvironmentHot.stages.3.description>Я сгораю заживо!</AvaliEnvironmentHot.stages.3.description>
+
+
+  <!-- ListenerAny -->
+
+  <ListenerAny.stages.0.label>плохое пение</ListenerAny.stages.0.label>
+  <ListenerAny.stages.0.description>Это больше похоже на шум, чем на пение.</ListenerAny.stages.0.description>
+  <ListenerAny.stages.1.label>неплохое пение</ListenerAny.stages.1.label>
+  <ListenerAny.stages.1.description>Неплохо, но не более того.</ListenerAny.stages.1.description>
+  <ListenerAny.stages.2.label>хорошее пение</ListenerAny.stages.2.label>
+  <ListenerAny.stages.2.description>Этот парень выглядит талантливым!</ListenerAny.stages.2.description>
+  <ListenerAny.stages.3.label>красивое пение</ListenerAny.stages.3.label>
+  <ListenerAny.stages.3.description>Давно ничего подобного не слышал. Какой красивый голос...</ListenerAny.stages.3.description>
+  <ListenerAny.stages.4.label>чудесное пение</ListenerAny.stages.4.label>
+  <ListenerAny.stages.4.description>Не зря Авали считают лучшими певцами галактики. Это одна из самых красивых песен, которые я слышал за всю свою жизнь!</ListenerAny.stages.4.description>
+
+
+  <!-- ListenerAvali -->
+
+  <ListenerAvali.stages.0.label>ужасное пение</ListenerAvali.stages.0.label>
+  <ListenerAvali.stages.0.description>Мои когти производят гораздо больше приятных звуков, чем рот этого парня. Скажите ему, чтобы он заткнулся!</ListenerAvali.stages.0.description>
+  <ListenerAvali.stages.1.label>плохое пение</ListenerAvali.stages.1.label>
+  <ListenerAvali.stages.1.description>Ах... скорее шум, чем пение... больше похоже на треск льда или скрежет металла...</ListenerAvali.stages.1.description>
+  <ListenerAvali.stages.2.label>неплохое пение</ListenerAvali.stages.2.label>
+  <ListenerAvali.stages.2.description>Так петь может любой Авали.</ListenerAvali.stages.2.description>
+  <ListenerAvali.stages.3.label>хорошее пение</ListenerAvali.stages.3.label>
+  <ListenerAvali.stages.3.description>Мне нравится. Я бы не сказал, что это лучший голос, который я когда-либо слышал, но он все равно хорош.</ListenerAvali.stages.3.description>
+  <ListenerAvali.stages.4.label>красивое пение</ListenerAvali.stages.4.label>
+  <ListenerAvali.stages.4.description>Вот это Да! Какой красивый голос. Мне нравится!</ListenerAvali.stages.4.description>
+
+
+</LanguageData>

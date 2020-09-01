@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- MakeAvaliGraphene -->
+
+  <MakeAvaliGraphene.label>Weave graphene</MakeAvaliGraphene.label>
+  <MakeAvaliGraphene.description>Weave a graphene.</MakeAvaliGraphene.description>
+  <MakeAvaliGraphene.jobString>Weaving graphene.</MakeAvaliGraphene.jobString>
+
+
+  <!-- MakeAvaliNanoFibre -->
+
+  <MakeAvaliNanoFibre.label>Make nanofibre</MakeAvaliNanoFibre.label>
+  <MakeAvaliNanoFibre.description>Make a nanofibre.</MakeAvaliNanoFibre.description>
+  <MakeAvaliNanoFibre.jobString>Making nanofibre.</MakeAvaliNanoFibre.jobString>
+
+
+  <!-- MakeAvaliAerogel -->
+
+  <MakeAvaliAerogel.label>Print aerogel</MakeAvaliAerogel.label>
+  <MakeAvaliAerogel.description>Print a aerogel.</MakeAvaliAerogel.description>
+  <MakeAvaliAerogel.jobString>Printing aerogel.</MakeAvaliAerogel.jobString>
+
+
+</LanguageData>

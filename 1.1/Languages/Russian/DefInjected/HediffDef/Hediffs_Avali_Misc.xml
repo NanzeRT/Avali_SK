@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- OxygenAtmosphere -->
+
+  <OxygenAtmosphere.label>oxygen atmosphere</OxygenAtmosphere.label>
+  <OxygenAtmosphere.description>The basic thermoregulation and life support system not designed to work in such severe for Avali conditions without additional equipment or augments. To survive more than day you colonists must have life support belts or armors with life support system. Minimal summary enviromental protection level must be non less then 15%.</OxygenAtmosphere.description>
+  <OxygenAtmosphere.stages.0.label>10 hours to death</OxygenAtmosphere.stages.0.label>
+  <OxygenAtmosphere.stages.1.label>9 hours to death</OxygenAtmosphere.stages.1.label>
+  <OxygenAtmosphere.stages.2.label>8 hours to death</OxygenAtmosphere.stages.2.label>
+  <OxygenAtmosphere.stages.3.label>7 hours to death</OxygenAtmosphere.stages.3.label>
+  <OxygenAtmosphere.stages.4.label>6 hours to death</OxygenAtmosphere.stages.4.label>
+  <OxygenAtmosphere.stages.5.label>5 hours to death</OxygenAtmosphere.stages.5.label>
+  <OxygenAtmosphere.stages.6.label>4 hours to death</OxygenAtmosphere.stages.6.label>
+  <OxygenAtmosphere.stages.7.label>3 hours to death</OxygenAtmosphere.stages.7.label>
+  <OxygenAtmosphere.stages.8.label>2 hours to death</OxygenAtmosphere.stages.8.label>
+  <OxygenAtmosphere.stages.9.label>1 hour to death</OxygenAtmosphere.stages.9.label>
+
+
+  <!-- AvaliBiology -->
+
+  <AvaliBiology.label>avali biology</AvaliBiology.label>
+  <AvaliBiology.description>Avali biology.</AvaliBiology.description>
+
+
+  <!-- ToxicImmunity -->
+
+  <ToxicImmunity.label>toxic immunity</ToxicImmunity.label>
+  <ToxicImmunity.description>This colonist has 100% environmental protection, so no more susceptible to any kind of environmental hazards. Toxic Follouts no longer cause them any harm.</ToxicImmunity.description>
+
+
+  <!-- AvaliAgeTracker -->
+
+  <AvaliAgeTracker.label>avali kit age tracker</AvaliAgeTracker.label>
+  <AvaliAgeTracker.description>Avali kit age tracker.</AvaliAgeTracker.description>
+
+
+  <!-- CantTalk -->
+
+  <CantTalk.label>can't talk</CantTalk.label>
+  <CantTalk.description>Can't talk.</CantTalk.description>
+
+
+  <!-- AvaliSugarEffect -->
+
+  <AvaliSugarEffect.label>high on sugar</AvaliSugarEffect.label>
+  <AvaliSugarEffect.description>This Avali high on sugar, they have enhanced senses, move and work at 50% faster, but get tired at 250% faster.</AvaliSugarEffect.description>
+  <AvaliSugarEffect.labelNoun>a sugar high</AvaliSugarEffect.labelNoun>
+
+
+  <!-- AvaliHasEgg -->
+
+  <AvaliHasEgg.label>has egg</AvaliHasEgg.label>
+  <AvaliHasEgg.description>This colonist has egg.</AvaliHasEgg.description>
+  <AvaliHasEgg.comps.0.discoverLetterLabel>{0} lay the egg soon</AvaliHasEgg.comps.0.discoverLetterLabel>
+  <AvaliHasEgg.comps.0.discoverLetterText>{0} lay the egg soon!</AvaliHasEgg.comps.0.discoverLetterText>
+  <AvaliHasEgg.stages.0.label>egg started forming</AvaliHasEgg.stages.0.label>
+  <AvaliHasEgg.stages.1.label>egg almost formed</AvaliHasEgg.stages.1.label>
+  <AvaliHasEgg.stages.2.label>egg formed</AvaliHasEgg.stages.2.label>
+  <AvaliHasEgg.labelNoun>has egg</AvaliHasEgg.labelNoun>
+
+
+  <!-- AvaliCaresOfEgg -->
+
+  <AvaliCaresOfEgg.label>cares of the egg</AvaliCaresOfEgg.label>
+  <AvaliCaresOfEgg.description>Cares of the egg.</AvaliCaresOfEgg.description>
+
+
+</LanguageData>

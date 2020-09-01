@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Guardian Nanites Injector -->
+
+  <GuardianNanitesInjector.label>guardian nanites injector</GuardianNanitesInjector.label>
+  <GuardianNanitesInjector.description>Injects in user body self-sufficient nanites which make the carrier body immune to pathogenic bacterias such as malaria, plague and flu. Note that after injection nanites can't be removed from the carrier body.</GuardianNanitesInjector.description>
+
+
+  <!-- Immunity Nanites Injector -->
+
+  <ImmunityNanitesInjector.label>immunity nanites injector</ImmunityNanitesInjector.label>
+  <ImmunityNanitesInjector.description>Injects in user body self-sufficient nanites which strengthen carrier's immunity. Note that after injection nanites can't be removed from the carrier body.</ImmunityNanitesInjector.description>
+
+
+</LanguageData>

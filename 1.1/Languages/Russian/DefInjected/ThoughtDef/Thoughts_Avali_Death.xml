@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- PackmateDied -->
+
+  <MyPackmateDied.stages.0.label>член моей стаи {0} умер</MyPackmateDied.stages.0.label>
+  <MyPackmateDied.stages.0.description>Один из членов моей стаи умер. Думаю, я до сих пор слышу его голос ...</MyPackmateDied.stages.0.description>
+
+
+  <!-- MyLoverDiedAvali -->
+
+  <MyLoverDiedAvali.stages.0.label>моя любовь {0} мертва</MyLoverDiedAvali.stages.0.label>
+  <MyLoverDiedAvali.stages.0.description>Моя любовь мертва. Я чувствую себя так одиноко.</MyLoverDiedAvali.stages.0.description>
+
+
+  <!-- MyCaretakerDied -->
+
+  <MyCaretakerDied.stages.0.label>мой caretaker {0} умер</MyCaretakerDied.stages.0.label>
+  <MyCaretakerDied.stages.0.description>Мой caretaker умер. Как будто, я потерял часть себя.</MyCaretakerDied.stages.0.description>
+
+
+  <!-- MyCaretakerKitDied -->
+
+  <MyKitDied.stages.0.label>мой kit {0} умер</MyKitDied.stages.0.label>
+  <MyKitDied.stages.0.description>kit, о котором я заботился, умер. Я ужасный caretaker...</MyKitDied.stages.0.description>
+
+
+  <!-- MyStepchildDied -->
+
+  <MyStepchildDied.stages.0.label>мой приемный ребенок {0} умер</MyStepchildDied.stages.0.label>
+  <MyStepchildDied.stages.0.description>Ребенок Авали, о котором я заботился, теперь мертв. Почему мир такой жестокий?</MyStepchildDied.stages.0.description>
+
+
+</LanguageData>

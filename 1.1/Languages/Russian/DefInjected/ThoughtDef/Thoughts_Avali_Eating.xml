@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AteAvaliEggRaw.stages.0.label>Съел яйцо Авали</AteAvaliEggRaw.stages.0.label>
+  <AteAvaliEggRaw.stages.0.description>Я съел одно из этих яиц. Я знаю, что есть яйца авали - это плохо, но даже в сыром виде они имеют фантастический вкус. Интересно, как у этих маленьких аммиачных существ могут быть такие вкусные яйца?</AteAvaliEggRaw.stages.0.description>
+
+  <AteAvaliEggOmlette.stages.0.label>Съел омлет из яиц Авали</AteAvaliEggOmlette.stages.0.label>
+  <AteAvaliEggOmlette.stages.0.description>Я съел омлет из яиц Авали. Это одно из самых вкусных блюд, которые я ел за всю свою жизнь!</AteAvaliEggOmlette.stages.0.description>
+
+  <AvaliAteAvaliEggRaw.stages.0.label>Съел яйцо Авали</AvaliAteAvaliEggRaw.stages.0.label>
+  <AvaliAteAvaliEggRaw.stages.0.description>Пришлось съесть яйцо Авали. Это кошмар.</AvaliAteAvaliEggRaw.stages.0.description>
+
+  <AvaliAteAvaliEggOmlette.stages.0.label>Съел омлет из яиц Авали</AvaliAteAvaliEggOmlette.stages.0.label>
+  <AvaliAteAvaliEggOmlette.stages.0.description>Пришлось съесть омлет из яиц Авали. Это ужасно.</AvaliAteAvaliEggOmlette.stages.0.description>
+
+  <AvaliAteWithoutTable.stages.0.label>еда на земле</AvaliAteWithoutTable.stages.0.label>
+  <AvaliAteWithoutTable.stages.0.description>Ничего страшного, но лучше было бы есть за столом.</AvaliAteWithoutTable.stages.0.description>
+
+  <AteAvaliFoodRaw.stages.0.label>Съел сырую инопланетную еду</AteAvaliFoodRaw.stages.0.label>
+  <AteAvaliFoodRaw.stages.0.description>Что это, черт возьми?! Меня сейчас вырвет.</AteAvaliFoodRaw.stages.0.description>
+
+  <AteAvaliFood.stages.0.label>Съел инопланетную еду</AteAvaliFood.stages.0.label>
+  <AteAvaliFood.stages.0.description>Совсем неплохо, но порции могли быть и побольше.</AteAvaliFood.stages.0.description>
+
+  <AvaliAteAvaliFood.stages.0.label>Съел привычную еду</AvaliAteAvaliFood.stages.0.label>
+  <AvaliAteAvaliFood.stages.0.description>Мммм... вкусно.</AvaliAteAvaliFood.stages.0.description>
+
+  <AteAvaliFoodLavish.stages.0.label>Съел инопланетную еду</AteAvaliFoodLavish.stages.0.label>
+  <AteAvaliFoodLavish.stages.0.description>Хм ... вкус странный, но приятный. Жалко, что так мало, мне не хватило.</AteAvaliFoodLavish.stages.0.description>
+
+  <AvaliAteAvaliFoodLavish.stages.0.label>Съел любимую еду</AvaliAteAvaliFoodLavish.stages.0.label>
+  <AvaliAteAvaliFoodLavish.stages.0.description>Это моя любимая!</AvaliAteAvaliFoodLavish.stages.0.description>
+
+  <AvaliAteKibble.stages.0.label>Съел корм</AvaliAteKibble.stages.0.label>
+  <AvaliAteKibble.stages.0.description>Пришлось съесть корм из животных. Ужасный вкус.</AvaliAteKibble.stages.0.description>
+
+  <AvaliAteCorpse.stages.0.label>Съел труп</AvaliAteCorpse.stages.0.label>
+  <AvaliAteCorpse.stages.0.description>Мне приходилось есть труп, даже не разделывая и не готовя его, как животное. Я не животное!</AvaliAteCorpse.stages.0.description>
+
+  <AvaliAteInsectMeatDirect.stages.0.label>Съел мясо насекомых</AvaliAteInsectMeatDirect.stages.0.label>
+  <AvaliAteInsectMeatDirect.stages.0.description>Мне пришлось есть серое склизкое мясо насекомого. Может, мы могли бы сначала его приготовить?</AvaliAteInsectMeatDirect.stages.0.description>
+
+  <AteSentientSpecimenMeatDirect.stages.0.label>Съел сырое мясо разумного существа</AteSentientSpecimenMeatDirect.stages.0.label>
+  <AteSentientSpecimenMeatDirect.stages.0.description>Я ел сырое мясо разумных существ. Может, мы могли бы сначала его приготовить?</AteSentientSpecimenMeatDirect.stages.0.description>
+
+  <AteSentientSpecimenMeatAsIngredient.stages.0.label>Съел блюдо из мяса разумного существа</AteSentientSpecimenMeatAsIngredient.stages.0.label>
+  <AteSentientSpecimenMeatAsIngredient.stages.0.description>Я съел еду, приготовленную из мяса другого разумного существа. Это не правильно.</AteSentientSpecimenMeatAsIngredient.stages.0.description>
+
+
+  <!-- <ThoughtDef>
+    <defName>AteSentientSpecimenMeatDirectCannibal</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Psychopath</li>
+			<li>Bloodlust</li>
+      <li>Cannibal</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>raw cannibalism</label>
+        <description>I ate the raw meat of another another sentient specimen. It was so... succulent.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+	<ThoughtDef>
+    <defName>AteSentientSpecimenMeatAsIngredientCannibal</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>1.0</durationDays>
+    <stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Psychopath</li>
+			<li>Bloodlust</li>
+      <li>Cannibal</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>cooked cannibalism</label>
+        <description>I ate a meal made from the meat of another sentient specimen. So pleasurable. If only I had some piru fronds and a nakati barks.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef> -->
+
+  <AteAvaliMeatDirect.stages.0.label>Сьел сырое мясо Авали</AteAvaliMeatDirect.stages.0.label>
+  <AteAvaliMeatDirect.stages.0.description>Я ел сырое мясо другого Авали, как животное. Это кошмар.</AteAvaliMeatDirect.stages.0.description>
+
+  <AteAvaliMeatAsIngredient.stages.0.label>Сьел мясо Авали</AteAvaliMeatAsIngredient.stages.0.label>
+  <AteAvaliMeatAsIngredient.stages.0.description>Я съел блюдо из мяса другого Авали. Это ужасно.</AteAvaliMeatAsIngredient.stages.0.description>
+
+
+</LanguageData>

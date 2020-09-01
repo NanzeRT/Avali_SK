@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_AvaliRailB.label>Buckshot Rail Ammo</Ammo_AvaliRailB.label>
+  <Ammo_AvaliRailB.description>Avali buckshot calibre rail ammunition</Ammo_AvaliRailB.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_AvaliBRailLance.label>Avali buckshot calibre charge lance</Bullet_AvaliBRailLance.label>
+
+
+</LanguageData>

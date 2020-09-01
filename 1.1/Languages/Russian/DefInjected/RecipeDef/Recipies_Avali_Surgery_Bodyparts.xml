@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- InstallAvaliTail -->
+
+  <InstallAvaliTail.label>install tail</InstallAvaliTail.label>
+  <InstallAvaliTail.description>Replace missing or damaged tail.</InstallAvaliTail.description>
+  <InstallAvaliTail.jobString>Installing tail.</InstallAvaliTail.jobString>
+
+
+  <!-- InstallCyberneticAvaliTail -->
+
+  <InstallCyberneticAvaliTail.label>install cybernetic tail</InstallCyberneticAvaliTail.label>
+  <InstallCyberneticAvaliTail.description>Installs cybernetic tail.</InstallCyberneticAvaliTail.description>
+  <InstallCyberneticAvaliTail.jobString>Installing cybernetic tail.</InstallCyberneticAvaliTail.jobString>
+
+
+  <!-- InstallCyberneticAvaliBody -->
+
+  <InstallCyberneticAvaliBody.label>Perform body replacement</InstallCyberneticAvaliBody.label>
+  <InstallCyberneticAvaliBody.description>Perform body replacement to cybernetic.</InstallCyberneticAvaliBody.description>
+  <InstallCyberneticAvaliBody.jobString>Performs body replacement.</InstallCyberneticAvaliBody.jobString>
+
+
+  <!-- InstallCyberneticAvaliHead -->
+
+  <InstallCyberneticAvaliHead.label>Perform head replacement</InstallCyberneticAvaliHead.label>
+  <InstallCyberneticAvaliHead.description>Perform head replacement to cybernetic.</InstallCyberneticAvaliHead.description>
+  <InstallCyberneticAvaliHead.jobString>Performs head replacement.</InstallCyberneticAvaliHead.jobString>
+
+
+  <!-- InstallCyberneticAvaliLeg -->
+
+  <InstallCyberneticAvaliLeg.label>install cybernetic leg</InstallCyberneticAvaliLeg.label>
+  <InstallCyberneticAvaliLeg.description>Installs cybernetic leg.</InstallCyberneticAvaliLeg.description>
+  <InstallCyberneticAvaliLeg.jobString>Installing cybernetic leg.</InstallCyberneticAvaliLeg.jobString>
+
+
+  <!-- InstallCyberneticAvaliArm -->
+
+  <InstallCyberneticAvaliArm.label>install cybernetic arm</InstallCyberneticAvaliArm.label>
+  <InstallCyberneticAvaliArm.description>Installs cybernetic arm.</InstallCyberneticAvaliArm.description>
+  <InstallCyberneticAvaliArm.jobString>Installing cybernetic arm.</InstallCyberneticAvaliArm.jobString>
+
+
+  <!-- InstallClothAvaliEar -->
+
+  <InstallClothAvaliEar.label>install cloth ear</InstallClothAvaliEar.label>
+  <InstallClothAvaliEar.description>Installs cloth ear.</InstallClothAvaliEar.description>
+  <InstallClothAvaliEar.jobString>Installing cloth ear.</InstallClothAvaliEar.jobString>
+
+
+  <!-- InstallClothAvaliTail -->
+
+  <InstallClothAvaliTail.label>install cloth tail</InstallClothAvaliTail.label>
+  <InstallClothAvaliTail.description>Installs cloth tail.</InstallClothAvaliTail.description>
+  <InstallClothAvaliTail.jobString>Installing cloth tail.</InstallClothAvaliTail.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+
+  <AvaliPlainPanel.label>plain panel</AvaliPlainPanel.label>
+  <AvaliPlainPanel.description>Plain paneling, because sometimes less is more.</AvaliPlainPanel.description>
+
+
+  <!-- Carpets -->
+
+  <AvaliTentFabric.label>tent fabric</AvaliTentFabric.label>
+  <AvaliTentFabric.description>Avali tent fabric.</AvaliTentFabric.description>
+
+  <AvaliTapestry.label>avali tapestry</AvaliTapestry.label>
+  <AvaliTapestry.description>A soft, decorative tapestry.</AvaliTapestry.description>
+
+  <AvaliTrimHorizontal.label>avali horizontal trim</AvaliTrimHorizontal.label>
+  <AvaliTrimHorizontal.description>A soft, decorative trim material.</AvaliTrimHorizontal.description>
+
+  <AvaliTrimVertical.label>avali vertical trim</AvaliTrimVertical.label>
+  <AvaliTrimVertical.description>A soft, decorative trim material.</AvaliTrimVertical.description>
+
+
+</LanguageData>

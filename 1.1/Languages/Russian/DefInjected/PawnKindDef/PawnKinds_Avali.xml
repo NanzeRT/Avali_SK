@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliSlave -->
+
+  <AvaliSlave.label>slave</AvaliSlave.label>
+  <AvaliSlave.labelPlural>slaves</AvaliSlave.labelPlural>
+  <AvaliSlave.labelMale>male slave</AvaliSlave.labelMale>
+  <AvaliSlave.labelMalePlural>male slaves</AvaliSlave.labelMalePlural>
+  <AvaliSlave.labelFemale>female slave</AvaliSlave.labelFemale>
+  <AvaliSlave.labelFemalePlural>female slaves</AvaliSlave.labelFemalePlural>
+
+
+  <!-- AvaliSpaceRefugee -->
+
+  <AvaliSpaceRefugee.label>refugee</AvaliSpaceRefugee.label>
+  <AvaliSpaceRefugee.labelPlural>refugees</AvaliSpaceRefugee.labelPlural>
+  <AvaliSpaceRefugee.labelMale>male refugee</AvaliSpaceRefugee.labelMale>
+  <AvaliSpaceRefugee.labelMalePlural>male refugees</AvaliSpaceRefugee.labelMalePlural>
+  <AvaliSpaceRefugee.labelFemale>female refugee</AvaliSpaceRefugee.labelFemale>
+  <AvaliSpaceRefugee.labelFemalePlural>female refugees</AvaliSpaceRefugee.labelFemalePlural>
+
+
+  <!-- AvaliColonist -->
+
+  <AvaliColonist.label>colonist</AvaliColonist.label>
+  <AvaliColonist.labelPlural>colonists</AvaliColonist.labelPlural>
+  <AvaliColonist.labelMale>male colonist</AvaliColonist.labelMale>
+  <AvaliColonist.labelMalePlural>male colonists</AvaliColonist.labelMalePlural>
+  <AvaliColonist.labelFemale>female colonist</AvaliColonist.labelFemale>
+  <AvaliColonist.labelFemalePlural>female colonists</AvaliColonist.labelFemalePlural>
+
+
+  <!-- AvaliKeeper -->
+
+  <AvaliKeeper.label>Avali Keeper</AvaliKeeper.label>
+  <AvaliKeeper.labelPlural>Avali keepers</AvaliKeeper.labelPlural>
+  <AvaliKeeper.labelMale>male Avali Keeper</AvaliKeeper.labelMale>
+  <AvaliKeeper.labelMalePlural>male Avali keepers</AvaliKeeper.labelMalePlural>
+  <AvaliKeeper.labelFemale>female Avali Keeper</AvaliKeeper.labelFemale>
+  <AvaliKeeper.labelFemalePlural>female Avali keepers</AvaliKeeper.labelFemalePlural>
+
+
+  <!-- AvaliTrader -->
+
+  <AvaliTrader.label>trader</AvaliTrader.label>
+  <AvaliTrader.labelPlural>traders</AvaliTrader.labelPlural>
+  <AvaliTrader.labelMale>male trader</AvaliTrader.labelMale>
+  <AvaliTrader.labelMalePlural>male traders</AvaliTrader.labelMalePlural>
+  <AvaliTrader.labelFemale>female trader</AvaliTrader.labelFemale>
+  <AvaliTrader.labelFemalePlural>female traders</AvaliTrader.labelFemalePlural>
+
+
+  <!-- AvaliHunter -->
+
+  <AvaliHunter.label>hunter</AvaliHunter.label>
+  <AvaliHunter.labelPlural>hunters</AvaliHunter.labelPlural>
+  <AvaliHunter.labelMale>male hunter</AvaliHunter.labelMale>
+  <AvaliHunter.labelMalePlural>male hunters</AvaliHunter.labelMalePlural>
+  <AvaliHunter.labelFemale>female hunter</AvaliHunter.labelFemale>
+  <AvaliHunter.labelFemalePlural>female hunters</AvaliHunter.labelFemalePlural>
+
+
+  <!-- AvaliSecurityGuard -->
+
+  <AvaliSecurityGuard.label>security guard</AvaliSecurityGuard.label>
+  <AvaliSecurityGuard.labelPlural>security guards</AvaliSecurityGuard.labelPlural>
+  <AvaliSecurityGuard.labelMale>male security guard</AvaliSecurityGuard.labelMale>
+  <AvaliSecurityGuard.labelMalePlural>male security guards</AvaliSecurityGuard.labelMalePlural>
+  <AvaliSecurityGuard.labelFemale>female security guard</AvaliSecurityGuard.labelFemale>
+  <AvaliSecurityGuard.labelFemalePlural>female security guards</AvaliSecurityGuard.labelFemalePlural>
+
+
+  <!-- AvaliScout -->
+
+  <AvaliScout.label>scout</AvaliScout.label>
+  <AvaliScout.labelPlural>scouts</AvaliScout.labelPlural>
+  <AvaliScout.labelMale>male scout</AvaliScout.labelMale>
+  <AvaliScout.labelMalePlural>male scouts</AvaliScout.labelMalePlural>
+  <AvaliScout.labelFemale>female scout</AvaliScout.labelFemale>
+  <AvaliScout.labelFemalePlural>female scouts</AvaliScout.labelFemalePlural>
+
+
+  <!-- AvaliSoldier -->
+
+  <AvaliSoldier.label>soldier</AvaliSoldier.label>
+  <AvaliSoldier.labelPlural>soldiers</AvaliSoldier.labelPlural>
+  <AvaliSoldier.labelMale>male soldier</AvaliSoldier.labelMale>
+  <AvaliSoldier.labelMalePlural>male soldiers</AvaliSoldier.labelMalePlural>
+  <AvaliSoldier.labelFemale>female soldier</AvaliSoldier.labelFemale>
+  <AvaliSoldier.labelFemalePlural>female soldiers</AvaliSoldier.labelFemalePlural>
+
+
+  <!-- AvaliStalker -->
+
+  <AvaliStalker.label>stalker</AvaliStalker.label>
+  <AvaliStalker.labelPlural>stalkers</AvaliStalker.labelPlural>
+  <AvaliStalker.labelMale>male stalker</AvaliStalker.labelMale>
+  <AvaliStalker.labelMalePlural>male stalkers</AvaliStalker.labelMalePlural>
+  <AvaliStalker.labelFemale>female stalker</AvaliStalker.labelFemale>
+  <AvaliStalker.labelFemalePlural>female stalkers</AvaliStalker.labelFemalePlural>
+
+
+  <!-- AvaliCommando -->
+
+  <AvaliCommando.label>commando</AvaliCommando.label>
+  <AvaliCommando.labelPlural>commandos</AvaliCommando.labelPlural>
+  <AvaliCommando.labelMale>male commando</AvaliCommando.labelMale>
+  <AvaliCommando.labelMalePlural>male commandos</AvaliCommando.labelMalePlural>
+  <AvaliCommando.labelFemale>female commando</AvaliCommando.labelFemale>
+  <AvaliCommando.labelFemalePlural>female commandos</AvaliCommando.labelFemalePlural>
+
+
+  <!-- AvaliAssassin -->
+
+  <AvaliAssassin.label>assassin</AvaliAssassin.label>
+  <AvaliAssassin.labelPlural>assassins</AvaliAssassin.labelPlural>
+  <AvaliAssassin.labelMale>male assassin</AvaliAssassin.labelMale>
+  <AvaliAssassin.labelMalePlural>male assassins</AvaliAssassin.labelMalePlural>
+  <AvaliAssassin.labelFemale>female assassin</AvaliAssassin.labelFemale>
+  <AvaliAssassin.labelFemalePlural>female assassins</AvaliAssassin.labelFemalePlural>
+
+
+</LanguageData>

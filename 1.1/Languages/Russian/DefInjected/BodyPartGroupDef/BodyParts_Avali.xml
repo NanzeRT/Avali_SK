@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Body part groups -->
+
+  <UpperHeadAvali.label>upper head</UpperHeadAvali.label>
+  <EarsAvali.label>ears</EarsAvali.label>
+  <TailAvali.label>tail</TailAvali.label>
+  <LeftHandTalons.label>left hand talons</LeftHandTalons.label>
+  <RightHandTalons.label>right hand talons</RightHandTalons.label>
+  <LeftFeetTalons.label>left feet talons</LeftFeetTalons.label>
+  <RightFeetTalons.label>right feet talons</RightFeetTalons.label>
+  <LeftFeetAvali.label>left feet</LeftFeetAvali.label>
+  <RightFeetAvali.label>right feet</RightFeetAvali.label>
+
+
+</LanguageData>

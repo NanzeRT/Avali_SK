@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingCategoryDef>
-		<defName>RailgunsAmmoBuck</defName>
+		<defName>RailgunsAmmoB</defName>
 		<label>Ammunition railgun (Buckshot)</label>
 		<parent>AmmoAdvanced</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
@@ -10,19 +10,19 @@
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_RailShot</defName>
-		<label>Backshot rail ammo</label>
+		<defName>AmmoSet_RailB</defName>
+		<label>Buckshot rail ammo</label>
 		<ammoTypes>
-			<Ammo_AvaliRailBuck>Bullet_AvaliLargeRailBuck</Ammo_AvaliRailBuck>
+			<Ammo_AvaliRailB>Bullet_AvaliBRailLance</Ammo_AvaliRailB>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 		
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
-		<defName>Ammo_AvaliRailBuck</defName>
+		<defName>Ammo_AvaliRailB</defName>
 		<label>Buckshot Rail Ammo</label>
-    <description>Avali buckshot rail ammunition</description>
+    <description>Avali buckshot calibre rail ammunition</description>
 		<tradeTags>
 			<li>CE_AutoEnableCrafting</li>
 		</tradeTags>
@@ -47,19 +47,19 @@
 	<!-- ================== Projectiles ================== -->
 
 	<ThingDef Class="SK.ThingDef_LaserProjectileCR" ParentName="SK_BaseBullet">
-		<defName>Bullet_AvaliBuckRailLance</defName>
+		<defName>Bullet_AvaliBRailLance</defName>
 		<thingClass>SK.Projectile_LaserCE</thingClass>
-		<label>Avali buckshot charge lance</label>
+		<label>Avali buckshot calibre charge lance</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeRay</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>6</damageAmountBase>
-			<speed>150</speed>
+			<damageAmountBase>6.7</damageAmountBase>
+			<speed>300</speed>
       <pelletCount>6</pelletCount>
-      <spreadMult>18</spreadMult>
+      <spreadMult>14.8</spreadMult>
 			<!-- <armorPenetrationBase>1.1</armorPenetrationBase> -->
 			<armorPenetrationSharp>80</armorPenetrationSharp>
 			<armorPenetrationBlunt>240</armorPenetrationBlunt>
@@ -75,9 +75,9 @@
 	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_AvaliRailBuck</defName>
+		<defName>MakeAmmo_AvaliRailB</defName>
 		<label>make avali Buckshot Rail cartridge x25</label>
-		<description>Craft 25 Buckshot Rail cartridges.</description>
+		<description>Craft 25 Buckshot calibre Rail cartridges.</description>
 		<jobString>Making Buckshot Rail cartridges.</jobString>
 		<ingredients>
       <li>
@@ -111,7 +111,7 @@
 		</recipeUsers>
     <researchPrerequisite>AvaliRailguns</researchPrerequisite>
 		<products>
-			<Ammo_AvaliRailBuck>25</Ammo_AvaliRailBuck>
+			<Ammo_AvaliRailB>25</Ammo_AvaliRailB>
 		</products>
 	</RecipeDef>  
 </Defs>

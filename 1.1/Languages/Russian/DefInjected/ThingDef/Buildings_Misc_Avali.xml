@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliAerogelSkylight -->
+
+  <AvaliAerogelSkylight.label>aerogel skylight</AvaliAerogelSkylight.label>
+  <AvaliAerogelSkylight.description>A skylight made out of aerogel. Orange and quick to build.</AvaliAerogelSkylight.description>
+  <AvaliAerogelSkylight_Blueprint.label>aerogel skylight (blueprint)</AvaliAerogelSkylight_Blueprint.label>
+  <AvaliAerogelSkylight_Frame.label>aerogel skylight (building)</AvaliAerogelSkylight_Frame.label>
+  <AvaliAerogelSkylight_Frame.description>A skylight made out of aerogel. Orange and quick to build.</AvaliAerogelSkylight_Frame.description>
+
+
+</LanguageData>

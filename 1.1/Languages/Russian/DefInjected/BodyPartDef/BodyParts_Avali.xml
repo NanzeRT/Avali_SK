@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Conceptual body parts for apparel -->
+
+  <HeadAvaliConceptual.label>head</HeadAvaliConceptual.label>
+  <SkullAvaliConceptual.label>skull</SkullAvaliConceptual.label>
+  <BrainAvaliConceptual.label>brain</BrainAvaliConceptual.label>
+  <LeftUpperEarAvaliConceptual.label>left upper ear</LeftUpperEarAvaliConceptual.label>
+  <LeftLowerEarAvaliConceptual.label>left lower ear</LeftLowerEarAvaliConceptual.label>
+  <RightUpperEarAvaliConceptual.label>right upper ear</RightUpperEarAvaliConceptual.label>
+  <RightLowerEarAvaliConceptual.label>right lower ear</RightLowerEarAvaliConceptual.label>
+  <TailAvaliConceptual.label>tail</TailAvaliConceptual.label>
+  <LeftFeetAvaliConceptual.label>left feet</LeftFeetAvaliConceptual.label>
+  <RightFeetAvaliConceptual.label>right feet</RightFeetAvaliConceptual.label>
+
+
+  <!-- Body parts -->
+
+  <TailAvali.label>tail</TailAvali.label>
+  <EarAvali.label>ear</EarAvali.label>
+
+
+</LanguageData>

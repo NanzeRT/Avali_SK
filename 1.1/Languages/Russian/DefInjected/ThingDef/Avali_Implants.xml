@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- PlasteelAvaliTalons -->
+
+  <PlasteelAvaliTalons.label>steel Avali talons</PlasteelAvaliTalons.label>
+  <PlasteelAvaliTalons.description>A relatively simple method of increasing the damage Avali talons can do.</PlasteelAvaliTalons.description>
+
+
+  <!-- AvaliSightAugment -->
+
+  <AvaliSightAugment.label>Avali vision augment</AvaliSightAugment.label>
+  <AvaliSightAugment.description>An augment enhancing vision. Especially useful for auditory-reliant races like Avali. Zoom included.</AvaliSightAugment.description>
+
+
+  <!-- AvaliHearingAugment -->
+
+  <AvaliHearingAugment.label>Avali auditory augment</AvaliHearingAugment.label>
+  <AvaliHearingAugment.description>Auditory augments is very popular among military, scientific and exploration packs.</AvaliHearingAugment.description>
+
+
+  <!-- AvaliCoolAugment -->
+
+  <AvaliCoolAugment.label>Avali cooling augment</AvaliCoolAugment.label>
+  <AvaliCoolAugment.description>This augment allows users to survive in environments that are deadly hot to them.</AvaliCoolAugment.description>
+
+
+  <!-- AvaliHeatAugment -->
+
+  <AvaliHeatAugment.label>Avali heating augment</AvaliHeatAugment.label>
+  <AvaliHeatAugment.description>This augment allows users to survive in environments that too cold for them.</AvaliHeatAugment.description>
+
+
+  <!-- AvaliEnviromentalAugment -->
+
+  <AvaliEnviromentalAugment.label>Avali life support augment</AvaliEnviromentalAugment.label>
+  <AvaliEnviromentalAugment.description>This augment allows users to survive in environments which were previously deadly toxic to them.</AvaliEnviromentalAugment.description>
+
+
+  <!-- AvaliPackLossAugment -->
+
+  <AvaliPackLossAugment.label>Avali madness prevention augment</AvaliPackLossAugment.label>
+  <AvaliPackLossAugment.description>This augment prevents Avali from going mad from mental illness called Pack Loss.</AvaliPackLossAugment.description>
+
+
+</LanguageData>

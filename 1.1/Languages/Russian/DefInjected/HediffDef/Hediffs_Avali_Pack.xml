@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliPackExploration -->
+
+  <AvaliPackExploration.label>exploration pack</AvaliPackExploration.label>
+  <AvaliPackExploration.description>Exploration pack.</AvaliPackExploration.description>
+
+
+  <!-- AvaliPackMilitary -->
+
+  <AvaliPackMilitary.label>military pack</AvaliPackMilitary.label>
+  <AvaliPackMilitary.description>Military pack.</AvaliPackMilitary.description>
+
+
+  <!-- AvaliPackHunting -->
+
+  <AvaliPackHunting.label>hunters pack</AvaliPackHunting.label>
+  <AvaliPackHunting.description>Hunters pack.</AvaliPackHunting.description>
+
+
+  <!-- AvaliPackScientific -->
+
+  <AvaliPackScientific.label>scientific pack</AvaliPackScientific.label>
+  <AvaliPackScientific.description>Scientific pack.</AvaliPackScientific.description>
+
+
+  <!-- AvaliPackIndustrial -->
+
+  <AvaliPackIndustrial.label>industrial pack</AvaliPackIndustrial.label>
+  <AvaliPackIndustrial.description>Industrial pack.</AvaliPackIndustrial.description>
+
+
+  <!-- AvaliPackArtistical -->
+
+  <AvaliPackArtistical.label>artistical pack</AvaliPackArtistical.label>
+  <AvaliPackArtistical.description>Artistical pack.</AvaliPackArtistical.description>
+
+
+</LanguageData>

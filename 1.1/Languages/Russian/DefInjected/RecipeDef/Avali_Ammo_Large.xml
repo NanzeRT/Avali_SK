@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_AvaliRailLarge.label>make avali Large Rail cartridge x25</MakeAmmo_AvaliRailLarge.label>
+  <MakeAmmo_AvaliRailLarge.description>Craft 20 Large calibre Rail cartridges.</MakeAmmo_AvaliRailLarge.description>
+  <MakeAmmo_AvaliRailLarge.jobString>Making Large Rail cartridges.</MakeAmmo_AvaliRailLarge.jobString>
+
+
+</LanguageData>

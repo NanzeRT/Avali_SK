@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sang.label>sang</Sang.label>
+  <Sang.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] sings</Sang.rulePack.rulesStrings.0>
+  <Sang.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef] quietly sings</Sang.rulePack.rulesStrings.1>
+  <Sang.rulePack.rulesStrings.2>image->[pawn_nameFull] gazing into the distance and [circumstance_group]</Sang.rulePack.rulesStrings.2>
+  <Sang.rulePack.rulesStrings.3>image->[pawn_nameFull] closing [pawn_possessive] eyes and [circumstance_group]</Sang.rulePack.rulesStrings.3>
+  <Sang.rulePack.rulesStrings.4>image->[pawn_nameFull] clasping [pawn_possessive] hands and [circumstance_group]</Sang.rulePack.rulesStrings.4>
+  <Sang.rulePack.rulesStrings.5>image->[pawn_nameFull] looking into the sky and [circumstance_group]</Sang.rulePack.rulesStrings.5>
+  <Sang.rulePack.rulesStrings.6>circumstance_phrase->sings</Sang.rulePack.rulesStrings.6>
+  <Sang.rulePack.rulesStrings.7>circumstance_phrase->quietly sings</Sang.rulePack.rulesStrings.7>
+  <Sang.rulePack.rulesStrings.8>circumstance_phrase->sings some beautiful song</Sang.rulePack.rulesStrings.8>
+  <Sang.rulePack.rulesStrings.9>circumstance_phrase->sings loudly</Sang.rulePack.rulesStrings.9>
+  <Sang.rulePack.rulesStrings.10>circumstance_phrase->sings a song</Sang.rulePack.rulesStrings.10>
+  <Sang.rulePack.rulesStrings.11>desc_sentence->[quantity_adjphrase] [outlander]s gaze upon [pawn_pronoun].</Sang.rulePack.rulesStrings.11>
+  <Sang.rulePack.rulesStrings.12>desc_sentence->[pawn_pronoun] is surrounded by [quantity_adjphrase] [animal]s.</Sang.rulePack.rulesStrings.12>
+  <Sang.rulePack.rulesStrings.13>desc_sentence->[quantity_adjphrase] [animal]s rest peacefully.</Sang.rulePack.rulesStrings.13>
+  <Sang.rulePack.rulesStrings.14>desc_sentence->[quantity_adjphrase] [enemy]s are awestruck by the scene.</Sang.rulePack.rulesStrings.14>
+
+
+</LanguageData>

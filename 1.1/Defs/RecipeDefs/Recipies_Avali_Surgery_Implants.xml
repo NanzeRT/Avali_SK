@@ -255,10 +255,10 @@
   <!-- InstallPlasteelAvaliTalons -->
   <RecipeDef ParentName="SurgeryAvali">
     <defName>InstallPlasteelAvaliTalons</defName>
-    <label>install plasteel Avali talons</label>
-    <description>Replace Avali talons with plasteel talons.</description>
+    <label>install steel Avali talons</label>
+    <description>Replace Avali talons with steel talons.</description>
     <workerClass>Recipe_InstallImplant</workerClass>
-    <jobString>Installing plasteel Avali talons.</jobString>
+    <jobString>Installing steel Avali talons.</jobString>
     <workAmount>1200</workAmount>
     <surgerySuccessChanceFactor>1.5</surgerySuccessChanceFactor>
     <skillRequirements>
@@ -300,9 +300,9 @@
   <!-- RemovePlasteelAvaliTalons -->
   <RecipeDef ParentName="SurgeryAvali">
     <defName>RemovePlasteelAvaliTalons</defName>
-    <label>remove plasteel Avali talons</label>
-    <description>Remove plasteel Avali talons.</description>
-    <jobString>Removing plasteel Avali talons.</jobString>
+    <label>remove steel Avali talons</label>
+    <description>Remove steel Avali talons.</description>
+    <jobString>Removing steel Avali talons.</jobString>
     <removesHediff>PlasteelAvaliTalons</removesHediff>
     <successfullyRemovedHediffMessage>{0} has successfully removed from {1}.</successfullyRemovedHediffMessage>
     <workerClass>Recipe_RemoveHediff</workerClass>

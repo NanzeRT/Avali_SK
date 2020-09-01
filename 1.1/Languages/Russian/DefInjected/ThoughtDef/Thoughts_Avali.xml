@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AvaliNeedJoy -->
+
+  <AvaliNeedJoy.stages.0.label>уныние</AvaliNeedJoy.stages.0.label>
+  <AvaliNeedJoy.stages.0.description>Я думаю, что умру от скуки! Мне нужно немного свободного времени... Пожалуйста.</AvaliNeedJoy.stages.0.description>
+  <AvaliNeedJoy.stages.1.label>скука</AvaliNeedJoy.stages.1.label>
+  <AvaliNeedJoy.stages.1.description>I urgently need to do something fun! Roll in snow, throw snowballs at packmates, or build a snowman... Anything.</AvaliNeedJoy.stages.1.description>
+  <AvaliNeedJoy.stages.2.label>лишенный радости</AvaliNeedJoy.stages.2.label>
+  <AvaliNeedJoy.stages.2.description>Как насчет перерыва, чтобы развлечься?</AvaliNeedJoy.stages.2.description>
+  <AvaliNeedJoy.stages.3.label>наполненный радостью</AvaliNeedJoy.stages.3.label>
+  <AvaliNeedJoy.stages.3.description>Это было весело!</AvaliNeedJoy.stages.3.description>
+  <AvaliNeedJoy.stages.4.label>веселый</AvaliNeedJoy.stages.4.label>
+  <AvaliNeedJoy.stages.4.description>Мне давно не было так весело!</AvaliNeedJoy.stages.4.description>
+
+
+  <!-- AvaliNeedComfort -->
+
+  <AvaliNeedComfort.stages.0.label>неудобство</AvaliNeedComfort.stages.0.label>
+  <AvaliNeedComfort.stages.0.description>Думаю, нам нужно больше диванов и подушек.</AvaliNeedComfort.stages.0.description>
+  <AvaliNeedComfort.stages.1.label>удобно</AvaliNeedComfor  t.stages.1.label>
+  <AvaliNeedComfort.stages.1.description>В последнее время мне комфортно.</AvaliNeedComfort.stages.1.description>
+  <AvaliNeedComfort.stages.2.label>комфортно</AvaliNeedComfort.stages.2.label>
+  <AvaliNeedComfort.stages.2.description>В последнее время мне было очень комфортно.</AvaliNeedComfort.stages.2.description>
+  <AvaliNeedComfort.stages.3.label>чрезвычайно удобно</AvaliNeedComfort.stages.3.label>
+  <AvaliNeedComfort.stages.3.description>В последнее время мне было очень комфортно. Здесь так уютно!</AvaliNeedComfort.stages.3.description>
+  <AvaliNeedComfort.stages.4.label>роскошно</AvaliNeedComfort.stages.4.label>
+  <AvaliNeedComfort.stages.4.description>Я отдыхаю будто на райских облаках...</AvaliNeedComfort.stages.4.description>
+
+
+  <!-- SleptWithoutPillow -->
+
+  <SleptWithoutPillow.stages.0.label>Спал без подушки</SleptWithoutPillow.stages.0.label>
+  <SleptWithoutPillow.stages.0.description>Пришлось спать без подушки. Это раздражает.</SleptWithoutPillow.stages.0.description>
+
+
+  <!-- AvaliDeaf -->
+
+  <AvaliDeaf.stages.0.label>Глухота</AvaliDeaf.stages.0.label>
+  <AvaliDeaf.stages.0.description>Я ничего не слышу, даже свой голос! Это ужасно!</AvaliDeaf.stages.0.description>
+
+
+  <!-- PackLoss -->
+
+  <PackLoss.stages.0.label>потеря члена стаи (слабый)</PackLoss.stages.0.label>
+  <PackLoss.stages.0.description>Думаю, я начинаю слышать голоса членов своей стаи. Если я скоро не найду кого-то, кому можно доверять, я сойду с ума.</PackLoss.stages.0.description>
+  <PackLoss.stages.1.label>потеря члена стаи (средний)</PackLoss.stages.1.label>
+  <PackLoss.stages.1.description>Теперь я не только слышу голоса членов своей стаи, но и вижу их призраки. Меня это пугает.</PackLoss.stages.1.description>
+  <PackLoss.stages.2.label>потеря члена стаи (сильный)</PackLoss.stages.2.label>
+  <PackLoss.stages.2.description>Эти голоса и видения теперь настолько реальны... Становится трудно понять, где реальность.</PackLoss.stages.2.description>
+  <PackLoss.stages.3.label>потеря члена стаи (экстремальный)</PackLoss.stages.3.label>
+  <PackLoss.stages.3.description>Заткнитесь! Заткнитесь! Убирайтесь! Вы не моя стая! Я убью вас! Я убью вас всех!</PackLoss.stages.3.description>
+
+
+  <!-- AvaliSleepDisturbed -->
+
+  <AvaliSleepDisturbed.stages.0.label>плохо спал</AvaliSleepDisturbed.stages.0.label>
+  <AvaliSleepDisturbed.stages.0.description>Я не могу спать спокойно, когда вокруг бродят незнакомцы.</AvaliSleepDisturbed.stages.0.description>
+
+
+  <!-- AvaliSleepWithLovedOne -->
+
+  <AvaliWantToSleepWithLovedOne.stages.0.label>хочу спать в одной комнате с {0}</AvaliWantToSleepWithLovedOne.stages.0.label>
+  <AvaliWantToSleepWithLovedOne.stages.0.description>Я хочу спать в одной комнате с моей половинкой!</AvaliWantToSleepWithLovedOne.stages.0.description>
+
+
+  <!-- AvaliNeedPrivacy -->
+
+  <AvaliNeedPrivacy.stages.0.label>хочет уединенности</AvaliNeedPrivacy.stages.0.label>
+  <AvaliNeedPrivacy.stages.0.description>Я не могу повеселиться со своей стаей, когда вокруг бродят незнакомцы.</AvaliNeedPrivacy.stages.0.description>
+
+
+  <!-- AvaliCaresOfEgg -->
+
+  <AvaliCaresOfEgg.stages.0.label>Уход за яйцом</AvaliCaresOfEgg.stages.0.label>
+  <AvaliCaresOfEgg.stages.0.description>Мы должны заботиться о собственных яйцах.</AvaliCaresOfEgg.stages.0.description>
+
+
+  <!-- AvaliEggLost -->
+
+  <AvaliEggLost.stages.0.label>Яйцо потеряно</AvaliEggLost.stages.0.label>
+  <AvaliEggLost.stages.0.description>Мы потеряли яйцо. Мы ужасные родители.</AvaliEggLost.stages.0.description>
+
+
+  <!-- ParentForcedToCookAvaliEgg -->
+
+  <ParentForcedToCookAvaliEgg.stages.0.label>Я приготовил свое яйцо</ParentForcedToCookAvaliEgg.stages.0.label>
+  <ParentForcedToCookAvaliEgg.stages.0.description>Пришлось приготовить собственное яйцо. Это кошмар.</ParentForcedToCookAvaliEgg.stages.0.description>
+
+
+  <!-- AvaliEggCooked -->
+
+  <AvaliEggCooked.stages.0.label>Колония приготовила мое яйцо</AvaliEggCooked.stages.0.label>
+  <AvaliEggCooked.stages.0.description>Колония приготовила мое яйцо. Я заставляю их заплатить за это!</AvaliEggCooked.stages.0.description>
+
+
+  <!-- ButcheredSentientSpecimen -->
+
+  <ButcheredSentientSpecimen.stages.0.label>я зарезал разумное существо</ButcheredSentientSpecimen.stages.0.label>
+  <ButcheredSentientSpecimen.stages.0.description>Я зарезал это существо как животное. Это действительно необходимо?</ButcheredSentientSpecimen.stages.0.description>
+
+
+  <!-- KnowButcheredSentientSpecimen -->
+
+  <KnowButcheredSentientSpecimen.stages.0.label>мы зарезали разумное существо</KnowButcheredSentientSpecimen.stages.0.label>
+  <KnowButcheredSentientSpecimen.stages.0.description>Мы зарезали этого существо как животное. Это немного жутко.</KnowButcheredSentientSpecimen.stages.0.description>
+
+
+  <!-- ButcheredAvaliCorpse -->
+
+  <ButcheredAvaliCorpse.stages.0.label>Я зарезал Авали</ButcheredAvaliCorpse.stages.0.label>
+  <ButcheredAvaliCorpse.stages.0.description>Я зарезал себе подобного, как животное. Это ДЕЙСТВИТЕЛЬНО необходимо?</ButcheredAvaliCorpse.stages.0.description>
+
+
+  <!-- KnowButcheredAvaliCorpse -->
+
+  <KnowButcheredAvaliCorpse.stages.0.label>мы зарезали Авали</KnowButcheredAvaliCorpse.stages.0.label>
+  <KnowButcheredAvaliCorpse.stages.0.description>Мы зарезали себе подобного, как животное. Это жутко.</KnowButcheredAvaliCorpse.stages.0.description>
+
+
+  <!-- ObservedSentientSpecimenCorpse -->
+
+  <ObservedSentientSpecimenCorpse.stages.0.label>видел труп</ObservedSentientSpecimenCorpse.stages.0.label>
+  <ObservedSentientSpecimenCorpse.stages.0.description>Я увидел труп, лежащий на земле. Не повезло ему, кто бы это ни был.</ObservedSentientSpecimenCorpse.stages.0.description>
+
+
+  <!-- ObservedSentientSpecimenRottingCorpse -->
+
+  <ObservedSentientSpecimenRottingCorpse.stages.0.label>видел гниющий труп</ObservedSentientSpecimenRottingCorpse.stages.0.label>
+  <ObservedSentientSpecimenRottingCorpse.stages.0.description>Выглядит довольно плохо. Может, похоронить его или хотя бы где-нибудь спрятать?</ObservedSentientSpecimenRottingCorpse.stages.0.description>
+
+
+</LanguageData>

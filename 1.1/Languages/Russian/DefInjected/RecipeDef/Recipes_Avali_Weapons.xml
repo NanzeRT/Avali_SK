@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pistol -->
+
+  <BuildAvaliPistol.label>Build avali 'Frostbite' pistol</BuildAvaliPistol.label>
+  <BuildAvaliPistol.description>Builds avali 'Frostbite' pistol, the basic Avali military grade sidearm.</BuildAvaliPistol.description>
+  <BuildAvaliPistol.jobString>Building avali 'Frostbite' pistol.</BuildAvaliPistol.jobString>
+
+
+  <!-- SMG -->
+
+  <BuildAvaliSMG.label>Build avali 'Coldsnap' SMG</BuildAvaliSMG.label>
+  <BuildAvaliSMG.description>Builds avali 'Coldsnap' SMG, A more compact version of the 'Blizzard', more commonly used in close quaters.</BuildAvaliSMG.description>
+  <BuildAvaliSMG.jobString>Building avali 'Coldsnap' SMG.</BuildAvaliSMG.jobString>
+
+
+  <!-- Assault Rifle -->
+
+  <Build_Avali_AssaultRifle.label>Build avali 'Blizzard' rifle</Build_Avali_AssaultRifle.label>
+  <Build_Avali_AssaultRifle.description>Builds avali 'Blizzard' rifle, The standard Avali infantry weapon.</Build_Avali_AssaultRifle.description>
+  <Build_Avali_AssaultRifle.jobString>Building avali 'Blizzard' rifle.</Build_Avali_AssaultRifle.jobString>
+
+
+  <!-- Shotgun -->
+
+  <BuildAvaliShotgun.label>Build avali 'Avalanche' shotgun</BuildAvaliShotgun.label>
+  <BuildAvaliShotgun.description>Builds avali 'Avalanche' shotgun! It's deadly in close quaters, but inaccurate at longer ranges.</BuildAvaliShotgun.description>
+  <BuildAvaliShotgun.jobString>Building avali 'Avalanche' shotgun.</BuildAvaliShotgun.jobString>
+
+
+  <!-- Sniper Rifle -->
+
+  <BuildAvaliSniper.label>Build avali 'GunAvaliSniper' </BuildAvaliSniper.label>
+  <BuildAvaliSniper.description>Builds avali 'GunAvaliSniper' ! It's deadly in close quaters, but inaccurate at longer ranges.</BuildAvaliSniper.description>
+  <BuildAvaliSniper.jobString>Building avali 'GunAvaliSniper' .</BuildAvaliSniper.jobString>
+
+
+  <!-- Minigun -->
+
+  <BuildAvaliMinigun.label>Build avali 'AvaliMinigun' </BuildAvaliMinigun.label>
+  <BuildAvaliMinigun.description>Builds avali 'AvaliMinigun' ! It's deadly in close quaters, but inaccurate at longer ranges.</BuildAvaliMinigun.description>
+  <BuildAvaliMinigun.jobString>Building avali 'AvaliMinigun' .</BuildAvaliMinigun.jobString>
+
+
+  <!-- Rocket Launcher -->
+
+  <Build_Avali_Rocket_Launcher.label>Build avali '_Avali_Rocket_Launcher' </Build_Avali_Rocket_Launcher.label>
+  <Build_Avali_Rocket_Launcher.description>Builds avali '_Avali_Rocket_Launcher' ! It's deadly in close quaters, but inaccurate at longer ranges.</Build_Avali_Rocket_Launcher.description>
+  <Build_Avali_Rocket_Launcher.jobString>Building avali '_Avali_Rocket_Launcher' .</Build_Avali_Rocket_Launcher.jobString>
+
+
+  <!-- Dagger -->
+
+  <Build_Avali_Dagger.label>Build Avali dagger</Build_Avali_Dagger.label>
+  <Build_Avali_Dagger.description>Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.</Build_Avali_Dagger.description>
+  <Build_Avali_Dagger.jobString>Building_Avali_Dagger</Build_Avali_Dagger.jobString>
+
+
+  <!-- Short Sword -->
+
+  <Build_Avali_Short_Sword.label>Build Avali short sword</Build_Avali_Short_Sword.label>
+  <Build_Avali_Short_Sword.description>The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.</Build_Avali_Short_Sword.description>
+  <Build_Avali_Short_Sword.jobString>Building_Avali_Short_Sword</Build_Avali_Short_Sword.jobString>
+
+
+  <!-- Long Sword -->
+
+  <Build_Avali_Long_Sword.label>Build Avali long sword</Build_Avali_Long_Sword.label>
+  <Build_Avali_Long_Sword.description>The 'Dire Shard' longsword is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.</Build_Avali_Long_Sword.description>
+  <Build_Avali_Long_Sword.jobString>Building_Avali_Long_Sword</Build_Avali_Long_Sword.jobString>
+
+
+  <!-- Spear -->
+
+  <Build_Avali_Spear.label>Build Avali spear</Build_Avali_Spear.label>
+  <Build_Avali_Spear.description>Avali 'Icicle' spear - a modern take on the ancient Avali spear design.</Build_Avali_Spear.description>
+  <Build_Avali_Spear.jobString>Building_Avali_Spear</Build_Avali_Spear.jobString>
+
+
+</LanguageData>

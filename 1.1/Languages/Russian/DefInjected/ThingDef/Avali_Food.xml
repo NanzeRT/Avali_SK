@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Small vanilla food. -->
+
+  <MealSmallSimple.label>small simple meal</MealSmallSimple.label>
+  <MealSmallSimple.description>A simple meal quickly cooked from one main ingredient. The portions are sized for something smaller than a human.</MealSmallSimple.description>
+
+  <MealSmallFine.label>small fine meal</MealSmallFine.label>
+  <MealSmallFine.description>A complex dish assembled with care from a variety of ingredients. The portions are sized for something smaller than a human.</MealSmallFine.description>
+
+  <MealSmallLavish.label>small lavish meal</MealSmallLavish.label>
+  <MealSmallLavish.description>A masterpiece of the culinary arts, this meal nourishes the body, mind, and soul. The portions are sized for something smaller than a human.</MealSmallLavish.description>
+
+  <MealSmallSurvivalPack.label>small packaged survival meal</MealSmallSurvivalPack.label>
+  <MealSmallSurvivalPack.description>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling. The portions are sized for something smaller than a human.</MealSmallSurvivalPack.description>
+
+
+  <!-- Avali-specific food. -->
+
+  <AvaliPiruNoodle.label>Piru noodle</AvaliPiruNoodle.label>
+  <AvaliPiruNoodle.description>Sweet noodles made from Piru frond flour, a staple of Avali students.</AvaliPiruNoodle.description>
+
+  <AvaliKiriCurry.label>Kiri curry</AvaliKiriCurry.label>
+  <AvaliKiriCurry.description>Spicy meat noodles with a rich Kiri sauce.</AvaliKiriCurry.description>
+
+  <AvaliSpicyJerky.label>Spicy jerky</AvaliSpicyJerky.label>
+  <AvaliSpicyJerky.description>Chunks of seasoned jerky, popular with hunters and explorers.</AvaliSpicyJerky.description>
+
+  <AvaliTaco.label>Avalon-style taco</AvaliTaco.label>
+  <AvaliTaco.description>Super-hot Nakati-spiced taco; sometimes eaten on a dare by non-Avali.</AvaliTaco.description>
+
+  <AvaliEggOmlette.label>Avali egg omlette</AvaliEggOmlette.label>
+  <AvaliEggOmlette.description>Avali egg omlette. It’s very tasty for everyone exept Avali.</AvaliEggOmlette.description>
+
+
+</LanguageData>

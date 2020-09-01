@@ -220,7 +220,7 @@
         <magazineSize>4</magazineSize>
         <reloadOneAtATime>true</reloadOneAtATime>
         <reloadTime>0.8</reloadTime>
-        <ammoSet>AmmoSet_RailShot</ammoSet>
+        <ammoSet>AmmoSet_RailB</ammoSet>
       </li>
     </comps>
   </ThingDef>

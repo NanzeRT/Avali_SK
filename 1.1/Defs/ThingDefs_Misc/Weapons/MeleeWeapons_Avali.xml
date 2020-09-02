@@ -122,29 +122,28 @@
 			<Mass>0.25</Mass>
 		</statBases>
 		<tools>
-			<li>
+			<li Class="CombatExtended.ToolCE">
 				<label>handle</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>5</power>
-				<cooldownTime>1.5</cooldownTime>
+				<cooldownTime>1.25</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>3</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
-			<li>
-				<label>blade</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>15</power>
-				<cooldownTime>1</cooldownTime>
-			</li>
-			<li>
+			<li Class="CombatExtended.ToolCE">
 				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>15</power>
-				<cooldownTime>1.5</cooldownTime>
+				<power>10</power>
+				<cooldownTime>1.35</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+				<armorPenetrationSharp>4.1</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 		</tools>
 		<equippedAngleOffset>-65</equippedAngleOffset>

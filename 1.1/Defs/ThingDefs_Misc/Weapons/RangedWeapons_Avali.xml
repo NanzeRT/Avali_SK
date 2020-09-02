@@ -357,7 +357,7 @@
   </ThingDef>
     <!-- ===== Avali Rocket Launcher ===== -->
 
-  <ThingDef ParentName="AvaliBaseWeaponRanged">
+ <!-- <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>Gun_Avali_Rocket_Launcher</defName>
     <label>avali 'Firedart' rocket launcher</label>
     <description>The primary Avali anti-vehicle weapon.</description>
@@ -368,14 +368,14 @@
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
       <!-- <WorkToMake>120000</WorkToMake> -->
-      <Mass>5</Mass>
+     <!-- <Mass>5</Mass>
       <AccuracyTouch>0.60</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.70</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>15</RangedWeapon_Cooldown>
     </statBases><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
-    <costList>
+    <!-- <costList>
       <Plasteel>200</Plasteel>
       <AvaliRocket>20</AvaliRocket>
       <ComponentIndustrial>10</ComponentIndustrial>
@@ -384,7 +384,7 @@
     <recipeMaker>
       <researchPrerequisite>AvaliRocketLaunchers</researchPrerequisite>
     </recipeMaker> -->
-    <comps>
+  <!--  <comps>
       <li Class="Avali.CompProperties_WeaponAvali">
         <useJob>HackBindedThing</useJob>
         <useLabel>Hack {0}</useLabel>
@@ -412,7 +412,7 @@
         <outOfFuelMessage>Cannot shoot: No rockets left</outOfFuelMessage>
         <fuelIconPath>UI/Overlays/Rocket</fuelIconPath>
       </li> -->
-    </comps>
+   <!-- </comps>
     <verbs>
       <li>
         <verbClass>Avali.Verb_ShootBinded</verbClass>
@@ -430,7 +430,7 @@
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
         <!-- <consumeFuelPerShot>1</consumeFuelPerShot> -->
-      </li>
+     <!-- </li>
     </verbs>
     <weaponTags>
       <li>AvaliGunDestructive</li>
@@ -473,5 +473,5 @@
       <explosionRadius>4.9</explosionRadius>
       <speed>50</speed>
     </projectile>
-  </ThingDef>
+  </ThingDef> -->
 </Defs>

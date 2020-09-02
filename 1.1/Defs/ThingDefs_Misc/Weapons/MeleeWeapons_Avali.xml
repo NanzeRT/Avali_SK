@@ -125,7 +125,7 @@
 			<li Class="CombatExtended.ToolCE">
 				<label>handle</label>
 				<capacities>
-					<li>Poke</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>5</power>
 				<cooldownTime>1.25</cooldownTime>
@@ -134,11 +134,11 @@
 				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
-				<label>point</label>
+				<label>blade</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>10</power>
+				<power>15</power>
 				<cooldownTime>1.35</cooldownTime>
 				<chanceFactor>1.33</chanceFactor>
 				<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
@@ -165,29 +165,39 @@
 			<Mass>1.5</Mass>
 		</statBases>
 		<tools>
-			<li>
-				<label>handle</label>
+			<li Class="CombatExtended.ToolCE">
+				<label>pommel</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>5</power>
 				<cooldownTime>2</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
-			<li>
+			<li Class="CombatExtended.ToolCE">
 				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
 				<power>18</power>
 				<cooldownTime>2</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>1.3</armorPenetrationBlunt>
+				<armorPenetrationSharp>4.2</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
-			<li>
+			<li Class="CombatExtended.ToolCE">
 				<label>edge</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
 				<power>20</power>
 				<cooldownTime>2</cooldownTime>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+				<armorPenetrationSharp>3.5</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 			</li>
 		</tools>
 		<equippedAngleOffset>-65</equippedAngleOffset>
@@ -209,29 +219,40 @@
       <MarketValue>523</MarketValue>
 		</statBases>
 		<tools>
-			<li>
-				<label>handle</label>
+			<li Class="CombatExtended.ToolCE">
+				<label>pommel</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>5</power>
 				<cooldownTime>2.5</cooldownTime>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
-			<li>
+			<li Class="CombatExtended.ToolCE">
 				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
 				<power>25</power>
 				<cooldownTime>3</cooldownTime>
+				<chanceFactor>1</chanceFactor>
+				<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+				<armorPenetrationSharp>4.8</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
-			<li>
+			<li Class="CombatExtended.ToolCE">
 				<label>edge</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
 				<power>35</power>
 				<cooldownTime>3</cooldownTime>
+				<chanceFactor>0.6</chanceFactor>
+				<armorPenetrationBlunt>6.5</armorPenetrationBlunt>
+				<armorPenetrationSharp>3.7</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 			</li>
 		</tools>
 		<equippedAngleOffset>-65</equippedAngleOffset>
@@ -253,22 +274,29 @@
 			<Mass>3</Mass>
 		</statBases>
 		<tools>
-			<li>
+			<li Class="CombatExtended.ToolCE">
+				<!--<id>shaftblunt</id>-->
 				<label>shaft</label>
 				<capacities>
 					<li>Blunt</li>
-					<li>Poke</li>
 				</capacities>
 				<power>30</power>
 				<cooldownTime>3.5</cooldownTime>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
 			</li>
-			<li>
-				<label>point</label>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
 				<power>45</power>
 				<cooldownTime>3.5</cooldownTime>
+				<chanceFactor>1</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+				<armorPenetrationSharp>4.3</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
 			</li>
 		</tools>
 		<equippedAngleOffset>-25</equippedAngleOffset>

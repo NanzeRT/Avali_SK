@@ -357,7 +357,7 @@
   </ThingDef>
     <!-- ===== Avali Rocket Launcher ===== -->
 
- <!-- <ThingDef ParentName="AvaliBaseWeaponRanged">
+  <!-- <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>Gun_Avali_Rocket_Launcher</defName>
     <label>avali 'Firedart' rocket launcher</label>
     <description>The primary Avali anti-vehicle weapon.</description>
@@ -366,15 +366,15 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
-    <statBases>
+    <statBases> -->
       <!-- <WorkToMake>120000</WorkToMake> -->
-     <!-- <Mass>5</Mass>
+    <!--  <Mass>5</Mass>
       <AccuracyTouch>0.60</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.70</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>15</RangedWeapon_Cooldown>
-    </statBases><!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+    </statBases> -->
     <!-- <costList>
       <Plasteel>200</Plasteel>
       <AvaliRocket>20</AvaliRocket>
@@ -392,7 +392,7 @@
         <hackMinSkillLevel>18</hackMinSkillLevel>
         <workTable>HiTechResearchBench</workTable>
         <workLeft>7500</workLeft>
-      </li>
+      </li> -->
       <!-- <li Class="CompProperties_Refuelable">
         <fuelLabel>Rockets left</fuelLabel>
         <fuelGizmoLabel>Rockets count</fuelGizmoLabel>
@@ -412,7 +412,7 @@
         <outOfFuelMessage>Cannot shoot: No rockets left</outOfFuelMessage>
         <fuelIconPath>UI/Overlays/Rocket</fuelIconPath>
       </li> -->
-   <!-- </comps>
+  <!-- </comps>
     <verbs>
       <li>
         <verbClass>Avali.Verb_ShootBinded</verbClass>
@@ -428,9 +428,9 @@
         <range>39.9</range>
         <soundCast>Shot_Avali_RocketLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>14</muzzleFlashScale>
+        <muzzleFlashScale>14</muzzleFlashScale> -->
         <!-- <consumeFuelPerShot>1</consumeFuelPerShot> -->
-     <!-- </li>
+    <!-- </li>
     </verbs>
     <weaponTags>
       <li>AvaliGunDestructive</li>

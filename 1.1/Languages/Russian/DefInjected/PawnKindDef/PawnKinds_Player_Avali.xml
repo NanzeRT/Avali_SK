@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Avali.label>colonist</Avali.label>
-  <Avali.labelPlural>colonists</Avali.labelPlural>
-  <Avali.labelMale>male colonist</Avali.labelMale>
-  <Avali.labelMalePlural>male colonists</Avali.labelMalePlural>
-  <Avali.labelFemale>female colonist</Avali.labelFemale>
-  <Avali.labelFemalePlural>female colonists</Avali.labelFemalePlural>
+  <Avali.label>поселенец</Avali.label>
+  <Avali.labelPlural>поселенцы</Avali.labelPlural>
+  <Avali.labelMale>поселенец</Avali.labelMale>
+  <Avali.labelMalePlural>поселенцы</Avali.labelMalePlural>
+  <Avali.labelFemale>поселенец</Avali.labelFemale>
+  <Avali.labelFemalePlural>поселенцы</Avali.labelFemalePlural>
 
 
 </LanguageData>

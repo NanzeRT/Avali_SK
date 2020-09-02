@@ -3,9 +3,9 @@
 
   <!-- Recipes -->
 
-  <MakeAmmo_AvaliRailB.label>make avali Buckshot Rail cartridge x25</MakeAmmo_AvaliRailB.label>
-  <MakeAmmo_AvaliRailB.description>Craft 25 Buckshot calibre Rail cartridges.</MakeAmmo_AvaliRailB.description>
-  <MakeAmmo_AvaliRailB.jobString>Making Buckshot Rail cartridges.</MakeAmmo_AvaliRailB.jobString>
+  <MakeAmmo_AvaliRailB.label>Сделать боеприпасы рейлгана (Картечь) x25</MakeAmmo_AvaliRailB.label>
+  <MakeAmmo_AvaliRailB.description>Сделать боеприпасы рейлгана (Картечь) x25.</MakeAmmo_AvaliRailB.description>
+  <MakeAmmo_AvaliRailB.jobString>Делает Боеприпасы рейлгана (Картечь)</MakeAmmo_AvaliRailB.jobString>
 
 
 </LanguageData>

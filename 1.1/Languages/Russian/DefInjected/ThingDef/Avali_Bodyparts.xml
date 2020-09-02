@@ -3,50 +3,50 @@
 
   <!-- CyberneticAvaliTail -->
 
-  <CyberneticAvaliTail.label>cybernetic Avali tail</CyberneticAvaliTail.label>
-  <CyberneticAvaliTail.description>Not just a long metal rod, it has a plethora of stabilisation hardware and software, making an avali as agile and nimble as a cat.</CyberneticAvaliTail.description>
+  <CyberneticAvaliTail.label>кибернетический хвост Авали</CyberneticAvaliTail.label>
+  <CyberneticAvaliTail.description>Это не только длинный металлический стержень, но и множество аппаратных и программных средств стабилизации, которые делают Авали ловким и проворным, как кошка.</CyberneticAvaliTail.description>
 
 
   <!-- CyberneticAvaliBody -->
 
-  <CyberneticAvaliBody.label>cybernetic Avali body</CyberneticAvaliBody.label>
-  <CyberneticAvaliBody.description>A technological marvel! Every organ is replaced with a mechanical counterpart which is three times smaller, leaving plenty of space for metabolism and vitality increasing hardware, this is as close an avali will ever get to being a terminator.</CyberneticAvaliBody.description>
+  <CyberneticAvaliBody.label>кибернетическое тело Авали</CyberneticAvaliBody.label>
+  <CyberneticAvaliBody.description>Технологическое чудо! Каждый орган заменен механическим аналогом, который в три раза меньше, оставляя достаточно места для оборудования, повышающего метаболизм и жизнеспособность. Авали близок к тому, чтобы стать терминатором.</CyberneticAvaliBody.description>
 
 
   <!-- CyberneticAvaliHead -->
 
-  <CyberneticAvaliHead.label>cybernetic Avali head</CyberneticAvaliHead.label>
-  <CyberneticAvaliHead.description>A perverbial "Brain in a jar". Except this jar has a a whole suite of sensors, stabilisers, supercomputers is made out of plasteel and is fully self-sufficient.</CyberneticAvaliHead.description>
+  <CyberneticAvaliHead.label>кибернетическая голова Авали</CyberneticAvaliHead.label>
+  <CyberneticAvaliHead.description>«Мозг в банке». Вот только в этой банке есть целый набор датчиков, стабилизаторов, суперкомпьютеры сделаны из высокотехнологичных материалов и полностью самодостаточны.</CyberneticAvaliHead.description>
 
 
   <!-- CyberneticAvaliLeg -->
 
-  <CyberneticAvaliLeg.label>cybernetic Avali leg</CyberneticAvaliLeg.label>
-  <CyberneticAvaliLeg.description>Avali leg replica with sophisticated pneumatics and hydraulics, greatly increasing its recipient's agility. No more leg day!</CyberneticAvaliLeg.description>
+  <CyberneticAvaliLeg.label>кибернетическая нога Авали</CyberneticAvaliLeg.label>
+  <CyberneticAvaliLeg.description>Точная копия ноги Авали с сложной пневматикой и гидравликой, значительно увеличивающая маневренность пользователя. Нет больше дня ног!</CyberneticAvaliLeg.description>
 
 
   <!-- CyberneticAvaliArm -->
 
-  <CyberneticAvaliArm.label>cybernetic Avali arm</CyberneticAvaliArm.label>
-  <CyberneticAvaliArm.description>Avali arm replica with gyroscopic stabilisation, advanced predictive algorythms and advanced hydraulics. It also looks freaking cool.</CyberneticAvaliArm.description>
+  <CyberneticAvaliArm.label>кибернетическая рука Авали</CyberneticAvaliArm.label>
+  <CyberneticAvaliArm.description>Точная копия руки Авали с гироскопической стабилизацией, усовершенствованными алгоритмами прогнозирования и усовершенствованной гидравликой. Он также выглядит чертовски круто.</CyberneticAvaliArm.description>
 
 
   <!-- Tail -->
 
-  <TailAvali.label>Avali tail</TailAvali.label>
-  <TailAvali.description>Organic avali tail.</TailAvali.description>
+  <TailAvali.label>хвост Авали</TailAvali.label>
+  <TailAvali.description>Органический хвост авали.</TailAvali.description>
 
 
   <!-- ClothTail -->
 
-  <ClothAvaliTail.label>cloth Avali tail</ClothAvaliTail.label>
-  <ClothAvaliTail.description>A simple replacement made out of cloth. At least it feels like there's something.</ClothAvaliTail.description>
+  <ClothAvaliTail.label>тканевый хвост Авали</ClothAvaliTail.label>
+  <ClothAvaliTail.description>Простая замена из ткани. Лучше, чем ничего.</ClothAvaliTail.description>
 
 
   <!-- ClothEar -->
 
-  <ClothAvaliEar.label>cloth Avali ear</ClothAvaliEar.label>
-  <ClothAvaliEar.description>A simple replacement made out of cloth. At least it feels like there's something.</ClothAvaliEar.description>
+  <ClothAvaliEar.label>тканевое ухо Авали</ClothAvaliEar.label>
+  <ClothAvaliEar.description>Простая замена из ткани. Лучше, чем ничего.</ClothAvaliEar.description>
 
 
 </LanguageData>

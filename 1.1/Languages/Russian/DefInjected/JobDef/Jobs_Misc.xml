@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <TranslateText.reportString>translating.</TranslateText.reportString>
-  <ReadText.reportString>reading.</ReadText.reportString>
-  <DecipherText.reportString>deciphering.</DecipherText.reportString>
-  <TakeDownedOrDeadPawn.reportString>carrying TargetA.</TakeDownedOrDeadPawn.reportString>
-  <HackBindedThing.reportString>hacking TargetA.</HackBindedThing.reportString>
+  <TranslateText.reportString>переводит.</TranslateText.reportString>
+  <ReadText.reportString>читает.</ReadText.reportString>
+  <DecipherText.reportString>расшифровывает.</DecipherText.reportString>
+  <TakeDownedOrDeadPawn.reportString>переносит TargetA.</TakeDownedOrDeadPawn.reportString>
+  <HackBindedThing.reportString>взламывающий TargetA.</HackBindedThing.reportString>
   <PutOn.reportString>putting on TargetB TargetA.</PutOn.reportString>
 
 

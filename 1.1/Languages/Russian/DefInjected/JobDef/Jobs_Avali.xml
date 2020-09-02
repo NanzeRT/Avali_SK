@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <GotoForLovinAvali.reportString>moving.</GotoForLovinAvali.reportString>
-  <FindPartnerForLovinAvali.reportString>waiting for [PAWN_possessive] turn.</FindPartnerForLovinAvali.reportString>
-  <WatchLovinAvali.reportString>watching.</WatchLovinAvali.reportString>
+  <GotoForLovinAvali.reportString>идет.</GotoForLovinAvali.reportString>
+  <FindPartnerForLovinAvali.reportString>ждет действий от [PAWN_possessive].</FindPartnerForLovinAvali.reportString>
+  <WatchLovinAvali.reportString>наблюдает.</WatchLovinAvali.reportString>
   <LovinAvali.reportString>lovin'.</LovinAvali.reportString>
   <LovinAvaliPartner.reportString>lovin'.</LovinAvaliPartner.reportString>
   <GotoLayAvaliEgg.reportString>moving to lay egg.</GotoLayAvaliEgg.reportString>
-  <LayAvaliEgg.reportString>laying egg.</LayAvaliEgg.reportString>
-  <CheckAvaliEgg.reportString>caring of egg.</CheckAvaliEgg.reportString>
+  <LayAvaliEgg.reportString>укладывает яйцо.</LayAvaliEgg.reportString>
+  <CheckAvaliEgg.reportString>заботится о яйце.</CheckAvaliEgg.reportString>
 
 
 </LanguageData>

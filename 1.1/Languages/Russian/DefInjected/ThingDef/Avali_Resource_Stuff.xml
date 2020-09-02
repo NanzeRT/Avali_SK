@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AvaliGraphene.label>woven graphene</AvaliGraphene.label>
-  <AvaliGraphene.description>Graphene that's been woven specially for use in Avali crafting stations.</AvaliGraphene.description>
+  <AvaliGraphene.label>тканый графен</AvaliGraphene.label>
+  <AvaliGraphene.description>Графен, который был соткан специально для использования на рабочих станциях Авали.</AvaliGraphene.description>
 
 
   <!-- <ThingDef ParentName="ResourceBase">
@@ -25,12 +25,12 @@
     </thingCategories>
   </ThingDef> -->
 
-  <AvaliAerogel.label>Aerogel</AvaliAerogel.label>
-  <AvaliAerogel.description>Aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.</AvaliAerogel.description>
-  <AvaliAerogel.stuffProps.stuffAdjective>Aerogel</AvaliAerogel.stuffProps.stuffAdjective>
+  <AvaliAerogel.label>Аэрогель</AvaliAerogel.label>
+  <AvaliAerogel.description>Аэрогель представляет собой эфемерную решетку молекул с невероятными структурными свойствами, несмотря на то, что она почти ничего не весит.</AvaliAerogel.description>
+  <AvaliAerogel.stuffProps.stuffAdjective>Аэрогель</AvaliAerogel.stuffProps.stuffAdjective>
 
-  <AvaliNanoFibre.label>nanofibre</AvaliNanoFibre.label>
-  <AvaliNanoFibre.description>A superstrong and ultralight synthetic fabric.</AvaliNanoFibre.description>
+  <AvaliNanoFibre.label>Нановолокно</AvaliNanoFibre.label>
+  <AvaliNanoFibre.description>Сверхпрочная и сверхлегкая синтетическая ткань.</AvaliNanoFibre.description>
 
 
 </LanguageData>

@@ -3,170 +3,170 @@
 
   <!-- AvaliClothes -->
 
-  <AvaliClothes.label>Avali clothing</AvaliClothes.label>
-  <AvaliClothes.description>Allows creation of Avali clothing.\n\nThey can be worn only by Avali because of their unique body size and structure.</AvaliClothes.description>
+  <AvaliClothes.label>Одежда Авали</AvaliClothes.label>
+  <AvaliClothes.description>Позволяет создавать одежду Авали. \n\nЭту одежду могут носить только Авали из-за их уникального размера и структуры.</AvaliClothes.description>
 
 
   <!-- AvaliPlants -->
 
-  <AvaliPlants.label>Avali plants</AvaliPlants.label>
-  <AvaliPlants.description>Sowing and cook plants of Avali homeworld. Kiri fruits, Nakati ovoids and Piru colonies.</AvaliPlants.description>
+  <AvaliPlants.label>Растения Авали</AvaliPlants.label>
+  <AvaliPlants.description>Посев и приготовление растений родного мира Авали. Kiri fruits, Nakati ovoids and Piru colonies.</AvaliPlants.description>
 
 
   <!-- AvaliLifeSupportBelt -->
 
-  <AvaliLifeSupportBelt.label>Life support belt</AvaliLifeSupportBelt.label>
-  <AvaliLifeSupportBelt.description>Craft life support belts that create a personal bubble of air breathable by Avali.</AvaliLifeSupportBelt.description>
+  <AvaliLifeSupportBelt.label>Пояс жизнеобеспечения</AvaliLifeSupportBelt.label>
+  <AvaliLifeSupportBelt.description>Создавайте пояса жизнеобеспечения, которые создают персональный пузырь воздуха, позволяющий Авали дышать.</AvaliLifeSupportBelt.description>
 
 
   <!-- AvaliHolograms -->
 
-  <AvaliHolograms.label>Avali holograms</AvaliHolograms.label>
-  <AvaliHolograms.description>Build compact and modern holographic television.</AvaliHolograms.description>
+  <AvaliHolograms.label>Голограммы Авали</AvaliHolograms.label>
+  <AvaliHolograms.description>Постройте компактное и современное голографическое телевидение.</AvaliHolograms.description>
 
 
   <!-- AvaliLighting -->
 
-  <AvaliLighting.label>Avali LED lamps</AvaliLighting.label>
-  <AvaliLighting.description>Build very efficient LED lamps.</AvaliLighting.description>
+  <AvaliLighting.label>Светодиодные лампы Авали</AvaliLighting.label>
+  <AvaliLighting.description>Создавайте очень эффективные светодиодные лампы.</AvaliLighting.description>
 
 
   <!-- AvaliSurvivalGear -->
 
-  <AvaliSurvivalGear.label>Survival gear</AvaliSurvivalGear.label>
-  <AvaliSurvivalGear.description>Build basic survival gear and headset with basic enviromental support system.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliSurvivalGear.description>
+  <AvaliSurvivalGear.label>Снаряжение для выживания</AvaliSurvivalGear.label>
+  <AvaliSurvivalGear.description>Создайте базовое снаряжение для выживания и гарнитуру с базовой системой поддержки окружающей среды. \n\n- Может носить только Авали. \n- Может быть исследовано только Авали.</AvaliSurvivalGear.description>
 
 
   <!-- AvaliScoutArmor -->
 
-  <AvaliScoutArmor.label>Scout armor</AvaliScoutArmor.label>
-  <AvaliScoutArmor.description>Make scout armor and scout's HUD with basic enviromental support system.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliScoutArmor.description>
+  <AvaliScoutArmor.label>Броня разведчика</AvaliScoutArmor.label>
+  <AvaliScoutArmor.description>Сделайте броню разведчика и HUD разведчика с базовой системой поддержки окружающей среды. \n\n- Может носить только Авали. \n- Может быть исследовано только Авали.</AvaliScoutArmor.description>
 
 
   <!-- AvaliExosuit -->
 
-  <AvaliExosuit.label>Avali exosuits</AvaliExosuit.label>
-  <AvaliExosuit.description>Make exosuits that increase working and walking speed. Include basic enviromental support system.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliExosuit.description>
+  <AvaliExosuit.label>Экзокостюмы Авали</AvaliExosuit.label>
+  <AvaliExosuit.description>Создавайте экзокостюмы, увеличивающие скорость работы и ходьбы. Включаеь базовую систему жизнеобеспечения.\n\n- Может носить только Авали. \n- Может быть исследовано только Авали.</AvaliExosuit.description>
 
 
   <!-- AvaliGuardianArmor -->
 
-  <AvaliGuardianArmor.label>"Guardian" combat suit</AvaliGuardianArmor.label>
-  <AvaliGuardianArmor.description>Make "Guardian" combat suit with improved enviromental support system. Lots of armor, but very heavy and has almost no electronic assistance.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliGuardianArmor.description>
+  <AvaliGuardianArmor.label>Боевой костюм "Guardian"</AvaliGuardianArmor.label>
+  <AvaliGuardianArmor.description>Сделайте боевой костюм "Guardian" с улучшенной системой жизнеобеспечения. Хорощо защищает, но очень тяжелый и почти не имеет электронной поддержки.\n\n- Может носить только Авали. \n- Может быть исследовано только Авали.</AvaliGuardianArmor.description>
 
 
   <!-- AvaliCombatArmor -->
 
-  <AvaliCombatArmor.label>Standart combat suit</AvaliCombatArmor.label>
-  <AvaliCombatArmor.description>Make standard Avali combat suit with improved envriomental support system. Nicely balances armor and user assistance systems.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliCombatArmor.description>
+  <AvaliCombatArmor.label>Стандартный боевой костюм</AvaliCombatArmor.label>
+  <AvaliCombatArmor.description>Сделайте стандартный боевой костюм Авали с улучшенной системой жизнеобеспечения. Прекрасно сочетается с броней и системами поддержки пользователя.\n\n- Может носить только Авали. \n- Может быть исследовано только Авали.</AvaliCombatArmor.description>
 
 
   <!-- AvaliHellcatArmor -->
 
-  <AvaliHellcatArmor.label>"Hellcat" combat suit</AvaliHellcatArmor.label>
-  <AvaliHellcatArmor.description>Make "Hellcat" combat suit with improved enviromental support system. Lightly armored and packed with all possible user assistance systems.\n\n- Can be worn only by Avali.\n- Can be researched only by Avali.</AvaliHellcatArmor.description>
+  <AvaliHellcatArmor.label>Боевой костюм  "Hellcat"</AvaliHellcatArmor.label>
+  <AvaliHellcatArmor.description>Сделайте боевой костюм "Hellcat" с улучшенной системой жизнеобеспечения. Легко бронированный и оснащенный всеми возможными системами помощи пользователю.\n\n- Может носить только Авали. \n- Может быть исследовано только Авали.</AvaliHellcatArmor.description>
 
 
   <!-- AvaliPrinting -->
 
-  <AvaliPrinting.label>Nanolathe</AvaliPrinting.label>
-  <AvaliPrinting.description>Build an Avali Nanolathe that allows quick production of Avali technology.</AvaliPrinting.description>
+  <AvaliPrinting.label>Производственный 3D-принтер Авали</AvaliPrinting.label>
+  <AvaliPrinting.description>Продвинутый 3D-принтер Авали, эта модель предназначена для обработки и производства.</AvaliPrinting.description>
 
 
   <!-- AvaliWeaving -->
 
-  <AvaliWeaving.label>Nanoloom</AvaliWeaving.label>
-  <AvaliWeaving.description>Build a nanoloom to weave graphene and nanofiber.</AvaliWeaving.description>
+  <AvaliWeaving.label>Ткацкий станок Авали</AvaliWeaving.label>
+  <AvaliWeaving.description>Продвинутый 3D-принтер Авали, эта модель предназначена для одежды и других деликатных вещей.</AvaliWeaving.description>
 
 
   <!-- AvaliAerogel -->
 
-  <AvaliAerogel.label>Aerogel printing</AvaliAerogel.label>
-  <AvaliAerogel.description>Allows you to print aerogel. Aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.</AvaliAerogel.description>
+  <AvaliAerogel.label>Печать аэрогеля</AvaliAerogel.label>
+  <AvaliAerogel.description>Позволяет печатать аэрогель. Аэрогель - это эфемерная решетка молекул с невероятными структурными свойствами, несмотря на то, что почти ничего не весит.</AvaliAerogel.description>
 
 
   <!-- AvaliMelee -->
 
-  <AvaliMelee.label>Avali melee weapons</AvaliMelee.label>
-  <AvaliMelee.description>Craft spears and swords out of aerogel using nanolathe or machining table.</AvaliMelee.description>
+  <AvaliMelee.label>Холодное оружие Авали</AvaliMelee.label>
+  <AvaliMelee.description>Изготавливайте копья и мечи из аэрогеля.</AvaliMelee.description>
 
 
   <!-- AvaliRocketLaunchers -->
 
-  <AvaliRocketLaunchers.label>Avali rockets</AvaliRocketLaunchers.label>
-  <AvaliRocketLaunchers.description>Allows you to build "Firedart" rocket launchers and produce rockets.</AvaliRocketLaunchers.description>
+  <AvaliRocketLaunchers.label>Ракеты Авали</AvaliRocketLaunchers.label>
+  <AvaliRocketLaunchers.description>Позволяет строить ракетные установки "Firedart" и производить ракеты.</AvaliRocketLaunchers.description>
 
 
   <!-- AvaliRailguns -->
 
-  <AvaliRailguns.label>High-velocity weapons</AvaliRailguns.label>
-  <AvaliRailguns.description>Produce most of the Avali railgun weaponry using nanolathe.</AvaliRailguns.description>
+  <AvaliRailguns.label>Рельсовое оружие</AvaliRailguns.label>
+  <AvaliRailguns.description>Позволяет изготавливать большую часть вооружения Авали.</AvaliRailguns.description>
 
 
   <!-- AvaliMiniguns -->
 
-  <AvaliMiniguns.label>Hybrid miniguns</AvaliMiniguns.label>
-  <AvaliMiniguns.description>Allows you to build "Hailstorm" hybrid miniguns.</AvaliMiniguns.description>
+  <AvaliMiniguns.label>Гибридные миниганы</AvaliMiniguns.label>
+  <AvaliMiniguns.description>Позволяет строить гибридные миниганы "Hailstorm".</AvaliMiniguns.description>
 
 
   <!-- AvaliNanites -->
 
-  <AvaliNanites.label>Nanite body modifications</AvaliNanites.label>
-  <AvaliNanites.description>Create injectors of body enchancing nanite colonies.</AvaliNanites.description>
+  <AvaliNanites.label>Нанотехнологии Авали</AvaliNanites.label>
+  <AvaliNanites.description>Создавайте инъекторы колоний нанитов.</AvaliNanites.description>
 
 
   <!-- AvaliCybernetics -->
 
-  <AvaliCybernetics.label>Avali cybernetics</AvaliCybernetics.label>
-  <AvaliCybernetics.description>Build limb replacement cybernetics that enhance the user.\n\n- Can be researched only by Avali.</AvaliCybernetics.description>
+  <AvaliCybernetics.label>Кибернетика Авали</AvaliCybernetics.label>
+  <AvaliCybernetics.description>Создавайте кибернетическую замену конечностям. \n\n- Может быть исследовано только Авали.</AvaliCybernetics.description>
 
 
   <!-- AvaliCyberneticsAdvanced -->
 
-  <AvaliCyberneticsAdvanced.label>Advanced cybernetics</AvaliCyberneticsAdvanced.label>
-  <AvaliCyberneticsAdvanced.description>Build advanced body replacement cybernetics made out of plasteel. Can suppress the effect of pack loss.\n\n- Can be researched only by Avali.</AvaliCyberneticsAdvanced.description>
+  <AvaliCyberneticsAdvanced.label>Продвинутая кибернетика</AvaliCyberneticsAdvanced.label>
+  <AvaliCyberneticsAdvanced.description>Создайте передовую кибернетику из высокотехнологичных материалов. Может подавлять эффект "потери стаи".\n\n- Может быть исследовано только Авали.</AvaliCyberneticsAdvanced.description>
 
 
   <!-- AvaliAugments -->
 
-  <AvaliAugments.label>Augments</AvaliAugments.label>
-  <AvaliAugments.description>Build top-tier body modifications at fabrication bench. Can be used by non-Avali.</AvaliAugments.description>
+  <AvaliAugments.label>Импланты</AvaliAugments.label>
+  <AvaliAugments.description>Позволяет создавать лучшие импланты из возможных. Может использоваться не-Авали.</AvaliAugments.description>
 
 
   <!-- AvaliShieldBelt -->
 
-  <AvaliShieldBelt.label>Avali shield belt</AvaliShieldBelt.label>
-  <AvaliShieldBelt.description>Allows you to make avali shield belt.\n\nIn comparision to standard human shield belt, it provides a 3 times stronger field but with 2 times higher recharge duration.</AvaliShieldBelt.description>
+  <AvaliShieldBelt.label>Пояс-щит Авали</AvaliShieldBelt.label>
+  <AvaliShieldBelt.description>Позволяет сделать пояс-щит Авали.\n\nПо сравнению со стандартным, обеспечивает в 3 раза более сильное поле, но с 2-кратным увеличением времени перезарядки.</AvaliShieldBelt.description>
 
 
   <!-- AvaliTurretSmall -->
 
-  <AvaliTurretSmall.label>Railgun turrets</AvaliTurretSmall.label>
-  <AvaliTurretSmall.description>Allows you to build Avali "Cerberus" railgun turrets.\n\nDespite its low rate of fire, it provides strong and highly accurate defense at very long range. All Avali turrets consume a lot of power due to usage of railgun technology.</AvaliTurretSmall.description>
+  <AvaliTurretSmall.label>Рельсовые турели</AvaliTurretSmall.label>
+  <AvaliTurretSmall.description>Позволяет строить рельсовые турели Авали "Cerberus".\n\nНесмотря на низкую скорострельность, он обеспечивает надежную и высокоточную защиту на очень больших дистанциях. Все турели Avali потребляют много энергии из-за использования рельсовой технологии.</AvaliTurretSmall.description>
 
 
   <!-- AvaliTurretMedium -->
 
-  <AvaliTurretMedium.label>Hybrid minigun turret</AvaliTurretMedium.label>
-  <AvaliTurretMedium.description>Allows you to build Avali "Ripper" hybrid minigun turret.\n\nHigh rate of fire at medium range, with the tradeoff of being relatively weak and not very accurate.</AvaliTurretMedium.description>
+  <AvaliTurretMedium.label>Миниган турель</AvaliTurretMedium.label>
+  <AvaliTurretMedium.description>Позволяет строить гибридный миниган Авали 'Ripper'.\n\nВысокая скорострельность на средней дистанции с относительно слабой и не очень точной стрельбой.</AvaliTurretMedium.description>
 
 
   <!-- AvaliTurretLarge -->
 
-  <AvaliTurretLarge.label>Rocket launcher turret</AvaliTurretLarge.label>
-  <AvaliTurretLarge.description>Allows you to build Avali "Thrasher" rocker launcher turret.\n\nWith perfect balance of range and accuracy, it shoots expensive high explosive missiles at user selected rate of fire.</AvaliTurretLarge.description>
+  <AvaliTurretLarge.label>Ракетная установка</AvaliTurretLarge.label>
+  <AvaliTurretLarge.description>Позволяет строить ракетную установку Авали "Thrasher".\n\nОбладая идеальным балансом дальности и точности, он стреляет дорогими осколочно-фугасными ракетами.</AvaliTurretLarge.description>
 
 
   <!-- AvaliAeroponics -->
 
-  <AvaliAeroponics.label>Aeroponics</AvaliAeroponics.label>
-  <AvaliAeroponics.description>Build modular aeroponics with higher initial cost than classical hydroponics, allowing for faster and more energy efficient growth.</AvaliAeroponics.description>
+  <AvaliAeroponics.label>Аэропоника</AvaliAeroponics.label>
+  <AvaliAeroponics.description>Создавайте модульную аэропонику. Дороже, чем классическая гидропоника, но более быстрый и энергоэффективный рост.</AvaliAeroponics.description>
 
 
   <!-- AvaliLowTechRangedWeapon -->
 
-  <AvaliLTRW.label>Low tech railgun</AvaliLTRW.label>
-  <AvaliLTRW.description>Create pistols and SMG Avali and also of the power module. The machine for creating the latter will be available after studying the Avali nanolathe technology.</AvaliLTRW.description>
+  <AvaliLTRW.label>Простое рельсовое вооружение</AvaliLTRW.label>
+  <AvaliLTRW.description>Создайте пистолеты и ПП Авали, а также силовой модуль. Производство последнего станет доступно после изучения технологии "Ткацкий станок Авали".</AvaliLTRW.description>
 
 
 </LanguageData>

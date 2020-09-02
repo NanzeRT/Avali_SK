@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Packmate.label>packmate</Packmate.label>
-  <Packmate.labelFemale>packmate</Packmate.labelFemale>
+  <Packmate.label>член стаи</Packmate.label>
+  <Packmate.labelFemale>член стаи</Packmate.labelFemale>
 
-  <PackLeader.label>pack leader</PackLeader.label>
-  <PackLeader.labelFemale>pack leader</PackLeader.labelFemale>
+  <PackLeader.label>лидер стаи</PackLeader.label>
+  <PackLeader.labelFemale>лидер стаи</PackLeader.labelFemale>
 
-  <Kit.label>kit</Kit.label>
-  <Kit.labelFemale>kit</Kit.labelFemale>
+  <Kit.label>ребенок</Kit.label>
+  <Kit.labelFemale>ребенок</Kit.labelFemale>
 
-  <Caretaker.label>taking care of {1}</Caretaker.label>
-  <Caretaker.labelFemale>taking care of {1}</Caretaker.labelFemale>
+  <Caretaker.label>заботится о {1}</Caretaker.label>
+  <Caretaker.labelFemale>заботится о {1}</Caretaker.labelFemale>
 
 
 </LanguageData>

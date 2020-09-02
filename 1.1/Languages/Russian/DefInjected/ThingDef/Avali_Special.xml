@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AvaliEgg.label>Avali egg</AvaliEgg.label>
-  <AvaliEgg.description>An avali egg. If all goes well, it hatch into Avali kit.\nAvali eggs are valued among many people from glitterworld moneybags to backstreet culinarians. Those eggs are not only very tasty (expecially if prepared) but also have a wide range of anti-aging and healing properties. Avali, however, fundamentally disagree with this point.</AvaliEgg.description>
+  <AvaliEgg.label>Яйцо Авали</AvaliEgg.label>
+  <AvaliEgg.description>Яйцо Авали. Если все пойдет хорошо, из него вылупится маленький Авали.\nЯйца Авали ценятся среди многих людей - от богатой элиты до кулинаров в закусочных. Эти яйца не только очень вкусны (особенно если они приготовлены), но также обладают широким спектром антивозрастных и лечебных свойств. Авали, однако, принципиально не согласны с этой точкой зрения.</AvaliEgg.description>
 
 
   <!-- WARNING! Spoilers ahead! -->
 
-  <TextThing.label>Texts go here</TextThing.label>
-  <TextThing.description>Category for all text data storages.</TextThing.description>
+  <TextThing.label>Тексты идут сюда</TextThing.label>
+  <TextThing.description>Категория для всех хранилищ текстовых данных.</TextThing.description>
 
 
   <!-- UTFNews1_T -->
 
-  <UTFNews1_T.label>UTF Informing Agency: A new race has been discovered!</UTFNews1_T.label>
-  <UTFNews1_T.comps.0.useLabel>Read</UTFNews1_T.comps.0.useLabel>
+  <UTFNews1_T.label>UTF Информационное агентство: Открыта новая раса!</UTFNews1_T.label>
+  <UTFNews1_T.comps.0.useLabel>Читать</UTFNews1_T.comps.0.useLabel>
 
 
   <!-- PrecursorText1_T -->
 
   <PrecursorText1_T.label>Shasa Uru Venddi</PrecursorText1_T.label>
-  <PrecursorText1_T.comps.0.useLabel>Translate</PrecursorText1_T.comps.0.useLabel>
+  <PrecursorText1_T.comps.0.useLabel>Перевести</PrecursorText1_T.comps.0.useLabel>
 
 
   <!-- PrecursorText2_T -->
 
   <PrecursorText2_T.label>Jjkar Vikthos</PrecursorText2_T.label>
-  <PrecursorText2_T.comps.0.useLabel>Translate this text</PrecursorText2_T.comps.0.useLabel>
+  <PrecursorText2_T.comps.0.useLabel>Перевести этот текст</PrecursorText2_T.comps.0.useLabel>
 
 
 </LanguageData>

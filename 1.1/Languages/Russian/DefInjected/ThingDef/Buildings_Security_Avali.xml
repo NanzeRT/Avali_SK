@@ -7,7 +7,7 @@
   <AvaliTurretSmall.description>Турель Cerberus использует электромагнитную силу для запуска высокоскоростных снарядов. Часто используется как быстро развертываемая точечная защита на большом расстоянии, эффективна против пехоты и техники. Не эффективна на коротких дистанциях. Из-за огромной силы тока, их необходимо ремонтировать после использования. Автоматически стреляет в ближайших врагов. При повреждении может взорваться и вызвать пожар.\n\nRanged cooldown: 2.5 s \nDamage per shot: 75 \nRange: 90</AvaliTurretSmall.description>
 
   <Gun_AvaliTurretSmall.label>Рейлган 'Cerberus'</Gun_AvaliTurretSmall.label>
-  <Gun_AvaliTurretSmall.description>A turret "brain" and a pair of parallel rails with ammunition feed system. Точный на расстоянии, он не подходит для стрельбы по близким целям.</Gun_AvaliTurretSmall.description>
+  <Gun_AvaliTurretSmall.description>Основа турели, пара огромных направляющих и система подачи боеприпасов. Точный на расстоянии, он не подходит для стрельбы по близким целям.</Gun_AvaliTurretSmall.description>
 
 
   <!-- AvaliTurretMedium -->
@@ -15,17 +15,17 @@
   <AvaliTurretMedium.label>Турель 'Ripper'</AvaliTurretMedium.label>
   <AvaliTurretMedium.description>Большой брат гибридного минигана 'Hailstorm' - Турель 'Ripper' будет запускать больше снарядов с большей скоростью, она имеет постоянный источник питания, поэтому ему не нужно время для зарядки суперконденсаторов. Ужасающе эффективен против небронированных целей, но его необходимо ремонтировать после использования из-за очень сильных токов, протекающих через них. Автоматически стреляет в ближайших врагов. При повреждении может взорваться и вызвать пожар.\n\nRanged cooldown: 0.04 s \nDamage per shot: 10 \nRange: 45</AvaliTurretMedium.description>
 
-  <Gun_AvaliTurretMedium.label>'Ripper' hybrid minigun</Gun_AvaliTurretMedium.label>
-  <Gun_AvaliTurretMedium.description>A turret "brain", a hybrid minigun-railgun and a ammunition feed system.</Gun_AvaliTurretMedium.description>
+  <Gun_AvaliTurretMedium.label>Гибридный миниган 'Ripper'</Gun_AvaliTurretMedium.label>
+  <Gun_AvaliTurretMedium.description>Основа турели, гибридный миниган и система подачи боеприпасов.</Gun_AvaliTurretMedium.description>
 
 
   <!-- AvaliTurretLarge -->
 
   <AvaliTurretLarge.label>Турель 'Thrasher'</AvaliTurretLarge.label>
-  <AvaliTurretLarge.description>Несмотря на то, что основная цель 'Thrasher' - борьба с бронетехникой и механоидами, он все еще довольно эффективен против пехоты. Автоматически стреляет в ближайших врагов. После использования требует загрузки новых ракет. При повреждении может взорваться и вызвать возгорание. \ N \ nВы можете вручную установить задержку между выстрелами.\nDamage per shot: 50 \nRange: 50</AvaliTurretLarge.description>
+  <AvaliTurretLarge.description>Несмотря на то, что основная цель 'Thrasher' - борьба с бронетехникой и механоидами, он все еще довольно эффективен против пехоты. Автоматически стреляет в ближайших врагов. После использования требует загрузки новых ракет. При повреждении может взорваться и вызвать возгорание. \n\nВы можете вручную установить задержку между выстрелами.\nDamage per shot: 50 \nRange: 50</AvaliTurretLarge.description>
 
-  <Gun_AvaliTurretLarge.label>'Thrasher' doubled rocket launcher</Gun_AvaliTurretLarge.label>
-  <Gun_AvaliTurretLarge.description>A turret "brain", two rocket silos and loading system.</Gun_AvaliTurretLarge.description>
+  <Gun_AvaliTurretLarge.label>Сдвоенная ракетная установка 'Thrasher'</Gun_AvaliTurretLarge.label>
+  <Gun_AvaliTurretLarge.description>Основа турели, две ракетные шахты и система подачи боеприпасов.</Gun_AvaliTurretLarge.description>
 
 
 </LanguageData>

@@ -210,11 +210,11 @@
 	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_RPG7Grenade_HEAT</defName>
-		<label>make RPG-7 HEAT grenades x1</label>
-		<description>Craft RPG-7 HEAT grenades.</description>
-		<jobString>Making RPG-7 HEAT grenades.</jobString>
-		<workAmount>1000</workAmount>
+		<defName>MakeAmmo_AvaliGrenade_HEAT</defName>
+		<label>make AS-31 HEAT grenades x1</label>
+		<description>Craft AS-31 HEAT grenades.</description>
+		<jobString>Making AS-31 HEAT grenades.</jobString>
+		<workAmount>1100</workAmount>
 		<targetCountAdjustment>5</targetCountAdjustment>
 		<ingredients>
 			<li>
@@ -224,7 +224,7 @@
 						<li>USLDBar</li>
 					</categories>
 				</filter>
-				<count>13</count>
+				<count>9</count>
 			</li>
 			<li>
 				<filter>
@@ -232,7 +232,7 @@
 						<li>HeavyBar</li>
 					</categories>
 				</filter>
-				<count>4</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -241,8 +241,16 @@
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>2</count>
 			</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+          <count>2</count>
+        </filter>
+      </li>
 			<li>
 				<filter>
 					<thingDefs>
@@ -262,19 +270,20 @@
 				<li>Powder</li>
 				<li>FSX</li>
 				<li>ElectronicComponents</li>
+        <li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_RPG7Grenade_HEAT>1</Ammo_RPG7Grenade_HEAT>
+			<Ammo_AvaliGrenade_HEAT>1</Ammo_AvaliGrenade_HEAT>
 		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_RPG7Grenade_Thermobaric</defName>
-		<label>make RPG-7 thermobaric grenades x1</label>
-		<description>Craft RPG-7 thermobaric grenades.</description>
-		<jobString>Making RPG-7 thermobaric grenades.</jobString>
-		<workAmount>1000</workAmount>
+		<defName>MakeAmmo_AvaliGrenade_Thermobaric</defName>
+		<label>make AS-31 thermobaric grenades x1</label>
+		<description>Craft AS-31 thermobaric grenades.</description>
+		<jobString>Making AS-31 thermobaric grenades.</jobString>
+		<workAmount>1100</workAmount>
 		<targetCountAdjustment>5</targetCountAdjustment>
 		<ingredients>
 			<li>
@@ -284,7 +293,7 @@
 						<li>USLDBar</li>
 					</categories>
 				</filter>
-				<count>12</count>
+				<count>9</count>
 			</li>
 			<li>
 				<filter>
@@ -292,7 +301,7 @@
 						<li>HeavyBar</li>
 					</categories>
 				</filter>
-				<count>4</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -301,7 +310,7 @@
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -334,16 +343,16 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_RPG7Grenade_Thermobaric>1</Ammo_RPG7Grenade_Thermobaric>
+			<Ammo_AvaliGrenade_Thermobaric>1</Ammo_AvaliGrenade_Thermobaric>
 		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AmmoRecipeBase">
-		<defName>MakeAmmo_RPG7Grenade_Frag</defName>
-		<label>make RPG-7 frag grenades x1</label>
-		<description>Craft RPG-7 frag grenades.</description>
-		<jobString>Making RPG-7 frag grenades.</jobString>
-		<workAmount>1000</workAmount>
+		<defName>MakeAmmo_AvaliGrenade_Frag</defName>
+		<label>make AS-31 frag grenades x1</label>
+		<description>Craft AS-31 frag grenades.</description>
+		<jobString>Making AS-31 frag grenades.</jobString>
+		<workAmount>1100</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -352,7 +361,7 @@
 						<li>USLDBar</li>
 					</categories>
 				</filter>
-				<count>12</count>
+				<count>9</count>
 			</li>
 			<li>
 				<filter>
@@ -360,7 +369,7 @@
 						<li>HeavyBar</li>
 					</categories>
 				</filter>
-				<count>4</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -369,7 +378,7 @@
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>6</count>
 			</li>
 			<li>
 				<filter>
@@ -393,7 +402,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_RPG7Grenade_Frag>1</Ammo_RPG7Grenade_Frag>
+			<Ammo_AvaliGrenade_Frag>1</Ammo_AvaliGrenade_Frag>
 		</products>
 	</RecipeDef>
 

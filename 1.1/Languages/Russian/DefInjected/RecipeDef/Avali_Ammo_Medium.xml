@@ -3,9 +3,9 @@
 
   <!-- Recipes -->
 
-  <MakeAmmo_AvaliRailMedium.label>make avali Medium Rail cartridge x25</MakeAmmo_AvaliRailMedium.label>
-  <MakeAmmo_AvaliRailMedium.description>Craft 25 Medium calibre Rail cartridges.</MakeAmmo_AvaliRailMedium.description>
-  <MakeAmmo_AvaliRailMedium.jobString>Making Medium Rail cartridges.</MakeAmmo_AvaliRailMedium.jobString>
+  <MakeAmmo_AvaliRailMedium.label>Сделать боеприпасы рейлгана (Средний калибр) x25</MakeAmmo_AvaliRailMedium.label>
+  <MakeAmmo_AvaliRailMedium.description>Сделать боеприпасы рейлгана (Средний калибр) x25</MakeAmmo_AvaliRailMedium.description>
+  <MakeAmmo_AvaliRailMedium.jobString>Делает боеприпасы рейлгана (Средний калибр)</MakeAmmo_AvaliRailMedium.jobString>
 
 
 </LanguageData>

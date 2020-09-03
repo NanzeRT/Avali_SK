@@ -15,13 +15,13 @@
 
   <!-- Avali Assault Rifle -->
 
-  <Gun_Avali_AssaultRifle.label>Винтовка 'Blizzard' </Gun_Avali_AssaultRifle.label>
+  <Gun_Avali_AssaultRifle.label>Винтовка 'Blizzard'</Gun_Avali_AssaultRifle.label>
   <Gun_Avali_AssaultRifle.description>Стандартное пехотное оружие Авали.</Gun_Avali_AssaultRifle.description>
 
 
   <!-- Avali Shotgun -->
 
-  <GunAvaliShotgun.label>Дробовик 'Avalanche' </GunAvaliShotgun.label>
+  <GunAvaliShotgun.label>Дробовик 'Avalanche'</GunAvaliShotgun.label>
   <GunAvaliShotgun.description>Дробовик авали! Смертельно опасен на коротких дистанциях, но неэффективен в дальнем бою.</GunAvaliShotgun.description>
 
 
@@ -41,7 +41,7 @@
 
   <!-- Avali Rocket Launcher -->
 
-  <Gun_Avali_Rocket_Launcher.label>Ракетная пусковая установка 'Firedart' </Gun_Avali_Rocket_Launcher.label>
+  <Gun_Avali_Rocket_Launcher.label>Ракетная пусковая установка 'Firedart'</Gun_Avali_Rocket_Launcher.label>
   <Gun_Avali_Rocket_Launcher.description>Основное противотранспортное оружие Авали.</Gun_Avali_Rocket_Launcher.description>
   <Gun_Avali_Rocket_Launcher.comps.0.useLabel>Hack {0}</Gun_Avali_Rocket_Launcher.comps.0.useLabel>
   <Gun_Avali_Rocket_Launcher.tools.0.label>stock</Gun_Avali_Rocket_Launcher.tools.0.label>

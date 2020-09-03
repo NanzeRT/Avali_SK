@@ -3,56 +3,56 @@
 
   <!-- CyberneticAvaliTail -->
 
-  <CyberneticAvaliTail.label>cybernetic Avali tail</CyberneticAvaliTail.label>
-  <CyberneticAvaliTail.description>Not just a long metal rod, it has a plethora of stabilisation hardware and software, making an avali as agile and nimble as a cat.</CyberneticAvaliTail.description>
-  <CyberneticAvaliTail.labelNoun>a cybernetic Avali tail</CyberneticAvaliTail.labelNoun>
+  <CyberneticAvaliTail.label>кибернетический хвост Авали</CyberneticAvaliTail.label>
+  <CyberneticAvaliTail.description>Это не только длинный металлический стержень, но и множество аппаратных и программных средств стабилизации, которые делают Авали ловким и проворным, как кошка.</CyberneticAvaliTail.description>
+  <CyberneticAvaliTail.labelNoun>кибернетический хвост Авали</CyberneticAvaliTail.labelNoun>
 
 
   <!-- CyberneticAvaliBody -->
 
-  <CyberneticAvaliBody.label>cybernetic Avali torso</CyberneticAvaliBody.label>
-  <CyberneticAvaliBody.description>A technological marvel! Every organ is replaced with a mechanical counterpart which is three times smaller, leaving plenty of space for metabolism and vitality increasing hardware, this is as close an avali will ever get to being a terminator.</CyberneticAvaliBody.description>
-  <CyberneticAvaliBody.labelNoun>a cybernetic Avali torso</CyberneticAvaliBody.labelNoun>
+  <CyberneticAvaliBody.label>кибернетическое тело Авали</CyberneticAvaliBody.label>
+  <CyberneticAvaliBody.description>Технологическое чудо! Каждый орган заменен механическим аналогом, который в три раза меньше, оставляя достаточно места для оборудования, повышающего метаболизм и жизнеспособность. Авали близок к тому, чтобы стать терминатором.</CyberneticAvaliBody.description>
+  <CyberneticAvaliBody.labelNoun>кибернетическое тело Авали</CyberneticAvaliBody.labelNoun>
 
 
   <!-- CyberneticAvaliHead -->
 
-  <CyberneticAvaliHead.label>cybernetic Avali head</CyberneticAvaliHead.label>
-  <CyberneticAvaliHead.description>A perverbial "Brain in a jar". Except this jar has a a whole suite of sensors, stabilisers, supercomputers is made out of plasteel and is fully self-sufficient.</CyberneticAvaliHead.description>
-  <CyberneticAvaliHead.comps.0.tools.0.label>teeth</CyberneticAvaliHead.comps.0.tools.0.label>
-  <CyberneticAvaliHead.labelNoun>a cybernetic Avali head</CyberneticAvaliHead.labelNoun>
+  <CyberneticAvaliHead.label>кибернетическая голова Авали</CyberneticAvaliHead.label>
+  <CyberneticAvaliHead.description>«Мозг в банке». Вот только в этой банке есть целый набор датчиков, стабилизаторов, суперкомпьютеры сделаны из высокотехнологичных материалов и полностью самодостаточны.</CyberneticAvaliHead.description>
+  <CyberneticAvaliHead.comps.0.tools.0.label>зубы</CyberneticAvaliHead.comps.0.tools.0.label>
+  <CyberneticAvaliHead.labelNoun>кибернетическая голова Авали</CyberneticAvaliHead.labelNoun>
 
 
   <!-- CyberneticAvaliLeg -->
 
-  <CyberneticAvaliLeg.label>cybernetic Avali leg</CyberneticAvaliLeg.label>
-  <CyberneticAvaliLeg.description>Avali leg replica with sophisticated pneumatics and hydraulics, greatly increasing its recipient's agility. No more leg day!</CyberneticAvaliLeg.description>
-  <CyberneticAvaliLeg.comps.0.tools.0.label>leg</CyberneticAvaliLeg.comps.0.tools.0.label>
+  <CyberneticAvaliLeg.label>кибернетическая нога Авали</CyberneticAvaliLeg.label>
+  <CyberneticAvaliLeg.description>Точная копия ноги Авали с сложной пневматикой и гидравликой, значительно увеличивающая маневренность пользователя. Нет больше дня ног!</CyberneticAvaliLeg.description>
+  <CyberneticAvaliLeg.comps.0.tools.0.label>нога</CyberneticAvaliLeg.comps.0.tools.0.label>
   <CyberneticAvaliLeg.comps.0.tools.1.label>leg talons</CyberneticAvaliLeg.comps.0.tools.1.label>
-  <CyberneticAvaliLeg.labelNoun>a cybernetic Avali leg</CyberneticAvaliLeg.labelNoun>
+  <CyberneticAvaliLeg.labelNoun>кибернетическая нога Авали</CyberneticAvaliLeg.labelNoun>
 
 
   <!-- CyberneticAvaliArm -->
 
-  <CyberneticAvaliArm.label>cybernetic Avali arm</CyberneticAvaliArm.label>
-  <CyberneticAvaliArm.description>Avali arm replica with gyroscopic stabilisation, advanced predictive algorythms and advanced hydraulics. It also looks freaking cool.</CyberneticAvaliArm.description>
+  <CyberneticAvaliArm.label>кибернетическая рука Авали</CyberneticAvaliArm.label>
+  <CyberneticAvaliArm.description>Точная копия руки Авали с гироскопической стабилизацией, усовершенствованными алгоритмами прогнозирования и усовершенствованной гидравликой. Он также выглядит чертовски круто.</CyberneticAvaliArm.description>
   <CyberneticAvaliArm.comps.0.tools.0.label>fist</CyberneticAvaliArm.comps.0.tools.0.label>
   <CyberneticAvaliArm.comps.0.tools.1.label>hand talons</CyberneticAvaliArm.comps.0.tools.1.label>
-  <CyberneticAvaliArm.labelNoun>a cybernetic Avali arm</CyberneticAvaliArm.labelNoun>
+  <CyberneticAvaliArm.labelNoun>кибернетическая рука Авали</CyberneticAvaliArm.labelNoun>
 
 
   <!-- ClothTail -->
 
-  <ClothAvaliTail.label>cloth tail</ClothAvaliTail.label>
-  <ClothAvaliTail.description>A simple replacement made out of cloth. At least it feels like there's something.</ClothAvaliTail.description>
-  <ClothAvaliTail.labelNoun>a cloth tail</ClothAvaliTail.labelNoun>
+  <ClothAvaliTail.label>тканевый хвост Авали</ClothAvaliTail.label>
+  <ClothAvaliTail.description>Простая замена из ткани. Лучше, чем ничего.</ClothAvaliTail.description>
+  <ClothAvaliTail.labelNoun>тканевый хвост Авали</ClothAvaliTail.labelNoun>
 
 
   <!-- ClothEar -->
 
-  <ClothAvaliEar.label>cloth ear</ClothAvaliEar.label>
-  <ClothAvaliEar.description>A simple replacement made out of cloth. At least it feels like there's something.</ClothAvaliEar.description>
-  <ClothAvaliEar.labelNoun>a cloth ear</ClothAvaliEar.labelNoun>
+  <ClothAvaliEar.label>тканевое ухо Авали</ClothAvaliEar.label>
+  <ClothAvaliEar.description>Простая замена из ткани. Лучше, чем ничего.</ClothAvaliEar.description>
+  <ClothAvaliEar.labelNoun>тканевое ухо Авали</ClothAvaliEar.labelNoun>
 
 
 </LanguageData>

@@ -3,39 +3,39 @@
 
   <!-- Foods -->
 
-  <AvaliFoodMeals.label>avali meals</AvaliFoodMeals.label>
+  <AvaliFoodMeals.label>блюда Авали</AvaliFoodMeals.label>
 
 
   <!-- Items -->
 
-  <Texts.label>texts</Texts.label>
-  <NanitesAvali.label>avali nanites</NanitesAvali.label>
+  <Texts.label>тексты</Texts.label>
+  <NanitesAvali.label>наниты Авали</NanitesAvali.label>
 
 
   <!-- Apparel -->
 
-  <ApparelAvali.label>avali apparel</ApparelAvali.label>
-  <AvaliHeadgear.label>headgear</AvaliHeadgear.label>
-  <ApparelAvaliArmor.label>avali armor</ApparelAvaliArmor.label>
-  <AvaliArmorHeadgear.label>headgear</AvaliArmorHeadgear.label>
-  <ApparelAvaliNoble.label>noble apparel</ApparelAvaliNoble.label>
+  <ApparelAvali.label>одежда Авали</ApparelAvali.label>
+  <AvaliHeadgear.label>головные уборы Авали</AvaliHeadgear.label>
+  <ApparelAvaliArmor.label>броня Авали</ApparelAvaliArmor.label>
+  <AvaliArmorHeadgear.label>головные уборы Авали</AvaliArmorHeadgear.label>
+  <ApparelAvaliNoble.label>одежда знати Авали</ApparelAvaliNoble.label>
 
 
   <!-- Weapons -->
 
-  <WeaponsAvali.label>avali weapons</WeaponsAvali.label>
-  <WeaponsMeleeAvali.label>melee weapons</WeaponsMeleeAvali.label>
-  <WeaponsRangedAvali.label>ranged weapons</WeaponsRangedAvali.label>
+  <WeaponsAvali.label>оружие Авали</WeaponsAvali.label>
+  <WeaponsMeleeAvali.label>оружие ближнего боя</WeaponsMeleeAvali.label>
+  <WeaponsRangedAvali.label>оружие дальнего боя</WeaponsRangedAvali.label>
 
 
   <!-- Implants -->
 
-  <AugmentsAvali.label>avali augments</AugmentsAvali.label>
+  <AugmentsAvali.label>импланты Авали</AugmentsAvali.label>
 
 
   <!-- BodyParts -->
 
-  <BodyPartsAvali.label>avali</BodyPartsAvali.label>
+  <BodyPartsAvali.label>Авали</BodyPartsAvali.label>
 
 
 </LanguageData>

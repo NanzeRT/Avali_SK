@@ -15,14 +15,14 @@
 
   <!-- MyCaretakerDied -->
 
-  <MyCaretakerDied.stages.0.label>мой caretaker {0} умер</MyCaretakerDied.stages.0.label>
-  <MyCaretakerDied.stages.0.description>Мой caretaker умер. Как будто, я потерял часть себя.</MyCaretakerDied.stages.0.description>
+  <MyCaretakerDied.stages.0.label>мой родитель {0} умер</MyCaretakerDied.stages.0.label>
+  <MyCaretakerDied.stages.0.description>Мой родитель умер. Как будто, я потерял часть себя.</MyCaretakerDied.stages.0.description>
 
 
   <!-- MyCaretakerKitDied -->
 
-  <MyKitDied.stages.0.label>мой kit {0} умер</MyKitDied.stages.0.label>
-  <MyKitDied.stages.0.description>kit, о котором я заботился, умер. Я ужасный caretaker...</MyKitDied.stages.0.description>
+  <MyKitDied.stages.0.label>мой ребенок {0} умер</MyKitDied.stages.0.label>
+  <MyKitDied.stages.0.description>ребенок, о котором я заботился, умер. Я ужасный caretaker...</MyKitDied.stages.0.description>
 
 
   <!-- MyStepchildDied -->

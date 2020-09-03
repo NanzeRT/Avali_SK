@@ -3,16 +3,16 @@
 
   <!-- InjectGuardianNanites -->
 
-  <InjectGuardianNanites.label>inject guardian nanites</InjectGuardianNanites.label>
-  <InjectGuardianNanites.description>Inject Guardian nanites.</InjectGuardianNanites.description>
-  <InjectGuardianNanites.jobString>Injects Guardian nanites.</InjectGuardianNanites.jobString>
+  <InjectGuardianNanites.label>сделать инъекцию защитных нанитов</InjectGuardianNanites.label>
+  <InjectGuardianNanites.description>Сделать инъекцию защитных нанитов.</InjectGuardianNanites.description>
+  <InjectGuardianNanites.jobString>Делает инъекцию защитных нанитов.</InjectGuardianNanites.jobString>
 
 
   <!-- InjectImmunityNanites -->
 
-  <InjectImmunityNanites.label>inject immunity nanites</InjectImmunityNanites.label>
-  <InjectImmunityNanites.description>Inject immunity nanites.</InjectImmunityNanites.description>
-  <InjectImmunityNanites.jobString>Injects immunity nanites.</InjectImmunityNanites.jobString>
+  <InjectImmunityNanites.label>сделать инъекцию нанитов иммунной системы</InjectImmunityNanites.label>
+  <InjectImmunityNanites.description>Сделать инъекцию нанитов иммунной системы.</InjectImmunityNanites.description>
+  <InjectImmunityNanites.jobString>Делает инъекцию нанитов иммунной системы.</InjectImmunityNanites.jobString>
 
 
 </LanguageData>

@@ -4,10 +4,10 @@
   <!-- AvaliAerogelSkylight -->
 
   <AvaliAerogelSkylight.label>aerogel skylight</AvaliAerogelSkylight.label>
-  <AvaliAerogelSkylight.description>A skylight made out of aerogel. Orange and quick to build.</AvaliAerogelSkylight.description>
-  <AvaliAerogelSkylight_Blueprint.label>aerogel skylight (blueprint)</AvaliAerogelSkylight_Blueprint.label>
-  <AvaliAerogelSkylight_Frame.label>aerogel skylight (building)</AvaliAerogelSkylight_Frame.label>
-  <AvaliAerogelSkylight_Frame.description>A skylight made out of aerogel. Orange and quick to build.</AvaliAerogelSkylight_Frame.description>
+  <AvaliAerogelSkylight.description>A skylight made out of aerogel. Оранжевый, и удобен в строительстве.</AvaliAerogelSkylight.description>
+  <AvaliAerogelSkylight_Blueprint.label>aerogel skylight (проект)</AvaliAerogelSkylight_Blueprint.label>
+  <AvaliAerogelSkylight_Frame.label>aerogel skylight (постройка)</AvaliAerogelSkylight_Frame.label>
+  <AvaliAerogelSkylight_Frame.description>A skylight made out of aerogel. Оранжевый, и удобен в строительстве.</AvaliAerogelSkylight_Frame.description>
 
 
 </LanguageData>

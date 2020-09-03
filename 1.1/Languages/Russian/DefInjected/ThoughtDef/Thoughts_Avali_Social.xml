@@ -32,14 +32,14 @@
 
   <!-- KilledMyCaretaker -->
 
-  <KilledMyCaretaker.stages.0.label>убит мой caretaker</KilledMyCaretaker.stages.0.label>
+  <KilledMyCaretaker.stages.0.label>убит мой родитель</KilledMyCaretaker.stages.0.label>
 
 
   <!-- SoldMyCaretaker -->
 
-  <SoldMyCaretaker.stages.0.label>мой caretaker продан</SoldMyCaretaker.stages.0.label>
-  <SoldMyCaretaker.stages.0.labelSocial>caretaker продан</SoldMyCaretaker.stages.0.labelSocial>
-  <SoldMyCaretaker.stages.0.description>Мой caretaker продан был продан торговцу как кусок мяса!</SoldMyCaretaker.stages.0.description>
+  <SoldMyCaretaker.stages.0.label>мой родитель продан</SoldMyCaretaker.stages.0.label>
+  <SoldMyCaretaker.stages.0.labelSocial>родитель продан</SoldMyCaretaker.stages.0.labelSocial>
+  <SoldMyCaretaker.stages.0.description>Мой родитель продан был продан торговцу как кусок мяса!</SoldMyCaretaker.stages.0.description>
 
 
   <!-- KilledMyStepchild -->
@@ -49,7 +49,7 @@
 
   <!-- KilledMyKit -->
 
-  <KilledMyKit.stages.0.label>убит мой kit</KilledMyKit.stages.0.label>
+  <KilledMyKit.stages.0.label>убит мой ребенок</KilledMyKit.stages.0.label>
 
 
   <!-- SoldMyStepchild -->
@@ -61,9 +61,9 @@
 
   <!-- SoldMyKit -->
 
-  <SoldMyKit.stages.0.label>мой kit продан</SoldMyKit.stages.0.label>
-  <SoldMyKit.stages.0.labelSocial>kit продан</SoldMyKit.stages.0.labelSocial>
-  <SoldMyKit.stages.0.description>Мой kit был продан торговцу как кусок мяса! Ты знаешь, ты ужасный человек!</SoldMyKit.stages.0.description>
+  <SoldMyKit.stages.0.label>мой ребенок продан</SoldMyKit.stages.0.label>
+  <SoldMyKit.stages.0.labelSocial>ребенок продан</SoldMyKit.stages.0.labelSocial>
+  <SoldMyKit.stages.0.description>Мой ребенок был продан торговцу как кусок мяса! Ты знаешь, ты ужасный человек!</SoldMyKit.stages.0.description>
 
 
 </LanguageData>

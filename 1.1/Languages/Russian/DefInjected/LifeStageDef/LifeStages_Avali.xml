@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <BabyStageAvali.label>kit</BabyStageAvali.label>
-  <ChildStageAvali.label>kit</ChildStageAvali.label>
-  <TeenStageAvali.label>adult</TeenStageAvali.label>
-  <AdultStageAvali.label>adult</AdultStageAvali.label>
-  <ElderStageAvali.label>elder</ElderStageAvali.label>
-  <AncestorStageAvali.label>ancestor</AncestorStageAvali.label>
+  <BabyStageAvali.label>ребенок</BabyStageAvali.label>
+  <ChildStageAvali.label>ребенок</ChildStageAvali.label>
+  <TeenStageAvali.label>взрослый</TeenStageAvali.label>
+  <AdultStageAvali.label>взрослый</AdultStageAvali.label>
+  <ElderStageAvali.label>пожилой</ElderStageAvali.label>
+  <AncestorStageAvali.label>старый</AncestorStageAvali.label>
 
 
 </LanguageData>

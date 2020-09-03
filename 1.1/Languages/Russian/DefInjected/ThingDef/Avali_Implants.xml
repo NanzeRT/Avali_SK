@@ -3,44 +3,44 @@
 
   <!-- PlasteelAvaliTalons -->
 
-  <PlasteelAvaliTalons.label>steel Avali talons</PlasteelAvaliTalons.label>
-  <PlasteelAvaliTalons.description>A relatively simple method of increasing the damage Avali talons can do.</PlasteelAvaliTalons.description>
+  <PlasteelAvaliTalons.label>Стальные когти Авали</PlasteelAvaliTalons.label>
+  <PlasteelAvaliTalons.description>Относительно простой метод увеличения урона, который могут нанести когти Авали.</PlasteelAvaliTalons.description>
 
 
   <!-- AvaliSightAugment -->
 
-  <AvaliSightAugment.label>Avali vision augment</AvaliSightAugment.label>
-  <AvaliSightAugment.description>An augment enhancing vision. Especially useful for auditory-reliant races like Avali. Zoom included.</AvaliSightAugment.description>
+  <AvaliSightAugment.label>Зрительный имплант Авали</AvaliSightAugment.label>
+  <AvaliSightAugment.description>Улучшение зрения. Особенно полезно для рас, полагающихся на слух, таких как Авали. Зум прилагается.</AvaliSightAugment.description>
 
 
   <!-- AvaliHearingAugment -->
 
-  <AvaliHearingAugment.label>Avali auditory augment</AvaliHearingAugment.label>
-  <AvaliHearingAugment.description>Auditory augments is very popular among military, scientific and exploration packs.</AvaliHearingAugment.description>
+  <AvaliHearingAugment.label>Слуховой имплант Авали</AvaliHearingAugment.label>
+  <AvaliHearingAugment.description>Слуховые импланты очень популярны среди военных, научных и исследовательских групп.</AvaliHearingAugment.description>
 
 
   <!-- AvaliCoolAugment -->
 
-  <AvaliCoolAugment.label>Avali cooling augment</AvaliCoolAugment.label>
-  <AvaliCoolAugment.description>This augment allows users to survive in environments that are deadly hot to them.</AvaliCoolAugment.description>
+  <AvaliCoolAugment.label>Охлаждающий имплант Авали</AvaliCoolAugment.label>
+  <AvaliCoolAugment.description>Этот имплант позволяет пользователям выживать в смертельно горячей для них среде.</AvaliCoolAugment.description>
 
 
   <!-- AvaliHeatAugment -->
 
-  <AvaliHeatAugment.label>Avali heating augment</AvaliHeatAugment.label>
-  <AvaliHeatAugment.description>This augment allows users to survive in environments that too cold for them.</AvaliHeatAugment.description>
+  <AvaliHeatAugment.label>Согревающий имплант Авали</AvaliHeatAugment.label>
+  <AvaliHeatAugment.description>Этот имплант позволяет пользователям выживать в слишком холодных для них условиях.</AvaliHeatAugment.description>
 
 
   <!-- AvaliEnviromentalAugment -->
 
-  <AvaliEnviromentalAugment.label>Avali life support augment</AvaliEnviromentalAugment.label>
-  <AvaliEnviromentalAugment.description>This augment allows users to survive in environments which were previously deadly toxic to them.</AvaliEnviromentalAugment.description>
+  <AvaliEnviromentalAugment.label>Система жизнеобеспечения Авали</AvaliEnviromentalAugment.label>
+  <AvaliEnviromentalAugment.description>Этот имплант позволяет пользователям выживать в среде, которые для них смертельно токсична.</AvaliEnviromentalAugment.description>
 
 
   <!-- AvaliPackLossAugment -->
 
-  <AvaliPackLossAugment.label>Avali madness prevention augment</AvaliPackLossAugment.label>
-  <AvaliPackLossAugment.description>This augment prevents Avali from going mad from mental illness called Pack Loss.</AvaliPackLossAugment.description>
+  <AvaliPackLossAugment.label>Имплант предотвращения безумия Авали</AvaliPackLossAugment.label>
+  <AvaliPackLossAugment.description>Это улучшение не дает Авали сойти с ума от психического заболевания, названного «потеря члена стаи».</AvaliPackLossAugment.description>
 
 
 </LanguageData>

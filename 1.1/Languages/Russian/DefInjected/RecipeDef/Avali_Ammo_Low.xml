@@ -3,9 +3,9 @@
 
   <!-- Recipes -->
 
-  <MakeAmmo_AvaliRailLow.label>make avali Low Rail cartridge x30</MakeAmmo_AvaliRailLow.label>
-  <MakeAmmo_AvaliRailLow.description>Craft 30 low calibre Rail cartridges.</MakeAmmo_AvaliRailLow.description>
-  <MakeAmmo_AvaliRailLow.jobString>Making Low Rail cartridges.</MakeAmmo_AvaliRailLow.jobString>
+  <MakeAmmo_AvaliRailLow.label>Сделать боеприпасы рейлгана (Малый калибр) x30</MakeAmmo_AvaliRailLow.label>
+  <MakeAmmo_AvaliRailLow.description>Сделать боеприпасы рейлгана (Малый калибр) x30.</MakeAmmo_AvaliRailLow.description>
+  <MakeAmmo_AvaliRailLow.jobString>Делает боеприпасы рейлгана (Малый калибр)</MakeAmmo_AvaliRailLow.jobString>
 
 
 </LanguageData>

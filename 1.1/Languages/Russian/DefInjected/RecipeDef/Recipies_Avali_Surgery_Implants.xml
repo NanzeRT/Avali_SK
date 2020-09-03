@@ -3,56 +3,56 @@
 
   <!-- InstallAvaliSightAugment -->
 
-  <InstallAvaliSightAugment.label>install Avali vision augment</InstallAvaliSightAugment.label>
-  <InstallAvaliSightAugment.description>Installs Avali vision augment.</InstallAvaliSightAugment.description>
-  <InstallAvaliSightAugment.jobString>Installs vision augment.</InstallAvaliSightAugment.jobString>
+  <InstallAvaliSightAugment.label>Установить зрительный имплант Авали</InstallAvaliSightAugment.label>
+  <InstallAvaliSightAugment.description>Установить зрительный имплант Авали.</InstallAvaliSightAugment.description>
+  <InstallAvaliSightAugment.jobString>Устанавливает зрительный имплант.</InstallAvaliSightAugment.jobString>
 
 
   <!-- InstallAvaliHearingAugment -->
 
-  <InstallAvaliHearingAugment.label>install Avali hearing augment</InstallAvaliHearingAugment.label>
-  <InstallAvaliHearingAugment.description>Installs Avali hearing augment.</InstallAvaliHearingAugment.description>
-  <InstallAvaliHearingAugment.jobString>Installs hearing augment.</InstallAvaliHearingAugment.jobString>
+  <InstallAvaliHearingAugment.label>Установить слуховой имплант Авали</InstallAvaliHearingAugment.label>
+  <InstallAvaliHearingAugment.description>Установить слуховой имплант Авали.</InstallAvaliHearingAugment.description>
+  <InstallAvaliHearingAugment.jobString>Устанавливает слуховой имплант Авали.</InstallAvaliHearingAugment.jobString>
 
 
   <!-- InstallAvaliCoolAugment -->
 
-  <InstallAvaliCoolAugment.label>install Avali cooling augment</InstallAvaliCoolAugment.label>
-  <InstallAvaliCoolAugment.description>Installs Avali cooling augment.</InstallAvaliCoolAugment.description>
-  <InstallAvaliCoolAugment.jobString>Installs Avali cooling augment.</InstallAvaliCoolAugment.jobString>
+  <InstallAvaliCoolAugment.label>Установить охлаждающий имплант Авали</InstallAvaliCoolAugment.label>
+  <InstallAvaliCoolAugment.description>Установить охлаждающий имплант Авали.</InstallAvaliCoolAugment.description>
+  <InstallAvaliCoolAugment.jobString>Устанавливает охлаждающий имплант Авали.</InstallAvaliCoolAugment.jobString>
 
 
   <!-- InstallAvaliHeatAugment -->
 
-  <InstallAvaliHeatAugment.label>install Avali heating augment</InstallAvaliHeatAugment.label>
-  <InstallAvaliHeatAugment.description>Installs Avali heating augment.</InstallAvaliHeatAugment.description>
-  <InstallAvaliHeatAugment.jobString>Installs Avali heating augment.</InstallAvaliHeatAugment.jobString>
+  <InstallAvaliHeatAugment.label>Установить согревающий имплант Авали</InstallAvaliHeatAugment.label>
+  <InstallAvaliHeatAugment.description>Установить согревающий имплант Авали.</InstallAvaliHeatAugment.description>
+  <InstallAvaliHeatAugment.jobString>Устанавливает согревающий имплант Авали.</InstallAvaliHeatAugment.jobString>
 
 
   <!-- InstallAvaliEnviromentalAugment -->
 
-  <InstallAvaliEnviromentalAugment.label>install Avali life support augment</InstallAvaliEnviromentalAugment.label>
-  <InstallAvaliEnviromentalAugment.description>Installs Avali life support augment.</InstallAvaliEnviromentalAugment.description>
-  <InstallAvaliEnviromentalAugment.jobString>Installs Avali life support augment.</InstallAvaliEnviromentalAugment.jobString>
+  <InstallAvaliEnviromentalAugment.label>Установить систему жизнеобеспечения Авали</InstallAvaliEnviromentalAugment.label>
+  <InstallAvaliEnviromentalAugment.description>Установить систему жизнеобеспечения Авали.</InstallAvaliEnviromentalAugment.description>
+  <InstallAvaliEnviromentalAugment.jobString>Устанавливает систему жизнеобеспечения Авали.</InstallAvaliEnviromentalAugment.jobString>
 
-  <InstallAvaliPackLossAugment.label>install Avali madness prevention augment</InstallAvaliPackLossAugment.label>
-  <InstallAvaliPackLossAugment.description>Installs Avali madness prevention augment.</InstallAvaliPackLossAugment.description>
-  <InstallAvaliPackLossAugment.jobString>Installs Avali madness prevention augment.</InstallAvaliPackLossAugment.jobString>
+  <InstallAvaliPackLossAugment.label>Установить имплант предотвращения безумия Авали</InstallAvaliPackLossAugment.label>
+  <InstallAvaliPackLossAugment.description>Установить имплант предотвращения безумия Авали.</InstallAvaliPackLossAugment.description>
+  <InstallAvaliPackLossAugment.jobString>Устанавливает имплант предотвращения безумия Авали.</InstallAvaliPackLossAugment.jobString>
 
 
   <!-- InstallPlasteelAvaliTalons -->
 
-  <InstallPlasteelAvaliTalons.label>install steel Avali talons</InstallPlasteelAvaliTalons.label>
-  <InstallPlasteelAvaliTalons.description>Replace Avali talons with steel talons.</InstallPlasteelAvaliTalons.description>
-  <InstallPlasteelAvaliTalons.jobString>Installing steel Avali talons.</InstallPlasteelAvaliTalons.jobString>
+  <InstallPlasteelAvaliTalons.label>Установить стальные когти Авали</InstallPlasteelAvaliTalons.label>
+  <InstallPlasteelAvaliTalons.description>Заменить когти Авали на стальные.</InstallPlasteelAvaliTalons.description>
+  <InstallPlasteelAvaliTalons.jobString>Устанавливает стальные когти Авали.</InstallPlasteelAvaliTalons.jobString>
 
 
   <!-- RemovePlasteelAvaliTalons -->
 
-  <RemovePlasteelAvaliTalons.label>remove steel Avali talons</RemovePlasteelAvaliTalons.label>
-  <RemovePlasteelAvaliTalons.description>Remove steel Avali talons.</RemovePlasteelAvaliTalons.description>
-  <RemovePlasteelAvaliTalons.jobString>Removing steel Avali talons.</RemovePlasteelAvaliTalons.jobString>
-  <RemovePlasteelAvaliTalons.successfullyRemovedHediffMessage>{0} has successfully removed from {1}.</RemovePlasteelAvaliTalons.successfullyRemovedHediffMessage>
+  <RemovePlasteelAvaliTalons.label>Удалить стальные когти Авали</RemovePlasteelAvaliTalons.label>
+  <RemovePlasteelAvaliTalons.description>Удалить стальные когти Авали.</RemovePlasteelAvaliTalons.description>
+  <RemovePlasteelAvaliTalons.jobString>Удаляет стальные когти Авали.</RemovePlasteelAvaliTalons.jobString>
+  <RemovePlasteelAvaliTalons.successfullyRemovedHediffMessage>{0} успешно удален из {1}.</RemovePlasteelAvaliTalons.successfullyRemovedHediffMessage>
 
 
 </LanguageData>

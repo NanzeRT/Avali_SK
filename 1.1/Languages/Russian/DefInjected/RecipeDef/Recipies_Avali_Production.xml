@@ -3,23 +3,23 @@
 
   <!-- MakeAvaliGraphene -->
 
-  <MakeAvaliGraphene.label>Weave graphene</MakeAvaliGraphene.label>
-  <MakeAvaliGraphene.description>Weave a graphene.</MakeAvaliGraphene.description>
-  <MakeAvaliGraphene.jobString>Weaving graphene.</MakeAvaliGraphene.jobString>
+  <MakeAvaliGraphene.label>Получить графен</MakeAvaliGraphene.label>
+  <MakeAvaliGraphene.description>Получить графен.</MakeAvaliGraphene.description>
+  <MakeAvaliGraphene.jobString>Получает графен.</MakeAvaliGraphene.jobString>
 
 
   <!-- MakeAvaliNanoFibre -->
 
-  <MakeAvaliNanoFibre.label>Make nanofibre</MakeAvaliNanoFibre.label>
-  <MakeAvaliNanoFibre.description>Make a nanofibre.</MakeAvaliNanoFibre.description>
-  <MakeAvaliNanoFibre.jobString>Making nanofibre.</MakeAvaliNanoFibre.jobString>
+  <MakeAvaliNanoFibre.label>Получить нановолокно</MakeAvaliNanoFibre.label>
+  <MakeAvaliNanoFibre.description>Получить нановолокно.</MakeAvaliNanoFibre.description>
+  <MakeAvaliNanoFibre.jobString>Получает нановолокно.</MakeAvaliNanoFibre.jobString>
 
 
   <!-- MakeAvaliAerogel -->
 
-  <MakeAvaliAerogel.label>Print aerogel</MakeAvaliAerogel.label>
-  <MakeAvaliAerogel.description>Print a aerogel.</MakeAvaliAerogel.description>
-  <MakeAvaliAerogel.jobString>Printing aerogel.</MakeAvaliAerogel.jobString>
+  <MakeAvaliAerogel.label>Напечатать аэрогель</MakeAvaliAerogel.label>
+  <MakeAvaliAerogel.description>Напечатать аэрогель.</MakeAvaliAerogel.description>
+  <MakeAvaliAerogel.jobString>Печатает аэрогель.</MakeAvaliAerogel.jobString>
 
 
 </LanguageData>

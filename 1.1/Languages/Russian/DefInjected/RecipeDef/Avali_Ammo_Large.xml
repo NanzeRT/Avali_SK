@@ -3,9 +3,9 @@
 
   <!-- Recipes -->
 
-  <MakeAmmo_AvaliRailLarge.label>make avali Large Rail cartridge x25</MakeAmmo_AvaliRailLarge.label>
-  <MakeAmmo_AvaliRailLarge.description>Craft 20 Large calibre Rail cartridges.</MakeAmmo_AvaliRailLarge.description>
-  <MakeAmmo_AvaliRailLarge.jobString>Making Large Rail cartridges.</MakeAmmo_AvaliRailLarge.jobString>
+  <MakeAmmo_AvaliRailLarge.label>Сделать боеприпасы рейлгана (Крупный калибр) x25</MakeAmmo_AvaliRailLarge.label>
+  <MakeAmmo_AvaliRailLarge.description>Сделать боеприпасы рейлгана (Крупный калибр) x25.</MakeAmmo_AvaliRailLarge.description>
+  <MakeAmmo_AvaliRailLarge.jobString>Делает боеприпасы рейлгана (Крупный калибр)</MakeAmmo_AvaliRailLarge.jobString>
 
 
 </LanguageData>

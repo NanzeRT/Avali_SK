@@ -4,7 +4,7 @@
   <!-- Avali Dagger -->
 
   <Avali_Dagger.label>Кинжал Авали</Avali_Dagger.label>
-  <Avali_Dagger.description>Мастера боевых искусств гордятся своим ловким владением оружием для рукопашного боя.</Avali_Dagger.description>
+  <Avali_Dagger.description>Мастера боевых искусств гордятся своим ловким владением этого оружия для рукопашного боя.</Avali_Dagger.description>
   <Avali_Dagger.tools.0.label>handle</Avali_Dagger.tools.0.label>
   <Avali_Dagger.tools.1.label>blade</Avali_Dagger.tools.1.label>
   <Avali_Dagger.tools.2.label>point</Avali_Dagger.tools.2.label>

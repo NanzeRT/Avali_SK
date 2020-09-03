@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ChateauAvalon.label>chateau Avalon</ChateauAvalon.label>
-  <ChateauAvalon.description>Over 90% ammonia with trace impurities, including alcohols - the most popular alcohol drink among Avali. \nConsumption by non-Avali may cause chemical damage of different severity, blindness, brain damage, death.</ChateauAvalon.description>
+  <ChateauAvalon.label>Chateau Avalon</ChateauAvalon.label>
+  <ChateauAvalon.description>Более 90% аммиака со следами примесей, в том числе спирты, - самый популярный алкогольный напиток среди Авали. \nПотребление не-Авали может вызвать химическое повреждение разной степени тяжести, слепоту, повреждение мозга и смерть.</ChateauAvalon.description>
   <ChateauAvalon.tools.1.label>neck</ChateauAvalon.tools.1.label>
   <ChateauAvalon.ingestible.ingestCommandString>Drink {0}</ChateauAvalon.ingestible.ingestCommandString>
   <ChateauAvalon.ingestible.ingestReportString>Drinking {0}.</ChateauAvalon.ingestible.ingestReportString>

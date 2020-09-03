@@ -3,14 +3,14 @@
 
   <!-- Guardian Nanites Injector -->
 
-  <GuardianNanitesInjector.label>guardian nanites injector</GuardianNanitesInjector.label>
-  <GuardianNanitesInjector.description>Injects in user body self-sufficient nanites which make the carrier body immune to pathogenic bacterias such as malaria, plague and flu. Note that after injection nanites can't be removed from the carrier body.</GuardianNanitesInjector.description>
+  <GuardianNanitesInjector.label>инъекция защитных нанитов</GuardianNanitesInjector.label>
+  <GuardianNanitesInjector.description>Вводит в тело пользователя самодостаточные наниты, которые делают организм-носитель невосприимчивым к патогенным бактериям, таким как малярия, чума и грипп. Обратите внимание, что после инъекции наниты не могут быть удалены из тела носителя.</GuardianNanitesInjector.description>
 
 
   <!-- Immunity Nanites Injector -->
 
-  <ImmunityNanitesInjector.label>immunity nanites injector</ImmunityNanitesInjector.label>
-  <ImmunityNanitesInjector.description>Injects in user body self-sufficient nanites which strengthen carrier's immunity. Note that after injection nanites can't be removed from the carrier body.</ImmunityNanitesInjector.description>
+  <ImmunityNanitesInjector.label>инъекция нанитов иммунной системы</ImmunityNanitesInjector.label>
+  <ImmunityNanitesInjector.description>Вводит в организм пользователя самодостаточные наниты, укрепляющие иммунитет носителя. Обратите внимание, что после инъекции наниты не могут быть удалены из тела носителя.</ImmunityNanitesInjector.description>
 
 
 </LanguageData>

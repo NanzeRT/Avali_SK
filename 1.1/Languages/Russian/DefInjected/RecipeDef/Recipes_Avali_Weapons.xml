@@ -3,79 +3,79 @@
 
   <!-- Pistol -->
 
-  <BuildAvaliPistol.label>Build avali 'Frostbite' pistol</BuildAvaliPistol.label>
-  <BuildAvaliPistol.description>Builds avali 'Frostbite' pistol, the basic Avali military grade sidearm.</BuildAvaliPistol.description>
-  <BuildAvaliPistol.jobString>Building avali 'Frostbite' pistol.</BuildAvaliPistol.jobString>
+  <BuildAvaliPistol.label>Собрать пистолет 'Frostbite'</BuildAvaliPistol.label>
+  <BuildAvaliPistol.description>Собрать пистолет 'Frostbite', базовое оружие военных Авали..</BuildAvaliPistol.description>
+  <BuildAvaliPistol.jobString>Собирает пистолет 'Frostbite'</BuildAvaliPistol.jobString>
 
 
   <!-- SMG -->
 
-  <BuildAvaliSMG.label>Build avali 'Coldsnap' SMG</BuildAvaliSMG.label>
-  <BuildAvaliSMG.description>Builds avali 'Coldsnap' SMG, A more compact version of the 'Blizzard', more commonly used in close quaters.</BuildAvaliSMG.description>
-  <BuildAvaliSMG.jobString>Building avali 'Coldsnap' SMG.</BuildAvaliSMG.jobString>
+  <BuildAvaliSMG.label>Собрать ПП 'Coldsnap'</BuildAvaliSMG.label>
+  <BuildAvaliSMG.description>Собрать ПП 'Coldsnap', более компактная версия Blizzard, часто используемая в тесном пространстве.</BuildAvaliSMG.description>
+  <BuildAvaliSMG.jobString>Собирает ПП 'Coldsnap'</BuildAvaliSMG.jobString>
 
 
   <!-- Assault Rifle -->
 
-  <Build_Avali_AssaultRifle.label>Build avali 'Blizzard' rifle</Build_Avali_AssaultRifle.label>
-  <Build_Avali_AssaultRifle.description>Builds avali 'Blizzard' rifle, The standard Avali infantry weapon.</Build_Avali_AssaultRifle.description>
-  <Build_Avali_AssaultRifle.jobString>Building avali 'Blizzard' rifle.</Build_Avali_AssaultRifle.jobString>
+  <Build_Avali_AssaultRifle.label>Собрать винтовку 'Blizzard'</Build_Avali_AssaultRifle.label>
+  <Build_Avali_AssaultRifle.description>Собрать винтовку 'Blizzard', стандартное пехотное оружие Авали.</Build_Avali_AssaultRifle.description>
+  <Build_Avali_AssaultRifle.jobString>Собирает винтовку 'Blizzard'</Build_Avali_AssaultRifle.jobString>
 
 
   <!-- Shotgun -->
 
-  <BuildAvaliShotgun.label>Build avali 'Avalanche' shotgun</BuildAvaliShotgun.label>
-  <BuildAvaliShotgun.description>Builds avali 'Avalanche' shotgun! It's deadly in close quaters, but inaccurate at longer ranges.</BuildAvaliShotgun.description>
-  <BuildAvaliShotgun.jobString>Building avali 'Avalanche' shotgun.</BuildAvaliShotgun.jobString>
+  <BuildAvaliShotgun.label>Собрать дробовик 'Avalanche'</BuildAvaliShotgun.label>
+  <BuildAvaliShotgun.description>Собрать дробовик 'Avalanche'! Смертельно опасен на коротких дистанциях, но неэффективен в дальнем бою.</BuildAvaliShotgun.description>
+  <BuildAvaliShotgun.jobString>Собирает дробовик 'Avalanche'</BuildAvaliShotgun.jobString>
 
 
   <!-- Sniper Rifle -->
 
-  <BuildAvaliSniper.label>Build avali 'GunAvaliSniper' </BuildAvaliSniper.label>
-  <BuildAvaliSniper.description>Builds avali 'GunAvaliSniper' ! It's deadly in close quaters, but inaccurate at longer ranges.</BuildAvaliSniper.description>
-  <BuildAvaliSniper.jobString>Building avali 'GunAvaliSniper' .</BuildAvaliSniper.jobString>
+  <BuildAvaliSniper.label>Собрать крупнокалиберную винтовку 'Firelance'</BuildAvaliSniper.label>
+  <BuildAvaliSniper.description>Собрать крупнокалиберную винтовку 'Firelance'. Крупнокалиберная винтовка, скорее подходит для охоты на бронетехнику, чем на диких животных.</BuildAvaliSniper.description>
+  <BuildAvaliSniper.jobString>Собирает крупнокалиберную винтовку 'Firelance'</BuildAvaliSniper.jobString>
 
 
   <!-- Minigun -->
 
-  <BuildAvaliMinigun.label>Build avali 'AvaliMinigun' </BuildAvaliMinigun.label>
-  <BuildAvaliMinigun.description>Builds avali 'AvaliMinigun' ! It's deadly in close quaters, but inaccurate at longer ranges.</BuildAvaliMinigun.description>
-  <BuildAvaliMinigun.jobString>Building avali 'AvaliMinigun' .</BuildAvaliMinigun.jobString>
+  <BuildAvaliMinigun.label>Собрать гибридный миниган 'Hailstorm'</BuildAvaliMinigun.label>
+  <BuildAvaliMinigun.description>Собрать гибридный миниган 'Hailstorm'. Основное оружие подавления и поддержки Авали.</BuildAvaliMinigun.description>
+  <BuildAvaliMinigun.jobString>Собирает гибридный миниган 'Hailstorm'</BuildAvaliMinigun.jobString>
 
 
   <!-- Rocket Launcher -->
 
-  <Build_Avali_Rocket_Launcher.label>Build avali '_Avali_Rocket_Launcher' </Build_Avali_Rocket_Launcher.label>
-  <Build_Avali_Rocket_Launcher.description>Builds avali '_Avali_Rocket_Launcher' ! It's deadly in close quaters, but inaccurate at longer ranges.</Build_Avali_Rocket_Launcher.description>
-  <Build_Avali_Rocket_Launcher.jobString>Building avali '_Avali_Rocket_Launcher' .</Build_Avali_Rocket_Launcher.jobString>
+  <Build_Avali_Rocket_Launcher.label>Собрать ракетную пусковую установку 'Firedart'</Build_Avali_Rocket_Launcher.label>
+  <Build_Avali_Rocket_Launcher.description>Собрать ракетную пусковую установку 'Firedart'. Основное противотранспортное оружие Авали.</Build_Avali_Rocket_Launcher.description>
+  <Build_Avali_Rocket_Launcher.jobString>Собирает ракетную пусковую установку 'Firedart'</Build_Avali_Rocket_Launcher.jobString>
 
 
   <!-- Dagger -->
 
-  <Build_Avali_Dagger.label>Build Avali dagger</Build_Avali_Dagger.label>
-  <Build_Avali_Dagger.description>Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.</Build_Avali_Dagger.description>
-  <Build_Avali_Dagger.jobString>Building_Avali_Dagger</Build_Avali_Dagger.jobString>
+  <Build_Avali_Dagger.label>Сделать кинжал Авали</Build_Avali_Dagger.label>
+  <Build_Avali_Dagger.description>Мастера боевых искусств гордятся своим ловким владением этого оружия для рукопашного боя.</Build_Avali_Dagger.description>
+  <Build_Avali_Dagger.jobString>Делает кинжал Авали</Build_Avali_Dagger.jobString>
 
 
   <!-- Short Sword -->
 
-  <Build_Avali_Short_Sword.label>Build Avali short sword</Build_Avali_Short_Sword.label>
-  <Build_Avali_Short_Sword.description>The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.</Build_Avali_Short_Sword.description>
-  <Build_Avali_Short_Sword.jobString>Building_Avali_Short_Sword</Build_Avali_Short_Sword.jobString>
+  <Build_Avali_Short_Sword.label>Сделать короткий меч 'Shard'</Build_Avali_Short_Sword.label>
+  <Build_Avali_Short_Sword.description>Вибролезвие класса 'Shard' более популярно среди колонистов, энтузиастов боевых искусств и любителей комиксов, чем среди настоящих солдат и охотников.</Build_Avali_Short_Sword.description>
+  <Build_Avali_Short_Sword.jobString>Делает короткий меч 'Shard'</Build_Avali_Short_Sword.jobString>
 
 
   <!-- Long Sword -->
 
-  <Build_Avali_Long_Sword.label>Build Avali long sword</Build_Avali_Long_Sword.label>
-  <Build_Avali_Long_Sword.description>The 'Dire Shard' longsword is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.</Build_Avali_Long_Sword.description>
-  <Build_Avali_Long_Sword.jobString>Building_Avali_Long_Sword</Build_Avali_Long_Sword.jobString>
+  <Build_Avali_Long_Sword.label>Сделать длинный меч 'Dire Shard'</Build_Avali_Long_Sword.label>
+  <Build_Avali_Long_Sword.description>Длинный меч 'Dire Shard' - довольно непрактичное оружие, тем не менее, более тяжелые варианты якобы могут расколоть танк надвое.</Build_Avali_Long_Sword.description>
+  <Build_Avali_Long_Sword.jobString>Делает длинный меч 'Dire Shard'</Build_Avali_Long_Sword.jobString>
 
 
   <!-- Spear -->
 
-  <Build_Avali_Spear.label>Build Avali spear</Build_Avali_Spear.label>
-  <Build_Avali_Spear.description>Avali 'Icicle' spear - a modern take on the ancient Avali spear design.</Build_Avali_Spear.description>
-  <Build_Avali_Spear.jobString>Building_Avali_Spear</Build_Avali_Spear.jobString>
+  <Build_Avali_Spear.label>Сделать копье 'Icicle'</Build_Avali_Spear.label>
+  <Build_Avali_Spear.description>Копье 'Icicle' - современный взгляд на древний дизайн копья Авали.</Build_Avali_Spear.description>
+  <Build_Avali_Spear.jobString>Делает копье 'Icicle'</Build_Avali_Spear.jobString>
 
 
 </LanguageData>

@@ -30,8 +30,8 @@
     </parts>
   </StatDef> -->
 
-  <ArmorRating_Enviromental.label>Protection - Enviromental </ArmorRating_Enviromental.label>
-  <ArmorRating_Enviromental.description>Protection against enviromental effects - toxins, radiation, gases, etc.</ArmorRating_Enviromental.description>
+  <ArmorRating_Enviromental.label>Защита - Окружающая среда</ArmorRating_Enviromental.label>
+  <ArmorRating_Enviromental.description>Защита от воздействия окружающей среды - токсинов, радиации, газов и т.д.</ArmorRating_Enviromental.description>
 
 
 </LanguageData>

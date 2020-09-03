@@ -3,23 +3,23 @@
 
   <!-- Railgun_Component -->
 
-  <MakeRailgun_Component.label>Make Railgun component</MakeRailgun_Component.label>
-  <MakeRailgun_Component.description>Railgun components used as basis for craft Rail weapons. Produces 1.</MakeRailgun_Component.description>
-  <MakeRailgun_Component.jobString>Making Railgun Component.</MakeRailgun_Component.jobString>
+  <MakeRailgun_Component.label>Сделать компоненты рейлгана</MakeRailgun_Component.label>
+  <MakeRailgun_Component.description>Компоненты рейлгана, используемые для создания рельсового оружия. Производится 1.</MakeRailgun_Component.description>
+  <MakeRailgun_Component.jobString>Делает компоненты рейлгана</MakeRailgun_Component.jobString>
 
 
   <!-- Power module basic -->
 
-  <MakePowerBasic.label>Make basic power module</MakePowerBasic.label>
-  <MakePowerBasic.description>Basic power module - the main source of energy for Avali's weapons and armor. Produces 2.</MakePowerBasic.description>
-  <MakePowerBasic.jobString>Making Railgun Component.</MakePowerBasic.jobString>
+  <MakePowerBasic.label>Сделать базовый модуль питания Авали</MakePowerBasic.label>
+  <MakePowerBasic.description>Базовый модуль питания Авали - основной источник энергии для оружия и брони Авали.. Производится 2.</MakePowerBasic.description>
+  <MakePowerBasic.jobString>Делает базовый модуль питания Авали</MakePowerBasic.jobString>
 
 
   <!-- Power module adv -->
 
-  <MakePowerAdv.label>Make advenced power module</MakePowerAdv.label>
-  <MakePowerAdv.description>Advanced power module - the only source of energy in Avali's high-tech armor and weapons. Produces 1.</MakePowerAdv.description>
-  <MakePowerAdv.jobString>Making Railgun Component.</MakePowerAdv.jobString>
+  <MakePowerAdv.label>Сделать продвинутый модуль питания Авали</MakePowerAdv.label>
+  <MakePowerAdv.description>Продвинутый модуль питания Авали - улучшенный энергетический модуль, необходимый для создания мощного оружия и брони авали. Производится 1.</MakePowerAdv.description>
+  <MakePowerAdv.jobString>Делает продвинутый модуль питания Авали</MakePowerAdv.jobString>
 
 
 </LanguageData>

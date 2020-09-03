@@ -16,12 +16,12 @@
   <!-- AvaliMaleAvaliIlluminateChild -->
 <AvaliMaleAvaliIlluminateChild.title>Дитя Иллюмината</AvaliMaleAvaliIlluminateChild.title>
 <AvaliMaleAvaliIlluminateChild.titleShort>Иллюминат</AvaliMaleAvaliIlluminateChild.titleShort>
-<AvaliMaleAvaliIlluminateChild.baseDescription>Placeholder</AvaliMaleAvaliIlluminateChild.baseDescription>
+<AvaliMaleAvaliIlluminateChild.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleAvaliIlluminateChild.baseDescription>
 
   <!-- AvaliMaleWarTornSurvivor -->
 <AvaliMaleWarTornSurvivor.title>Выживший в войне</AvaliMaleWarTornSurvivor.title>
 <AvaliMaleWarTornSurvivor.titleShort>Выживший</AvaliMaleWarTornSurvivor.titleShort>
-<AvaliMaleWarTornSurvivor.baseDescription>[PAWN_nameDef] вылупился в разрушенном войной мире, где еда была крайне редка и другие Авали дрались за неё. [PAWN_pronoun] нреазговорчив и пытается избегать других из-за прошлой жизни, которую [PAWN_pronoun] пытается забыть.</AvaliMaleWarTornSurvivor.baseDescription>
+<AvaliMaleWarTornSurvivor.baseDescription>[PAWN_nameDef] вылупился в разрушенном войной мире, где еда была крайне редка и другие Авали дрались за неё. [PAWN_pronoun] неразговорчив(а) и пытается избегать других из-за прошлой жизни, которую [PAWN_pronoun] пытается забыть.</AvaliMaleWarTornSurvivor.baseDescription>
 
   <!-- AvaliMaleGeneticallyEditedWarrior -->
 <AvaliMaleGeneticallyEditedWarrior.title>Генетически модифицированный</AvaliMaleGeneticallyEditedWarrior.title>
@@ -36,7 +36,7 @@
   <!-- AvaliMaleLostEgg -->
 <AvaliMaleLostEgg.title>Потерянное яйцо</AvaliMaleLostEgg.title>
 <AvaliMaleLostEgg.titleShort>Потерянное яйцо</AvaliMaleLostEgg.titleShort>
-<AvaliMaleLostEgg.baseDescription>Placeholder</AvaliMaleLostEgg.baseDescription>
+<AvaliMaleLostEgg.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleLostEgg.baseDescription>
 
   <!-- Reject -->
 <AvaliMaleRejected.title>Брошеное яйцо</AvaliMaleRejected.title>
@@ -46,7 +46,7 @@
   <!-- CoreChild -->
 <AvaliMaleCoreChild.title>Дитя ядра Иллюмината</AvaliMaleCoreChild.title>
 <AvaliMaleCoreChild.titleShort>Дитя ядра</AvaliMaleCoreChild.titleShort>
-<AvaliMaleCoreChild.baseDescription>Placeholder</AvaliMaleCoreChild.baseDescription>
+<AvaliMaleCoreChild.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleCoreChild.baseDescription>
 
   <!-- AvaliMaleSpaceNomad -->
 <AvaliMaleSpaceNomad.title>Космический кочевник</AvaliMaleSpaceNomad.title>
@@ -56,16 +56,109 @@
   <!-- AvaliMaleArtchild -->
 <AvaliMaleArtchild.title>Юный художник</AvaliMaleArtchild.title>
 <AvaliMaleArtchild.titleShort>Ребёнок-художник</AvaliMaleArtchild.titleShort>
-<AvaliMaleArtchild.baseDescription>Placeholder</AvaliMaleArtchild.baseDescription>
+<AvaliMaleArtchild.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleArtchild.baseDescription>
 
   <!-- AvaliMaleArchitect -->
 <AvaliMaleArchitect.title>Архитектор</AvaliMaleArchitect.title>
 <AvaliMaleArchitect.titleShort>Архитектор</AvaliMaleArchitect.titleShort>
-<AvaliMaleArchitect.baseDescription>Placeholder</AvaliMaleArchitect.baseDescription>
+<AvaliMaleArchitect.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleArchitect.baseDescription>
 
   <!-- AvaliMaleIndependentYouth -->
 <AvaliMaleIndependentYouth.title>Независимый ребенок</AvaliMaleIndependentYouth.title>
 <AvaliMaleIndependentYouth.titleShort>Беспризорник</AvaliMaleIndependentYouth.titleShort>
-<AvaliMaleIndependentYouth.baseDescription>Placeholder</AvaliMaleIndependentYouth.baseDescription>
+<AvaliMaleIndependentYouth.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleIndependentYouth.baseDescription>
+
+  <!-- AvaliMaleEngineerApprentice -->
+<AvaliMaleEngineerApprentice.title>Специалист по робототехнике</AvaliMaleEngineerApprentice.title>
+<AvaliMaleEngineerApprentice.titleShort>специалист по робототехнике</AvaliMaleEngineerApprentice.titleShort>
+<AvaliMaleEngineerApprentice.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleEngineerApprentice.baseDescription>
+
+  <!-- AvaliMaleCadet -->
+<AvaliMaleCadet.title>Кадет</AvaliMaleCadet.title>
+<AvaliMaleCadet.titleShort>Кадет</AvaliMaleCadet.titleShort>
+<AvaliMaleCadet.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleCadet.baseDescription>
+
+  <!-- AvaliMaleAnimalLover -->  
+<AvaliMaleAnimalLover.title>Любитель животных</AvaliMaleAnimalLover.title>
+<AvaliMaleAnimalLover.titleShort>Любитель животных</AvaliMaleAnimalLover.titleShort>
+<AvaliMaleAnimalLover.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleAnimalLover.baseDescription>
+
+  <!-- AvaliMaleApprenticeNurse -->
+<AvaliMaleApprenticeNurse.title>Ученик медсестры</AvaliMaleApprenticeNurse.title>
+<AvaliMaleApprenticeNurse.titleShort>Ученик медсестры</AvaliMaleApprenticeNurse.titleShort>
+<AvaliMaleApprenticeNurse.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleApprenticeNurse.baseDescription>
+
+
+  <!-- ===== Adult Stories ===== -->
+
+  <!-- AvaliMaleArmorer -->
+<AvaliMaleArmorer.title>Квартирмейстер</AvaliMaleArmorer.title>
+<AvaliMaleArmorer.titleShort>Квартирмейстер</AvaliMaleArmorer.titleShort>
+<AvaliMaleArmorer.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleArmorer.baseDescription>
+
+  <!-- AvaliMaleMilitia -->
+<AvaliMaleMilitia.title>Ополченец Авали</AvaliMaleMilitia.title>
+<AvaliMaleMilitia.titleShort>Ополченец</AvaliMaleMilitia.titleShort>
+<AvaliMaleMilitia.baseDescription>[PAWN_nameDef] был зачислен в ополчение Авали, что привело к изнурительным тренировкам и лишениям из-за [PAWN_possessive] руководства. Но обучение не прошло зря, в результате [PAWN_possessive] обучили нескольким новым трюкам.</AvaliMaleMilitia.baseDescription>
+
+  <!-- AvaliMaleMilitiaCaptain -->
+<AvaliMaleMilitiaCaptain.title>Капитан ополчения Авали</AvaliMaleMilitiaCaptain.title>
+<AvaliMaleMilitiaCaptain.titleShort>Капитан ополчения</AvaliMaleMilitiaCaptain.titleShort>
+<AvaliMaleMilitiaCaptain.baseDescription>[PAWN_nameDef] был произведен в капитаны за лидерство в схватке с Иллюминатами, которая закончилась полной победой, благодаря грамотным действиям [PAWN_possessive].</AvaliMaleMilitiaCaptain.baseDescription>
+
+  <!-- AvaliMaleDoctor -->
+<AvaliMaleDoctor.title>Доктор</AvaliMaleDoctor.title>
+<AvaliMaleDoctor.titleShort>Доктор</AvaliMaleDoctor.titleShort>
+<AvaliMaleDoctor.baseDescription>[PAWN_nameDef] получил степень доктора медицинских наук и быстро стал уважаемым врачом в больнице, которой раньше работал.</AvaliMaleDoctor.baseDescription>
+
+  <!-- AvaliMaleSurvivor -->
+<AvaliMaleSurvivor.title>Выживший после кораблекрушения</AvaliMaleSurvivor.title>
+<AvaliMaleSurvivor.titleShort>Выживший</AvaliMaleSurvivor.titleShort>
+<AvaliMaleSurvivor.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleSurvivor.baseDescription>
+
+  <!-- AvaliMaleEggSnatcher -->
+<AvaliMaleEggSnatcher.title>Похититель яиц</AvaliMaleEggSnatcher.title>
+<AvaliMaleEggSnatcher.titleShort>Похититель</AvaliMaleEggSnatcher.titleShort>
+<AvaliMaleEggSnatcher.baseDescription>[PAWN_nameDef] когда-то был очень беден, пока незнакомец не спросил [PAWN_objective], не может ли [PAWN_pronoun] украсть яйцо Авали. Без раздумий [PAWN_nameDef] согласился и вскоре стал зарабатывать этим на жизнь, украв десятки яиц Авали у племен по всей системе и получив за это дурную славу.</AvaliMaleEggSnatcher.baseDescription>
+
+  <!-- AvaliMaleChef -->
+<AvaliMaleChef.title>Шеф-повар</AvaliMaleChef.title>
+<AvaliMaleChef.titleShort>Шеф-повар</AvaliMaleChef.titleShort>
+<AvaliMaleChef.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleChef.baseDescription>
+
+  <!-- AvaliMaleEliteGuard -->
+<AvaliMaleEliteGuard.title>Элитный гвардеец Иллюминатов</AvaliMaleEliteGuard.title>
+<AvaliMaleEliteGuard.titleShort>Элитный гвардеец</AvaliMaleEliteGuard.titleShort>
+<AvaliMaleEliteGuard.baseDescription>[PAWN_nameDef] - элитный солдат, обученный быть хладнокровным убийцей. [PAWN_pronoun] отвечает за защиту высокопоставленных чиновников из числа Иллюминатов и убьет любого, кто подойдет слишком близко. [PAWN_pronoun] неразговорчив и сохраняет хладнокровние в любой ситуации. [PAWN_pronoun] также не может выполнять квалифицированную работу, поскольку большую часть своей жизни он провел на боевых тренировках и спецоперациях.</AvaliMaleEliteGuard.baseDescription>
+
+  <!-- AvaliMaleFelon -->
+<AvaliMaleFelon.title>Бывший преступник</AvaliMaleFelon.title>
+<AvaliMaleFelon.titleShort>Бывший преступник</AvaliMaleFelon.titleShort>
+<AvaliMaleFelon.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleFelon.baseDescription>
+
+  <!-- AvaliMaleAssassin -->
+<AvaliMaleAssassin.title>Ассасин</AvaliMaleAssassin.title>
+<AvaliMaleAssassin.titleShort>Ассасин</AvaliMaleAssassin.titleShort>
+<AvaliMaleAssassin.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleAssassin.baseDescription>
+
+  <!-- AvaliMaleToymaker -->
+<AvaliMaleToymaker.title>Скульптор</AvaliMaleToymaker.title>
+<AvaliMaleToymaker.titleShort>Скульптор</AvaliMaleToymaker.titleShort>
+<AvaliMaleToymaker.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleToymaker.baseDescription>
+
+  <!-- AvaliMaleMiner -->
+<AvaliMaleMiner.title>Шахтер</AvaliMaleMiner.title>
+<AvaliMaleMiner.titleShort>Шахтер</AvaliMaleMiner.titleShort>
+<AvaliMaleMiner.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleMiner.baseDescription>
+
+  <!-- AvaliMaleScientist -->
+<AvaliMaleScientist.title>Ученый</AvaliMaleScientist.title>
+<AvaliMaleScientist.titleShort>Ученый</AvaliMaleScientist.titleShort>
+<AvaliMaleScientist.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleScientist.baseDescription>
+
+  <!-- AvaliMaleStarbound -->
+<AvaliMaleStarbound.title>Космический путешественник</AvaliMaleStarbound.title>
+<AvaliMaleStarbound.titleShort>Путешественник</AvaliMaleStarbound.titleShort>
+<AvaliMaleStarbound.baseDescription>Прошлое этого Авали окутано тайной</AvaliMaleStarbound.baseDescription>
 
 </LanguageData>

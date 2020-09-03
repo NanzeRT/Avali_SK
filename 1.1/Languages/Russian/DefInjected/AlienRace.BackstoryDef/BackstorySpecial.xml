@@ -3,13 +3,13 @@
 
   <!-- Well, hello there~ -->
 
-  <NukoHero.title>Young hero</NukoHero.title>
-  <NukoHero.titleShort>Young hero</NukoHero.titleShort>
-  <NukoHero.baseDescription>[PAWN_possessive] tribe was destroyed during a pirate raid. [PAWN_nameDef] and [PAWN_possessive] packmates were captured. [PAWN_pronoun] managed to break free and release the rest. Together they killed the small crew and captured the ship which transported them.</NukoHero.baseDescription>
+  <NukoHero.title>Юный герой</NukoHero.title>
+  <NukoHero.titleShort>Юный герой</NukoHero.titleShort>
+  <NukoHero.baseDescription>Племя [PAWN_possessive] было уничтожено во время пиратского набега. [PAWN_nameDef] и [PAWN_possessive] были захвачены. [PAWN_pronoun] удалось вырваться и освободить остальных. Вместе они убил команду и захватили небольшой корабль, который их перевозил.</NukoHero.baseDescription>
 
-  <NukoProtector.title>Grand protector</NukoProtector.title>
-  <NukoProtector.titleShort>Grand protector</NukoProtector.titleShort>
-  <NukoProtector.baseDescription>[PAWN_nameDef] was the first Avali protector. On [PAWN_possessive] graduation day unknown entity attacked Earth. [PAWN_nameDef] lost all their pack but was able to escape from the Earth before it was annihilated. After some time [PAWN_pronoun] tracked down the monster and killed it, thereby saving the galaxy and avenging [PAWN_possessive] pack.\nDuring the exploration of ancient precursor civilization ruins [PAWN_objective] found some sort of transdimensional transportation device, activated it and found himself on this rimworld.</NukoProtector.baseDescription>
+  <NukoProtector.title>Великий защитник</NukoProtector.title>
+  <NukoProtector.titleShort>Великий защитник</NukoProtector.titleShort>
+  <NukoProtector.baseDescription>[PAWN_nameDef] был первым защитником Авали. На выпускном [PAWN_possessive], неизвестная сущность напала на планету. [PAWN_nameDef] потерял всю свою стаю, но смог сбежать с планеты до того, как она была уничтожена. Через некоторое время [PAWN_pronoun] выследил монстра и убил его, тем самым спасая галактику и отомстив [PAWN_possessive] за свою стаю.\nВо время исследования руин древней цивилизации [PAWN_objective] нашел какое-то межпространственное транспортное устройство, активировал его и оказался в этом мире.</NukoProtector.baseDescription>
 
 
 </LanguageData>

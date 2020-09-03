@@ -14,11 +14,20 @@ Graphics by FacePlus
 Maintained by Ksisa
 Avali race by RyuujinZERO
 Adaptation to HSK by PhoenixFG, NanzeRT and GuardianDll
-Translation to Russian by Reconeer and Spaniad
-
-
+Translation to Russian by Spaniard and Reconeer 
 
 The mod is an edit to the Avali mod https://steamcommunity.com/sharedfiles/filedetails/?id=1314474881 
+
+
+Добавляет в игру Авали - расу маленьких пушистых кочевников-охотников со вспыльчивым характером и особенными требованиями к температуре окружающей среды. Если вы хотите узнать об Авали больше, посетите вики (на английском) https://avali.fandom.com/wiki/The_Official_Avali_Wiki
+
+C# и XML код - Erisss
+Графика - FacePlus
+Поддержка - Ksisa
+Раса Авали - RyuujinZERO
+Адаптация к HSK - PhoenixFG, NanzeRT и GuardianDll
+Перевод на русский язык - Spaniard и Reconeer 
+
 </description>
   <modDependencies>
     <li>

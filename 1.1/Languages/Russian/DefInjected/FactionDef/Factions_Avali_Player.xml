@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AvaliPlayerColony.label>Avali survivors</AvaliPlayerColony.label>
-  <AvaliPlayerColony.description>Your own Avali tribe.</AvaliPlayerColony.description>
-  <AvaliPlayerColony.pawnsPlural>colonists</AvaliPlayerColony.pawnsPlural>
+  <AvaliPlayerColony.label>Выжившие Авали</AvaliPlayerColony.label>
+  <AvaliPlayerColony.description>Ваша фракция.</AvaliPlayerColony.description>
+  <AvaliPlayerColony.pawnsPlural>колонисты</AvaliPlayerColony.pawnsPlural>
 
 
 </LanguageData>

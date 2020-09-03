@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Avali.label>avali</Avali.label>
-  <Avali.description>A small feathered raptor-like creature with big eyes and four ears.\nKnown for their bad temper and a love of the musical arts and shiny things.</Avali.description>
-  <Avali.tools.0.label>left hand talons</Avali.tools.0.label>
-  <Avali.tools.1.label>right hand talons</Avali.tools.1.label>
-  <Avali.tools.2.label>left feet talons</Avali.tools.2.label>
-  <Avali.tools.3.label>right feet talons</Avali.tools.3.label>
-  <Avali.tools.4.label>left hand</Avali.tools.4.label>
-  <Avali.tools.5.label>right hand</Avali.tools.5.label>
-  <Avali.tools.6.label>left feet</Avali.tools.6.label>
-  <Avali.tools.7.label>right feet</Avali.tools.7.label>
-  <Avali.tools.8.label>teeth</Avali.tools.8.label>
+  <Avali.label>авали</Avali.label>
+  <Avali.description>Маленькое пернатое существо, похожее на хищника, с большими глазами и четырьмя ушами.\nИзвестно своим дурным характером, любовью к музыкальным искусствам и блестящим вещам.</Avali.description>
+  <Avali.tools.0.label>когти левой руки</Avali.tools.0.label>
+  <Avali.tools.1.label>когти правой руки</Avali.tools.1.label>
+  <Avali.tools.2.label>когти левой ноги</Avali.tools.2.label>
+  <Avali.tools.3.label>когти правой ноги</Avali.tools.3.label>
+  <Avali.tools.4.label>левая рука</Avali.tools.4.label>
+  <Avali.tools.5.label>правая рука</Avali.tools.5.label>
+  <Avali.tools.6.label>левая нога</Avali.tools.6.label>
+  <Avali.tools.7.label>правая нога</Avali.tools.7.label>
+  <Avali.tools.8.label>зубы</Avali.tools.8.label>
 
 
 </LanguageData>

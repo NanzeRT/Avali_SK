@@ -8,5 +8,13 @@
       <iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
       <resourceReadoutRoot>true</resourceReadoutRoot>
     </ThingCategoryDef>
+    
+    <ThingCategoryDef>
+      <defName>AmmoRocketAvali</defName>
+      <label>grenades</label>
+      <parent>Weapons</parent>
+      <iconPath>UI/Icons/ThingCategories/CaliberRocket</iconPath>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+    </ThingCategoryDef>
 	
 </Defs>

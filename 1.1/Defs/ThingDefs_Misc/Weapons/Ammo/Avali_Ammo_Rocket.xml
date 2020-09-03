@@ -45,7 +45,7 @@
 		<defName>Ammo_AvaliGrenade_HEAT</defName>
 		<label>AS-31 grenade (HEAT)</label>
 		<graphicData>
-			<texPath>Things/Ammo/RPG/HEAT</texPath>
+			<texPath>Things/Items/Ammo/GranadesRocket</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -75,7 +75,7 @@
 		<defName>Ammo_AvaliGrenade_Thermobaric</defName>
 		<label>AS-31 grenade (Thermobaric)</label>
 		<graphicData>
-			<texPath>Things/Ammo/RPG/Thermobaric</texPath>
+			<texPath>Things/Items/Ammo/GranadesRocket</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -100,7 +100,7 @@
 		<defName>Ammo_AvaliGrenade_Frag</defName>
 		<label>AS-31 grenade (Frag)</label>
 		<graphicData>
-			<texPath>Things/Ammo/RPG/Frag</texPath>
+			<texPath>Things/Items/Ammo/GranadesRocket</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>

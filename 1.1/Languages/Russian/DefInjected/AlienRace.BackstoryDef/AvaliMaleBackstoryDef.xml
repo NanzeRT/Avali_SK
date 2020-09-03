@@ -51,7 +51,7 @@
   <!-- AvaliMaleSpaceNomad -->
 <AvaliMaleSpaceNomad.title>Космический кочевник</AvaliMaleSpaceNomad.title>
 <AvaliMaleSpaceNomad.titleShort>Космический кочевник</AvaliMaleSpaceNomad.titleShort>
-<AvaliMaleSpaceNomad.baseDescription> Когда[PAWN_nameDef] [PAWN_gender ? вылупился : вылупилась], [PAWN_pronoun] был частью племени космических кочевников. [PAWN_pronoun] быстро вник в искусство Авалийского ремесла и довольно быстро стал помогать в строительстве и производстве Авалийского снаряжения, одновременно помогая содержать сады на корабле.</AvaliMaleSpaceNomad.baseDescription>
+<AvaliMaleSpaceNomad.baseDescription>Когда[PAWN_nameDef] [PAWN_gender ? вылупился : вылупилась], [PAWN_pronoun] был частью племени космических кочевников. [PAWN_pronoun] быстро вник в искусство Авалийского ремесла и довольно быстро стал помогать в строительстве и производстве Авалийского снаряжения, одновременно помогая содержать сады на корабле.</AvaliMaleSpaceNomad.baseDescription>
 
   <!-- AvaliMaleArtchild -->
 <AvaliMaleArtchild.title>Юный художник</AvaliMaleArtchild.title>

@@ -356,6 +356,75 @@
     </equippedStatOffsets>
   </ThingDef>
     <!-- ===== Avali Rocket Launcher ===== -->
+    
+  <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_Avali_Rocket_Launcher</defName>
+        <label>avali 'Firedart' rocket launcher</label>
+    <description>The primary Avali anti-vehicle weapon.</description>
+        <graphicData>
+            <texPath>Things/Items/Weapons/Avali_rocket_launcher</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2600</MarketValue>
+            <SightsEfficiency>1.6</SightsEfficiency>
+            <ShotSpread>0.1</ShotSpread>
+            <SwayFactor>1.4</SwayFactor>
+            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+            <Bulk>8.8</Bulk>
+            <Mass>5</Mass>
+        </statBases>
+        <soundInteract>InteractPTUR</soundInteract>
+        <destroyOnDrop>false</destroyOnDrop>
+        <weaponTags>
+          <li>AvaliGunDestructive</li>
+        </weaponTags>
+        <tradeTags>
+            <li>Exotic</li>
+        </tradeTags>
+        <thingCategories>
+            <li>Launchers</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>BaseAvaliGrenade</defaultProjectile>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                <ai_AvoidFriendlyFireRadius>6</ai_AvoidFriendlyFireRadius>
+                <warmupTime>2.2</warmupTime>
+				<!--<forcedMissRadius>2</forcedMissRadius>-->
+				<circularError>0.75</circularError>
+                <noiseRadius>8</noiseRadius>
+                <range>50</range>
+                <!-- grenades at 12.9 -->
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>USCM_shotM5</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>14</muzzleFlashScale>
+				<onlyManualCast>true</onlyManualCast>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>1</magazineSize>
+                <reloadTime>4.5</reloadTime>
+                <ammoSet>AmmoSet_AS-31</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Launcher_Component>1</Launcher_Component>
+            <Weapon_Parts>6</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+    </ThingDef>
 
   <!-- <ThingDef ParentName="AvaliBaseWeaponRanged">
     <defName>Gun_Avali_Rocket_Launcher</defName>

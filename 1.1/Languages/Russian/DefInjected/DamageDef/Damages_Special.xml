@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <PlasmaCut.label>plasma cut</PlasmaCut.label>
+  <PlasmaCut.label>плазменная рана</PlasmaCut.label>
   <PlasmaCut.deathMessage>{0} has been cut to death.</PlasmaCut.deathMessage>
 
-  <PlasmaBullet.label>plasma bullet</PlasmaBullet.label>
-  <PlasmaBullet.deathMessage>{0} has shot to death.</PlasmaBullet.deathMessage>
+  <PlasmaBullet.label>плазменная пуля</PlasmaBullet.label>
+  <PlasmaBullet.deathMessage>{0} был застрелен.</PlasmaBullet.deathMessage>
 
-  <PlasmaBomb.label>plasma bomb</PlasmaBomb.label>
-  <PlasmaBomb.deathMessage>{0} has been killed.</PlasmaBomb.deathMessage>
+  <PlasmaBomb.label>плазменная бомба</PlasmaBomb.label>
+  <PlasmaBomb.deathMessage>{0} был убит.</PlasmaBomb.deathMessage>
 
-  <EMPOrb.label>energy orb</EMPOrb.label>
-  <EMPOrb.deathMessage>{0} has been EMPed to death.</EMPOrb.deathMessage>
+  <EMPOrb.label>энергетическая сфера</EMPOrb.label>
+  <EMPOrb.deathMessage>{0} был убит электромагнитным импульсом.</EMPOrb.deathMessage>
 
 
 </LanguageData>

@@ -103,22 +103,22 @@
 
   <!-- AvaliCommando -->
 
-  <AvaliCommando.label>commando</AvaliCommando.label>
-  <AvaliCommando.labelPlural>commandos</AvaliCommando.labelPlural>
-  <AvaliCommando.labelMale>male commando</AvaliCommando.labelMale>
-  <AvaliCommando.labelMalePlural>male commandos</AvaliCommando.labelMalePlural>
-  <AvaliCommando.labelFemale>female commando</AvaliCommando.labelFemale>
-  <AvaliCommando.labelFemalePlural>female commandos</AvaliCommando.labelFemalePlural>
+  <AvaliCommando.label>коммандос</AvaliCommando.label>
+  <AvaliCommando.labelPlural>коммандос</AvaliCommando.labelPlural>
+  <AvaliCommando.labelMale>коммандос</AvaliCommando.labelMale>
+  <AvaliCommando.labelMalePlural>коммандос</AvaliCommando.labelMalePlural>
+  <AvaliCommando.labelFemale>коммандос</AvaliCommando.labelFemale>
+  <AvaliCommando.labelFemalePlural>коммандос</AvaliCommando.labelFemalePlural>
 
 
   <!-- AvaliAssassin -->
 
-  <AvaliAssassin.label>assassin</AvaliAssassin.label>
-  <AvaliAssassin.labelPlural>assassins</AvaliAssassin.labelPlural>
-  <AvaliAssassin.labelMale>male assassin</AvaliAssassin.labelMale>
-  <AvaliAssassin.labelMalePlural>male assassins</AvaliAssassin.labelMalePlural>
-  <AvaliAssassin.labelFemale>female assassin</AvaliAssassin.labelFemale>
-  <AvaliAssassin.labelFemalePlural>female assassins</AvaliAssassin.labelFemalePlural>
+  <AvaliAssassin.label>ассасин</AvaliAssassin.label>
+  <AvaliAssassin.labelPlural>ассасины</AvaliAssassin.labelPlural>
+  <AvaliAssassin.labelMale>ассасин</AvaliAssassin.labelMale>
+  <AvaliAssassin.labelMalePlural>ассасины</AvaliAssassin.labelMalePlural>
+  <AvaliAssassin.labelFemale>ассасин</AvaliAssassin.labelFemale>
+  <AvaliAssassin.labelFemalePlural>ассасины</AvaliAssassin.labelFemalePlural>
 
 
 </LanguageData>

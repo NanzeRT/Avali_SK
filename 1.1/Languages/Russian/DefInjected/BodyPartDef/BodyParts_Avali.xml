@@ -3,22 +3,22 @@
 
   <!-- Conceptual body parts for apparel -->
 
-  <HeadAvaliConceptual.label>head</HeadAvaliConceptual.label>
-  <SkullAvaliConceptual.label>skull</SkullAvaliConceptual.label>
-  <BrainAvaliConceptual.label>brain</BrainAvaliConceptual.label>
-  <LeftUpperEarAvaliConceptual.label>left upper ear</LeftUpperEarAvaliConceptual.label>
-  <LeftLowerEarAvaliConceptual.label>left lower ear</LeftLowerEarAvaliConceptual.label>
-  <RightUpperEarAvaliConceptual.label>right upper ear</RightUpperEarAvaliConceptual.label>
-  <RightLowerEarAvaliConceptual.label>right lower ear</RightLowerEarAvaliConceptual.label>
-  <TailAvaliConceptual.label>tail</TailAvaliConceptual.label>
-  <LeftFeetAvaliConceptual.label>left feet</LeftFeetAvaliConceptual.label>
-  <RightFeetAvaliConceptual.label>right feet</RightFeetAvaliConceptual.label>
+  <HeadAvaliConceptual.label>голова</HeadAvaliConceptual.label>
+  <SkullAvaliConceptual.label>череп</SkullAvaliConceptual.label>
+  <BrainAvaliConceptual.label>мозг</BrainAvaliConceptual.label>
+  <LeftUpperEarAvaliConceptual.label>левое верхнее ухо</LeftUpperEarAvaliConceptual.label>
+  <LeftLowerEarAvaliConceptual.label>левое нижнее ухо</LeftLowerEarAvaliConceptual.label>
+  <RightUpperEarAvaliConceptual.label>правое верхнее ухо</RightUpperEarAvaliConceptual.label>
+  <RightLowerEarAvaliConceptual.label>правое нижнее ухо</RightLowerEarAvaliConceptual.label>
+  <TailAvaliConceptual.label>хвост</TailAvaliConceptual.label>
+  <LeftFeetAvaliConceptual.label>левая нога</LeftFeetAvaliConceptual.label>
+  <RightFeetAvaliConceptual.label>правая нога</RightFeetAvaliConceptual.label>
 
 
   <!-- Body parts -->
 
-  <TailAvali.label>tail</TailAvali.label>
-  <EarAvali.label>ear</EarAvali.label>
+  <TailAvali.label>хвост</TailAvali.label>
+  <EarAvali.label>ухо</EarAvali.label>
 
 
 </LanguageData>

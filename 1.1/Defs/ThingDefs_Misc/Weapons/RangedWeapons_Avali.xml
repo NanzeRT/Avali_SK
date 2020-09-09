@@ -414,8 +414,8 @@
                 <aiAimMode>AimedShot</aiAimMode>
             </li>
             <li Class="CombatExtended.CompProperties_AmmoUser">
-                <magazineSize>1</magazineSize>
-                <reloadTime>4.5</reloadTime>
+                <magazineSize>2</magazineSize>
+                <reloadTime>8</reloadTime>
                 <ammoSet>AmmoSet_AS-31</ammoSet>
             </li>
         </comps>
